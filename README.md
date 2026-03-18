@@ -12,6 +12,9 @@ star-diary/
 │   └── prompts.py    # System prompts
 ├── frontend/         # Streamlit frontend
 │   └── app.py        # Chat UI
+├── mobile/           # React Native (Expo) mobile frontend
+│   ├── ChatScreen.tsx # AI chat UI component
+│   └── README.md     # Mobile setup instructions
 ├── research/         # ML research & fine-tuning
 │   ├── data/         # Training data (git-ignored)
 │   ├── notebooks/    # Jupyter notebooks
@@ -54,6 +57,26 @@ streamlit run app.py
 ```
 
 The Streamlit UI will be available at `http://localhost:8501` and the API at `http://localhost:8000`.
+
+## Mobile (React Native / Expo)
+
+See [`mobile/README.md`](mobile/README.md) for full setup instructions.
+
+**TL;DR:**
+
+```bash
+# 1. Initialise the Expo project (run once from the repo root)
+npx create-expo-app mobile -t expo-template-blank-typescript
+
+# 2. Start the dev server
+cd mobile
+npx expo start
+```
+
+`mobile/ChatScreen.tsx` provides the full chat UI: message bubbles for both the
+user and Paparazzo, a pinned text-input bar, and automatic routing to
+`http://localhost:8000/chat` (iOS) or `http://10.0.2.2:8000/chat` (Android
+Emulator).
 
 ## Research
 
