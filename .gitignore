@@ -63,3 +63,10 @@ coverage.xml
 # OS
 .DS_Store
 Thumbs.db
+
+# Mobile (Expo / React Native)
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/*.tgz
