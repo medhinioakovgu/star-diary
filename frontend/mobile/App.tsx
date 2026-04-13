@@ -57,15 +57,18 @@ export default function App() {
   const flatListRef = useRef<FlatList>(null);
 
   // --- NETWORKING ---
-  // ⚠️ CRUCIAL: Change this depending on how you test!
-  // iOS Simulator: 'http://localhost:8000/api/chat'
-  // Android Emulator: 'http://10.0.2.2:8000/api/chat'
-  // Physical Device: 'http://<YOUR_LAPTOP_WIFI_IP>:8000/api/chat'
-  const BACKEND_URL = 'http://10.0.2.2:8000/api/chat';
+  // Smart URL that detects if you are on Android Emulator or iOS
+  const BACKEND_URL = Platform.OS === 'android' 
+    ? 'http://10.0.2.2:8000/chat' 
+    : 'http://localhost:8000/chat';
 
   const sendMessage = async (text?: string) => {
     const messageText = text || inputText.trim();
     if (!messageText) return;
+
+    // INSTANT UX FIX: Immediately show chat UI and loading state
+    if (!showChat) setShowChat(true);
+    setIsLoading(true);
 
     const newUserMsg: Message = {
       id: Date.now().toString(),
@@ -75,14 +78,22 @@ export default function App() {
 
     setMessages((prev) => [...prev, newUserMsg]);
     setInputText('');
-    setIsLoading(true);
 
     try {
+      // Format the local state to match the new Backend schema
+      const chatHistory = messages.map((m) => ({
+        role: m.sender === 'user' ? 'user' : 'assistant',
+        content: m.text
+      }));
+
       // Send to FastAPI Backend
       const response = await fetch(BACKEND_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text: newUserMsg.text }), // Ensure this matches your FastAPI Pydantic model
+        body: JSON.stringify({ 
+          history: chatHistory, 
+          message: messageText 
+        }), // Matches ChatRequest exactly!
       });
 
       if (!response.ok) throw new Error('Network response was not ok');
@@ -91,17 +102,15 @@ export default function App() {
       
       const newAiMsg: Message = {
         id: (Date.now() + 1).toString(),
-        text: data.reply || "No comment? Come on, give me something!", // Fallback text
+        text: data.reply || "No comment? Come on, give me something!",
         sender: 'paparazzo',
       };
 
       setMessages((prev) => [...prev, newAiMsg]);
     } catch (error) {
       console.error("Failed to fetch from backend:", error);
-      // Optional: Add a system message here saying "Connection failed"
     } finally {
       setIsLoading(false);
-      setShowChat(true);
     }
   };
 

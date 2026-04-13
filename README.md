@@ -28,8 +28,9 @@ star-diary/
 ## Setup
 
 1. **Clone the repo and create a virtual environment:**
+
    ```bash
-   python -m venv .venv
+   python3 -m venv .venv
    source .venv/bin/activate   # Windows: .venv\Scripts\activate
    pip install -r requirements.txt
    ```
@@ -45,12 +46,14 @@ star-diary/
 To run the frontend and backend simultaneously, open two terminal tabs:
 
 **Terminal 1 – Start the FastAPI backend:**
+
 ```bash
 cd backend
 uvicorn main:app --reload --port 8000
 ```
 
 **Terminal 2 – Start the Streamlit frontend:**
+
 ```bash
 cd frontend
 streamlit run app.py

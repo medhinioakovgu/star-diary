@@ -1,7 +1,7 @@
 """
 llm_engine.py – LLM abstraction layer for the Star-Interview Diary backend.
 
-Currently powered by the OpenAI API (gpt-4o-mini).
+Currently powered by the Groq API (llama-3.3-70b-versatile).
 TODO: Replace or augment with a local PyTorch / HuggingFace model once
       fine-tuning in research/train_lora.py is complete.
 """
@@ -11,14 +11,17 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from prompts import PAPARAZZO_SYSTEM_PROMPT
+from prompts import PAPARAZZO_PROMPT
 
 load_dotenv()
 
 # ---------------------------------------------------------------------------
-# OpenAI client
+# Groq client (Using the OpenAI SDK drop-in replacement)
 # ---------------------------------------------------------------------------
-_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+_client = OpenAI(
+    api_key="",
+    base_url="https://api.groq.com/openai/v1" # This routes the request to Groq instead of OpenAI!
+)
 
 # ---------------------------------------------------------------------------
 # TODO (local model): Import your fine-tuned HuggingFace model here once ready.
@@ -48,16 +51,16 @@ def generate_paparazzo_reply(chat_history: list, user_message: str) -> str:
     Returns:
         The assistant's reply as a plain string.
     """
-    messages = [{"role": "system", "content": PAPARAZZO_SYSTEM_PROMPT}]
+    messages =[{"role": "system", "content": PAPARAZZO_PROMPT}]
     messages.extend(chat_history)
     messages.append({"role": "user", "content": user_message})
 
     # ---------------------------------------------------------------------------
-    # OpenAI API call
+    # Groq API call
     # Replace this block with local model inference when switching to HuggingFace.
     # ---------------------------------------------------------------------------
     response = _client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="llama-3.3-70b-versatile", # Groq's flagship model
         messages=messages,
         temperature=0.7,
         max_tokens=512,
