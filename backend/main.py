@@ -31,18 +31,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 # ---------------------------------------------------------------------------
 # Request / Response schemas
 # ---------------------------------------------------------------------------
 class ChatMessage(BaseModel):
-    role: str  # "user" or "assistant"
-    content: str
+    role: str      # Must be "user" or "assistant"
+    content: str   # The actual text of the message
 
 
 class ChatRequest(BaseModel):
-    history: list[ChatMessage] = []
-    message: str
+    history: list[ChatMessage] =[] # The past conversation
+    message: str                    # The new message from the user
 
 
 class ChatResponse(BaseModel):
@@ -59,11 +58,13 @@ def health_check():
 
 
 @app.post("/chat", response_model=ChatResponse)
-def chat(request: ChatRequest) -> ChatResponse:
+def chat(request: ChatRequest) -> ChatResponse: # <-- FIXED: Changed from ChatMessage to ChatRequest
     """Accept a user message (with optional prior chat history) and return
     Paparazzo's reply.
     """
-    history = [msg.model_dump() for msg in request.history]
+    # Convert Pydantic models to dicts for the LLM Engine
+    history =[msg.model_dump() for msg in request.history]
+    
     reply = generate_paparazzo_reply(
         chat_history=history,
         user_message=request.message,
