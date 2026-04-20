@@ -19,7 +19,7 @@ load_dotenv()
 # Groq client (Using the OpenAI SDK drop-in replacement)
 # ---------------------------------------------------------------------------
 _client = OpenAI(
-    api_key="",
+    api_key=os.getenv("GROQ_API_KEY"),
     base_url="https://api.groq.com/openai/v1" # This routes the request to Groq instead of OpenAI!
 )
 
