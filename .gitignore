@@ -37,6 +37,8 @@ models/
 
 # Data
 data/
+# Exception: research/data/ is tracked so teammates can judge/analyze outputs
+!research/data/
 
 # Distribution / packaging
 .Python

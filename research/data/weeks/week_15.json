@@ -1,0 +1,295 @@
+{
+  "week_id": 15,
+  "persona": "A 27-year-old software engineer in Tokyo, recently transferred from the Osaka office, living alone in a shared flat and learning to cook.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "named_entity",
+      "text": "attended a team meeting at the Tokyo office"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "relational",
+      "text": "had lunch with her new colleague Saito"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "emotional",
+      "text": "felt excited about starting her new role"
+    },
+    {
+      "id": "f04",
+      "day": 1,
+      "type": "quantitative",
+      "text": "worked for 9 hours on the new project"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "named_entity",
+      "text": "visited the Shinjuku Gyoen National Garden"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "emotional",
+      "text": "felt peaceful while walking in the garden"
+    },
+    {
+      "id": "f07",
+      "day": 2,
+      "type": "quantitative",
+      "text": "spent 500 yen on a coffee"
+    },
+    {
+      "id": "f08",
+      "day": 3,
+      "type": "emotional",
+      "text": "felt overwhelmed by the city life"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "relational",
+      "text": "called her friend Haruka from Osaka"
+    },
+    {
+      "id": "f10",
+      "day": 3,
+      "type": "quantitative",
+      "text": "spent 3 hours learning to cook pasta"
+    },
+    {
+      "id": "f11",
+      "day": 4,
+      "type": "named_entity",
+      "text": "met her mentor Takashi for coffee"
+    },
+    {
+      "id": "f12",
+      "day": 4,
+      "type": "relational",
+      "text": "discussed her career goals with Takashi"
+    },
+    {
+      "id": "f13",
+      "day": 4,
+      "type": "emotional",
+      "text": "felt motivated after the meeting"
+    },
+    {
+      "id": "f14",
+      "day": 5,
+      "type": "quantitative",
+      "text": "ran 5 kilometers in the morning"
+    },
+    {
+      "id": "f15",
+      "day": 5,
+      "type": "relational",
+      "text": "cooked dinner for her flatmates"
+    },
+    {
+      "id": "f16",
+      "day": 5,
+      "type": "emotional",
+      "text": "felt proud of successfully making stir-fry"
+    },
+    {
+      "id": "f17",
+      "day": 6,
+      "type": "quantitative",
+      "text": "worked on the project for 10 hours"
+    },
+    {
+      "id": "f18",
+      "day": 6,
+      "type": "named_entity",
+      "text": "joined a local coding meetup in Akihabara"
+    },
+    {
+      "id": "f19",
+      "day": 6,
+      "type": "relational",
+      "text": "networked with other tech enthusiasts"
+    },
+    {
+      "id": "f20",
+      "day": 7,
+      "type": "emotional",
+      "text": "felt relaxed after a week of hard work"
+    },
+    {
+      "id": "f21",
+      "day": 7,
+      "type": "quantitative",
+      "text": "spent 2 hours meal prepping for the week"
+    },
+    {
+      "id": "f22",
+      "day": 7,
+      "type": "relational",
+      "text": "video called her family back in Osaka"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "named_entity",
+        "text": "attended a team meeting at the Tokyo office"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "relational",
+        "text": "had lunch with her new colleague Saito"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "emotional",
+        "text": "felt excited about starting her new role"
+      },
+      {
+        "id": "f04",
+        "day": 1,
+        "type": "quantitative",
+        "text": "worked for 9 hours on the new project"
+      }
+    ],
+    "2": [
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "named_entity",
+        "text": "visited the Shinjuku Gyoen National Garden"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "emotional",
+        "text": "felt peaceful while walking in the garden"
+      },
+      {
+        "id": "f07",
+        "day": 2,
+        "type": "quantitative",
+        "text": "spent 500 yen on a coffee"
+      }
+    ],
+    "3": [
+      {
+        "id": "f08",
+        "day": 3,
+        "type": "emotional",
+        "text": "felt overwhelmed by the city life"
+      },
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "relational",
+        "text": "called her friend Haruka from Osaka"
+      },
+      {
+        "id": "f10",
+        "day": 3,
+        "type": "quantitative",
+        "text": "spent 3 hours learning to cook pasta"
+      }
+    ],
+    "4": [
+      {
+        "id": "f11",
+        "day": 4,
+        "type": "named_entity",
+        "text": "met her mentor Takashi for coffee"
+      },
+      {
+        "id": "f12",
+        "day": 4,
+        "type": "relational",
+        "text": "discussed her career goals with Takashi"
+      },
+      {
+        "id": "f13",
+        "day": 4,
+        "type": "emotional",
+        "text": "felt motivated after the meeting"
+      }
+    ],
+    "5": [
+      {
+        "id": "f14",
+        "day": 5,
+        "type": "quantitative",
+        "text": "ran 5 kilometers in the morning"
+      },
+      {
+        "id": "f15",
+        "day": 5,
+        "type": "relational",
+        "text": "cooked dinner for her flatmates"
+      },
+      {
+        "id": "f16",
+        "day": 5,
+        "type": "emotional",
+        "text": "felt proud of successfully making stir-fry"
+      }
+    ],
+    "6": [
+      {
+        "id": "f17",
+        "day": 6,
+        "type": "quantitative",
+        "text": "worked on the project for 10 hours"
+      },
+      {
+        "id": "f18",
+        "day": 6,
+        "type": "named_entity",
+        "text": "joined a local coding meetup in Akihabara"
+      },
+      {
+        "id": "f19",
+        "day": 6,
+        "type": "relational",
+        "text": "networked with other tech enthusiasts"
+      }
+    ],
+    "7": [
+      {
+        "id": "f20",
+        "day": 7,
+        "type": "emotional",
+        "text": "felt relaxed after a week of hard work"
+      },
+      {
+        "id": "f21",
+        "day": 7,
+        "type": "quantitative",
+        "text": "spent 2 hours meal prepping for the week"
+      },
+      {
+        "id": "f22",
+        "day": 7,
+        "type": "relational",
+        "text": "video called her family back in Osaka"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Snap: So, how was your first day at the Tokyo office? \n\nStar: It was actually really exciting! I attended a team meeting and got to meet everyone. \n\nSnap: That sounds like a great way to start! Did you have a chance to connect with anyone during the meeting? \n\nStar: Yes, I had lunch with my new colleague Saito afterward. He was really welcoming and helped me get to know the team better.\n\nSnap: That's awesome! It must feel good to have someone show you the ropes. How are you feeling about your new role overall? \n\nStar: I'm feeling really excited about starting this new chapter in my career. It’s a big change, but I think it will be worth it.\n\nSnap: Definitely! And I bet you dove right into work after lunch? \n\nStar: Absolutely! I worked for 9 hours on the new project today. It was a lot, but I enjoyed every minute of it. \n\nSnap: Wow, sounds like you really hit the ground running! How do you feel about the project itself? \n\nStar: I think it's really interesting, and I can't wait to contribute more. Starting off on a strong note really adds to my excitement!",
+    "2": "Snap: So, I heard you just moved from Osaka to Tokyo. How’s that transition going for you?\n\nStar: Oh, it’s been quite an experience! I’m still getting used to the hustle and bustle here, but I went to the Shinjuku Gyoen National Garden today, and it really helped me feel more settled.\n\nSnap: Shinjuku Gyoen, nice choice! How did you feel while you were there?\n\nStar: I actually felt really peaceful while walking in the garden. It was such a contrast to the busy city life. Just being surrounded by nature was refreshing.\n\nSnap: That sounds lovely! Did you do anything special while you were there?\n\nStar: Well, I just wandered around, enjoying the scenery. At one point, I stopped to grab a coffee, which cost me about 500 yen. It was a nice little treat after all that walking.\n\nSnap: A nice cup of coffee in such a beautiful place sounds perfect! Do you think you'll make visiting the garden a regular thing?\n\nStar: I think so! It’s a great escape, and it's nice to have somewhere tranquil to go. Plus, I’m still learning to cook, so I might need those peaceful moments to unwind.\n\nSnap: Absolutely! Balancing work and cooking can be a lot. How’s the cooking going for you so far?\n\nStar: It's a work in progress, to say the least! I’m trying to get the hang of it, but I think having those peaceful walks in the garden will help clear my mind for when I’m in the kitchen.",
+    "3": "Snap: So, how's life treating you in Tokyo so far? \n\nStar: Honestly, it's been a bit overwhelming. The pace of city life here is just so intense compared to Osaka. \n\nSnap: I can imagine! Did you get a chance to talk to anyone about how you're feeling? \n\nStar: Yeah, I called my friend Haruka from Osaka today. She always knows how to make me feel better when I’m stressed. \n\nSnap: That’s great! What did you two chat about? \n\nStar: We talked about everything, really. She reminded me to take it one step at a time, especially since I’ve been trying to adjust to this new environment. \n\nSnap: Speaking of adjustments, I heard you’ve been trying your hand at cooking? \n\nStar: Yes! I spent about three hours today just learning to cook pasta. It’s a simple dish, but I really wanted to get it right.\n\nSnap: Three hours on pasta? That's dedication! Were you following a recipe or just experimenting?\n\nStar: I was following a recipe. I figured starting with something basic would be best while I’m still getting the hang of things.\n\nSnap: Sounds like a good plan! Have you felt any progress or is the city still weighing you down? \n\nStar: I think I’m starting to feel a bit more settled, but the city can still feel a bit overwhelming at times, especially when I’m trying to balance everything.",
+    "4": "Snap: So, how was your day today? \n\nStar: Oh, it was pretty good! I actually met my mentor, Takashi, for coffee this morning.\n\nSnap: That sounds great! What did you guys talk about?\n\nStar: We discussed my career goals. It was really helpful to get his perspective on things.\n\nSnap: Nice! Do you feel like you made any progress in clarifying your goals?\n\nStar: Definitely! I felt really motivated after the meeting. It's always inspiring to talk to someone who has been there before.\n\nSnap: That’s awesome to hear. What specific goals did you share with Takashi?\n\nStar: Well, I talked about wanting to improve my coding skills and possibly take on more leadership responsibilities in the future.\n\nSnap: Those are solid goals. Did Takashi give you any advice on how to achieve them?\n\nStar: Yes, he suggested some online courses and emphasized the importance of networking, which I hadn't really considered before.\n\nSnap: Networking is key! So, do you think you’ll take his advice?\n\nStar: Absolutely. I think I’ll start looking into those courses soon. I want to keep that motivation going!",
+    "5": "Snap: So, how did your morning start off today? \n\nStar: I actually ran 5 kilometers this morning. It was nice to get out and feel the fresh air, especially since I'm still adjusting to life in Tokyo.\n\nSnap: That’s impressive! How do you find running in the city compared to Osaka? \n\nStar: It's definitely different. There are more people and the vibe is more energetic, which can be motivating. I felt great after my run!\n\nSnap: Speaking of energy, I hear you cooked dinner for your flatmates last night. How did that go? \n\nStar: Yeah, I did! I made stir-fry, and honestly, I felt really proud of it. It was my first time cooking for them, so I was a bit nervous.\n\nSnap: That's awesome! What made you choose stir-fry for your flatmates? \n\nStar: I thought stir-fry would be a good choice because it's quick and you can throw in a lot of different veggies. Plus, I wanted to impress them a little since I’m new here.\n\nSnap: Did they enjoy it? \n\nStar: They did! It felt good to see them enjoy something I made. It makes me feel more at home, you know?\n\nSnap: Absolutely! How's the cooking journey been for you so far? \n\nStar: It’s been a bit challenging since I’m learning, but every little success, like the stir-fry, gives me more confidence. I’m excited to keep trying new recipes!",
+    "6": "Snap: So, how was your day today? \n\nStar: Oh, it was pretty intense! I worked on my project for about 10 hours straight. \n\nSnap: Wow, that sounds like a solid chunk of time! What kind of project are you working on?\n\nStar: It’s a software development project related to our new product launch. I really got into the flow today and lost track of time.\n\nSnap: That’s impressive! I heard you also joined a local coding meetup in Akihabara. How did that go?\n\nStar: Yes! I was really excited about it. It was great to meet other tech enthusiasts and network with them. \n\nSnap: Networking is so important in this field. Did you connect with anyone interesting?\n\nStar: Definitely! I met a few developers who are working on AI-related projects, and we exchanged some ideas. It was refreshing to talk to people who share the same passion.\n\nSnap: Sounds like a productive day overall! Do you think you'll continue attending meetups in the future?\n\nStar: For sure! I think it’s a great way to learn and meet new people in the industry. Plus, it helps me feel more settled here in Tokyo.",
+    "7": "Snap: So, it's day seven of your new life in Tokyo! How are you feeling about everything after a week of hard work? \n\nStar: Honestly, I felt really relaxed today. It was a nice change after putting in so much effort at the office this past week. \n\nSnap: That sounds great! Did you do anything special to unwind?\n\nStar: I actually spent about two hours meal prepping for the week. I’m trying to get into cooking more since I’m living alone now. \n\nSnap: Meal prepping? That’s impressive! What kinds of meals are you making?\n\nStar: I’m focusing on simple and healthy recipes. It helps me save time during the week and keeps me from ordering takeout too often. \n\nSnap: Smart move! Did you connect with anyone back home while you were prepping?\n\nStar: Yes! I video called my family back in Osaka. It was nice to catch up with them and show them my new place a bit. \n\nSnap: That must have felt comforting, especially being in a new city. How did they react to your move?\n\nStar: They were really supportive and excited for me. It’s nice to share my experience with them, even if they’re miles away. \n\nSnap: Sounds like you’re really settling in well, balancing work, cooking, and family time. Do you feel like you’re adjusting to life in Tokyo?\n\nStar: Definitely! I’m enjoying the change, and finding that routine is helping a lot."
+  }
+}

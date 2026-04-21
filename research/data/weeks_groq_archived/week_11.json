@@ -1,0 +1,271 @@
+{
+  "week_id": 11,
+  "persona": "A 26-year-old veterinarian in Buenos Aires working at an animal shelter, dealing with an unexpected outbreak of kennel cough.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "named_entity",
+      "text": "met with Dr. Maria Rodriguez, a colleague from the nearby veterinary clinic, to discuss the outbreak of kennel cough"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "quantitative",
+      "text": "examined 15 dogs showing symptoms of kennel cough"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "emotional",
+      "text": "felt overwhelmed by the sudden increase in cases"
+    },
+    {
+      "id": "f04",
+      "day": 2,
+      "type": "relational",
+      "text": "spoke with the shelter manager, Sofia, about the need for additional staff to help with the outbreak"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "named_entity",
+      "text": "ordered medication from the veterinary supply company, Vetpharma"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "quantitative",
+      "text": "spent 8 hours at the shelter, treating dogs and cats"
+    },
+    {
+      "id": "f07",
+      "day": 3,
+      "type": "emotional",
+      "text": "felt frustrated by the lack of resources to combat the outbreak"
+    },
+    {
+      "id": "f08",
+      "day": 3,
+      "type": "named_entity",
+      "text": "contacted Dr. Juan Perez, a specialist in infectious diseases, for advice"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "quantitative",
+      "text": "administered 20 vaccinations to dogs at the shelter"
+    },
+    {
+      "id": "f10",
+      "day": 4,
+      "type": "relational",
+      "text": "had a meeting with the shelter's board of directors to discuss the outbreak and its impact on the shelter"
+    },
+    {
+      "id": "f11",
+      "day": 4,
+      "type": "named_entity",
+      "text": "visited the University of Buenos Aires' veterinary school to learn about new treatments for kennel cough"
+    },
+    {
+      "id": "f12",
+      "day": 4,
+      "type": "quantitative",
+      "text": "spent 250 pesos on supplies for the shelter"
+    },
+    {
+      "id": "f13",
+      "day": 5,
+      "type": "emotional",
+      "text": "felt hopeful after learning about a new treatment for kennel cough"
+    },
+    {
+      "id": "f14",
+      "day": 5,
+      "type": "named_entity",
+      "text": "met with a representative from the Buenos Aires Animal Welfare Organization to discuss possible collaborations"
+    },
+    {
+      "id": "f15",
+      "day": 5,
+      "type": "quantitative",
+      "text": "treated 8 cats for upper respiratory infections"
+    },
+    {
+      "id": "f16",
+      "day": 6,
+      "type": "relational",
+      "text": "reconnected with a former colleague, Dr. Ana Garcia, who offered to volunteer at the shelter"
+    },
+    {
+      "id": "f17",
+      "day": 6,
+      "type": "named_entity",
+      "text": "visited the local pet store, PetZone, to purchase supplies"
+    },
+    {
+      "id": "f18",
+      "day": 6,
+      "type": "quantitative",
+      "text": "worked a 10-hour shift at the shelter"
+    },
+    {
+      "id": "f19",
+      "day": 7,
+      "type": "emotional",
+      "text": "felt relieved that the number of new cases was decreasing"
+    },
+    {
+      "id": "f20",
+      "day": 7,
+      "type": "named_entity",
+      "text": "attended a seminar at the Argentine Veterinary Association on infectious diseases in animals"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "named_entity",
+        "text": "met with Dr. Maria Rodriguez, a colleague from the nearby veterinary clinic, to discuss the outbreak of kennel cough"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "quantitative",
+        "text": "examined 15 dogs showing symptoms of kennel cough"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "emotional",
+        "text": "felt overwhelmed by the sudden increase in cases"
+      }
+    ],
+    "2": [
+      {
+        "id": "f04",
+        "day": 2,
+        "type": "relational",
+        "text": "spoke with the shelter manager, Sofia, about the need for additional staff to help with the outbreak"
+      },
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "named_entity",
+        "text": "ordered medication from the veterinary supply company, Vetpharma"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "quantitative",
+        "text": "spent 8 hours at the shelter, treating dogs and cats"
+      }
+    ],
+    "3": [
+      {
+        "id": "f07",
+        "day": 3,
+        "type": "emotional",
+        "text": "felt frustrated by the lack of resources to combat the outbreak"
+      },
+      {
+        "id": "f08",
+        "day": 3,
+        "type": "named_entity",
+        "text": "contacted Dr. Juan Perez, a specialist in infectious diseases, for advice"
+      },
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "quantitative",
+        "text": "administered 20 vaccinations to dogs at the shelter"
+      }
+    ],
+    "4": [
+      {
+        "id": "f10",
+        "day": 4,
+        "type": "relational",
+        "text": "had a meeting with the shelter's board of directors to discuss the outbreak and its impact on the shelter"
+      },
+      {
+        "id": "f11",
+        "day": 4,
+        "type": "named_entity",
+        "text": "visited the University of Buenos Aires' veterinary school to learn about new treatments for kennel cough"
+      },
+      {
+        "id": "f12",
+        "day": 4,
+        "type": "quantitative",
+        "text": "spent 250 pesos on supplies for the shelter"
+      }
+    ],
+    "5": [
+      {
+        "id": "f13",
+        "day": 5,
+        "type": "emotional",
+        "text": "felt hopeful after learning about a new treatment for kennel cough"
+      },
+      {
+        "id": "f14",
+        "day": 5,
+        "type": "named_entity",
+        "text": "met with a representative from the Buenos Aires Animal Welfare Organization to discuss possible collaborations"
+      },
+      {
+        "id": "f15",
+        "day": 5,
+        "type": "quantitative",
+        "text": "treated 8 cats for upper respiratory infections"
+      }
+    ],
+    "6": [
+      {
+        "id": "f16",
+        "day": 6,
+        "type": "relational",
+        "text": "reconnected with a former colleague, Dr. Ana Garcia, who offered to volunteer at the shelter"
+      },
+      {
+        "id": "f17",
+        "day": 6,
+        "type": "named_entity",
+        "text": "visited the local pet store, PetZone, to purchase supplies"
+      },
+      {
+        "id": "f18",
+        "day": 6,
+        "type": "quantitative",
+        "text": "worked a 10-hour shift at the shelter"
+      }
+    ],
+    "7": [
+      {
+        "id": "f19",
+        "day": 7,
+        "type": "emotional",
+        "text": "felt relieved that the number of new cases was decreasing"
+      },
+      {
+        "id": "f20",
+        "day": 7,
+        "type": "named_entity",
+        "text": "attended a seminar at the Argentine Veterinary Association on infectious diseases in animals"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Snap: Dr., thanks for taking the time to speak with me today. I understand there's been a bit of a crisis here at the shelter. Can you tell me what's going on?\nStar: Honestly, it's been chaotic. We've seen a sudden spike in kennel cough cases, and I have to admit, I'm feeling a bit overwhelmed by the sheer number of dogs that are coming in with symptoms. I met with Dr. Maria Rodriguez from the nearby veterinary clinic just this morning to discuss the situation and see if we can get a handle on it.\nSnap: That sounds like a tough spot to be in. Can you tell me more about your meeting with Dr. Rodriguez? What was the takeaway from that discussion?\nStar: Well, we went over the cases we've seen so far, and I was able to get her input on the best course of treatment. She's had some experience with outbreaks like this in the past, so it was really helpful to get her perspective. We're going to work together to try and contain the spread of the disease.\nSnap: I see. And how many dogs are we talking about here? Have you had a chance to examine all of them?\nStar: As of today, I've examined 15 dogs that are showing symptoms of kennel cough. It's a lot to deal with, especially when you consider that we're a relatively small shelter. We're doing our best to provide care for all of them, but it's definitely a challenge.\nSnap: That does sound like a challenge. How are you and your team coping with the stress of this situation? It can't be easy to deal with so many sick animals at once.\nStar: To be honest, it's taking a toll. I felt overwhelmed just this morning, trying to prioritize the cases and make sure we're doing everything we can to help these dogs. But we're managing, and we're all working together to get through this.\nSnap: I can imagine. Are there any plans in place to prevent further outbreaks, or is it too early to say?\nStar: We're still assessing the situation, but Dr. Rodriguez and I discussed some possible measures we can take to prevent the spread of the disease. We'll be implementing those as soon as possible, but for now, our focus is on treating the dogs that are already affected.\nSnap: Last question: what's the most pressing concern for you right now, in terms of getting this outbreak under control?\nStar: For me, it's just making sure we can provide the best possible care for these dogs, despite the overwhelming number of cases. We'll get through this, but it's going to take some time and effort.",
+    "2": "Snap: Morning, Doc. I hear there's been an outbreak of kennel cough at the shelter. How's the situation looking?\nStar: Honestly, it's been chaotic. I spent 8 hours at the shelter yesterday, treating dogs and cats, and we're still trying to get everything under control. I'm exhausted, but we can't afford to slow down.\nSnap: That sounds tough. Are you getting any support from the shelter management?\nStar: Yeah, I spoke with Sofia, the shelter manager, about the need for additional staff to help with the outbreak. We really need some extra hands to make sure all the animals are getting the care they need.\nSnap: Have you been able to get the necessary supplies to treat the animals?\nStar: We've managed to get what we need, thankfully. I ordered medication from Vetpharma, and it should arrive soon. Fingers crossed it gets here quickly, because we're running low on some essential supplies.\nSnap: How are the animals responding to the treatment so far?\nStar: It's too early to tell, but I'm hopeful. We've been working non-stop to make sure they're all comfortable and receiving the care they need. I just wish we had more staff to help with the workload.\nSnap: I can imagine. What's the plan for the next few days?\nStar: We'll just keep doing what we're doing, I suppose. Trying to stay on top of the outbreak and make sure all the animals are healthy and happy. It's going to be a long haul, but we'll get through it.\nSnap: Last question: is there anything you're worried about in terms of the outbreak spreading or getting worse?\nStar: Yeah, that's always a concern. But we're doing everything we can to contain it, and I'm confident that with the right treatment and care, we can get this under control. It's just a matter of time and resources.",
+    "3": "Snap: How's the situation with the kennel cough outbreak at the shelter? Any improvements?\nStar: Honestly, it's been a tough few days. I felt frustrated by the lack of resources to combat the outbreak, but we're doing our best with what we have. I've been trying to come up with creative solutions, but it's not easy.\nSnap: That sounds really challenging. Have you been able to get any outside help or advice?\nStar: Yeah, I actually contacted Dr. Juan Perez, a specialist in infectious diseases, for advice on how to manage the situation. He's been really helpful, and I'm hoping his guidance will make a big difference.\nSnap: That's great. What kind of advice did Dr. Perez give you?\nStar: Well, he recommended that we prioritize vaccinations, so we've been working on that. Today was a big day - we administered 20 vaccinations to dogs at the shelter, which is a good start, but we still have a lot of work to do.\nSnap: 20 vaccinations is a significant number. How are the dogs responding to the vaccine so far?\nStar: It's too early to tell for sure, but I'm cautiously optimistic. We'll be monitoring them closely over the next few days to see how they're doing.\nSnap: I can imagine it's a lot of pressure to deal with an outbreak like this. How are you and your team holding up?\nStar: We're managing, but it's not easy. The lack of resources is still a major concern, and it's frustrating to think about what we could be doing if we had more support.\nSnap: Are there any plans to reach out to local authorities or organizations for help with resources?\nStar: We're looking into it, but for now, we're just taking it one day at a time and doing the best we can with what we have. Dr. Perez has offered to help us explore some options, so we'll see what happens.",
+    "4": "Snap: I hear there's been a bit of a crisis at the animal shelter where you work. Can you tell me what's going on?\nStar: Yeah, it's been a tough few days. We're dealing with an unexpected outbreak of kennel cough, and it's been a challenge to manage. I actually had a meeting with the shelter's board of directors yesterday to discuss the outbreak and its impact on the shelter. We're trying to figure out the best way to move forward.\nSnap: That sounds like a lot of pressure. What are you doing to try and get ahead of the outbreak?\nStar: Well, I visited the University of Buenos Aires' veterinary school to learn about new treatments for kennel cough. The professors there are doing some really interesting research, and I'm hoping we can implement some of their methods at the shelter.\nSnap: That's great to hear. I'm sure the animals at the shelter are lucky to have you advocating for them. What kind of resources are you using to fight the outbreak?\nStar: We're using a variety of supplies, and I actually spent 250 pesos on some new equipment and medication yesterday. It's not a huge amount, but every little bit helps when you're dealing with a situation like this.\nSnap: 250 pesos might not seem like a lot, but I'm sure it adds up when you're working with limited resources. How do you think the shelter's board of directors is going to support your efforts to combat the outbreak?\nStar: From what I understood in our meeting, they're committed to providing us with the resources we need to get the outbreak under control. Of course, we'll have to wait and see how things play out, but I'm hopeful that we can work together to find a solution.\nSnap: I hope so too. What did you learn at the University of Buenos Aires' veterinary school that you think will make a big difference in your efforts to combat the outbreak?\nStar: One of the professors I spoke with mentioned a new treatment protocol that's shown some promising results. I'm excited to try it out and see if it can help us reduce the spread of the disease.\nSnap: That sounds like a great lead to pursue. How do you plan to implement this new treatment protocol, and what kind of support do you think you'll need from the shelter's board of directors to make it happen?\nStar: We'll need to work closely with the board to make sure we have the necessary resources and personnel to implement the protocol effectively. I'm planning to follow up with them soon to discuss the details and make sure we're all on the same page.",
+    "5": "Snap: How's the situation with the kennel cough outbreak at the shelter? Any updates?\nStar: Honestly, I'm feeling a bit more hopeful today after learning about a new treatment for kennel cough. It's not a cure-all, but it's definitely a step in the right direction.\nSnap: That's great to hear. What else is being done to address the issue? Are you getting any support from local organizations?\nStar: Actually, I met with a representative from the Buenos Aires Animal Welfare Organization yesterday to discuss possible collaborations. They seem really interested in helping us out, which is a huge relief.\nSnap: That's terrific. What kind of help are you hoping to get from them? Are they going to provide any resources or funding?\nStar: We're still ironing out the details, but it's looking like they might be able to provide some medical supplies and maybe even some volunteer staff to help us cope with the outbreak. We've been slammed, to be honest - just yesterday, I treated 8 cats for upper respiratory infections, and it's days like that which make me realize how much we need the extra support.\nSnap: Wow, 8 cats is a lot. How are the cats doing after the treatment? Are they recovering well?\nStar: So far, so good. The treatment seems to be working, and we're keeping a close eye on them to make sure they don't develop any secondary infections. It's a lot of work, but it's worth it to see them get better.\nSnap: I bet. What's the most challenging part of dealing with this outbreak for you, personally?\nStar: It's just the sheer number of animals we're having to treat, and the fact that we're not sure when the outbreak will be fully under control. But like I said, I'm feeling hopeful, and I think that meeting with the Buenos Aires Animal Welfare Organization was a really positive step forward.\nSnap: Last question: what's the plan for the next few days? Are you going to be meeting with the organization again to discuss further collaboration?\nStar: Yeah, we're going to be following up with them soon to talk about the specifics of their support. In the meantime, we'll just keep doing what we're doing - treating the animals, trying to prevent the spread of the disease, and hoping that this new treatment really makes a difference.",
+    "6": "Snap: How's the situation at the shelter, any updates on the kennel cough outbreak?\nStar: It's been a tough few days, but we're managing. I actually ran into Dr. Ana Garcia, a former colleague, and she offered to volunteer at the shelter, which is a huge help. We could really use the extra hands.\nSnap: That's great, having more experienced people on board can make a big difference. What's the plan for containing the outbreak?\nStar: We're working around the clock to make sure all the dogs are receiving the proper care. I just got back from a 10-hour shift, and I'm exhausted, but it's worth it to see the dogs recovering.\nSnap: I can imagine. Have you had to make any special arrangements for supplies or equipment to deal with the outbreak?\nStar: Yes, actually. I visited PetZone, the local pet store, to pick up some extra supplies, like masks and disinfectant. They've been really helpful in making sure we have what we need.\nSnap: PetZone, that's the big store downtown, right? Have you had to make any other trips out for supplies?\nStar: Yeah, that's the one. No, just the one trip to PetZone so far, but I'm sure we'll need to make more as the days go by. We're trying to be as prepared as possible.\nSnap: I bet. So, Dr. Garcia's offer to volunteer, was that a surprise or had you been in touch with her recently?\nStar: It was a surprise, but a welcome one. We hadn't spoken in a while, so it was great to reconnect and have her offer to help out.\nSnap: That's terrific. How do you think her expertise will help with the situation at the shelter?\nStar: Oh, it'll be a huge help. With her experience and my team's, I think we can get on top of this outbreak. And like I said, having her volunteer will definitely help us manage the workload, especially on long days like today.",
+    "7": "Snap: How's the situation with the kennel cough outbreak at the shelter? Any updates?\nStar: Honestly, I felt relieved that the number of new cases was decreasing, it's been a really tough week, but it seems like we're finally getting a handle on it.\nSnap: That's great to hear, what do you think is contributing to the decline in new cases?\nStar: Well, I think it's a combination of the new protocols we've put in place and just getting a better understanding of the disease, I actually attended a seminar at the Argentine Veterinary Association on infectious diseases in animals last month, and it really helped me understand how to manage outbreaks like this.\nSnap: That seminar sounds really helpful, what specifically did you learn that you've been able to apply to this situation?\nStar: They had some great speakers and we got to discuss some really interesting case studies, it was really informative and I feel like it's helped me make some good decisions about how to care for the animals here.\nSnap: I bet, it's always good to have some extra knowledge and expertise when dealing with something like this, are you feeling more confident now that the number of new cases is decreasing?\nStar: Yeah, definitely, I mean it's still a lot of work, but I feel like we're on the right track, and I'm just glad that we're not seeing as many new cases as we were a few days ago.\nSnap: That's great, what's the plan for the animals that are already infected, how are you treating them?\nStar: We're just taking it one day at a time, making sure they're all getting the care they need, and hoping that the number of new cases continues to decrease, it's been a tough week, but I think we're getting through it.\nSnap: Last question, do you think the seminar you attended would be helpful for other veterinarians dealing with similar outbreaks?\nStar: Absolutely, I think it would be really beneficial for anyone dealing with infectious diseases in animals, the Argentine Veterinary Association always puts on great events, and I would definitely recommend it to anyone who's interested."
+  }
+}

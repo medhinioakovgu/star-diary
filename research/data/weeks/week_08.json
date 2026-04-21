@@ -1,0 +1,300 @@
+{
+  "week_id": 8,
+  "persona": "A 33-year-old indie musician on a 10-city European tour, currently in Prague, dealing with a sore throat and a broken guitar strap.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "named_entity",
+      "text": "played at Palac Akropolis in Prague"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "emotional",
+      "text": "felt anxious about performing with a sore throat"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "relational",
+      "text": "had dinner with the opening act, a local band"
+    },
+    {
+      "id": "f04",
+      "day": 1,
+      "type": "quantitative",
+      "text": "spent 50 euros on a temporary guitar strap"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "named_entity",
+      "text": "visited Charles Bridge in the morning"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "emotional",
+      "text": "felt inspired by the city's beauty"
+    },
+    {
+      "id": "f07",
+      "day": 2,
+      "type": "quantitative",
+      "text": "spent 2 hours practicing vocals at the hotel"
+    },
+    {
+      "id": "f08",
+      "day": 2,
+      "type": "relational",
+      "text": "reconnected with an old friend who lives in Prague"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "named_entity",
+      "text": "performed at Roxy in Prague"
+    },
+    {
+      "id": "f10",
+      "day": 3,
+      "type": "quantitative",
+      "text": "played for 90 minutes despite feeling unwell"
+    },
+    {
+      "id": "f11",
+      "day": 3,
+      "type": "emotional",
+      "text": "was relieved to receive positive feedback from the crowd"
+    },
+    {
+      "id": "f12",
+      "day": 3,
+      "type": "relational",
+      "text": "had a lengthy chat with the sound engineer after the show"
+    },
+    {
+      "id": "f13",
+      "day": 4,
+      "type": "named_entity",
+      "text": "visited a local music store to look for a new guitar strap"
+    },
+    {
+      "id": "f14",
+      "day": 4,
+      "type": "quantitative",
+      "text": "spent 75 euros on a high-quality strap"
+    },
+    {
+      "id": "f15",
+      "day": 4,
+      "type": "emotional",
+      "text": "felt hopeful about the next performance with the new gear"
+    },
+    {
+      "id": "f16",
+      "day": 4,
+      "type": "relational",
+      "text": "argued with the tour manager about the schedule"
+    },
+    {
+      "id": "f17",
+      "day": 5,
+      "type": "named_entity",
+      "text": "travelled to Berlin via train"
+    },
+    {
+      "id": "f18",
+      "day": 5,
+      "type": "quantitative",
+      "text": "spent 4 hours on the train"
+    },
+    {
+      "id": "f19",
+      "day": 5,
+      "type": "emotional",
+      "text": "felt excited about performing in a new city"
+    },
+    {
+      "id": "f20",
+      "day": 5,
+      "type": "relational",
+      "text": "met up with a fellow musician from Berlin"
+    },
+    {
+      "id": "f21",
+      "day": 6,
+      "type": "named_entity",
+      "text": "performed at Lido in Berlin"
+    },
+    {
+      "id": "f22",
+      "day": 6,
+      "type": "emotional",
+      "text": "felt a wave of adrenaline before going on stage"
+    },
+    {
+      "id": "filler_d7",
+      "day": 7,
+      "type": "emotional",
+      "text": "felt the day passed quietly without anything remarkable"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "named_entity",
+        "text": "played at Palac Akropolis in Prague"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "emotional",
+        "text": "felt anxious about performing with a sore throat"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "relational",
+        "text": "had dinner with the opening act, a local band"
+      },
+      {
+        "id": "f04",
+        "day": 1,
+        "type": "quantitative",
+        "text": "spent 50 euros on a temporary guitar strap"
+      }
+    ],
+    "2": [
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "named_entity",
+        "text": "visited Charles Bridge in the morning"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "emotional",
+        "text": "felt inspired by the city's beauty"
+      },
+      {
+        "id": "f07",
+        "day": 2,
+        "type": "quantitative",
+        "text": "spent 2 hours practicing vocals at the hotel"
+      },
+      {
+        "id": "f08",
+        "day": 2,
+        "type": "relational",
+        "text": "reconnected with an old friend who lives in Prague"
+      }
+    ],
+    "3": [
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "named_entity",
+        "text": "performed at Roxy in Prague"
+      },
+      {
+        "id": "f10",
+        "day": 3,
+        "type": "quantitative",
+        "text": "played for 90 minutes despite feeling unwell"
+      },
+      {
+        "id": "f11",
+        "day": 3,
+        "type": "emotional",
+        "text": "was relieved to receive positive feedback from the crowd"
+      },
+      {
+        "id": "f12",
+        "day": 3,
+        "type": "relational",
+        "text": "had a lengthy chat with the sound engineer after the show"
+      }
+    ],
+    "4": [
+      {
+        "id": "f13",
+        "day": 4,
+        "type": "named_entity",
+        "text": "visited a local music store to look for a new guitar strap"
+      },
+      {
+        "id": "f14",
+        "day": 4,
+        "type": "quantitative",
+        "text": "spent 75 euros on a high-quality strap"
+      },
+      {
+        "id": "f15",
+        "day": 4,
+        "type": "emotional",
+        "text": "felt hopeful about the next performance with the new gear"
+      },
+      {
+        "id": "f16",
+        "day": 4,
+        "type": "relational",
+        "text": "argued with the tour manager about the schedule"
+      }
+    ],
+    "5": [
+      {
+        "id": "f17",
+        "day": 5,
+        "type": "named_entity",
+        "text": "travelled to Berlin via train"
+      },
+      {
+        "id": "f18",
+        "day": 5,
+        "type": "quantitative",
+        "text": "spent 4 hours on the train"
+      },
+      {
+        "id": "f19",
+        "day": 5,
+        "type": "emotional",
+        "text": "felt excited about performing in a new city"
+      },
+      {
+        "id": "f20",
+        "day": 5,
+        "type": "relational",
+        "text": "met up with a fellow musician from Berlin"
+      }
+    ],
+    "6": [
+      {
+        "id": "f21",
+        "day": 6,
+        "type": "named_entity",
+        "text": "performed at Lido in Berlin"
+      },
+      {
+        "id": "f22",
+        "day": 6,
+        "type": "emotional",
+        "text": "felt a wave of adrenaline before going on stage"
+      }
+    ],
+    "7": []
+  },
+  "transcripts": {
+    "1": "Snap: So, how did the performance go tonight at Palac Akropolis in Prague?\n\nStar: It was a bit nerve-wracking, to be honest. I felt anxious about performing with a sore throat. I really didn’t want to let the crowd down, but the energy was incredible.\n\nSnap: I can only imagine! Did the sore throat impact your performance at all?\n\nStar: It did a little. I had to take it easy on some of the higher notes, but thankfully, the audience was really supportive, which helped me push through.\n\nSnap: That’s great to hear. Did you get a chance to connect with anyone else after the show?\n\nStar: Yes! I had dinner with the opening act, a local band. They were super friendly and gave me some great tips about playing in Prague.\n\nSnap: That sounds like a good experience! Did you have to deal with any equipment issues during the show?\n\nStar: Oh, definitely. My guitar strap broke right before I went on stage, so I had to spend 50 euros on a temporary strap. It was a bit of a last-minute scramble, but it all worked out in the end.\n\nSnap: It’s a good thing you found a solution quickly! How are you feeling about the rest of the tour?\n\nStar: I’m excited but a little anxious too, especially with this sore throat. I just hope I can keep it together for the next few shows.",
+    "2": "Snap: So, how’s your tour going so far? Any highlights from your time in Prague?\n\nStar: Oh, absolutely! This morning, I visited Charles Bridge, and it was breathtaking. The beauty of the city really inspired me. \n\nSnap: Charles Bridge, that's iconic! What about it struck you the most?\n\nStar: Honestly, just the architecture and the vibe of the place. It’s like stepping back in time. I felt this rush of creativity, which is perfect since I’ve been dealing with a sore throat. \n\nSnap: I can imagine! So, how have you been managing your vocals with that sore throat?\n\nStar: I spent about two hours practicing vocals at the hotel today. I really want to make sure I’m in good shape for the show, despite feeling a bit under the weather.\n\nSnap: That’s dedication! Did you find time to relax a bit amidst all the practice?\n\nStar: Yes, I actually reconnected with an old friend who lives here in Prague. We hadn’t seen each other in years, so it was great to catch up and share some laughs.\n\nSnap: That sounds lovely! How did it feel to reconnect after such a long time?\n\nStar: It felt amazing, honestly. It’s nice to share those moments, especially in a beautiful setting like this. It definitely lifted my spirits, even with the sore throat and the broken guitar strap I’m dealing with.\n\nSnap: A broken guitar strap? That’s a bummer! How are you handling that?\n\nStar: I’m just trying to make it work for now. I might need to find a music store here if it doesn’t hold up. But hey, even with those challenges, I’m really enjoying my time here!",
+    "3": "Snap: So, how did your performance at Roxy in Prague go today? \n\nStar: Oh, it was quite the experience! I actually performed at Roxy, even though I was dealing with a sore throat. I ended up playing for 90 minutes despite not feeling my best.\n\nSnap: That's impressive! Did you feel like the crowd was responsive, even with you not feeling well? \n\nStar: Yeah, I was really relieved to receive positive feedback from the crowd. It always makes a difference when people enjoy your music, especially when you’re not at 100%.\n\nSnap: I can imagine! Did you have a chance to connect with any of the crew after the show?\n\nStar: Yes, I had a lengthy chat with the sound engineer after the show. We discussed some of the sound issues I was experiencing, especially with my broken guitar strap causing a bit of trouble during the performance.\n\nSnap: Oh no, a broken guitar strap? That sounds like a nightmare on stage! How did you manage that?\n\nStar: It was definitely a bit tricky, but I just had to make it work. Thankfully, the energy from the crowd helped keep me going through the set.\n\nSnap: I love that! So, what’s next for you on this European tour?\n\nStar: Well, after Prague, I’m heading to the next city. I’m hoping my throat feels better by then, but I’ll just keep pushing through!",
+    "4": "Snap: So, how's everything going on your tour so far? \n\nStar: Well, it’s been a bit of a rollercoaster! I'm currently in Prague, and to be honest, I'm dealing with a sore throat, which is not ideal. \n\nSnap: Oh no! That sounds rough. What have you been doing to take care of it?\n\nStar: I've been drinking a lot of tea and trying to rest my voice as much as possible. But on top of that, I had to deal with a broken guitar strap today.\n\nSnap: A broken strap? That's unfortunate! What did you end up doing about it?\n\nStar: I visited a local music store to look for a new guitar strap. Luckily, I found one that was high-quality, and I ended up spending 75 euros on it.\n\nSnap: Wow, that's quite an investment! Do you feel it was worth it?\n\nStar: Absolutely! I felt hopeful about the next performance with the new gear. It’s amazing how a good strap can make a difference.\n\nSnap: That's great to hear! But I have to ask, have you had any challenges on the tour aside from the gear?\n\nStar: Yeah, actually. I argued with the tour manager about the schedule. It’s been a bit hectic, and we had different ideas about how to manage our time here.\n\nSnap: Sounds like a bit of tension! How do you usually resolve those kinds of disagreements?\n\nStar: We usually talk it out, but sometimes it takes a bit of back and forth before we find common ground. It can get intense, especially when I'm trying to focus on my music while dealing with other issues. \n\nSnap: I get that. Balancing everything on tour can be tricky. So, are you feeling ready for your performance later?\n\nStar: I'm feeling good about it now! With the new strap and some rest, I think I’ll be in a better place for the show tonight.",
+    "5": "Snap: So, how’s everything going on day five of your tour?\n\nStar: It's been a bit of a mixed bag, to be honest. I traveled to Berlin via train, which was quite an experience.\n\nSnap: Oh really? How long was the journey?\n\nStar: It was about four hours on the train. I actually enjoyed the time to relax and think about the upcoming shows, even though my throat is feeling a bit sore.\n\nSnap: Ouch! That sounds rough. Did you get a chance to explore Berlin at all during that time?\n\nStar: Not really, I was mostly focused on resting my voice, but I did feel excited about performing in a new city. There's just so much energy in places I haven't played before.\n\nSnap: I get that! Did you meet anyone interesting while you were there?\n\nStar: Yeah, I met up with a fellow musician from Berlin. It was great to connect with someone local who knows the scene and can share tips about playing here.\n\nSnap: That sounds awesome! Did they give you any advice for your performance?\n\nStar: A bit! They shared some insights about the venues and the vibe of the audience here, which is super helpful. It’s always nice to have that insider perspective.\n\nSnap: Definitely! Have you had a chance to try any local food or drinks yet?\n\nStar: Not yet, unfortunately. I’m trying to take it easy with my throat acting up, but I'm hoping to sample some local cuisine after the show tonight.",
+    "6": "Snap: So, how's the tour going so far? \n\nStar: It's been amazing! Just performed at Lido in Berlin, and it was such an incredible experience. \n\nSnap: I heard that venue has a great vibe. What was it like for you up there?\n\nStar: Honestly, before going on stage, I felt a wave of adrenaline. It's that rush you get right before you perform, you know? \n\nSnap: Absolutely, I can imagine! Did anything unexpected happen during the show?\n\nStar: Well, my guitar strap actually broke mid-performance! It was a bit chaotic, but I managed to keep going. \n\nSnap: Wow, that must've been a challenge! How did you handle it?\n\nStar: I just tightened my grip and kept playing. The adrenaline really helped me push through. \n\nSnap: That's impressive! How's the rest of the tour looking? \n\nStar: It's going well, but I’ve been dealing with a sore throat, which is not ideal. \n\nSnap: Ouch, that sounds tough! How are you managing it while performing?\n\nStar: I’m trying to stay hydrated and resting when I can. But Berlin was a high point for sure! \n\nSnap: Sounds like you're making the most of it despite the challenges. What’s next on the agenda? \n\nStar: Next city is Prague, and I’m looking forward to it! Just hoping my throat holds up.",
+    "7": "Snap: So, how's the tour been treating you so far? Any highlights from today?\n\nStar: Honestly, today felt pretty quiet. Nothing remarkable happened, which is a bit of a relief sometimes, you know? Just one of those days where you can take a breather.\n\nSnap: I get that. You've been on the road for a while now. How are you feeling with all the travel?\n\nStar: It's been a mix, really. I’ve got this sore throat that’s been hanging around, which isn’t ideal when you’re supposed to be performing every night. But I guess a quiet day was just what I needed to rest my voice a bit.\n\nSnap: That's tough. Are you doing anything special to help with your throat?\n\nStar: I’ve been trying to drink a lot of warm tea and honey. Honestly, I just want to make sure I can get through the next show without sounding like a frog! \n\nSnap: And how's your gear holding up on this tour? Any issues?\n\nStar: Well, I did have a bit of a mishap with my guitar strap. It broke right before soundcheck yesterday! Thankfully, I managed to fix it temporarily, but it’s definitely something I need to sort out soon.\n\nSnap: Sounds like you’ve had to deal with a few challenges along the way. How do you keep your spirits up?\n\nStar: I think just having days like today helps. When it’s quiet, you can regroup and focus on what’s next. Plus, being in a beautiful city like Prague makes it easier, even if nothing remarkable happened today. \n\nSnap: Absolutely, Prague is stunning. Have you had a chance to explore it at all?\n\nStar: Not really today. I’ve mostly been resting, but I did take a quick walk yesterday. Just soaking in the atmosphere helps, even if it was just for a short while."
+  }
+}

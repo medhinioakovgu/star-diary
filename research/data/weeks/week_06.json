@@ -1,0 +1,295 @@
+{
+  "week_id": 6,
+  "persona": "A 52-year-old hospital nurse in Lisbon working night shifts, whose elderly mother moved in last week after a fall.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "relational",
+      "text": "helped her mother adjust to her new living situation"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "emotional",
+      "text": "felt overwhelmed by the added responsibilities"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "quantitative",
+      "text": "worked a 12-hour night shift at the hospital"
+    },
+    {
+      "id": "f04",
+      "day": 1,
+      "type": "named_entity",
+      "text": "went grocery shopping at Pingo Doce"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "relational",
+      "text": "had a video call with her sister to discuss their mother's care"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "emotional",
+      "text": "felt grateful for her sister's support"
+    },
+    {
+      "id": "f07",
+      "day": 2,
+      "type": "quantitative",
+      "text": "spent 45 minutes preparing dinner for her mother"
+    },
+    {
+      "id": "f08",
+      "day": 3,
+      "type": "named_entity",
+      "text": "attended a staff meeting at Hospital de Santa Maria"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "relational",
+      "text": "talked with her colleague Maria about patient care"
+    },
+    {
+      "id": "f10",
+      "day": 3,
+      "type": "emotional",
+      "text": "felt exhausted after a long shift"
+    },
+    {
+      "id": "f11",
+      "day": 4,
+      "type": "quantitative",
+      "text": "ran 5 kilometers in the morning"
+    },
+    {
+      "id": "f12",
+      "day": 4,
+      "type": "emotional",
+      "text": "felt energized after exercising"
+    },
+    {
+      "id": "f13",
+      "day": 4,
+      "type": "relational",
+      "text": "spent quality time watching a movie with her mother"
+    },
+    {
+      "id": "f14",
+      "day": 5,
+      "type": "named_entity",
+      "text": "visited the local pharmacy to pick up her mother's medications"
+    },
+    {
+      "id": "f15",
+      "day": 5,
+      "type": "quantitative",
+      "text": "worked a 10-hour night shift"
+    },
+    {
+      "id": "f16",
+      "day": 5,
+      "type": "emotional",
+      "text": "felt anxious about her mother's health"
+    },
+    {
+      "id": "f17",
+      "day": 6,
+      "type": "relational",
+      "text": "had a long conversation with her mother about family history"
+    },
+    {
+      "id": "f18",
+      "day": 6,
+      "type": "emotional",
+      "text": "felt a sense of connection with her mother's stories"
+    },
+    {
+      "id": "f19",
+      "day": 6,
+      "type": "quantitative",
+      "text": "spent 30 minutes organizing the living room"
+    },
+    {
+      "id": "f20",
+      "day": 7,
+      "type": "named_entity",
+      "text": "attended a yoga class at a local studio"
+    },
+    {
+      "id": "f21",
+      "day": 7,
+      "type": "emotional",
+      "text": "felt relaxed after the class"
+    },
+    {
+      "id": "f22",
+      "day": 7,
+      "type": "relational",
+      "text": "planned a family dinner with her sister for the following week"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "relational",
+        "text": "helped her mother adjust to her new living situation"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "emotional",
+        "text": "felt overwhelmed by the added responsibilities"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "quantitative",
+        "text": "worked a 12-hour night shift at the hospital"
+      },
+      {
+        "id": "f04",
+        "day": 1,
+        "type": "named_entity",
+        "text": "went grocery shopping at Pingo Doce"
+      }
+    ],
+    "2": [
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "relational",
+        "text": "had a video call with her sister to discuss their mother's care"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "emotional",
+        "text": "felt grateful for her sister's support"
+      },
+      {
+        "id": "f07",
+        "day": 2,
+        "type": "quantitative",
+        "text": "spent 45 minutes preparing dinner for her mother"
+      }
+    ],
+    "3": [
+      {
+        "id": "f08",
+        "day": 3,
+        "type": "named_entity",
+        "text": "attended a staff meeting at Hospital de Santa Maria"
+      },
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "relational",
+        "text": "talked with her colleague Maria about patient care"
+      },
+      {
+        "id": "f10",
+        "day": 3,
+        "type": "emotional",
+        "text": "felt exhausted after a long shift"
+      }
+    ],
+    "4": [
+      {
+        "id": "f11",
+        "day": 4,
+        "type": "quantitative",
+        "text": "ran 5 kilometers in the morning"
+      },
+      {
+        "id": "f12",
+        "day": 4,
+        "type": "emotional",
+        "text": "felt energized after exercising"
+      },
+      {
+        "id": "f13",
+        "day": 4,
+        "type": "relational",
+        "text": "spent quality time watching a movie with her mother"
+      }
+    ],
+    "5": [
+      {
+        "id": "f14",
+        "day": 5,
+        "type": "named_entity",
+        "text": "visited the local pharmacy to pick up her mother's medications"
+      },
+      {
+        "id": "f15",
+        "day": 5,
+        "type": "quantitative",
+        "text": "worked a 10-hour night shift"
+      },
+      {
+        "id": "f16",
+        "day": 5,
+        "type": "emotional",
+        "text": "felt anxious about her mother's health"
+      }
+    ],
+    "6": [
+      {
+        "id": "f17",
+        "day": 6,
+        "type": "relational",
+        "text": "had a long conversation with her mother about family history"
+      },
+      {
+        "id": "f18",
+        "day": 6,
+        "type": "emotional",
+        "text": "felt a sense of connection with her mother's stories"
+      },
+      {
+        "id": "f19",
+        "day": 6,
+        "type": "quantitative",
+        "text": "spent 30 minutes organizing the living room"
+      }
+    ],
+    "7": [
+      {
+        "id": "f20",
+        "day": 7,
+        "type": "named_entity",
+        "text": "attended a yoga class at a local studio"
+      },
+      {
+        "id": "f21",
+        "day": 7,
+        "type": "emotional",
+        "text": "felt relaxed after the class"
+      },
+      {
+        "id": "f22",
+        "day": 7,
+        "type": "relational",
+        "text": "planned a family dinner with her sister for the following week"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Snap: So, how has your first day been since your mother moved in with you?\n\nStar: It's been a bit of a whirlwind, honestly. I've really been trying to help her adjust to her new living situation, but it's not easy.\n\nSnap: I can imagine. What kind of adjustments has she had to make?\n\nStar: Well, she's getting used to my schedule since I work a 12-hour night shift at the hospital. It's been tricky for both of us, with her needing some extra support and me trying to balance everything.\n\nSnap: That sounds tough. How are you feeling about taking on these added responsibilities?\n\nStar: Honestly, I’ve felt a bit overwhelmed. It’s a lot to manage, especially with my shifts and ensuring she’s comfortable at home.\n\nSnap: Have you had a chance to do anything for yourself amidst all of this?\n\nStar: Not really! I did squeeze in some grocery shopping at Pingo Doce earlier. Just grabbing essentials for both of us, but I haven’t had much time to relax.\n\nSnap: It sounds like you're really juggling a lot right now. How do you think you and your mother will settle into this new routine?\n\nStar: I hope we’ll find a rhythm soon. I’m just taking it one day at a time, trying to help her feel at home while managing my own schedule.",
+    "2": "Snap: How's everything going with your mother moving in this week? \n\nStar: It's been a bit of an adjustment, to be honest. I had a video call with my sister earlier to discuss our mother's care, which was really helpful. \n\nSnap: That's great to hear! How did the call go? \n\nStar: It went well. I felt really grateful for my sister's support, especially since we both want what's best for our mom. \n\nSnap: Absolutely, family support is crucial. What kind of things are you both working on for her care? \n\nStar: We talked about her diet and daily routine. I actually spent 45 minutes preparing dinner for her today, trying to make sure she eats well. \n\nSnap: That's a solid chunk of time for dinner! What did you end up making for her? \n\nStar: I made a nice vegetable stew. It’s something she loves, and it was nice to spend that time in the kitchen. \n\nSnap: Sounds delicious! How's she adjusting to living with you? \n\nStar: It’s a bit of a learning curve for both of us, but I think having my sister to talk to really helps. I'm just glad we can coordinate our efforts.",
+    "3": "Snap: So, how was your day today? \n\nStar: Well, it was pretty full. I attended a staff meeting at Hospital de Santa Maria, which took up a good chunk of my morning.\n\nSnap: That sounds important! What was the focus of the meeting? \n\nStar: We mostly discussed updates on our patient care protocols. I had a good talk with my colleague Maria about how we can improve our approaches to certain cases.\n\nSnap: It's great that you’re collaborating with Maria. Was there anything specific you both came up with? \n\nStar: We didn't finalize anything concrete, but we shared some ideas that could enhance patient care, especially for our elderly patients.\n\nSnap: Speaking of elderly patients, how’s your mother settling in after her fall? \n\nStar: Oh, she's doing okay, but it's a lot to handle, you know? I felt exhausted after a long shift today, and then I came home to help her with a few things.\n\nSnap: I can only imagine how tiring that must be. How do you manage balancing your shifts and caring for her? \n\nStar: It’s definitely challenging. Sometimes I just have to remind myself to take a breath between shifts and care for both my patients and my mom.",
+    "4": "Snap: So, how was your morning? Did you manage to fit in your run today?  \nStar: Yes, I actually ran 5 kilometers this morning! It felt great to get out there.  \n\nSnap: That’s impressive! How did you feel after your run?  \nStar: I felt really energized after exercising. It’s amazing what a little movement can do for your mood.  \n\nSnap: I can imagine! It must be nice to have that boost. Did you do anything special after your run?  \nStar: Yes, I spent some quality time watching a movie with my mother. Since she moved in last week, I’ve really cherished those moments.  \n\nSnap: That sounds lovely. What movie did you choose to watch together?  \nStar: We ended up watching an old classic—something lighthearted to enjoy. It was nice to just relax and bond.  \n\nSnap: Sounds like a perfect way to spend the day. How's your mom settling in since her fall?  \nStar: She's doing okay, I think. Having our movie nights helps her feel more at home and gives us both some comfort.  \n\nSnap: That's wonderful to hear. Those little moments can really make a difference, especially during tough times.  \nStar: Absolutely. It’s been a transition, but I’m grateful for the time we get to share.",
+    "5": "Snap: So, how was your day today? \n\nStar: Oh, it was pretty hectic. I just finished a 10-hour night shift at the hospital, so I'm feeling a bit drained.\n\nSnap: A long night shift, huh? How did that go?\n\nStar: It went okay, just the usual chaos, you know? But I’m always worried when I’m away from home, especially now that my mother moved in last week after her fall.\n\nSnap: Right, I can imagine that must weigh heavily on your mind. Did you manage to check in on her?\n\nStar: Yes, I did. I visited the local pharmacy to pick up her medications earlier today. I wanted to make sure she had everything she needs while I’m working these long shifts.\n\nSnap: That’s a good move. Do you feel like she’s adjusting well to living with you?\n\nStar: I hope so, but I can’t shake off this feeling of anxiety about her health. It's tough to balance my job and making sure she's okay at home.\n\nSnap: That makes sense. Have you had a chance to talk to her about how she’s feeling since she moved in?\n\nStar: Not yet, but I plan to have that chat soon. I just want to ensure she’s comfortable and that I’m doing everything I can to take care of her. \n\nSnap: Absolutely, it sounds like you’re doing your best. Keep an eye on her, and don’t hesitate to take breaks for yourself, too!",
+    "6": "Snap: So, how's everything going with your mom moving in?\n\nStar: Oh, it's been quite an adjustment, but I'm really glad she’s here. We had a long conversation yesterday about our family history.\n\nSnap: That sounds interesting! What kind of stories did she share?\n\nStar: She talked about her childhood, her parents, and some of the struggles they faced. I felt a real sense of connection with her stories. It's like I could see the path that led to me.\n\nSnap: That must have been an emotional experience. Did you learn anything surprising?\n\nStar: Yes, definitely! Some of the challenges she faced were eye-opening. It made me appreciate her resilience even more.\n\nSnap: Sounds like you had a meaningful evening. Did you manage to settle in the living room too?\n\nStar: I did! I spent about 30 minutes organizing the living room. It was a bit chaotic with all her things, but it feels much more welcoming now.\n\nSnap: That’s great! A cozy space can make a big difference. How did your mom react to the changes?\n\nStar: She seemed really pleased with how it turned out. It’s nice to have a comfortable area where we can sit and chat about everything.",
+    "7": "Snap: So, how has your week been so far? Any highlights?  \nStar: Oh, it's been pretty good! I actually attended a yoga class at a local studio yesterday. It was quite refreshing.  \nSnap: A yoga class? That sounds nice! How did it go?  \nStar: It really was nice. I felt so relaxed after the class; it’s amazing what a little stretching can do for the body and mind.  \nSnap: That’s great to hear! Do you think you’ll keep going back to that class?  \nStar: Absolutely! I think it’s something I need, especially with my night shifts. It helps me unwind.  \nSnap: Speaking of unwinding, do you have any plans for family time coming up?  \nStar: Yes! I’m actually planning a family dinner with my sister for next week. It’ll be nice to gather everyone together, especially with my mom living with us now after her fall.  \nSnap: That sounds lovely! What’s on the menu for the dinner?  \nStar: We haven’t decided yet, but I’m sure we’ll whip up something delicious. It’ll be good to catch up with everyone."
+  }
+}

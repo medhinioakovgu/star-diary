@@ -1,0 +1,295 @@
+{
+  "week_id": 5,
+  "persona": "A 24-year-old graduate student in Delhi finishing her thesis on marine biology, with fieldwork in Goa coming up in two weeks.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "quantitative",
+      "text": "spent 5 hours at the library reviewing literature for her thesis"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "emotional",
+      "text": "felt overwhelmed by the amount of work left to do"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "named_entity",
+      "text": "attended a seminar on climate change at the University of Delhi"
+    },
+    {
+      "id": "f04",
+      "day": 1,
+      "type": "relational",
+      "text": "discussed her thesis topic with her advisor, Dr. Mehta"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "quantitative",
+      "text": "wrote 1200 words of her thesis"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "named_entity",
+      "text": "visited the Indian National Centre for Ocean Information Services"
+    },
+    {
+      "id": "f07",
+      "day": 2,
+      "type": "emotional",
+      "text": "felt excited about the upcoming fieldwork in Goa"
+    },
+    {
+      "id": "f08",
+      "day": 3,
+      "type": "quantitative",
+      "text": "spent 3 hours preparing her presentation for the thesis defense"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "relational",
+      "text": "had a video call with her friend Priya who is also working on a marine biology project"
+    },
+    {
+      "id": "f10",
+      "day": 3,
+      "type": "emotional",
+      "text": "felt nervous about presenting her research findings"
+    },
+    {
+      "id": "f11",
+      "day": 4,
+      "type": "named_entity",
+      "text": "met with her study group at a café in Connaught Place"
+    },
+    {
+      "id": "f12",
+      "day": 4,
+      "type": "quantitative",
+      "text": "reviewed 15 research papers"
+    },
+    {
+      "id": "f13",
+      "day": 4,
+      "type": "relational",
+      "text": "collaborated with her classmates on a group project"
+    },
+    {
+      "id": "f14",
+      "day": 5,
+      "type": "emotional",
+      "text": "felt a sense of accomplishment after finishing the first draft of her thesis"
+    },
+    {
+      "id": "f15",
+      "day": 5,
+      "type": "quantitative",
+      "text": "spent 2 hours discussing her thesis with her mentor"
+    },
+    {
+      "id": "f16",
+      "day": 5,
+      "type": "named_entity",
+      "text": "visited the Marine Research Institute in Delhi"
+    },
+    {
+      "id": "f17",
+      "day": 6,
+      "type": "relational",
+      "text": "reconnected with her high school friend, Riya, who is now studying environmental science"
+    },
+    {
+      "id": "f18",
+      "day": 6,
+      "type": "quantitative",
+      "text": "worked on her thesis for 8 hours straight"
+    },
+    {
+      "id": "f19",
+      "day": 6,
+      "type": "emotional",
+      "text": "felt relieved after receiving positive feedback from her advisor"
+    },
+    {
+      "id": "f20",
+      "day": 7,
+      "type": "named_entity",
+      "text": "went for a walk at India Gate to clear her mind"
+    },
+    {
+      "id": "f21",
+      "day": 7,
+      "type": "quantitative",
+      "text": "spent 4 hours finalizing her thesis outline"
+    },
+    {
+      "id": "f22",
+      "day": 7,
+      "type": "emotional",
+      "text": "felt hopeful about completing her thesis on time"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "quantitative",
+        "text": "spent 5 hours at the library reviewing literature for her thesis"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "emotional",
+        "text": "felt overwhelmed by the amount of work left to do"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "named_entity",
+        "text": "attended a seminar on climate change at the University of Delhi"
+      },
+      {
+        "id": "f04",
+        "day": 1,
+        "type": "relational",
+        "text": "discussed her thesis topic with her advisor, Dr. Mehta"
+      }
+    ],
+    "2": [
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "quantitative",
+        "text": "wrote 1200 words of her thesis"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "named_entity",
+        "text": "visited the Indian National Centre for Ocean Information Services"
+      },
+      {
+        "id": "f07",
+        "day": 2,
+        "type": "emotional",
+        "text": "felt excited about the upcoming fieldwork in Goa"
+      }
+    ],
+    "3": [
+      {
+        "id": "f08",
+        "day": 3,
+        "type": "quantitative",
+        "text": "spent 3 hours preparing her presentation for the thesis defense"
+      },
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "relational",
+        "text": "had a video call with her friend Priya who is also working on a marine biology project"
+      },
+      {
+        "id": "f10",
+        "day": 3,
+        "type": "emotional",
+        "text": "felt nervous about presenting her research findings"
+      }
+    ],
+    "4": [
+      {
+        "id": "f11",
+        "day": 4,
+        "type": "named_entity",
+        "text": "met with her study group at a café in Connaught Place"
+      },
+      {
+        "id": "f12",
+        "day": 4,
+        "type": "quantitative",
+        "text": "reviewed 15 research papers"
+      },
+      {
+        "id": "f13",
+        "day": 4,
+        "type": "relational",
+        "text": "collaborated with her classmates on a group project"
+      }
+    ],
+    "5": [
+      {
+        "id": "f14",
+        "day": 5,
+        "type": "emotional",
+        "text": "felt a sense of accomplishment after finishing the first draft of her thesis"
+      },
+      {
+        "id": "f15",
+        "day": 5,
+        "type": "quantitative",
+        "text": "spent 2 hours discussing her thesis with her mentor"
+      },
+      {
+        "id": "f16",
+        "day": 5,
+        "type": "named_entity",
+        "text": "visited the Marine Research Institute in Delhi"
+      }
+    ],
+    "6": [
+      {
+        "id": "f17",
+        "day": 6,
+        "type": "relational",
+        "text": "reconnected with her high school friend, Riya, who is now studying environmental science"
+      },
+      {
+        "id": "f18",
+        "day": 6,
+        "type": "quantitative",
+        "text": "worked on her thesis for 8 hours straight"
+      },
+      {
+        "id": "f19",
+        "day": 6,
+        "type": "emotional",
+        "text": "felt relieved after receiving positive feedback from her advisor"
+      }
+    ],
+    "7": [
+      {
+        "id": "f20",
+        "day": 7,
+        "type": "named_entity",
+        "text": "went for a walk at India Gate to clear her mind"
+      },
+      {
+        "id": "f21",
+        "day": 7,
+        "type": "quantitative",
+        "text": "spent 4 hours finalizing her thesis outline"
+      },
+      {
+        "id": "f22",
+        "day": 7,
+        "type": "emotional",
+        "text": "felt hopeful about completing her thesis on time"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Snap: So, how was your day today? I heard you had a busy one!\n\nStar: Oh, it was definitely packed! I spent about 5 hours at the library reviewing literature for my thesis. It’s crunch time, you know?\n\nSnap: Five hours? That’s a long stretch! What were you focusing on during that time?\n\nStar: Mostly just trying to cover all the recent studies related to marine biology. It’s a bit overwhelming, honestly. I felt really overwhelmed by the amount of work I still have left to do before I head to Goa for my fieldwork in two weeks.\n\nSnap: I can imagine! You must have so much on your plate. Did anything specific trigger that feeling of being overwhelmed?\n\nStar: I think just the sheer volume of information and the pressure of deadlines. Plus, earlier today, I also attended a seminar on climate change at the University of Delhi. It was insightful but added to my stress, thinking about how it all ties into my thesis.\n\nSnap: That sounds like an intense day! Did you get a chance to discuss your thesis topic with anyone at the seminar?\n\nStar: Actually, yes! I discussed my thesis topic with my advisor, Dr. Mehta, right after the seminar. It was helpful to get her perspective on the current trends in marine biology and how they relate to climate change.\n\nSnap: That’s great! How did Dr. Mehta respond to your ideas?\n\nStar: She was really supportive and provided some valuable feedback. It helped me feel a little less overwhelmed, at least for a moment! But it’s still a lot of work to tackle.",
+    "2": "Snap: So, tell me, how's the thesis coming along? \n\nStar: It's actually going pretty well! I wrote about 1200 words of my thesis today, which felt like a solid chunk of progress. \n\nSnap: That’s impressive! What part of your thesis are you focusing on right now? \n\nStar: Right now, I'm working on the implications of climate change on marine ecosystems. I spent some time at the Indian National Centre for Ocean Information Services this week to gather more data and insights. \n\nSnap: That sounds important! Did you find anything particularly interesting there? \n\nStar: Absolutely! They have a lot of cutting-edge research on ocean data and climate patterns. It really helped me refine my arguments. \n\nSnap: You mentioned your thesis—when is it due? \n\nStar: Well, I’m wrapping things up, but I also have fieldwork in Goa coming up in two weeks, which I’m feeling really excited about. \n\nSnap: Goa sounds like a dream for fieldwork! What will you be doing there? \n\nStar: I’ll be collecting samples and observing marine life in their natural habitat. It’s a crucial part of my research, and I can’t wait to get started! \n\nSnap: That’s fantastic! Balancing that with writing must be a challenge, though. \n\nStar: It definitely is, but the excitement about the upcoming fieldwork keeps me motivated. Plus, every word I write brings me closer to finishing my thesis!",
+    "3": "Snap: So, how's the thesis preparation going? \n\nStar: It’s going pretty well! I actually spent about 3 hours today preparing my presentation for the thesis defense. It’s a lot of work, but I want to make sure I’m ready.\n\nSnap: Three hours? That’s a solid chunk of time. What specifically were you focusing on during that time?\n\nStar: I was mainly organizing my research findings and making sure my visuals were clear and engaging. I want to present my data effectively since it’s such a crucial part of my thesis.\n\nSnap: I can imagine that being a bit nerve-wracking. How are you feeling about the defense?\n\nStar: Honestly, I’m feeling quite nervous about presenting my research findings. It’s a big moment for me, and I want to make a good impression.\n\nSnap: I totally get that. Have you been talking to anyone for support?\n\nStar: Yes, I had a video call with my friend Priya today. She’s also working on a marine biology project, so we shared our experiences. It really helps to discuss our progress and concerns together.\n\nSnap: That sounds like a great support system. Did she have any tips for you?\n\nStar: She did! We talked about managing nerves and how to engage the audience. It was nice to bounce ideas off someone who understands what we’re both going through.\n\nSnap: That’s really valuable. With your fieldwork in Goa coming up in two weeks, are you feeling prepared for that as well?\n\nStar: I am excited but also a bit anxious, especially with the thesis defense coming up first. I want to focus on that before diving into the fieldwork, but it’s definitely on my mind!",
+    "4": "Snap: So, how was your day today? \n\nStar: Oh, it was pretty productive! I met with my study group at a café in Connaught Place. It's such a great spot for brainstorming. \n\nSnap: Nice! What did you all discuss at the café?\n\nStar: We reviewed 15 research papers that are crucial for my thesis. It was a bit overwhelming, but we managed to break it down together.\n\nSnap: That sounds like a lot of work. Were you collaborating on anything specific?\n\nStar: Yes, we were collaborating on a group project related to marine ecosystems. It really helps to have classmates who are just as invested as I am.\n\nSnap: How do you feel about the group dynamic? \n\nStar: I think it’s great! Everyone brings something different to the table, which really enriched our discussions today. \n\nSnap: I can imagine! So, did you find any particularly interesting research during your review?\n\nStar: Absolutely! Some of the papers had insights that I might integrate into my thesis. It’s exciting to see how much is out there.\n\nSnap: That’s awesome! How are you feeling about your upcoming fieldwork in Goa?\n\nStar: I’m a bit nervous but mostly excited. Two weeks will fly by, and I want to be fully prepared after today’s discussions.",
+    "5": "Snap: So, how's everything going with your thesis? \n\nStar: Honestly, I felt a real sense of accomplishment after finishing the first draft. It’s like this huge weight has lifted off my shoulders. \n\nSnap: That’s amazing! How long did you spend working on it today?\n\nStar: I actually spent about two hours discussing my thesis with my mentor. It was really helpful to get his feedback. \n\nSnap: Two hours sounds intense! What kind of things did you talk about?\n\nStar: We went over my research findings, and he helped me refine some of my arguments. I really appreciate having that guidance, especially since I’m heading to Goa for fieldwork in just two weeks. \n\nSnap: That's exciting! Is that for more data collection? \n\nStar: Yes, exactly. I’m looking forward to it. Just last week, I even visited the Marine Research Institute in Delhi to gather some resources and get a better understanding of the local marine ecosystems. \n\nSnap: Sounds like you’re really diving deep into your research! How did the visit to the institute go? \n\nStar: It was really insightful. I found some great materials that I think will be super useful for my thesis. I’m feeling more prepared as I gear up for the fieldwork. \n\nSnap: It sounds like you're on the right track! Any other plans for the thesis before you head to Goa? \n\nStar: Just polishing up the draft and incorporating my mentor's feedback. But I’m feeling good about it all!",
+    "6": "Snap: So, tell me about your day! Anything exciting happen?\n\nStar: Oh, definitely! I actually reconnected with my high school friend, Riya. It’s been ages since we last talked, and now she’s studying environmental science. \n\nSnap: That's great! How did you two reconnect?\n\nStar: We found each other on social media. It’s funny how life brings people back together, right? We started chatting about our different paths and it turns out she's really passionate about her field.\n\nSnap: That’s cool! Did you get to catch up in person at all?\n\nStar: Not yet, but we’re planning to meet up soon. I’ve been pretty busy working on my thesis, though. I spent a solid 8 hours straight on it today!\n\nSnap: Wow, 8 hours? What kept you so focused?\n\nStar: Well, I really want to finalize my research before my fieldwork in Goa in two weeks. Plus, after working so hard, I felt relieved when I received positive feedback from my advisor. It really motivated me to keep pushing forward.\n\nSnap: That must be a huge relief! What kind of feedback did your advisor give you?\n\nStar: They were impressed with my data analysis and suggested a few more areas I could explore. It feels good to know I’m on the right track!\n\nSnap: Sounds like you’re making excellent progress! Any plans for celebrating after you finish your thesis?\n\nStar: I might just celebrate with Riya when we meet. It’ll be nice to take a break and catch up after all this hard work!",
+    "7": "Snap: So, how's your day been? Anything interesting happen?\n\nStar: Oh, I actually went for a walk at India Gate earlier. It was nice to clear my mind a bit.\n\nSnap: India Gate, huh? That sounds lovely. Was it crowded today?\n\nStar: It wasn’t too bad, actually. Just the usual mix of tourists and locals. I find it helps me think better when I’m surrounded by that energy.\n\nSnap: Speaking of thinking, I heard you’ve been working hard on your thesis. How’s that coming along?\n\nStar: Yeah, I spent about 4 hours finalizing my thesis outline today. It’s been a lot of work, but I’m feeling hopeful about completing it on time.\n\nSnap: That’s great to hear! What part of the outline were you focusing on?\n\nStar: I was really diving into the methodology section. You know, making sure everything is clear before I head to Goa for my fieldwork in two weeks.\n\nSnap: Two weeks! That’s exciting. Are you feeling prepared for the fieldwork?\n\nStar: Definitely! I feel hopeful that everything will come together. I just want to make sure my thesis is in good shape before I go.\n\nSnap: I can imagine! How do you think the walk at India Gate helped you today?\n\nStar: It just gave me a fresh perspective. Sometimes stepping away for a bit clears the fog, you know? It made me feel more focused when I got back to finalizing my outline."
+  }
+}

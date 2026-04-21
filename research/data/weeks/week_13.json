@@ -1,0 +1,295 @@
+{
+  "week_id": 13,
+  "persona": "A 30-year-old social worker in Cape Town specializing in youth mentorship, balancing a heavy caseload and a new relationship.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "named_entity",
+      "text": "met with her supervisor, Linda, to discuss her caseload"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "quantitative",
+      "text": "spent 5 hours reviewing case files"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "emotional",
+      "text": "felt overwhelmed by the number of cases"
+    },
+    {
+      "id": "f04",
+      "day": 1,
+      "type": "relational",
+      "text": "had dinner with her boyfriend, Mark"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "quantitative",
+      "text": "attended 3 youth mentorship sessions"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "emotional",
+      "text": "felt inspired by one of her mentees' progress"
+    },
+    {
+      "id": "f07",
+      "day": 2,
+      "type": "named_entity",
+      "text": "visited the local community center in Observatory"
+    },
+    {
+      "id": "f08",
+      "day": 3,
+      "type": "relational",
+      "text": "argued with Mark about household responsibilities"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "quantitative",
+      "text": "worked 10 hours at the office"
+    },
+    {
+      "id": "f10",
+      "day": 3,
+      "type": "emotional",
+      "text": "felt drained and needed a break"
+    },
+    {
+      "id": "f11",
+      "day": 4,
+      "type": "named_entity",
+      "text": "attended a workshop hosted by the Cape Town Youth Development Organization"
+    },
+    {
+      "id": "f12",
+      "day": 4,
+      "type": "quantitative",
+      "text": "spent 2 hours networking with other professionals"
+    },
+    {
+      "id": "f13",
+      "day": 4,
+      "type": "emotional",
+      "text": "felt hopeful about new collaboration opportunities"
+    },
+    {
+      "id": "f14",
+      "day": 5,
+      "type": "relational",
+      "text": "reconnected with an old university friend, Sarah"
+    },
+    {
+      "id": "f15",
+      "day": 5,
+      "type": "emotional",
+      "text": "felt nostalgic discussing their college days"
+    },
+    {
+      "id": "f16",
+      "day": 5,
+      "type": "quantitative",
+      "text": "spent 45 minutes on a video call with Sarah"
+    },
+    {
+      "id": "f17",
+      "day": 6,
+      "type": "quantitative",
+      "text": "ran 8 kilometers in the morning"
+    },
+    {
+      "id": "f18",
+      "day": 6,
+      "type": "emotional",
+      "text": "felt energized after her morning run"
+    },
+    {
+      "id": "f19",
+      "day": 6,
+      "type": "named_entity",
+      "text": "visited the V&A Waterfront for a weekend outing"
+    },
+    {
+      "id": "f20",
+      "day": 7,
+      "type": "relational",
+      "text": "had a long conversation with Mark about their relationship"
+    },
+    {
+      "id": "f21",
+      "day": 7,
+      "type": "emotional",
+      "text": "felt relieved after discussing their future together"
+    },
+    {
+      "id": "f22",
+      "day": 7,
+      "type": "quantitative",
+      "text": "spent 3 hours preparing for the upcoming week"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "named_entity",
+        "text": "met with her supervisor, Linda, to discuss her caseload"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "quantitative",
+        "text": "spent 5 hours reviewing case files"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "emotional",
+        "text": "felt overwhelmed by the number of cases"
+      },
+      {
+        "id": "f04",
+        "day": 1,
+        "type": "relational",
+        "text": "had dinner with her boyfriend, Mark"
+      }
+    ],
+    "2": [
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "quantitative",
+        "text": "attended 3 youth mentorship sessions"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "emotional",
+        "text": "felt inspired by one of her mentees' progress"
+      },
+      {
+        "id": "f07",
+        "day": 2,
+        "type": "named_entity",
+        "text": "visited the local community center in Observatory"
+      }
+    ],
+    "3": [
+      {
+        "id": "f08",
+        "day": 3,
+        "type": "relational",
+        "text": "argued with Mark about household responsibilities"
+      },
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "quantitative",
+        "text": "worked 10 hours at the office"
+      },
+      {
+        "id": "f10",
+        "day": 3,
+        "type": "emotional",
+        "text": "felt drained and needed a break"
+      }
+    ],
+    "4": [
+      {
+        "id": "f11",
+        "day": 4,
+        "type": "named_entity",
+        "text": "attended a workshop hosted by the Cape Town Youth Development Organization"
+      },
+      {
+        "id": "f12",
+        "day": 4,
+        "type": "quantitative",
+        "text": "spent 2 hours networking with other professionals"
+      },
+      {
+        "id": "f13",
+        "day": 4,
+        "type": "emotional",
+        "text": "felt hopeful about new collaboration opportunities"
+      }
+    ],
+    "5": [
+      {
+        "id": "f14",
+        "day": 5,
+        "type": "relational",
+        "text": "reconnected with an old university friend, Sarah"
+      },
+      {
+        "id": "f15",
+        "day": 5,
+        "type": "emotional",
+        "text": "felt nostalgic discussing their college days"
+      },
+      {
+        "id": "f16",
+        "day": 5,
+        "type": "quantitative",
+        "text": "spent 45 minutes on a video call with Sarah"
+      }
+    ],
+    "6": [
+      {
+        "id": "f17",
+        "day": 6,
+        "type": "quantitative",
+        "text": "ran 8 kilometers in the morning"
+      },
+      {
+        "id": "f18",
+        "day": 6,
+        "type": "emotional",
+        "text": "felt energized after her morning run"
+      },
+      {
+        "id": "f19",
+        "day": 6,
+        "type": "named_entity",
+        "text": "visited the V&A Waterfront for a weekend outing"
+      }
+    ],
+    "7": [
+      {
+        "id": "f20",
+        "day": 7,
+        "type": "relational",
+        "text": "had a long conversation with Mark about their relationship"
+      },
+      {
+        "id": "f21",
+        "day": 7,
+        "type": "emotional",
+        "text": "felt relieved after discussing their future together"
+      },
+      {
+        "id": "f22",
+        "day": 7,
+        "type": "quantitative",
+        "text": "spent 3 hours preparing for the upcoming week"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Snap: So, how was your day today? Anything interesting happen?\n\nStar: Well, it was pretty intense, to be honest. I met with my supervisor, Linda, to discuss my caseload, which took a good chunk of my time.\n\nSnap: That sounds important. How did the meeting go?\n\nStar: It was helpful but also a bit overwhelming. I really felt the weight of the number of cases I have right now. We went over everything, and I spent about 5 hours reviewing case files afterward.\n\nSnap: Five hours? Wow, that's a long time! What was it that made you feel overwhelmed?\n\nStar: Just the sheer volume of cases. I mean, there are so many young people who need support, and it can be tough to keep up with everything. It’s a lot to juggle.\n\nSnap: I can imagine. After such a heavy day, did you do anything to unwind?\n\nStar: Yes, I actually had dinner with my boyfriend, Mark. It was nice to take a break and spend some time together after such a long day.\n\nSnap: That sounds lovely! Did you talk about your day at dinner?\n\nStar: I did share a bit about my meeting with Linda and how I felt overwhelmed. It really helps to talk about it with him; he always listens and offers support. \n\nSnap: That’s great to have someone like that. How do you think he feels about your work?\n\nStar: He’s really understanding. He knows the demands of my job and always encourages me. It makes a difference, especially on days like today when I feel the pressure.",
+    "2": "Snap: So, how was your day today? \n\nStar: It was pretty busy, actually! I attended three youth mentorship sessions today. \n\nSnap: Three sessions? That's quite a full schedule! How did they go?\n\nStar: They went really well. I felt particularly inspired by one of my mentees' progress. Watching them grow and develop has been really rewarding.\n\nSnap: That's amazing! Can you tell me a bit more about what inspired you?\n\nStar: Sure! This mentee has really taken to heart the advice I've given them. Seeing them tackle challenges head-on and start making positive changes was just... wow, it really struck a chord with me.\n\nSnap: I can imagine! And where did you hold these sessions?\n\nStar: I visited the local community center in Observatory for the sessions. It's a great space for the kids to gather and feel safe.\n\nSnap: Observatory sounds like a vibrant place! How do you find the atmosphere there for your work?\n\nStar: The atmosphere is really supportive. The community center is always buzzing with activities, which helps create a positive environment for the youth. It really sets the tone for our sessions.\n\nSnap: That’s great to hear! Do you have any specific goals for your mentees moving forward?\n\nStar: Yes! I want to continue building their confidence and helping them navigate their challenges. Each session is a step towards that, and watching their progress, like what I saw today, really fuels my passion for this work. \n\nSnap: It sounds like you’re making a real impact. Balancing that with your new relationship must be challenging, though. How's that going?\n\nStar: It’s definitely a juggling act! But having someone supportive in my life helps me stay grounded, especially with this heavy caseload.",
+    "3": "Snap: So, how was your day today? Anything interesting happen at work?\n\nStar: Well, I worked a solid 10 hours at the office today. It was pretty intense, you know? \n\nSnap: Ten hours! That sounds exhausting. Did you manage to take any breaks?\n\nStar: Not really, I just felt drained by the end of it. I definitely need a break soon. \n\nSnap: I can imagine. Balancing such a heavy caseload must be tough. How's everything going at home with Mark?\n\nStar: Ugh, we had a bit of an argument about household responsibilities. It seems like I'm always the one picking up the slack, and I just lost my patience today. \n\nSnap: That sounds frustrating. Do you think the stress from work is spilling over into your home life?\n\nStar: Absolutely. After a long day, I just want to come home to a peaceful environment, but with everything going on, it's hard to find that balance.\n\nSnap: Have you guys talked about how to tackle those household responsibilities together?\n\nStar: We’ve tried, but it’s like we’re not on the same page. I think we both need to make more effort to communicate about it. \n\nSnap: It sounds like a lot to manage. Do you have any plans to take that break you mentioned earlier? \n\nStar: Not yet, but I really think I need to prioritize it. Just a day to recharge would do wonders.",
+    "4": "Snap: So, how was your day today? Anything exciting happen?  \nStar: Oh, definitely! I attended a workshop hosted by the Cape Town Youth Development Organization. It was really informative.  \n\nSnap: That sounds interesting! What was the workshop about?  \nStar: It focused on innovative approaches to youth mentorship, which is right up my alley. I spent about 2 hours networking with other professionals afterward, which was a great way to connect and share ideas.  \n\nSnap: Two hours of networking? That’s quite a chunk of time! Did you meet anyone particularly inspiring?  \nStar: Yes, I did! I met a few folks who are working on some really impactful projects. Honestly, I felt hopeful about new collaboration opportunities coming out of those conversations.  \n\nSnap: Hopeful is a great feeling! What kind of collaborations are you hoping to explore?  \nStar: I’m looking at partnerships that could enhance our mentorship programs, maybe bring in some new resources or training methods.  \n\nSnap: That sounds promising! How do you think these collaborations could benefit the youth you work with?  \nStar: Well, if we can bring in fresh ideas and expertise, it could really elevate the support we offer. That’s the ultimate goal, right?  \n\nSnap: Absolutely! It’s all about making a difference. Do you think attending more workshops like this could help with that?  \nStar: For sure! The more I can engage with others in the field, the better equipped I’ll be to serve the youth in our community.",
+    "5": "Snap: So, I heard you had a pretty special conversation today. Care to share?\n\nStar: Absolutely! I reconnected with an old university friend, Sarah, and it was such a nice surprise.\n\nSnap: That sounds great! What was it like catching up after all this time?\n\nStar: It was definitely nostalgic discussing our college days. We reminisced about our classes and all the fun we had back then.\n\nSnap: How long did you guys chat? \n\nStar: We actually spent a solid 45 minutes on a video call. It felt like no time had passed at all!\n\nSnap: Wow, that's a good chunk of time! What were some of the highlights of your conversation?\n\nStar: Oh, we laughed a lot about our silly moments in class and how naïve we were back then. It really took me back!\n\nSnap: Did you talk about what you’re both doing now?\n\nStar: Yes, we did! It was interesting to see how our paths have diverged, but we both still have that same passion for helping others in our own ways.\n\nSnap: Sounds like a meaningful connection! Do you think you’ll keep in touch more frequently now?\n\nStar: I hope so! It felt so good to reconnect, and I think we both realized how much we missed each other.",
+    "6": "Snap: So, how did your day start today? \n\nStar: I kicked things off with an 8-kilometer run this morning. \n\nSnap: Wow, that's impressive! How did you feel after that?\n\nStar: Honestly, I felt really energized after my morning run. It’s such a great way to clear my head before diving into my workload. \n\nSnap: I can imagine! Did you have any plans after your run? \n\nStar: Yes! I visited the V&A Waterfront for a weekend outing. It's always a nice spot to unwind, you know? \n\nSnap: The Waterfront is beautiful this time of year! What did you do there? \n\nStar: I just strolled around, soaked in the atmosphere, and grabbed a bite to eat. It was nice to take a break from the usual hustle of my caseload. \n\nSnap: Sounds like you really needed that break. Did you go alone or with someone? \n\nStar: I actually went with my new partner. It was nice to spend some quality time together after a busy week. \n\nSnap: That sounds lovely! How does balancing your work with a new relationship feel right now? \n\nStar: It's definitely a challenge, especially with my heavy caseload, but finding time to connect makes it all worth it.",
+    "7": "Snap: So, you had a big conversation with Mark today. What was that all about?  \nStar: Yeah, we really dug into our relationship. It was a long conversation, but I think it was much needed. We talked about where we see ourselves heading.  \n\nSnap: That sounds intense. How did you feel afterwards?  \nStar: Honestly, I felt relieved after discussing our future together. It was good to clear the air and share what we both want moving forward.  \n\nSnap: That's great to hear! Shifting gears a bit, how's your workload been lately?  \nStar: It's been pretty heavy, as usual. I actually spent about 3 hours today preparing for the upcoming week. I like to stay organized, especially with my caseload being so demanding.  \n\nSnap: Three hours is quite a commitment! What exactly were you preparing for?  \nStar: I was organizing my sessions and making sure I had all the resources ready for the youth I mentor. It helps me feel more in control when things get busy.  \n\nSnap: Sounds like you're really dedicated to your work. How do you balance that with your relationship with Mark?  \nStar: It's definitely a juggling act, but I try to make time for both. Conversations like the one we had today help us stay connected, even when work gets overwhelming.  \n\nSnap: That’s a smart approach. Do you feel like your work impacts your relationship at all?  \nStar: Sometimes it does. But having those open discussions with Mark makes it easier to navigate the challenges. It helps us align our expectations and support each other better.  \n\nSnap: That’s really insightful. It seems like you’re finding a good rhythm.  \nStar: Yeah, I’m trying to. It’s all about balance, right?"
+  }
+}

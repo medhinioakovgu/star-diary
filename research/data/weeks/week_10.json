@@ -1,0 +1,295 @@
+{
+  "week_id": 10,
+  "persona": "A 29-year-old ceramic artist in Porto opening her second studio, coordinating a group exhibition with four other artists.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "named_entity",
+      "text": "visited the new studio space in the Bonfim district"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "quantitative",
+      "text": "spent 500 euros on studio supplies"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "emotional",
+      "text": "felt excited about the potential of the new studio"
+    },
+    {
+      "id": "f04",
+      "day": 1,
+      "type": "relational",
+      "text": "met with her collaborator Ana to discuss exhibition details"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "named_entity",
+      "text": "attended a workshop at the Porto Art School"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "quantitative",
+      "text": "spent 3 hours learning new glazing techniques"
+    },
+    {
+      "id": "f07",
+      "day": 2,
+      "type": "emotional",
+      "text": "felt inspired by the other artists' work"
+    },
+    {
+      "id": "f08",
+      "day": 3,
+      "type": "relational",
+      "text": "argued with her partner about the timeline for the exhibition"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "quantitative",
+      "text": "worked 10 hours in the studio on new pieces"
+    },
+    {
+      "id": "f10",
+      "day": 3,
+      "type": "emotional",
+      "text": "felt overwhelmed by the amount of work left to do"
+    },
+    {
+      "id": "f11",
+      "day": 4,
+      "type": "named_entity",
+      "text": "visited the local pottery market for inspiration"
+    },
+    {
+      "id": "f12",
+      "day": 4,
+      "type": "quantitative",
+      "text": "purchased 15 different types of clay"
+    },
+    {
+      "id": "f13",
+      "day": 4,
+      "type": "emotional",
+      "text": "felt joyful while interacting with fellow artisans"
+    },
+    {
+      "id": "f14",
+      "day": 5,
+      "type": "relational",
+      "text": "had a productive meeting with the other exhibition artists"
+    },
+    {
+      "id": "f15",
+      "day": 5,
+      "type": "quantitative",
+      "text": "dedicated 5 hours to planning the layout of the exhibition"
+    },
+    {
+      "id": "f16",
+      "day": 5,
+      "type": "emotional",
+      "text": "felt optimistic about the exhibition's success"
+    },
+    {
+      "id": "f17",
+      "day": 6,
+      "type": "named_entity",
+      "text": "visited the local gallery to finalize the exhibition space"
+    },
+    {
+      "id": "f18",
+      "day": 6,
+      "type": "quantitative",
+      "text": "spent 200 euros on promotional materials"
+    },
+    {
+      "id": "f19",
+      "day": 6,
+      "type": "emotional",
+      "text": "felt anxious about promoting her work"
+    },
+    {
+      "id": "f20",
+      "day": 7,
+      "type": "relational",
+      "text": "celebrated with friends after a long week of work"
+    },
+    {
+      "id": "f21",
+      "day": 7,
+      "type": "quantitative",
+      "text": "spent 4 hours preparing the final pieces for the exhibition"
+    },
+    {
+      "id": "f22",
+      "day": 7,
+      "type": "emotional",
+      "text": "felt proud of her accomplishments leading up to the exhibition"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "named_entity",
+        "text": "visited the new studio space in the Bonfim district"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "quantitative",
+        "text": "spent 500 euros on studio supplies"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "emotional",
+        "text": "felt excited about the potential of the new studio"
+      },
+      {
+        "id": "f04",
+        "day": 1,
+        "type": "relational",
+        "text": "met with her collaborator Ana to discuss exhibition details"
+      }
+    ],
+    "2": [
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "named_entity",
+        "text": "attended a workshop at the Porto Art School"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "quantitative",
+        "text": "spent 3 hours learning new glazing techniques"
+      },
+      {
+        "id": "f07",
+        "day": 2,
+        "type": "emotional",
+        "text": "felt inspired by the other artists' work"
+      }
+    ],
+    "3": [
+      {
+        "id": "f08",
+        "day": 3,
+        "type": "relational",
+        "text": "argued with her partner about the timeline for the exhibition"
+      },
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "quantitative",
+        "text": "worked 10 hours in the studio on new pieces"
+      },
+      {
+        "id": "f10",
+        "day": 3,
+        "type": "emotional",
+        "text": "felt overwhelmed by the amount of work left to do"
+      }
+    ],
+    "4": [
+      {
+        "id": "f11",
+        "day": 4,
+        "type": "named_entity",
+        "text": "visited the local pottery market for inspiration"
+      },
+      {
+        "id": "f12",
+        "day": 4,
+        "type": "quantitative",
+        "text": "purchased 15 different types of clay"
+      },
+      {
+        "id": "f13",
+        "day": 4,
+        "type": "emotional",
+        "text": "felt joyful while interacting with fellow artisans"
+      }
+    ],
+    "5": [
+      {
+        "id": "f14",
+        "day": 5,
+        "type": "relational",
+        "text": "had a productive meeting with the other exhibition artists"
+      },
+      {
+        "id": "f15",
+        "day": 5,
+        "type": "quantitative",
+        "text": "dedicated 5 hours to planning the layout of the exhibition"
+      },
+      {
+        "id": "f16",
+        "day": 5,
+        "type": "emotional",
+        "text": "felt optimistic about the exhibition's success"
+      }
+    ],
+    "6": [
+      {
+        "id": "f17",
+        "day": 6,
+        "type": "named_entity",
+        "text": "visited the local gallery to finalize the exhibition space"
+      },
+      {
+        "id": "f18",
+        "day": 6,
+        "type": "quantitative",
+        "text": "spent 200 euros on promotional materials"
+      },
+      {
+        "id": "f19",
+        "day": 6,
+        "type": "emotional",
+        "text": "felt anxious about promoting her work"
+      }
+    ],
+    "7": [
+      {
+        "id": "f20",
+        "day": 7,
+        "type": "relational",
+        "text": "celebrated with friends after a long week of work"
+      },
+      {
+        "id": "f21",
+        "day": 7,
+        "type": "quantitative",
+        "text": "spent 4 hours preparing the final pieces for the exhibition"
+      },
+      {
+        "id": "f22",
+        "day": 7,
+        "type": "emotional",
+        "text": "felt proud of her accomplishments leading up to the exhibition"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Snap: So, how's everything going with your new studio space in Porto? \n\nStar: Oh, it's going really well! I visited the new studio space in the Bonfim district today, and I felt so excited about the potential of the new studio. It's got this great vibe that I think will really inspire my work.\n\nSnap: That sounds amazing! Did you have to make any big purchases for the new studio?\n\nStar: Yes, actually! I spent around 500 euros on studio supplies. I got some clay, tools, and a few other things to set everything up. \n\nSnap: Wow, that's quite the investment! What kind of supplies did you focus on?\n\nStar: Mostly clay and tools for sculpting, but I also picked up some glazes. I wanted to make sure I have everything I need right from the start. \n\nSnap: It sounds like you're really putting a lot into this. Have you been collaborating with anyone on this project?\n\nStar: Yes, I met with my collaborator Ana today to discuss some exhibition details. We're coordinating a group exhibition with four other artists, and we had a lot to go over. \n\nSnap: That’s exciting! How do you feel about working with the other artists for the exhibition? \n\nStar: I'm really looking forward to it. Each artist brings something unique to the table, and I think it will create a fantastic dynamic for the exhibition. \n\nSnap: It seems like you have a full plate! Do you feel ready to juggle the studio and the exhibition at the same time?\n\nStar: I do! It's definitely a lot, but I’m genuinely excited about both the new studio and the exhibition. I think the energy from one will feed into the other.",
+    "2": "Snap: So, I hear you attended a workshop at the Porto Art School yesterday. How was that experience for you?\n\nStar: It was fantastic! I spent about three hours there learning new glazing techniques. It was so much fun to dive deeper into the craft.\n\nSnap: Three hours is quite a commitment! What specifically did you learn about the glazing techniques?\n\nStar: We covered a variety of methods, but I think the best part was experimenting with layering glazes. I really felt inspired by the other artists' work too; seeing their unique approaches just sparked so many ideas in my mind.\n\nSnap: That sounds exciting! Did you have any particular artists whose work stood out to you?\n\nStar: Yes, definitely! There was one artist whose use of color was just mesmerizing. It made me think about how I can incorporate more bold choices into my own pieces.\n\nSnap: So, with your new glazing techniques and inspiration, do you feel ready for your upcoming exhibition with the other artists?\n\nStar: Absolutely! I think this workshop was just what I needed to feel more confident in my work. I'm really looking forward to collaborating with the other artists in the group exhibition.\n\nSnap: That’s great to hear! Do you think the new techniques will change your approach to your new studio?\n\nStar: I think so! I want to experiment more in my second studio, and the techniques I learned will definitely influence my upcoming projects. It’s all about bringing fresh ideas to life.",
+    "3": "Snap: So, how’s everything going with your new studio opening? \n\nStar: It’s been a whirlwind! I actually worked 10 hours in the studio today on new pieces, trying to get everything ready.\n\nSnap: Wow, 10 hours! That sounds intense. Have you been feeling okay with everything on your plate?\n\nStar: Honestly, I’m feeling a bit overwhelmed by the amount of work left to do. It’s a lot to juggle, especially since I’m coordinating with four other artists for the exhibition.\n\nSnap: That sounds like a big responsibility. Have you had any bumps along the way?\n\nStar: Yeah, just yesterday, I argued with my partner about the timeline for the exhibition. We have different ideas about how quickly things should come together.\n\nSnap: That must have been tough. How did you resolve that argument?\n\nStar: We’re still working through it, honestly. I think we both just want the best for the exhibition, but sometimes that leads to these disagreements.\n\nSnap: Understandable! With all the pressure, how do you keep your creativity flowing?\n\nStar: I try to focus on the pieces I’m making and remember why I love this work, even when I feel overwhelmed. It helps me push through those long hours in the studio.",
+    "4": "Snap: So, tell me about your day! What have you been up to?\n\nStar: Oh, it's been quite an exciting day! I visited the local pottery market for inspiration, which is always a treat. \n\nSnap: That sounds lovely! What did you find there?\n\nStar: I actually purchased 15 different types of clay. It’s amazing how many varieties you can discover, and each one has its own unique qualities.\n\nSnap: That’s quite a haul! How do you decide which clays to get?\n\nStar: I try to feel them out, you know? There’s something special about touching the clay and imagining what I can create with it. I felt joyful while interacting with fellow artisans at the market, and they always have great recommendations.\n\nSnap: I bet! What did those interactions look like?\n\nStar: It was just really nice to chat and share ideas. Everyone was so passionate, and that energy is contagious. It gives me a lot of inspiration for what I’m doing in my new studio.\n\nSnap: Speaking of your studio, how's that going with your upcoming group exhibition?\n\nStar: It's progressing well! I’m coordinating with four other artists, and it’s been thrilling to see how we can blend our styles together. \n\nSnap: That’s exciting! How do you all collaborate on the exhibition?\n\nStar: We’re sharing our concepts and techniques, which is really enriching. It’s a great opportunity to learn from one another while also showcasing our individual works.",
+    "5": "Snap: So, how's the vibe with the group exhibition you're coordinating? \n\nStar: Oh, it’s been really great! I had a productive meeting with the other exhibition artists today, and we’re all on the same page about our vision.\n\nSnap: That's awesome! How long did you spend on the layout planning?\n\nStar: I actually dedicated about 5 hours to planning the layout of the exhibition. It was intense, but I think we really nailed it!\n\nSnap: Five hours? Wow, that’s a serious commitment. What made you feel so optimistic about the exhibition's success?\n\nStar: Well, after that meeting and the planning session, I just feel like we’ve created something special together. The energy was fantastic, and I really believe it’ll resonate with people.\n\nSnap: That’s great to hear! Any specific ideas from the meeting that stood out to you?\n\nStar: Yes! We discussed some innovative ways to present our work that I think will really engage the audience. It feels like we’re really elevating each other’s pieces.\n\nSnap: Sounds like a true collaboration! Do you think the previous experience from your first studio opening helped with this one?\n\nStar: Definitely! I learned a lot about what works and what doesn’t, which is why I felt so confident dedicating those 5 hours to the layout this time around. \n\nSnap: It sounds like you’re in a really good place creatively. Any last thoughts on how you're feeling about the exhibition as it approaches?\n\nStar: Honestly, I’m just really optimistic. If today’s meeting is any indication, I think we’re on track for something amazing!",
+    "6": "Snap: So, how’s the new studio coming along? \n\nStar: It’s going really well, actually! I just visited the local gallery to finalize the exhibition space for the group show with the other artists. \n\nSnap: That’s exciting! How did that meeting go?\n\nStar: It went smoothly. I’m really happy with the space we’ve chosen. It feels right for showcasing our work. \n\nSnap: Speaking of showcasing, I heard you spent some money on promotional materials. How much did you invest?\n\nStar: Yeah, I spent 200 euros on promotional materials. I wanted to make sure everything looks professional for the exhibition. \n\nSnap: That’s a good investment! But I can imagine that comes with its own set of nerves. How are you feeling about promoting your work?\n\nStar: Honestly, I felt anxious about promoting my work. It’s always a bit daunting to put yourself out there, especially with the pressure of being part of a group exhibition. \n\nSnap: I can understand that. What are you doing to manage that anxiety?\n\nStar: I’m just trying to focus on the excitement of sharing my art rather than the pressure. Connecting with the other artists helps too, knowing we’re all in this together.\n\nSnap: That’s a great perspective! So, what’s next on your agenda after finalizing everything at the gallery?\n\nStar: Well, I’ll be working on the final touches of my pieces and figuring out how to best display them in the exhibition. I want everything to be perfect!",
+    "7": "Snap: It sounds like you had quite a week! How did you celebrate with your friends?\n\nStar: Oh, it was wonderful! After a long week of work, I really needed to unwind. We went out for dinner at this cozy little place in Porto. Just being around them, sharing laughs, and enjoying good food felt like the perfect way to celebrate.\n\nSnap: That sounds lovely! I can imagine the preparation for the exhibition kept you busy. How much time did you spend on those final pieces?\n\nStar: I actually spent about 4 hours preparing the final pieces for the exhibition. It was intense but rewarding. I wanted to make sure everything was just right before we set it all up.\n\nSnap: I bet that was quite the task! How did you feel about your work leading up to the exhibition?\n\nStar: Honestly, I felt proud of my accomplishments. Each piece represents so much dedication and effort, and I think that pride really shines through in the final results. It's exciting to see everything come together after all that hard work.\n\nSnap: That's fantastic! What was the most challenging part of preparing for the exhibition?\n\nStar: Hmm, I think just managing my time effectively was the biggest challenge. Between coordinating with the other artists and making sure each piece was perfect, it was a lot to juggle. But standing there with my friends, celebrating afterwards, made it all worthwhile.\n\nSnap: It sounds like a balancing act! How do you think this second studio will impact your work moving forward?\n\nStar: I think having the second studio will really allow me to expand my creativity. It gives me more space to experiment and grow as an artist. Plus, after this exhibition, I feel even more motivated to push my boundaries. \n\nSnap: That's inspiring! With everything going on, do you have any plans for more collaborations in the future?\n\nStar: Definitely! Working with these four other artists has been so enriching, and I hope to continue collaborating. It’s amazing how much you can learn from each other, and I think it opens up so many new opportunities for all of us."
+  }
+}
