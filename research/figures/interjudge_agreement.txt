@@ -1,0 +1,2 @@
+Cohen's kappa (strict vs lenient): 0.8918
+N judgments: 1833
