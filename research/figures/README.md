@@ -1,4 +1,8 @@
-# Figures
+# Figures — Reference for Ritwika (LaTeX)
+
+**Produced by:** Medhini Oak (Evaluation Owner)  
+**Last updated:** April 2026  
+**All files are in:** `research/figures/`
 
 ---
 
@@ -16,15 +20,15 @@
 
 **Key numbers to cite in text:**
 
-- Neutral overall preservation: **95.6%** (strict), 97.0% (lenient)
-- Stylized overall preservation: **24.5%** (strict), 26.6% (lenient)
-- Decoupled overall preservation: **83.5%** (strict), 85.5% (lenient)
+- Neutral overall preservation: **96.3%** (strict), 97.2% (lenient)
+- Stylized overall preservation: **24.2%** (strict), 26.3% (lenient)
+- Decoupled overall preservation: **82.9%** (strict), 85.6% (lenient)
 - Day-7 spike for stylized: ~93% — because Day-7 facts enter the magazine directly without prior recursion
-- Inter-judge agreement: κ = **0.892** (near-perfect)
+- Inter-judge agreement: κ = **0.898** (near-perfect)
 
 **What to say in §5:**
 
-> "Figure 1 shows the fact-preservation rate by day-of-origin. Under the stylized pipeline, facts introduced on Days 1–4 are preserved at rates of 4–13%, compared to 95–100% under the neutral pipeline — a drop of over 80 percentage points. The recovery to 93% on Day 7 is mechanistically expected: Day-7 facts enter the final magazine without having been recursively compressed, and thus escape the compounding attrition. The decoupled pipeline recovers most of this faithfulness loss, maintaining 80–85% preservation across all days of origin."
+> "Figure 1 shows the fact-preservation rate by day-of-origin. Under the stylized pipeline, facts introduced on Days 1–4 are preserved at rates of 4–13%, compared to 96–100% under the neutral pipeline — a drop of over 80 percentage points. The recovery to 93% on Day 7 is mechanistically expected: Day-7 facts enter the final magazine without having been recursively compressed, and thus escape the compounding attrition. The decoupled pipeline recovers most of this faithfulness loss, maintaining 80–85% preservation across all days of origin."
 
 ---
 
@@ -32,11 +36,11 @@
 
 **LaTeX:** `\includegraphics[width=\columnwidth]{figures/fig1_decay_lenient}` (appendix only)
 
-**What it shows:** Same as fig1_decay_strict but using the lenient judge. Use as a robustness check in the appendix. The pattern is nearly identical (κ = 0.892 between judges), confirming the headline finding is not an artifact of judge strictness.
+**What it shows:** Same as fig1_decay_strict but using the lenient judge. Use as a robustness check in the appendix. The pattern is nearly identical (κ = 0.898 between judges), confirming the headline finding is not an artifact of judge strictness.
 
 **Suggested caption:**
 
-> Figure A1: Fact-preservation rate by day-of-origin under the lenient judge. The pattern mirrors Figure 1 (strict judge), confirming robustness across judge configurations (κ = 0.892).
+> Figure A1: Fact-preservation rate by day-of-origin under the lenient judge. The pattern mirrors Figure 1 (strict judge), confirming robustness across judge configurations (κ = 0.898).
 
 ---
 
@@ -72,15 +76,15 @@ Note: use `\textwidth` not `\columnwidth` — this is a 4-panel figure that need
 
 | pipeline  | n   | preservation_strict | preservation_lenient |
 | --------- | --- | ------------------- | -------------------- |
-| neutral   | 525 | 0.956               | 0.970                |
-| stylized  | 654 | 0.245               | 0.266                |
-| decoupled | 654 | 0.835               | 0.855                |
+| neutral   | 327 | 0.963               | 0.972                |
+| stylized  | 327 | 0.242               | 0.263                |
+| decoupled | 327 | 0.829               | 0.856                |
 
 **LaTeX:** Typeset this by hand as Table 1. Suggested column headers: Pipeline, N facts judged, Strict preservation rate, Lenient preservation rate.
 
 **Suggested caption:**
 
-> Table 1: Overall fact-preservation rates across all weeks and days-of-origin. N differs because stylized and decoupled include all 15 weeks × all facts, while neutral has fewer facts per week on average. Rates computed as fraction of YES verdicts excluding UNCLEAR.
+> Table 1: Overall fact-preservation rates across all weeks and days-of-origin. N = 327 per pipeline (15 weeks × ~22 facts/week). Rates computed as fraction of YES verdicts excluding UNCLEAR.
 
 ---
 
@@ -96,7 +100,7 @@ From `data/judgments/automatic_metrics.csv` — typeset by hand:
 
 **Suggested caption:**
 
-> Table 2: Aggregate automatic metrics for each pipeline. BERTScore F1 varies by only 0.04 across pipelines despite a 71-point gap in LLM-judged fact preservation, illustrating that semantic similarity metrics are insensitive to the compounding fact decay revealed by our day-of-origin diagnostic. G-Eval faithfulness detects the direction of the effect but underestimates its severity (stylized scores 3.67/5 despite preserving only 24.5% of facts).
+> Table 2: Aggregate automatic metrics for each pipeline. BERTScore F1 varies by only 0.04 across pipelines despite a 72-point gap in LLM-judged fact preservation, illustrating that semantic similarity metrics are insensitive to the compounding fact decay revealed by our day-of-origin diagnostic. G-Eval faithfulness detects the direction of the effect but underestimates its severity (stylized scores 3.67/5 despite preserving only 24.2% of facts).
 
 ---
 
@@ -104,20 +108,20 @@ From `data/judgments/automatic_metrics.csv` — typeset by hand:
 
 From `interjudge_agreement.txt`:
 
-> Cohen's kappa (strict vs lenient): **0.892**  
-> N judgments: 1833
+> Cohen's kappa (strict vs lenient): **0.898**  
+> N judgments: 981
 
 **Cite in §4 Methodology:**
 
-> "Inter-judge agreement was κ = 0.892 (Cohen's kappa, N = 1833), indicating near-perfect agreement between the strict and lenient judge configurations."
+> "Inter-judge agreement was κ = 0.898 (Cohen's kappa, N = 981), indicating near-perfect agreement between the strict and lenient judge configurations."
 
 ---
 
-## What is still pending (as of Day 5)
+## What is still pending (as of Day 7)
 
 - [ ] Human spot-check: Medhini + Ritwika + one more reviewer each rate ~17 items via `streamlit run spot_check.py`. Results go to `data/judgments/human_spotcheck.csv`. Share human-LLM agreement % and κ in team chat when done.
-- [ ] Figure polish: fonts, colorblind-safe palette, ACM column-width readability — Medhini handling Days 6–7.
-- [ ] Final frozen figures: Medhini will push final versions to `research/figures/` by Day 7 end.
+- [x] Figure polish: publication-quality figures (300 DPI, colorblind-safe Okabe-Ito palette, ACM column widths) — complete.
+- [x] Final frozen figures: committed to `research/figures/`.
 
 ---
 
@@ -129,7 +133,7 @@ research/figures/
 ├── fig1_decay_lenient.png         appendix: \includegraphics[width=\columnwidth]{figures/fig1_decay_lenient}
 ├── fig2_decay_by_type_strict.png  \includegraphics[width=\textwidth]{figures/fig2_decay_by_type_strict}
 ├── summary_table.csv              → Table 1 (typeset by hand)
-└── interjudge_agreement.txt       → cite κ = 0.892 in §4
+└── interjudge_agreement.txt       → cite κ = 0.898 in §4
 ```
 
 Automatic metrics table (Table 2) is in `research/data/judgments/automatic_metrics.csv`.
