@@ -1,0 +1,5 @@
+[2026-04-23T22:02:07.819950] dedup_judgments.py run
+  backup: judgments_weekly_magazine_openai-4o-mini_predup_20260423_220207.csv
+  before: {'total_rows': 1833, 'unique_triples': 981, 'triples_with_2plus_rows': 852, 'triples_appearing_once': 129}
+  after:  {'total_rows': 981, 'unique_triples': 981, 'triples_with_2plus_rows': 0, 'triples_appearing_once': 981}
+
