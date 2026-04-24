@@ -10,3 +10,4 @@ peft>=0.10.0
 datasets>=2.19.0
 wandb>=0.17.0
 requests>=2.31.0
+matplotlib>=3.8.0

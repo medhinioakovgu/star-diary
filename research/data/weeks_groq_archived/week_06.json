@@ -1,0 +1,283 @@
+{
+  "week_id": 6,
+  "persona": "A 52-year-old hospital nurse in Lisbon working night shifts, whose elderly mother moved in last week after a fall.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "named_entity",
+      "text": "visited her mother's physical therapist, Dr. Sofia Rodrigues"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "quantitative",
+      "text": "spent 2 hours in the morning taking care of her mother's medication"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "relational",
+      "text": "had a brief conversation with her sister, Maria, about their mother's care"
+    },
+    {
+      "id": "f04",
+      "day": 2,
+      "type": "emotional",
+      "text": "felt overwhelmed by the added responsibility of caring for her mother"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "named_entity",
+      "text": "worked a night shift at Hospital de São José"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "quantitative",
+      "text": "drank 3 cups of coffee to stay awake during the shift"
+    },
+    {
+      "id": "f07",
+      "day": 3,
+      "type": "relational",
+      "text": "reconnected with her colleague, Nurse Filomena, during a break"
+    },
+    {
+      "id": "f08",
+      "day": 3,
+      "type": "named_entity",
+      "text": "picked up her mother's prescription at Farmácia Nacional"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "quantitative",
+      "text": "took a 30-minute walk in the Parque Eduardo VII to clear her mind"
+    },
+    {
+      "id": "f10",
+      "day": 4,
+      "type": "emotional",
+      "text": "felt proud of herself for managing her mother's care and work"
+    },
+    {
+      "id": "f11",
+      "day": 4,
+      "type": "named_entity",
+      "text": "met with her mother's social worker, Ana Luísa"
+    },
+    {
+      "id": "f12",
+      "day": 4,
+      "type": "quantitative",
+      "text": "spent 1.5 hours preparing dinner for her mother"
+    },
+    {
+      "id": "f13",
+      "day": 5,
+      "type": "relational",
+      "text": "had a disagreement with her sister, Maria, about their mother's living arrangements"
+    },
+    {
+      "id": "f14",
+      "day": 5,
+      "type": "named_entity",
+      "text": "visited the Continente supermarket to buy groceries"
+    },
+    {
+      "id": "f15",
+      "day": 5,
+      "type": "quantitative",
+      "text": "spent 45 euros on groceries"
+    },
+    {
+      "id": "f16",
+      "day": 6,
+      "type": "emotional",
+      "text": "felt anxious about an upcoming meeting with her mother's medical team"
+    },
+    {
+      "id": "f17",
+      "day": 6,
+      "type": "named_entity",
+      "text": "worked a night shift with Dr. João Paulo"
+    },
+    {
+      "id": "f18",
+      "day": 6,
+      "type": "quantitative",
+      "text": "checked on her mother 5 times during the night to ensure her safety"
+    },
+    {
+      "id": "f19",
+      "day": 7,
+      "type": "relational",
+      "text": "had a heart-to-heart conversation with her mother about her care and well-being"
+    },
+    {
+      "id": "f20",
+      "day": 7,
+      "type": "named_entity",
+      "text": "attended a nurse's union meeting at the Sindicato dos Enfermeiros"
+    },
+    {
+      "id": "f21",
+      "day": 7,
+      "type": "quantitative",
+      "text": "spent 3 hours reviewing her mother's medical records and care plan"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "named_entity",
+        "text": "visited her mother's physical therapist, Dr. Sofia Rodrigues"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "quantitative",
+        "text": "spent 2 hours in the morning taking care of her mother's medication"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "relational",
+        "text": "had a brief conversation with her sister, Maria, about their mother's care"
+      }
+    ],
+    "2": [
+      {
+        "id": "f04",
+        "day": 2,
+        "type": "emotional",
+        "text": "felt overwhelmed by the added responsibility of caring for her mother"
+      },
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "named_entity",
+        "text": "worked a night shift at Hospital de São José"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "quantitative",
+        "text": "drank 3 cups of coffee to stay awake during the shift"
+      }
+    ],
+    "3": [
+      {
+        "id": "f07",
+        "day": 3,
+        "type": "relational",
+        "text": "reconnected with her colleague, Nurse Filomena, during a break"
+      },
+      {
+        "id": "f08",
+        "day": 3,
+        "type": "named_entity",
+        "text": "picked up her mother's prescription at Farmácia Nacional"
+      },
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "quantitative",
+        "text": "took a 30-minute walk in the Parque Eduardo VII to clear her mind"
+      }
+    ],
+    "4": [
+      {
+        "id": "f10",
+        "day": 4,
+        "type": "emotional",
+        "text": "felt proud of herself for managing her mother's care and work"
+      },
+      {
+        "id": "f11",
+        "day": 4,
+        "type": "named_entity",
+        "text": "met with her mother's social worker, Ana Luísa"
+      },
+      {
+        "id": "f12",
+        "day": 4,
+        "type": "quantitative",
+        "text": "spent 1.5 hours preparing dinner for her mother"
+      }
+    ],
+    "5": [
+      {
+        "id": "f13",
+        "day": 5,
+        "type": "relational",
+        "text": "had a disagreement with her sister, Maria, about their mother's living arrangements"
+      },
+      {
+        "id": "f14",
+        "day": 5,
+        "type": "named_entity",
+        "text": "visited the Continente supermarket to buy groceries"
+      },
+      {
+        "id": "f15",
+        "day": 5,
+        "type": "quantitative",
+        "text": "spent 45 euros on groceries"
+      }
+    ],
+    "6": [
+      {
+        "id": "f16",
+        "day": 6,
+        "type": "emotional",
+        "text": "felt anxious about an upcoming meeting with her mother's medical team"
+      },
+      {
+        "id": "f17",
+        "day": 6,
+        "type": "named_entity",
+        "text": "worked a night shift with Dr. João Paulo"
+      },
+      {
+        "id": "f18",
+        "day": 6,
+        "type": "quantitative",
+        "text": "checked on her mother 5 times during the night to ensure her safety"
+      }
+    ],
+    "7": [
+      {
+        "id": "f19",
+        "day": 7,
+        "type": "relational",
+        "text": "had a heart-to-heart conversation with her mother about her care and well-being"
+      },
+      {
+        "id": "f20",
+        "day": 7,
+        "type": "named_entity",
+        "text": "attended a nurse's union meeting at the Sindicato dos Enfermeiros"
+      },
+      {
+        "id": "f21",
+        "day": 7,
+        "type": "quantitative",
+        "text": "spent 3 hours reviewing her mother's medical records and care plan"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Snap: Good morning, thanks for taking the time to chat with me today. How's life as a night shift nurse in Lisbon treating you?\nStar: Honestly, it's been a bit of an adjustment lately, especially with my mother moving in last week after her fall. I'm still getting used to the new routine, but I'm managing. \nSnap: I can imagine, that's a big change. How's your mother doing, is she recovering well from the fall?\nStar: Yeah, she's doing okay, considering. I actually visited her physical therapist, Dr. Sofia Rodrigues, yesterday to discuss her progress and it was really helpful to get a better understanding of what she needs.\nSnap: That's great, it's good that you're on top of her care. What's a typical morning like for you now, with your mother at home?\nStar: Well, it's a lot busier than it used to be. This morning, for example, I spent 2 hours taking care of her medication, making sure she's got everything she needs and that it's all organized.\nSnap: Wow, 2 hours is a significant chunk of time. Do you have any help with caring for your mother, or is it all on you?\nStar: I do have some support, thankfully. I had a brief conversation with my sister, Maria, about our mother's care and we're trying to divide up the responsibilities so it's not all on one person.\nSnap: That's good to hear. What did you and your sister discuss specifically, is there anything you're particularly concerned about with your mother's care?\nStar: We just talked about the usual, making sure mom's got all her appointments and that we're covering all the basics. It's nice to have someone to bounce ideas off of and make sure we're doing everything we can for her.\nSnap: I bet. It's great that you and your sister are working together on this. How do you think your mother's adjustment to living with you is going, is it what you expected?\nStar: You know, it's been an adjustment for both of us, but I think it's going as well as can be expected. We're just taking things one day at a time and trying to make sure she's comfortable and safe.",
+    "2": "Snap: So, how's life as a nurse treating you, especially with your mom moving in?\nStar: Honestly, it's been a bit of an adjustment. I felt overwhelmed by the added responsibility of caring for her, but I'm managing. I just wish I had a bit more energy, you know?\nSnap: I can imagine. You're not getting any younger, and caring for a loved one can be tough. What's a typical night like for you at the hospital?\nStar: Well, I worked a night shift at Hospital de São José last night, and let me tell you, it was a long one. I had to drink 3 cups of coffee just to stay awake during the shift. I'm not sure how much more of this I can take, but it's worth it to help my patients.\nSnap: Wow, 3 cups of coffee? That's a lot of caffeine. Did it at least help you get through the shift without too much trouble?\nStar: Yeah, it did. I mean, I was still a bit sluggish at times, but it was better than nothing. And like I said, it's all worth it in the end. But I have to admit, my mind kept wandering to my mom at home, hoping she was doing okay.\nSnap: That must be really tough on you. How's your mom adjusting to living with you, by the way?\nStar: She's doing okay, I think. The fall really took a lot out of her, so she's still recovering. But I'm just glad I can be there for her, you know? Even if it means I'm running on fumes most of the time.\nSnap: I bet. Do you think you'll be able to keep up this pace, working nights and caring for your mom during the day?\nStar: I hope so. I mean, I've been doing this for a while now, and I've learned to cope. But some days are definitely harder than others. Like last night, when I was working at Hospital de São José and all I could think about was getting home to my mom. \nSnap: Last question: what's the plan for your mom's care in the long term? Are you going to need to make any changes to your work schedule?\nStar: We'll see. For now, I'm just taking it one day at a time. But I do know that I'll have to make some adjustments eventually, whether that means hiring some help or cutting back my hours at the hospital.",
+    "3": "Snap: How's the night shift treating you so far, especially with your mother's recent move?\nStar: You know, it's been an adjustment, but I'm managing. Actually, I had a lovely break yesterday and got to catch up with Nurse Filomena, we hadn't talked in a while, so that was nice.\nSnap: That's great, it's always good to have colleagues you can lean on. How's your mother settling in, by the way?\nStar: She's doing okay, still getting used to the new environment. I had to pick up her prescription at Farmácia Nacional earlier today, so that's been a bit of a challenge, making sure she takes her meds on time.\nSnap: I can imagine. It's a lot to take on. Do you find that the night shifts are affecting your ability to care for her, or have you found a rhythm that works?\nStar: Honestly, it's been tough, but I'm trying to make it work. I did take a 30-minute walk in the Parque Eduardo VII yesterday, just to clear my head and get some fresh air, which really helped.\nSnap: A 30-minute walk, that's great. Did you find that it helped you relax and prepare for the night ahead?\nStar: Absolutely, it was just what I needed. And it's nice to have some time to myself, even if it's just a short walk, to recharge before heading back to work and taking care of my mother.\nSnap: I bet. So, how do you think your mother is adjusting to having you work night shifts, is she handling it okay?\nStar: Yeah, I think so. She's still getting used to the quiet hours, but we're making it work. And I'm just grateful to have her here with me, even if it does add a new layer of complexity to my schedule.\nSnap: That's really admirable, taking on that extra responsibility. Are you finding that your conversations with Nurse Filomena are helping you cope with the added stress?\nStar: Definitely, it's always nice to have someone who understands what I'm going through, and we can support each other.",
+    "4": "Snap: So, it's been 4 days since your mother moved in, how's the adjustment going?\nStar: You know, it's been a challenge, but I have to say, I felt proud of myself for managing her care and my work at the hospital. It's not easy, especially with the night shifts, but we're making it work.\nSnap: That's great to hear. I'm sure it's a big responsibility. Have you had any help or support from social services?\nStar: Actually, I met with her social worker, Ana Luísa, and she's been really helpful in guiding me through the process and making sure my mother gets the care she needs.\nSnap: That's good to know. I'm sure it's a big relief to have some support. How's your mother adjusting to the new living arrangement?\nStar: She's doing okay, I think. I've been trying to make her feel comfortable and at home, which is why I spent 1.5 hours preparing dinner for her last night. I wanted to make something special, you know?\nSnap: Wow, 1.5 hours is a long time to spend on dinner. What made you decide to go all out?\nStar: Well, I just wanted to make sure she felt loved and cared for. And it's not every day I get to spend quality time with her, what with my work schedule and all.\nSnap: I can imagine. It's great that you're making an effort to prioritize your relationship with your mother. How do you think your mother is feeling about the whole situation?\nStar: I think she's still adjusting, but she seems to appreciate the effort I'm putting in. And Ana Luísa has been helping me to understand what she needs and how I can best support her.\nSnap: That's really great to hear. It sounds like you're doing a fantastic job of balancing your work and your mother's care. Do you think you'll be able to keep this up in the long term?\nStar: I hope so, I really do. It's not going to be easy, but I'm determined to make it work. And like I said, I'm feeling proud of myself for managing so far, so that's a good start, right?",
+    "5": "Snap: How's life at home with your mother staying with you now?\nStar: Oh, it's been an adjustment, to be honest. I mean, I love having her here, but it's not without its challenges. I actually had a bit of a disagreement with my sister, Maria, about the whole arrangement. She thinks I'm taking on too much, but I just want to make sure Mom is comfortable and safe.\nSnap: I can imagine. Siblings can be tough to deal with sometimes. What's a typical day like for you now, with your mom at home and your night shifts at the hospital?\nStar: Well, I try to get some rest during the day, and then I usually go out to do some errands before my shift. Yesterday, I actually visited the Continente supermarket to buy some groceries for the week. It's just easier to get everything in one go, you know?\nSnap: That makes sense. I'm sure it's not easy balancing work and family life. How much did you end up spending on groceries, if you don't mind me asking?\nStar: Not at all. I spent 45 euros, which is a bit more than I usually do, but I wanted to make sure I got everything my mom needs. She's been having some trouble with her appetite, so I'm trying to get her favorite foods to encourage her to eat more.\nSnap: I hope your mom's appetite improves soon. Going back to your disagreement with your sister, Maria, do you think you'll be able to work things out with her?\nStar: Yeah, I'm sure we will. We just need to talk it through and figure out what's best for Mom. It's not about us, it's about making sure she's happy and healthy.\nSnap: That's very selfless of you. How's your mom adjusting to life at your place, by the way?\nStar: She's doing okay, I think. It's just a big change for her, you know? But I'm trying to make her feel as comfortable as possible, and I think she appreciates the effort I'm putting in.\nSnap: I'm sure she does. Last question: do you think you'll need to make any more adjustments to your daily routine to accommodate your mom's needs?\nStar: Probably, yeah. I mean, I'm still figuring things out, but I'm willing to do whatever it takes to make sure she's happy and safe. That's what family is for, right?",
+    "6": "Snap: How's life been treating you since your mother moved in, any challenges you're facing?\nStar: Honestly, it's been a bit of an adjustment, I'm still getting used to having her here, but I'm managing. To be frank, I'm feeling a bit anxious about the meeting with her medical team that's coming up, there are just so many questions I have and I want to make sure I'm doing everything I can for her.\nSnap: I can imagine, that sounds really tough. What about work, how's that been? Any interesting cases or colleagues you've been working with?\nStar: Work has been keeping me busy, as usual. I actually just got back from a night shift with Dr. João Paulo, he's a great doctor to work with, very professional. We had a pretty quiet night, thankfully, which gave me a chance to check in on my mother a few times, make sure she was doing okay.\nSnap: That's good to hear. I'm sure it's not easy balancing work and taking care of your mother. How often were you able to check in on her during your shift?\nStar: I managed to sneak away and check on her about 5 times during the night, just to ensure her safety and make sure she was comfortable. It's always on my mind, you know, making sure she's okay.\nSnap: I bet. It's clear you care deeply about her. What do you think is going to be the main topic of discussion at this meeting with her medical team?\nStar: Well, I think we'll be discussing her recovery plan and what kind of support she'll need moving forward. I just want to make sure we're all on the same page and that we're doing what's best for her.\nSnap: That makes sense. Have you noticed any changes in your mother's condition since she moved in, anything that's giving you cause for concern?\nStar: Not really, she's just taking some time to adjust, I think. The fall really shook her up, but she's a strong woman. I'm just trying to be there for her as much as I can, and my work with Dr. João Paulo and the rest of the team at the hospital has actually been really helpful in giving me a better understanding of what she needs.\nSnap: I'm sure that's very reassuring for her. Last question: how do you think your experience as a nurse is helping you care for your mother, and are there any challenges that you're facing that you didn't anticipate?\nStar: Oh, definitely, my experience as a nurse has been invaluable in caring for my mother. I'm able to recognize potential issues before they become major problems, and I know how to respond in an emergency. But even with all my training, it's still hard to balance my work and family life, especially with the night shifts. I just have to stay organized and make sure I'm getting enough rest so I can be there for my mother when she needs me.",
+    "7": "Snap: How's life been treating you since your mother moved in, any challenges adjusting to the new dynamic?\nStar: You know, it's been a big change, but we're managing. Actually, just the other day, I had a heart-to-heart conversation with her about her care and well-being, and I think that really helped clear the air. We're still figuring things out, but it's getting better.\n\nSnap: That sounds really tough, but important. What about work, how's that been? Any interesting developments or meetings?\nStar: Work's been keeping me busy, especially with the night shifts. But yesterday, I attended a nurse's union meeting at the Sindicato dos Enfermeiros, which was really informative. We discussed some of the ongoing issues in the healthcare system and how they affect us as nurses.\n\nSnap: That sounds like a valuable use of your time. I'm sure your experience as a nurse is also helping with your mother's care. How are you finding that, balancing your professional knowledge with your personal situation?\nStar: It's definitely helpful, but also a bit overwhelming at times. I spent 3 hours reviewing her medical records and care plan just the other day, trying to make sure I understand everything and can provide the best support. It's a lot to take in, but I want to make sure she's getting the care she needs.\n\nSnap: I can imagine. It's great that you're taking such a thorough approach. Do you feel like your professional experience is giving you a unique perspective on your mother's situation, or are there still surprises and challenges?\nStar: Oh, definitely both. I mean, I've seen a lot of cases like my mother's, but it's different when it's your own family member. The conversation we had, you know, the heart-to-heart, it really made me realize that even with all my experience, this is still a learning process for me.\n\nSnap: That's very insightful. Going back to the nurse's union meeting, were there any specific topics or issues that were discussed that you think could impact your work or your mother's care in the coming weeks?\nStar: Well, we talked about staffing shortages and how that affects patient care, which is always a concern for me. But I think what I took away from it, and what I'm trying to apply to my mother's care, is the importance of advocating for patients' needs and well-being, even in challenging circumstances.\n\nSnap: Last question, how do you see your role as a nurse influencing your approach to caring for your mother, especially considering the time you've spent reviewing her care plan?\nStar: It's everything, really. The 3 hours I spent going over her medical records, that was me as a nurse, trying to understand the medical side of things. But the heart-to-heart conversation, that was me as a daughter, trying to understand her as a person. It's a balance, but I think my experience as a nurse is helping me navigate that."
+  }
+}

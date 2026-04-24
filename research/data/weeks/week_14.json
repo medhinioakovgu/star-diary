@@ -1,0 +1,295 @@
+{
+  "week_id": 14,
+  "persona": "A 55-year-old secondary-school principal in Glasgow dealing with a difficult staff dispute and a school inspection next Friday.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "relational",
+      "text": "met with the teaching staff to discuss the ongoing dispute"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "emotional",
+      "text": "felt overwhelmed by the tension among staff"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "quantitative",
+      "text": "spent 3 hours preparing for the school inspection"
+    },
+    {
+      "id": "f04",
+      "day": 2,
+      "type": "named_entity",
+      "text": "visited the local education authority office"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "emotional",
+      "text": "felt hopeful after discussing resources with the council"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "quantitative",
+      "text": "reviewed 10 staff performance reports"
+    },
+    {
+      "id": "f07",
+      "day": 3,
+      "type": "relational",
+      "text": "had a difficult conversation with the head of the science department"
+    },
+    {
+      "id": "f08",
+      "day": 3,
+      "type": "quantitative",
+      "text": "spent 2 hours in a meeting to mediate staff issues"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "emotional",
+      "text": "felt frustrated with the lack of progress"
+    },
+    {
+      "id": "f10",
+      "day": 4,
+      "type": "named_entity",
+      "text": "attended a workshop by the Scottish Government on school leadership"
+    },
+    {
+      "id": "f11",
+      "day": 4,
+      "type": "quantitative",
+      "text": "took 5 pages of notes during the workshop"
+    },
+    {
+      "id": "f12",
+      "day": 4,
+      "type": "emotional",
+      "text": "felt inspired by new strategies shared at the workshop"
+    },
+    {
+      "id": "f13",
+      "day": 5,
+      "type": "relational",
+      "text": "held a follow-up meeting with the staff to discuss workshop insights"
+    },
+    {
+      "id": "f14",
+      "day": 5,
+      "type": "quantitative",
+      "text": "allocated 1 hour for staff feedback on the inspection preparation"
+    },
+    {
+      "id": "f15",
+      "day": 5,
+      "type": "emotional",
+      "text": "felt a sense of unity forming among the staff"
+    },
+    {
+      "id": "f16",
+      "day": 6,
+      "type": "named_entity",
+      "text": "visited the school library to review student projects"
+    },
+    {
+      "id": "f17",
+      "day": 6,
+      "type": "quantitative",
+      "text": "spent 90 minutes assessing student work"
+    },
+    {
+      "id": "f18",
+      "day": 6,
+      "type": "emotional",
+      "text": "felt proud of the students' creativity and efforts"
+    },
+    {
+      "id": "f19",
+      "day": 7,
+      "type": "relational",
+      "text": "met with the school inspection team to finalize details"
+    },
+    {
+      "id": "f20",
+      "day": 7,
+      "type": "quantitative",
+      "text": "worked late for 4 hours to prepare documents for the inspection"
+    },
+    {
+      "id": "f21",
+      "day": 7,
+      "type": "emotional",
+      "text": "felt anxious but ready for the upcoming inspection"
+    },
+    {
+      "id": "f22",
+      "day": 7,
+      "type": "named_entity",
+      "text": "reviewed the school's mission statement with the senior management team"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "relational",
+        "text": "met with the teaching staff to discuss the ongoing dispute"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "emotional",
+        "text": "felt overwhelmed by the tension among staff"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "quantitative",
+        "text": "spent 3 hours preparing for the school inspection"
+      }
+    ],
+    "2": [
+      {
+        "id": "f04",
+        "day": 2,
+        "type": "named_entity",
+        "text": "visited the local education authority office"
+      },
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "emotional",
+        "text": "felt hopeful after discussing resources with the council"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "quantitative",
+        "text": "reviewed 10 staff performance reports"
+      }
+    ],
+    "3": [
+      {
+        "id": "f07",
+        "day": 3,
+        "type": "relational",
+        "text": "had a difficult conversation with the head of the science department"
+      },
+      {
+        "id": "f08",
+        "day": 3,
+        "type": "quantitative",
+        "text": "spent 2 hours in a meeting to mediate staff issues"
+      },
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "emotional",
+        "text": "felt frustrated with the lack of progress"
+      }
+    ],
+    "4": [
+      {
+        "id": "f10",
+        "day": 4,
+        "type": "named_entity",
+        "text": "attended a workshop by the Scottish Government on school leadership"
+      },
+      {
+        "id": "f11",
+        "day": 4,
+        "type": "quantitative",
+        "text": "took 5 pages of notes during the workshop"
+      },
+      {
+        "id": "f12",
+        "day": 4,
+        "type": "emotional",
+        "text": "felt inspired by new strategies shared at the workshop"
+      }
+    ],
+    "5": [
+      {
+        "id": "f13",
+        "day": 5,
+        "type": "relational",
+        "text": "held a follow-up meeting with the staff to discuss workshop insights"
+      },
+      {
+        "id": "f14",
+        "day": 5,
+        "type": "quantitative",
+        "text": "allocated 1 hour for staff feedback on the inspection preparation"
+      },
+      {
+        "id": "f15",
+        "day": 5,
+        "type": "emotional",
+        "text": "felt a sense of unity forming among the staff"
+      }
+    ],
+    "6": [
+      {
+        "id": "f16",
+        "day": 6,
+        "type": "named_entity",
+        "text": "visited the school library to review student projects"
+      },
+      {
+        "id": "f17",
+        "day": 6,
+        "type": "quantitative",
+        "text": "spent 90 minutes assessing student work"
+      },
+      {
+        "id": "f18",
+        "day": 6,
+        "type": "emotional",
+        "text": "felt proud of the students' creativity and efforts"
+      }
+    ],
+    "7": [
+      {
+        "id": "f19",
+        "day": 7,
+        "type": "relational",
+        "text": "met with the school inspection team to finalize details"
+      },
+      {
+        "id": "f20",
+        "day": 7,
+        "type": "quantitative",
+        "text": "worked late for 4 hours to prepare documents for the inspection"
+      },
+      {
+        "id": "f21",
+        "day": 7,
+        "type": "emotional",
+        "text": "felt anxious but ready for the upcoming inspection"
+      },
+      {
+        "id": "f22",
+        "day": 7,
+        "type": "named_entity",
+        "text": "reviewed the school's mission statement with the senior management team"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Snap: So, how did your meeting with the teaching staff go today regarding the ongoing dispute? \n\nStar: Well, I met with the teaching staff to discuss the ongoing dispute this morning. It felt crucial to address their concerns directly.\n\nSnap: That sounds intense. How did you feel during the meeting? \n\nStar: Honestly, I felt overwhelmed by the tension among staff. You could really sense the strain in the room, and it was challenging to navigate through those emotions.\n\nSnap: I can imagine. Did you feel like you made any progress in resolving the issues?\n\nStar: I think we took a small step forward, but there's still a lot of work to do. It’s a delicate situation, and everyone is on edge.\n\nSnap: And with the school inspection coming up next Friday, that must add to the pressure. How are you preparing for that?\n\nStar: Yes, it definitely adds to the stress. I actually spent 3 hours preparing for the school inspection today, reviewing our policies and ensuring everything is in order.\n\nSnap: That’s a significant amount of time. What are some of the key areas you focused on during your preparation?\n\nStar: I focused on ensuring our teaching standards are up to par and that all the necessary documentation is ready for the inspectors. It’s really about showcasing the hard work our staff puts in, despite the current issues.\n\nSnap: It sounds like you have a lot on your plate. How do you plan to manage both the staff dispute and the inspection?\n\nStar: It's a balancing act, really. I need to keep the lines of communication open with the staff while also ensuring we're all aligned for the inspection. It's challenging, but I’m committed to making it work.",
+    "2": "Snap: So, how's everything going with the school this week? \n\nStar: Well, it's been a bit of a whirlwind, to be honest. I actually visited the local education authority office today. \n\nSnap: Oh really? What was the purpose of that visit? \n\nStar: I was hoping to discuss resources for our school. After that conversation, I felt hopeful about the support we might receive from the council. \n\nSnap: That sounds encouraging! What kind of resources were you looking to secure? \n\nStar: Primarily, I was focusing on additional funding for some programs we've been wanting to implement. It was nice to see them open to discussion. \n\nSnap: That's great to hear! I know you've been busy. How have you been handling the staff situation at the school? \n\nStar: Well, in preparation for the upcoming inspection next Friday, I reviewed 10 staff performance reports. It’s crucial to know where everyone stands before the big day. \n\nSnap: Reviewing that many reports must have taken a lot of time. How did that process go for you? \n\nStar: It was quite detailed. Some reports were promising, but others will need follow-up conversations, especially with the inspection looming. \n\nSnap: Sounds like you’ve got your hands full! Are you feeling ready for the inspection? \n\nStar: I think so, especially after the discussions with the council today. That hopeful feeling is helping me keep everything in perspective.",
+    "3": "Snap: So, how's everything going at the school today? \n\nStar: Well, it’s been a tough day, to be honest. I had a difficult conversation with the head of the science department earlier. \n\nSnap: What was that conversation about? \n\nStar: We were discussing some ongoing staff disputes, and it was really challenging to navigate. \n\nSnap: I can only imagine. Did you have to take any specific steps to address it? \n\nStar: Yes, after that conversation, I spent about two hours in a meeting to mediate the staff issues. It felt like we were just going in circles.\n\nSnap: Two hours is quite a long time! Did you feel like you made any progress during that meeting? \n\nStar: Honestly, I felt quite frustrated with the lack of progress. It’s disheartening when you put in that much time and effort and don’t see the results you hoped for.\n\nSnap: That sounds really tough, especially with the school inspection coming up next Friday. How are you feeling about that? \n\nStar: It's definitely added pressure to the situation. I need to ensure everything is sorted out before the inspection, but with these disputes, it’s proving to be quite difficult.",
+    "4": "Snap: So, how was your day today? I heard you had that workshop by the Scottish Government on school leadership?\n\nStar: Yes, it was quite a day! I attended the workshop, and it really was enlightening. I took five pages of notes during the session, which is quite a lot for me.\n\nSnap: Five pages! That’s impressive. What were some of the strategies that inspired you?\n\nStar: Well, the workshop shared several new strategies that I found really inspiring. They focused on team collaboration and effective communication, which are crucial given the staff dispute we’re currently facing.\n\nSnap: That sounds like it could be helpful for the issues you're dealing with. Were there any specific strategies that stood out to you?\n\nStar: Definitely! There was one approach that emphasized conflict resolution, which I think could really help us navigate the current situation with the staff. The inspiration I felt really ignited my motivation to implement some of these ideas before the inspection next Friday.\n\nSnap: Speaking of that inspection, do you think these new strategies will make a difference?\n\nStar: I really hope so. With the staff dispute weighing us down, I think applying some of the methods I learned could shift the atmosphere in the school. It’s a bit daunting, but I feel more equipped now.\n\nSnap: It must be a relief to have those new insights as you prep for the inspection. How do you plan to integrate them with your staff?\n\nStar: I’m thinking of organizing a meeting to share what I learned at the workshop. I believe if I can inspire them like I was inspired, it could help us come together and focus on what really matters.",
+    "5": "Snap: So, how did your follow-up meeting with the staff go today regarding the workshop insights?\n\nStar: It was quite productive, actually. We held a follow-up meeting to really dive into the workshop insights, and I think a lot of the staff had some valuable input to share.\n\nSnap: That’s great to hear! Did you manage to get any specific feedback from them about the inspection preparation?\n\nStar: Yes, I allocated a full hour for staff feedback specifically on the inspection preparation. I wanted to ensure everyone had the chance to voice their thoughts and concerns.\n\nSnap: One hour sounds like a solid amount of time. Did you notice any particular themes or issues coming up during that discussion?\n\nStar: Absolutely, there were some recurring themes, but what struck me most was the sense of unity that seemed to be forming among the staff. It feels like we’re all pulling in the same direction, which is really encouraging given the circumstances.\n\nSnap: That’s really positive! With the inspection coming up next Friday, do you think this newfound unity will help?\n\nStar: I do. The way the staff came together today gives me hope that we can tackle the inspection as a cohesive team. It’s crucial that we present a united front.\n\nSnap: It definitely sounds like you’re fostering a supportive environment. How are you planning to keep this momentum going until the inspection?\n\nStar: I think it’s important to keep the lines of communication open. We’ll need to continue having these discussions and check in with each other regularly. The follow-up meeting was just the beginning.",
+    "6": "Snap: So, how was your day today? Anything interesting happen at school?  \nStar: Well, I actually visited the school library to review student projects. It was quite an eye-opener.  \n\nSnap: That sounds intriguing! How long did you spend going through the projects?  \nStar: I spent about 90 minutes assessing student work. Time just flew by with all the creativity on display.  \n\nSnap: Wow, 90 minutes! That’s a good chunk of time. What did you think of the projects?  \nStar: I felt proud of the students' creativity and efforts. They really put their hearts into their work, and it shows.  \n\nSnap: It must be rewarding to see their hard work pay off. Are there any particular projects that stood out to you?  \nStar: Yes, a few really caught my eye. The originality and thoughtfulness were impressive, especially considering some of the challenges they've faced this year.  \n\nSnap: That’s great to hear! Speaking of challenges, how are things going with the staff dispute?  \nStar: It's still ongoing, unfortunately. But I’m hopeful that after our discussions, we can find some common ground.  \n\nSnap: And with the school inspection coming up next Friday, do you feel prepared?  \nStar: We're doing our best to ensure everything's in order. I think the students' projects will definitely reflect positively on us.",
+    "7": "Snap: So, how did your day go, especially with the inspection coming up next Friday? \n\nStar: Well, it was quite the day. I met with the school inspection team to finalize details, which took a bit longer than I expected. \n\nSnap: That sounds intense! Did you feel prepared after that meeting? \n\nStar: I definitely felt anxious but ready for the upcoming inspection. There's always that mix of nerves and preparation, you know? \n\nSnap: I can imagine! And what did you do to get ready? \n\nStar: I actually worked late for about four hours to prepare the necessary documents for the inspection. There’s so much to cover, and I wanted everything to be just right. \n\nSnap: Wow, four hours is a long time! Did you have any help with that? \n\nStar: Yes, I reviewed the school's mission statement with the senior management team earlier in the day. It was important to make sure we’re all aligned on our goals before the inspection. \n\nSnap: That makes sense. How did the senior management team feel about the mission statement? \n\nStar: They were on board, but it’s a challenging period with some staff disputes. We really need to present a united front for the inspection while sorting things out. \n\nSnap: Sounds like a lot on your plate. Do you think the team will be ready by next Friday? \n\nStar: I hope so. We’re working hard on it, and I believe that despite the challenges, we can pull together in time."
+  }
+}

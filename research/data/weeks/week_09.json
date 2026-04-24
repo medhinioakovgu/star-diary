@@ -1,0 +1,295 @@
+{
+  "week_id": 9,
+  "persona": "A 39-year-old independent architect in Mexico City working on a controversial public library project with a tight deadline.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "named_entity",
+      "text": "met with the city planning committee at the Palacio de Bellas Artes"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "emotional",
+      "text": "felt overwhelmed by the feedback from the committee"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "quantitative",
+      "text": "spent 3 hours preparing a presentation for the committee meeting"
+    },
+    {
+      "id": "f04",
+      "day": 2,
+      "type": "relational",
+      "text": "discussed design ideas with her colleague Carlos over coffee"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "quantitative",
+      "text": "sketched 5 new floor plans for the library project"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "emotional",
+      "text": "felt inspired after the brainstorming session with Carlos"
+    },
+    {
+      "id": "f07",
+      "day": 3,
+      "type": "named_entity",
+      "text": "visited the Biblioteca Vasconcelos for design inspiration"
+    },
+    {
+      "id": "f08",
+      "day": 3,
+      "type": "quantitative",
+      "text": "took 20 photos of architectural elements for reference"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "relational",
+      "text": "met with the project contractors to discuss timelines"
+    },
+    {
+      "id": "f10",
+      "day": 4,
+      "type": "emotional",
+      "text": "felt anxious about meeting the project deadline"
+    },
+    {
+      "id": "f11",
+      "day": 4,
+      "type": "quantitative",
+      "text": "worked for 10 hours straight on the project"
+    },
+    {
+      "id": "f12",
+      "day": 4,
+      "type": "relational",
+      "text": "received support from her mentor, Ana, through a late-night call"
+    },
+    {
+      "id": "f13",
+      "day": 5,
+      "type": "named_entity",
+      "text": "attended a workshop at the Universidad Nacional Autónoma de México"
+    },
+    {
+      "id": "f14",
+      "day": 5,
+      "type": "quantitative",
+      "text": "networked with 15 other architects during the event"
+    },
+    {
+      "id": "f15",
+      "day": 5,
+      "type": "emotional",
+      "text": "felt a renewed sense of community after the workshop"
+    },
+    {
+      "id": "f16",
+      "day": 6,
+      "type": "relational",
+      "text": "argued with the construction team about budget cuts"
+    },
+    {
+      "id": "f17",
+      "day": 6,
+      "type": "emotional",
+      "text": "felt frustrated by the ongoing budget constraints"
+    },
+    {
+      "id": "f18",
+      "day": 6,
+      "type": "quantitative",
+      "text": "spent 4 hours negotiating with the team"
+    },
+    {
+      "id": "f19",
+      "day": 7,
+      "type": "named_entity",
+      "text": "visited the site of the library project to assess progress"
+    },
+    {
+      "id": "f20",
+      "day": 7,
+      "type": "relational",
+      "text": "celebrated a small victory with her team after hitting a milestone"
+    },
+    {
+      "id": "f21",
+      "day": 7,
+      "type": "emotional",
+      "text": "felt relieved to see progress after a stressful week"
+    },
+    {
+      "id": "f22",
+      "day": 7,
+      "type": "quantitative",
+      "text": "planned the next week's tasks in a 2-hour meeting"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "named_entity",
+        "text": "met with the city planning committee at the Palacio de Bellas Artes"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "emotional",
+        "text": "felt overwhelmed by the feedback from the committee"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "quantitative",
+        "text": "spent 3 hours preparing a presentation for the committee meeting"
+      }
+    ],
+    "2": [
+      {
+        "id": "f04",
+        "day": 2,
+        "type": "relational",
+        "text": "discussed design ideas with her colleague Carlos over coffee"
+      },
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "quantitative",
+        "text": "sketched 5 new floor plans for the library project"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "emotional",
+        "text": "felt inspired after the brainstorming session with Carlos"
+      }
+    ],
+    "3": [
+      {
+        "id": "f07",
+        "day": 3,
+        "type": "named_entity",
+        "text": "visited the Biblioteca Vasconcelos for design inspiration"
+      },
+      {
+        "id": "f08",
+        "day": 3,
+        "type": "quantitative",
+        "text": "took 20 photos of architectural elements for reference"
+      },
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "relational",
+        "text": "met with the project contractors to discuss timelines"
+      }
+    ],
+    "4": [
+      {
+        "id": "f10",
+        "day": 4,
+        "type": "emotional",
+        "text": "felt anxious about meeting the project deadline"
+      },
+      {
+        "id": "f11",
+        "day": 4,
+        "type": "quantitative",
+        "text": "worked for 10 hours straight on the project"
+      },
+      {
+        "id": "f12",
+        "day": 4,
+        "type": "relational",
+        "text": "received support from her mentor, Ana, through a late-night call"
+      }
+    ],
+    "5": [
+      {
+        "id": "f13",
+        "day": 5,
+        "type": "named_entity",
+        "text": "attended a workshop at the Universidad Nacional Autónoma de México"
+      },
+      {
+        "id": "f14",
+        "day": 5,
+        "type": "quantitative",
+        "text": "networked with 15 other architects during the event"
+      },
+      {
+        "id": "f15",
+        "day": 5,
+        "type": "emotional",
+        "text": "felt a renewed sense of community after the workshop"
+      }
+    ],
+    "6": [
+      {
+        "id": "f16",
+        "day": 6,
+        "type": "relational",
+        "text": "argued with the construction team about budget cuts"
+      },
+      {
+        "id": "f17",
+        "day": 6,
+        "type": "emotional",
+        "text": "felt frustrated by the ongoing budget constraints"
+      },
+      {
+        "id": "f18",
+        "day": 6,
+        "type": "quantitative",
+        "text": "spent 4 hours negotiating with the team"
+      }
+    ],
+    "7": [
+      {
+        "id": "f19",
+        "day": 7,
+        "type": "named_entity",
+        "text": "visited the site of the library project to assess progress"
+      },
+      {
+        "id": "f20",
+        "day": 7,
+        "type": "relational",
+        "text": "celebrated a small victory with her team after hitting a milestone"
+      },
+      {
+        "id": "f21",
+        "day": 7,
+        "type": "emotional",
+        "text": "felt relieved to see progress after a stressful week"
+      },
+      {
+        "id": "f22",
+        "day": 7,
+        "type": "quantitative",
+        "text": "planned the next week's tasks in a 2-hour meeting"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Snap: So, how did your meeting with the city planning committee go today?\n\nStar: Oh, it was quite an experience. We met at the Palacio de Bellas Artes, which is always a stunning backdrop but also adds to the pressure, you know?\n\nSnap: I can imagine! Was the feedback what you were expecting, or did it catch you off guard?\n\nStar: Honestly, I felt a bit overwhelmed by the feedback from the committee. They had a lot to say, and it was both encouraging and daunting at the same time.\n\nSnap: That sounds intense. How much time did you spend preparing for this presentation?\n\nStar: Well, I spent about three hours putting everything together. I wanted to make sure I covered all the important points clearly, but it was a bit of a scramble.\n\nSnap: Three hours is quite a commitment. What aspects of the project did the committee focus on the most?\n\nStar: They were particularly interested in how the design would fit into the surrounding area and its impact on the community. It’s always a balancing act with a project like this.\n\nSnap: Definitely! It sounds like you have your work cut out for you. Are you feeling confident about making revisions based on their feedback?\n\nStar: I think I will, but I can't shake off that feeling of being overwhelmed. It’s a lot to digest, and I want to make sure I address their concerns properly.\n\nSnap: That’s understandable. How do you plan to tackle the revisions moving forward?\n\nStar: I’m thinking about breaking it down into smaller tasks so it doesn’t feel as daunting. After all, I want to stay on track with this tight deadline.",
+    "2": "Snap: So, I heard you had a productive coffee meeting with your colleague Carlos today. What were you discussing?\n\nStar: Yes, we really dove into some design ideas for the library project. It was great to bounce thoughts off each other over coffee.\n\nSnap: That sounds interesting! Did you come up with anything specific during your brainstorming session?\n\nStar: Definitely! I actually sketched out five new floor plans for the library. I wanted to explore different layouts to see what could work best given the tight deadline we're facing.\n\nSnap: Five floor plans! That's quite a bit of work. What inspired those designs?\n\nStar: After the brainstorming session with Carlos, I felt really inspired. Sometimes just talking through ideas can spark something new, and it did today.\n\nSnap: I can imagine! What was it about your conversation that sparked that inspiration?\n\nStar: We were able to challenge each other's thoughts and really think outside the box. Carlos has a unique perspective, and it pushed me to consider aspects I hadn’t thought of before.\n\nSnap: That sounds like a great collaboration. Do you think you'll continue to work closely with Carlos on this project?\n\nStar: Absolutely! I think having those discussions with him is crucial as we move forward. It helps keep the creative juices flowing, especially with the deadline looming.",
+    "3": "Snap: So, how's your day been so far? \n\nStar: It's been pretty packed, actually! I started off by visiting the Biblioteca Vasconcelos for some design inspiration. \n\nSnap: Oh, that’s a stunning building! What specifically did you find inspiring there?\n\nStar: The way they used light and space really caught my eye. I ended up taking about 20 photos of various architectural elements for reference. There are so many unique details that I think will enhance our project.\n\nSnap: That sounds like a productive visit! How did the meeting with your project contractors go afterward?\n\nStar: It was quite intense. We really needed to discuss timelines, especially since we're under a tight deadline. I wanted to make sure everyone was aligned on the next steps.\n\nSnap: Were there any surprises during that meeting? \n\nStar: Not really surprises, but we did have to re-evaluate some of the proposed timelines to make sure we can incorporate the ideas I gathered from the library visit.\n\nSnap: It sounds like you’re juggling a lot! Do you feel like you’re on track?\n\nStar: I think we are, but it’s definitely a challenge. The inspiration from Biblioteca Vasconcelos has pushed me to rethink some elements of our design. \n\nSnap: That’s great to hear! Do you think the changes will affect the project timeline significantly?\n\nStar: It might, but I believe it’ll be worth it in the end. I’m trying to stay flexible with the contractors to accommodate any adjustments that come up. \n\nSnap: Sounds like you have a solid plan! What’s next on your agenda after this? \n\nStar: I’ll probably spend some time reviewing those 20 photos and sketching out new concepts based on the inspiration I found.",
+    "4": "Snap: So, how are you feeling about the public library project today? \n\nStar: Honestly, I'm feeling quite anxious about meeting the project deadline. It’s getting closer, and there’s still so much to do.\n\nSnap: I can imagine! How long have you been working on it today?\n\nStar: I actually worked for 10 hours straight on the project today. I barely took any breaks; I just needed to push through.\n\nSnap: That’s intense! Did you manage to take a breather at all, or were you just in the zone?\n\nStar: I was really in the zone, but I did get a late-night call from my mentor, Ana. Her support really helped me refocus and gain some perspective.\n\nSnap: That sounds really supportive! What kind of advice did Ana give you during your call?\n\nStar: She just reminded me to prioritize what really matters for the project and not to get lost in the details. It was exactly what I needed to hear.\n\nSnap: It's great to have someone like Ana in your corner. Do you think you’ll be able to meet the deadline with everything you have left to do?\n\nStar: I’m hoping so, but with the anxiety I feel, it’s hard to say. I just have to keep pushing forward with the time I have left.",
+    "5": "Snap: So, how was your day today? Any exciting events?\n\nStar: Oh, it was quite fulfilling! I attended a workshop at the Universidad Nacional Autónoma de México. \n\nSnap: That sounds interesting! What was the focus of the workshop?\n\nStar: It was primarily about sustainable architecture and innovative designs. I really enjoyed connecting with like-minded professionals.\n\nSnap: Speaking of connections, did you get to meet anyone new?\n\nStar: Yes, I networked with 15 other architects during the event. It's always refreshing to share ideas and perspectives.\n\nSnap: Networking with that many people must have been energizing. How did it feel to be among your peers?\n\nStar: I left the workshop feeling a renewed sense of community. It’s nice to realize that there are so many of us passionate about making a difference in our field.\n\nSnap: That’s great to hear! Did any particular conversation stand out to you?\n\nStar: There were a few discussions that really sparked my interest, especially how we can collaborate on future projects. It’s inspiring to think about the possibilities.\n\nSnap: Collaboration sounds key, especially with your current project. How do you plan to incorporate what you learned into your public library project?\n\nStar: I want to apply some of the sustainable practices we discussed, which could make a significant difference given the tight deadline we’re working with. \n\nSnap: Sounds like you’re really committed to making this library a landmark project!",
+    "6": "Snap: So, how's the library project coming along? Any updates?\n\nStar: Well, it's been quite a day. I argued with the construction team about budget cuts earlier. \n\nSnap: Budget cuts again? That sounds intense. What specifically did you argue about?\n\nStar: It was mostly about how the cuts were affecting the design elements we wanted to keep. I felt really frustrated by the ongoing budget constraints. It’s like they don’t understand the vision.\n\nSnap: I can imagine that must be tough. How long did that conversation take?\n\nStar: I actually spent about 4 hours negotiating with the team today. It felt like we were going in circles.\n\nSnap: Four hours?! That's a significant chunk of your day. Did you feel like you made any progress?\n\nStar: Not really, unfortunately. With each passing minute, the budget constraints were just weighing heavier on my mind, and it felt like we were losing sight of what the library could be.\n\nSnap: That sounds really challenging. Do you think you'll have to compromise on your original vision because of these cuts?\n\nStar: At this point, I’m worried that I might have to. I just hope we can find a middle ground before it’s too late.",
+    "7": "Snap: So, how was your day today? I heard you were out at the library project site?\n\nStar: Yeah, I visited the site of the library project to assess progress. It feels like every visit is critical, especially with our tight deadline looming over us.\n\nSnap: That makes sense. How did the site look? Any improvements since your last visit?\n\nStar: Actually, I felt relieved to see progress after a stressful week. It was encouraging to see the team really coming together and pushing through the challenges.\n\nSnap: That's great to hear! Did you do anything special to celebrate the progress?\n\nStar: We celebrated a small victory with my team after hitting a milestone. It was a nice moment to recognize everyone's hard work amidst the pressure.\n\nSnap: Celebrating victories is so important! What’s next on the agenda for the project?\n\nStar: Well, I planned the next week's tasks in a 2-hour meeting earlier today. We have a lot to tackle, but laying it all out helps us stay focused.\n\nSnap: Sounds like you’re on top of things! Any specific challenges you're anticipating for next week?\n\nStar: There are always challenges, but I think if we maintain our momentum and communication, we can navigate whatever comes our way. That's the goal, anyway!"
+  }
+}

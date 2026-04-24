@@ -1,0 +1,295 @@
+{
+  "week_id": 11,
+  "persona": "A 26-year-old veterinarian in Buenos Aires working at an animal shelter, dealing with an unexpected outbreak of kennel cough.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "named_entity",
+      "text": "met with the shelter director, Laura, to discuss the outbreak of kennel cough"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "emotional",
+      "text": "felt overwhelmed by the sudden influx of sick animals"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "quantitative",
+      "text": "worked 12 hours at the shelter"
+    },
+    {
+      "id": "f04",
+      "day": 1,
+      "type": "relational",
+      "text": "collaborated with two other veterinarians to create a treatment plan"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "quantitative",
+      "text": "administered medication to 15 dogs affected by kennel cough"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "emotional",
+      "text": "felt a sense of urgency to contain the outbreak"
+    },
+    {
+      "id": "f07",
+      "day": 2,
+      "type": "relational",
+      "text": "received support from a local vet clinic, Clinica Veterinaria San Antonio"
+    },
+    {
+      "id": "f08",
+      "day": 3,
+      "type": "named_entity",
+      "text": "attended a conference at the Buenos Aires Veterinary College"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "quantitative",
+      "text": "spent 3 hours networking with other professionals"
+    },
+    {
+      "id": "f10",
+      "day": 3,
+      "type": "emotional",
+      "text": "felt motivated by the discussions on infectious diseases"
+    },
+    {
+      "id": "f11",
+      "day": 4,
+      "type": "relational",
+      "text": "had a heartwarming reunion with an adopted dog, Max, who returned for a check-up"
+    },
+    {
+      "id": "f12",
+      "day": 4,
+      "type": "quantitative",
+      "text": "conducted 8 check-ups on healthy animals"
+    },
+    {
+      "id": "f13",
+      "day": 4,
+      "type": "emotional",
+      "text": "felt grateful for the support of the shelter staff"
+    },
+    {
+      "id": "f14",
+      "day": 5,
+      "type": "named_entity",
+      "text": "visited the local pet supply store, PetShop Buenos Aires, for more medications"
+    },
+    {
+      "id": "f15",
+      "day": 5,
+      "type": "quantitative",
+      "text": "spent 2500 pesos on supplies"
+    },
+    {
+      "id": "f16",
+      "day": 5,
+      "type": "emotional",
+      "text": "felt stressed about managing the costs during the outbreak"
+    },
+    {
+      "id": "f17",
+      "day": 6,
+      "type": "relational",
+      "text": "talked to a pet owner who was concerned about their dog's health"
+    },
+    {
+      "id": "f18",
+      "day": 6,
+      "type": "quantitative",
+      "text": "worked an additional 4 hours to handle the increasing number of inquiries"
+    },
+    {
+      "id": "f19",
+      "day": 6,
+      "type": "emotional",
+      "text": "felt tired but fulfilled after helping worried owners"
+    },
+    {
+      "id": "f20",
+      "day": 7,
+      "type": "named_entity",
+      "text": "met with the team to evaluate the effectiveness of the treatment plan"
+    },
+    {
+      "id": "f21",
+      "day": 7,
+      "type": "quantitative",
+      "text": "reported a 70% recovery rate among the sick dogs"
+    },
+    {
+      "id": "f22",
+      "day": 7,
+      "type": "emotional",
+      "text": "felt relieved to see progress and hopeful for the future"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "named_entity",
+        "text": "met with the shelter director, Laura, to discuss the outbreak of kennel cough"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "emotional",
+        "text": "felt overwhelmed by the sudden influx of sick animals"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "quantitative",
+        "text": "worked 12 hours at the shelter"
+      },
+      {
+        "id": "f04",
+        "day": 1,
+        "type": "relational",
+        "text": "collaborated with two other veterinarians to create a treatment plan"
+      }
+    ],
+    "2": [
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "quantitative",
+        "text": "administered medication to 15 dogs affected by kennel cough"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "emotional",
+        "text": "felt a sense of urgency to contain the outbreak"
+      },
+      {
+        "id": "f07",
+        "day": 2,
+        "type": "relational",
+        "text": "received support from a local vet clinic, Clinica Veterinaria San Antonio"
+      }
+    ],
+    "3": [
+      {
+        "id": "f08",
+        "day": 3,
+        "type": "named_entity",
+        "text": "attended a conference at the Buenos Aires Veterinary College"
+      },
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "quantitative",
+        "text": "spent 3 hours networking with other professionals"
+      },
+      {
+        "id": "f10",
+        "day": 3,
+        "type": "emotional",
+        "text": "felt motivated by the discussions on infectious diseases"
+      }
+    ],
+    "4": [
+      {
+        "id": "f11",
+        "day": 4,
+        "type": "relational",
+        "text": "had a heartwarming reunion with an adopted dog, Max, who returned for a check-up"
+      },
+      {
+        "id": "f12",
+        "day": 4,
+        "type": "quantitative",
+        "text": "conducted 8 check-ups on healthy animals"
+      },
+      {
+        "id": "f13",
+        "day": 4,
+        "type": "emotional",
+        "text": "felt grateful for the support of the shelter staff"
+      }
+    ],
+    "5": [
+      {
+        "id": "f14",
+        "day": 5,
+        "type": "named_entity",
+        "text": "visited the local pet supply store, PetShop Buenos Aires, for more medications"
+      },
+      {
+        "id": "f15",
+        "day": 5,
+        "type": "quantitative",
+        "text": "spent 2500 pesos on supplies"
+      },
+      {
+        "id": "f16",
+        "day": 5,
+        "type": "emotional",
+        "text": "felt stressed about managing the costs during the outbreak"
+      }
+    ],
+    "6": [
+      {
+        "id": "f17",
+        "day": 6,
+        "type": "relational",
+        "text": "talked to a pet owner who was concerned about their dog's health"
+      },
+      {
+        "id": "f18",
+        "day": 6,
+        "type": "quantitative",
+        "text": "worked an additional 4 hours to handle the increasing number of inquiries"
+      },
+      {
+        "id": "f19",
+        "day": 6,
+        "type": "emotional",
+        "text": "felt tired but fulfilled after helping worried owners"
+      }
+    ],
+    "7": [
+      {
+        "id": "f20",
+        "day": 7,
+        "type": "named_entity",
+        "text": "met with the team to evaluate the effectiveness of the treatment plan"
+      },
+      {
+        "id": "f21",
+        "day": 7,
+        "type": "quantitative",
+        "text": "reported a 70% recovery rate among the sick dogs"
+      },
+      {
+        "id": "f22",
+        "day": 7,
+        "type": "emotional",
+        "text": "felt relieved to see progress and hopeful for the future"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Snap: So, how was your day at the shelter today? \n\nStar: Honestly, it was pretty intense. I met with the shelter director, Laura, to discuss the outbreak of kennel cough that's hit us unexpectedly. \n\nSnap: That sounds stressful. How did you feel about the situation? \n\nStar: I felt really overwhelmed by the sudden influx of sick animals. It’s tough seeing so many of them in distress.\n\nSnap: I can only imagine. How long were you there today? \n\nStar: I worked 12 hours at the shelter. It was a long day, but we had to get things under control.\n\nSnap: Did you manage to come up with a plan to tackle the outbreak? \n\nStar: Yes, I collaborated with two other veterinarians to create a treatment plan. We knew we had to act quickly to help the animals.\n\nSnap: That's great teamwork! How are the other vets handling the stress of the situation? \n\nStar: They’re doing their best, just like me. It’s a lot to process, but we’re all committed to getting through this.\n\nSnap: Have you seen any improvement yet, or is it too early to tell? \n\nStar: It’s still too early to tell, but we’re hopeful that the treatment plan will start showing results soon.",
+    "2": "Snap: So, how's your day been at the shelter?\n\nStar: It's been pretty intense, actually. I administered medication to 15 dogs affected by kennel cough today. \n\nSnap: Wow, that sounds like a lot. What’s the situation like with the outbreak?\n\nStar: There’s definitely a sense of urgency to contain the outbreak. We’re doing everything we can to make sure it doesn’t spread further. \n\nSnap: I can imagine. That must be stressful. Did you get any help from other vets?\n\nStar: Yes, thankfully! I received support from a local vet clinic, Clinica Veterinaria San Antonio. They’ve been really helpful in providing additional resources and advice.\n\nSnap: That’s great to hear. How are the dogs responding to the medication?\n\nStar: I’m hopeful they’ll start feeling better soon. It’s just a matter of monitoring them closely and making sure we stay on top of everything.\n\nSnap: Sounds like a lot of responsibility. How do you manage the stress of it all?\n\nStar: I try to focus on the fact that we’re making a difference, even when it feels overwhelming. The urgency pushes me to stay organized and proactive.\n\nSnap: It's wonderful that you have that support. Do you think you’ll need to collaborate more with the vet clinic as the situation develops?\n\nStar: Absolutely. With the outbreak still ongoing, I think ongoing collaboration will be crucial to ensure that we can effectively manage it and keep the dogs safe.",
+    "3": "Snap: So, I heard you attended a conference at the Buenos Aires Veterinary College recently. How was that experience for you?  \nStar: It was actually really insightful! I spent about three hours networking with other professionals, which was great.  \n\nSnap: Three hours, that’s quite a bit of time! What kind of discussions did you have with them?  \nStar: We talked a lot about various topics, but I felt particularly motivated by the discussions on infectious diseases. It’s such a crucial area, especially with what we’re currently facing.  \n\nSnap: Oh, right! The outbreak of kennel cough at the shelter. Did the conference help you with that at all?  \nStar: Definitely. Hearing from experts about the latest research and strategies to manage infectious diseases really gave me some new ideas to consider for our situation.  \n\nSnap: That sounds promising! Were there any specific professionals or insights that stood out to you during your networking?  \nStar: There were a few veterinarians who shared their experiences with similar outbreaks, which was invaluable. It’s always helpful to learn from those who’ve been through it before.  \n\nSnap: I can imagine! How do you think this newfound motivation will impact your work at the shelter?  \nStar: I think it’ll push me to advocate more for preventive measures. The discussions really lit a fire under me to find better ways to protect the animals we care for.  \n\nSnap: That’s a great mindset to have. Are there any immediate changes you’re planning to implement based on what you learned?  \nStar: For sure! I’m considering organizing a workshop for the staff to share the knowledge I gained about infectious diseases and how we can better manage them.  \n\nSnap: That’s a fantastic initiative! It sounds like the conference was a turning point for you.  \nStar: It really was. I left feeling energized and ready to tackle the challenges we’re facing with this outbreak.",
+    "4": "Snap: So, tell me about your day today! Anything exciting happen at the shelter?  \nStar: Oh, definitely! I had a heartwarming reunion with an adopted dog named Max. He came back for a check-up, and it was just so wonderful to see him again.  \n\nSnap: That's so sweet! How did he react when he saw you?  \nStar: Max was so excited; he practically jumped into my arms! It really reminded me of why I love my job.  \n\nSnap: That must have been a nice break from dealing with the kennel cough outbreak. How's that situation going?  \nStar: It's challenging, for sure. But today, I managed to conduct 8 check-ups on other healthy animals, which is always a positive sign amidst the chaos.  \n\nSnap: That’s impressive! How are the other animals handling the stress?  \nStar: Well, the staff and I are doing our best to keep everyone calm and comfortable. I really felt grateful for the support of the shelter staff today. We all pitch in together, and it makes a big difference.  \n\nSnap: It sounds like teamwork is crucial right now. How do you think the staff is coping with everything?  \nStar: I think they’re doing remarkably well, considering the circumstances. Everyone is really dedicated, and their support helps me a lot, especially on days like today.  \n\nSnap: With everything going on, how do you manage to keep that positive outlook?  \nStar: Honestly, it’s moments like the reunion with Max and seeing the healthy animals that keep me motivated. It’s all about balancing the tough days with the good ones.",
+    "5": "Snap: So, how's everything going with the kennel cough outbreak at the shelter?\n\nStar: Honestly, it’s been pretty stressful. I went to PetShop Buenos Aires today to pick up more medications since we’re running low.\n\nSnap: That must have been quite a trip. How much did you end up spending?\n\nStar: I spent about 2500 pesos on supplies. It's really adding up, and I’m feeling stressed about managing the costs during this outbreak.\n\nSnap: I can imagine! That’s a significant amount. Are you finding the medications you need easily?\n\nStar: For the most part, yes. PetShop Buenos Aires has been helpful, but it’s just the financial burden that’s weighing on me a bit.\n\nSnap: It sounds like you’re juggling a lot. How are the animals responding to the treatments so far?\n\nStar: They’re responding well, thankfully! But with every new case, my mind races about how much more we’ll need to spend.\n\nSnap: That’s tough. Is there any support from the community or the shelter to help with these costs?\n\nStar: We're trying to rally some support, but it's still a challenge. Every peso counts right now, especially with how quickly things add up.\n\nSnap: I bet! Are you planning any fundraising efforts to help ease the financial strain?\n\nStar: We’re considering some ideas, but it’s hard to find the time with everything going on. Right now, I’m just focused on getting through this outbreak.",
+    "6": "Snap: So, how's everything going at the shelter today?\n\nStar: It's been a bit hectic, to be honest. I just had a conversation with a pet owner who was really concerned about their dog's health. They were worried about the kennel cough outbreak we’re dealing with.\n\nSnap: That sounds stressful. How did the conversation go?\n\nStar: It was tough. I tried my best to reassure them, letting them know that we’re doing everything we can to help the dogs. It's never easy seeing someone so worried about their furry friend.\n\nSnap: I can imagine. With the outbreak, have you had to put in extra hours?\n\nStar: Yes, definitely. I ended up working an additional 4 hours today just to handle the increasing number of inquiries we've been getting from pet owners. It's like everyone is on edge right now.\n\nSnap: That’s a long day! How are you feeling after all that?\n\nStar: Honestly, I feel tired but fulfilled. It’s rewarding to help those worried owners, even if it takes a toll on my energy. \n\nSnap: That's great to hear despite the exhaustion. Do you think you'll need to keep working those extra hours for a while?\n\nStar: It seems likely, at least until things settle down. But if it means helping the pets and their owners, I'm all in.",
+    "7": "Snap: So, how did your day go? Any highlights?\n\nStar: Well, today was quite eventful! I met with the team to evaluate the effectiveness of the treatment plan we put in place for the kennel cough outbreak.\n\nSnap: That's good to hear! What was the outcome of that meeting? \n\nStar: We were really pleased to report a 70% recovery rate among the sick dogs. It’s a significant improvement, and honestly, it felt relieving to see that progress.\n\nSnap: Wow, that’s impressive! How did the team react to that news?\n\nStar: Everyone was really hopeful. I could see the relief on their faces too, knowing that our efforts are paying off and that we’re moving in the right direction for the dogs.\n\nSnap: It sounds like you’re all working hard. Did you have to adjust anything in your treatment plan?\n\nStar: Yes, we did discuss some tweaks. It was important to evaluate what was working and what needed more attention. But overall, seeing a 70% recovery rate gave us a lot of optimism about the future.\n\nSnap: That’s fantastic. What do you think contributed to that recovery rate?\n\nStar: I think it was a combination of factors—our collaborative approach and consistent monitoring really made a difference. It’s just so rewarding to witness these dogs getting better.\n\nSnap: I can imagine! What’s next for you and the team?\n\nStar: Well, we’ll continue to monitor the remaining cases closely. I’m hopeful that with our ongoing efforts, we’ll see even more progress in the coming days."
+  }
+}

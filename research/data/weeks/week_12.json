@@ -1,0 +1,295 @@
+{
+  "week_id": 12,
+  "persona": "A 61-year-old retired accountant in Dublin who recently took up competitive ballroom dancing with his wife.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "named_entity",
+      "text": "attended a ballroom dancing class at Dance Dublin"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "emotional",
+      "text": "felt excited about starting a new hobby"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "quantitative",
+      "text": "spent 2 hours practicing the waltz"
+    },
+    {
+      "id": "f04",
+      "day": 1,
+      "type": "relational",
+      "text": "discussed dance strategies with his wife, Mary"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "quantitative",
+      "text": "ran 5 kilometers in the morning"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "named_entity",
+      "text": "visited the local market on Moore Street"
+    },
+    {
+      "id": "f07",
+      "day": 2,
+      "type": "emotional",
+      "text": "felt nostalgic while browsing old records"
+    },
+    {
+      "id": "f08",
+      "day": 3,
+      "type": "relational",
+      "text": "met with his old friend John for lunch"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "emotional",
+      "text": "felt happy to reconnect after years apart"
+    },
+    {
+      "id": "f10",
+      "day": 3,
+      "type": "quantitative",
+      "text": "spent 30 euros on lunch at The Woollen Mills"
+    },
+    {
+      "id": "f11",
+      "day": 4,
+      "type": "named_entity",
+      "text": "attended a dance competition at the National Convention Centre"
+    },
+    {
+      "id": "f12",
+      "day": 4,
+      "type": "quantitative",
+      "text": "watched 15 different dance performances"
+    },
+    {
+      "id": "f13",
+      "day": 4,
+      "type": "emotional",
+      "text": "felt inspired by the talent of other dancers"
+    },
+    {
+      "id": "f14",
+      "day": 5,
+      "type": "relational",
+      "text": "argued with Mary about the dance routine"
+    },
+    {
+      "id": "f15",
+      "day": 5,
+      "type": "emotional",
+      "text": "felt frustrated but determined to improve"
+    },
+    {
+      "id": "f16",
+      "day": 5,
+      "type": "quantitative",
+      "text": "practiced for 3 hours in the evening"
+    },
+    {
+      "id": "f17",
+      "day": 6,
+      "type": "named_entity",
+      "text": "visited the Irish Museum of Modern Art"
+    },
+    {
+      "id": "f18",
+      "day": 6,
+      "type": "emotional",
+      "text": "felt relaxed while enjoying the art"
+    },
+    {
+      "id": "f19",
+      "day": 7,
+      "type": "quantitative",
+      "text": "spent 50 euros on new dance shoes"
+    },
+    {
+      "id": "f20",
+      "day": 7,
+      "type": "relational",
+      "text": "planned a dance practice for the upcoming competition"
+    },
+    {
+      "id": "f21",
+      "day": 7,
+      "type": "emotional",
+      "text": "felt excited about the upcoming competition"
+    },
+    {
+      "id": "f22",
+      "day": 7,
+      "type": "quantitative",
+      "text": "attended a 2-hour dance class with Mary"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "named_entity",
+        "text": "attended a ballroom dancing class at Dance Dublin"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "emotional",
+        "text": "felt excited about starting a new hobby"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "quantitative",
+        "text": "spent 2 hours practicing the waltz"
+      },
+      {
+        "id": "f04",
+        "day": 1,
+        "type": "relational",
+        "text": "discussed dance strategies with his wife, Mary"
+      }
+    ],
+    "2": [
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "quantitative",
+        "text": "ran 5 kilometers in the morning"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "named_entity",
+        "text": "visited the local market on Moore Street"
+      },
+      {
+        "id": "f07",
+        "day": 2,
+        "type": "emotional",
+        "text": "felt nostalgic while browsing old records"
+      }
+    ],
+    "3": [
+      {
+        "id": "f08",
+        "day": 3,
+        "type": "relational",
+        "text": "met with his old friend John for lunch"
+      },
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "emotional",
+        "text": "felt happy to reconnect after years apart"
+      },
+      {
+        "id": "f10",
+        "day": 3,
+        "type": "quantitative",
+        "text": "spent 30 euros on lunch at The Woollen Mills"
+      }
+    ],
+    "4": [
+      {
+        "id": "f11",
+        "day": 4,
+        "type": "named_entity",
+        "text": "attended a dance competition at the National Convention Centre"
+      },
+      {
+        "id": "f12",
+        "day": 4,
+        "type": "quantitative",
+        "text": "watched 15 different dance performances"
+      },
+      {
+        "id": "f13",
+        "day": 4,
+        "type": "emotional",
+        "text": "felt inspired by the talent of other dancers"
+      }
+    ],
+    "5": [
+      {
+        "id": "f14",
+        "day": 5,
+        "type": "relational",
+        "text": "argued with Mary about the dance routine"
+      },
+      {
+        "id": "f15",
+        "day": 5,
+        "type": "emotional",
+        "text": "felt frustrated but determined to improve"
+      },
+      {
+        "id": "f16",
+        "day": 5,
+        "type": "quantitative",
+        "text": "practiced for 3 hours in the evening"
+      }
+    ],
+    "6": [
+      {
+        "id": "f17",
+        "day": 6,
+        "type": "named_entity",
+        "text": "visited the Irish Museum of Modern Art"
+      },
+      {
+        "id": "f18",
+        "day": 6,
+        "type": "emotional",
+        "text": "felt relaxed while enjoying the art"
+      }
+    ],
+    "7": [
+      {
+        "id": "f19",
+        "day": 7,
+        "type": "quantitative",
+        "text": "spent 50 euros on new dance shoes"
+      },
+      {
+        "id": "f20",
+        "day": 7,
+        "type": "relational",
+        "text": "planned a dance practice for the upcoming competition"
+      },
+      {
+        "id": "f21",
+        "day": 7,
+        "type": "emotional",
+        "text": "felt excited about the upcoming competition"
+      },
+      {
+        "id": "f22",
+        "day": 7,
+        "type": "quantitative",
+        "text": "attended a 2-hour dance class with Mary"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Snap: So, I hear you just started a new hobby! What’s the story behind that?\n\nStar: Yeah, it’s true! I attended a ballroom dancing class at Dance Dublin, and I felt really excited about starting this new chapter in my life.\n\nSnap: That’s fantastic! What made you choose ballroom dancing specifically?\n\nStar: Well, my wife, Mary, has always loved dancing, and I thought it would be a fun way for us to spend time together. Plus, I’ve always been intrigued by the elegance of it.\n\nSnap: I can imagine! How long did you practice during your first class?\n\nStar: We spent a solid 2 hours practicing the waltz. It was a bit of a workout, but I enjoyed every minute of it.\n\nSnap: That sounds like a good amount of time! Did you have any special strategies you discussed with Mary while you were practicing?\n\nStar: Absolutely! We discussed dance strategies together, figuring out how to improve our timing and coordination. It really helped to have her insights since she’s been dancing for a while.\n\nSnap: It must be nice to have your partner involved in this new venture. How did it feel to be learning something new together?\n\nStar: There’s definitely something special about it. I felt excited to be stepping out of my comfort zone alongside Mary. It’s a bonding experience for us.\n\nSnap: It sounds like a great way to connect. Are you planning to continue with it regularly?\n\nStar: Yes, I’m looking forward to returning to Dance Dublin for more classes. I want to keep honing our skills, especially the waltz!",
+    "2": "Snap: So, I heard you started your day with a bit of exercise. How did that go?\n\nStar: Oh, it was great! I ran 5 kilometers this morning. It’s a nice way to wake up and get the blood pumping.\n\nSnap: That’s impressive! Do you run regularly?\n\nStar: Yes, I try to keep a routine. It helps me stay fit, especially with all the dancing I've been doing lately. \n\nSnap: Speaking of routines, I saw you went out today. Where did you head?\n\nStar: I visited the local market on Moore Street. It’s always buzzing with energy and full of interesting things to see.\n\nSnap: That sounds fun! Did you pick up anything special while you were there?\n\nStar: I browsed through some old records at one of the stalls. I felt a bit nostalgic, you know? It brought back memories of my youth and the music I loved back then.\n\nSnap: Music has a way of doing that. Did you end up buying anything?\n\nStar: I didn’t buy any records this time, but just flipping through them was a nice trip down memory lane. \n\nSnap: I can imagine! So, after all that, did you do anything else today?\n\nStar: Well, I came home and spent some time practicing my dance steps with my wife. It’s such a joy to share that with her after a morning like that. \n\nSnap: Sounds like a lovely day! How do you feel the dancing is going for you both?\n\nStar: We’re improving! It’s challenging but so rewarding, especially after a nice run in the morning.",
+    "3": "Snap: So, tell me about your day! Did you do anything interesting?  \nStar: Oh, definitely! I met with my old friend John for lunch today. It’s been years since we last caught up.  \n\nSnap: That sounds great! How did it feel to reconnect after all that time?  \nStar: Honestly, I felt really happy to reconnect. We had so much to talk about, it was like no time had passed at all.  \n\nSnap: That’s wonderful! Where did you two decide to go for lunch?  \nStar: We went to The Woollen Mills. It’s a lovely spot in the city.  \n\nSnap: Nice choice! How much did you end up spending?  \nStar: We spent about 30 euros on lunch, which I think is quite reasonable for the quality of food there.  \n\nSnap: Did you get to reminisce about old times? Any funny stories?  \nStar: Oh, absolutely! We shared a few laughs about our past adventures, which really made the lunch special.  \n\nSnap: It sounds like a fantastic reunion. Do you think you’ll keep in touch more regularly now?  \nStar: I hope so! I really enjoyed catching up, and I’d like to make it a habit to see him more often.  \n\nSnap: That’s a great plan! Anything else planned for the day after such a meaningful lunch?  \nStar: Just some practice with my wife for our ballroom dancing. We’re getting ready for the next competition!",
+    "4": "Snap: So, I hear you attended a dance competition at the National Convention Centre recently. How was that experience for you?\n\nStar: Oh, it was fantastic! Attending the competition really got my heart racing. The atmosphere was electric, and being surrounded by so many passionate dancers was just wonderful.\n\nSnap: That sounds amazing! How many performances did you actually get to watch while you were there?\n\nStar: I managed to catch 15 different dance performances throughout the day. Each one brought something unique to the floor, and I was just in awe of the variety of styles.\n\nSnap: Fifteen performances? That’s quite a lot! Did any particular performance stand out to you?\n\nStar: Definitely! It was hard to choose just one, but I felt inspired by the talent of the other dancers. They brought such creativity and energy, and it made me reflect on my own dancing journey with my wife.\n\nSnap: It’s great to hear you felt inspired! Did you pick up any tips or techniques from watching those performances?\n\nStar: For sure! I noticed some intricate footwork and how smoothly the couples transitioned between moves. It’s fascinating to see how professionals execute their routines. I can’t wait to try some of those techniques in our practice sessions.\n\nSnap: That’s a wonderful takeaway! Did you get a chance to mingle with any of the other dancers or their partners?\n\nStar: Unfortunately, I didn't have much time to socialize, but just watching them perform was enough to spark my enthusiasm. The talent level was so high; it felt like being part of a big dance family for a day.\n\nSnap: It sounds like you had a truly enriching experience. Do you think this competition has changed your perspective on your dancing?\n\nStar: Absolutely! It reminded me of the joy and artistry in ballroom dancing. I feel more motivated than ever to improve alongside my wife and keep pushing ourselves.",
+    "5": "Snap: So, I hear you've been really getting into your ballroom dancing lately! How's that been going for you and Mary?  \n\nStar: Oh, it’s been quite a journey! We actually had a bit of an argument about the dance routine yesterday. Mary wanted to try something different, but I thought we should stick with what we’ve been practicing.  \n\nSnap: That sounds intense! What was the main point of contention in the routine?  \n\nStar: Well, I felt that the changes she wanted to make could throw us off. I was feeling pretty frustrated about it, but at the same time, I’m determined to improve our performance.  \n\nSnap: I can see how that would be tough. How did you handle the argument afterward?  \n\nStar: We talked it out, and I think we both realized that we want the same thing: to dance well together. So, I spent about three hours practicing in the evening to really nail down the routine we agreed on.  \n\nSnap: Three hours! That’s some serious dedication. What did you focus on during your practice?  \n\nStar: I worked on getting the timing right and making sure our footwork was in sync. I think that helped ease some of the frustration I felt earlier.  \n\nSnap: It sounds like you’re really committed! Do you think this experience will help you both in the long run?  \n\nStar: Absolutely! I think these little bumps in the road just make us stronger as a team. Plus, the more we practice, the more confident we feel about our routine.",
+    "6": "Snap: So, how’s your day been so far? \n\nStar: Oh, it’s been quite nice, actually! My wife and I visited the Irish Museum of Modern Art today.\n\nSnap: That sounds interesting! What was it like?\n\nStar: It was lovely, really. I felt relaxed while enjoying the art. There’s something about immersing yourself in creativity that just eases the mind.\n\nSnap: Did you have a favorite piece or exhibit?\n\nStar: I wouldn’t say there was one specific piece, but the overall atmosphere of the museum was very calming. It allowed us to just take our time and appreciate the different artworks.\n\nSnap: That's great to hear. How do you usually feel after visiting places like that?\n\nStar: Honestly, I always come away feeling rejuvenated. Today was no exception; I felt relaxed while enjoying the art, which is a nice change from the usual hustle and bustle of life.\n\nSnap: Do you think visiting art museums will become a regular thing for you two?\n\nStar: I hope so! It’s a wonderful way to spend time together outside of our competitive ballroom dancing, which can get quite intense at times.\n\nSnap: Right, that’s a nice balance. How’s the dancing going, by the way?\n\nStar: It’s going well! But I have to admit, it’s nice to have days like today where we can just unwind and enjoy some art.",
+    "7": "Snap: Hey there! How's your day been so far?\n\nStar: Oh, it's been pretty good! I just got back from a dance class with Mary.\n\nSnap: A dance class? How long was it?\n\nStar: It was a 2-hour class. We really went through a lot of routines.\n\nSnap: That sounds intense! Are you gearing up for a competition soon?\n\nStar: Yes, we are! I've actually planned a dance practice for the upcoming competition. We need to fine-tune a few things.\n\nSnap: That's exciting! How are you feeling about the competition?\n\nStar: I'm feeling quite excited about it, to be honest. It's a new challenge for both of us, and I love it.\n\nSnap: I can imagine! Did you need to buy anything special for it?\n\nStar: Yes, I just spent 50 euros on new dance shoes. I wanted to make sure I had the right gear for the competition.\n\nSnap: Smart move! New shoes can make such a difference. How do they feel?\n\nStar: They feel great! I think they'll really help with my performance. \n\nSnap: That's awesome! Sounds like you're all set for the competition."
+  }
+}

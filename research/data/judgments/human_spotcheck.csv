@@ -1,0 +1,18 @@
+reviewer,timestamp,week_id,pipeline,gen_model,fact_id,fact_day,fact_type,fact_text,human_verdict,verdict_strict,verdict_lenient
+Medhini,2026-04-22T14:01:46.064634,2,neutral,openai-4o-mini,f16,6,quantitative,reviewed 5 different universities with his daughter,YES,YES,YES
+Medhini,2026-04-22T14:01:48.342973,3,decoupled,openai-4o-mini,f11,4,relational,had a brainstorming session with her apprentices about new pastry recipes,NO,YES,YES
+Medhini,2026-04-22T14:01:50.648508,5,decoupled,openai-4o-mini,f05,2,quantitative,wrote 1200 words of her thesis,YES,YES,YES
+Medhini,2026-04-22T14:01:51.393374,6,decoupled,openai-4o-mini,f08,3,named_entity,attended a staff meeting at Hospital de Santa Maria,NO,YES,YES
+Medhini,2026-04-22T14:01:52.132951,6,decoupled,openai-4o-mini,f05,2,relational,had a video call with her sister to discuss their mother's care,YES,YES,YES
+Medhini,2026-04-22T14:01:52.790114,7,decoupled,openai-4o-mini,f05,2,quantitative,picked 150 kilograms of grapes,NO,NO,NO
+Medhini,2026-04-22T14:01:53.397426,7,decoupled,openai-4o-mini,f11,4,relational,argued with Ion about the best way to prune the vines,NO,YES,YES
+Medhini,2026-04-22T14:01:53.865768,7,decoupled,openai-4o-mini,f22,7,emotional,felt optimistic about the upcoming harvest season,YES,YES,YES
+Medhini,2026-04-22T14:01:56.102455,8,decoupled,openai-4o-mini,f12,3,relational,had a lengthy chat with the sound engineer after the show,NO,NO,NO
+Medhini,2026-04-22T14:01:56.674382,8,decoupled,openai-4o-mini,f02,1,emotional,felt anxious about performing with a sore throat,NO,YES,YES
+Medhini,2026-04-22T14:01:57.187103,9,decoupled,openai-4o-mini,f14,5,quantitative,networked with 15 other architects during the event,YES,NO,NO
+Medhini,2026-04-22T14:01:57.891283,9,decoupled,openai-4o-mini,f05,2,quantitative,sketched 5 new floor plans for the library project,NO,YES,YES
+Medhini,2026-04-22T14:02:00.648864,10,decoupled,openai-4o-mini,f03,1,emotional,felt excited about the potential of the new studio,YES,YES,YES
+Medhini,2026-04-22T14:02:02.417454,11,decoupled,openai-4o-mini,f14,5,named_entity,"visited the local pet supply store, PetShop Buenos Aires, for more medications",YES,YES,YES
+Medhini,2026-04-22T14:02:04.265711,12,decoupled,openai-4o-mini,f07,2,emotional,felt nostalgic while browsing old records,NO,YES,YES
+Medhini,2026-04-22T14:02:04.895825,12,decoupled,openai-4o-mini,f02,1,emotional,felt excited about starting a new hobby,YES,YES,YES
+Medhini,2026-04-22T14:02:05.645922,15,decoupled,openai-4o-mini,f09,3,relational,called her friend Haruka from Osaka,NO,YES,YES

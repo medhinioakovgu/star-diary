@@ -1,0 +1,283 @@
+{
+  "week_id": 2,
+  "persona": "A 45-year-old single father in Manchester, a secondary-school history teacher, whose teenage daughter is applying to universities this month.",
+  "facts": [
+    {
+      "id": "f01",
+      "day": 1,
+      "type": "named_entity",
+      "text": "attended a parents' evening at Manchester Academy"
+    },
+    {
+      "id": "f02",
+      "day": 1,
+      "type": "emotional",
+      "text": "felt proud of his daughter's academic achievements"
+    },
+    {
+      "id": "f03",
+      "day": 1,
+      "type": "relational",
+      "text": "had a long chat with his daughter about her university choices"
+    },
+    {
+      "id": "f04",
+      "day": 2,
+      "type": "quantitative",
+      "text": "spent 3 hours helping his daughter with her personal statement"
+    },
+    {
+      "id": "f05",
+      "day": 2,
+      "type": "emotional",
+      "text": "felt overwhelmed by the university application process"
+    },
+    {
+      "id": "f06",
+      "day": 2,
+      "type": "relational",
+      "text": "joined a support group for parents of university applicants"
+    },
+    {
+      "id": "f07",
+      "day": 3,
+      "type": "named_entity",
+      "text": "visited the University of Manchester campus"
+    },
+    {
+      "id": "f08",
+      "day": 3,
+      "type": "quantitative",
+      "text": "spent 45 minutes walking around the campus"
+    },
+    {
+      "id": "f09",
+      "day": 3,
+      "type": "emotional",
+      "text": "felt excited about his daughter's potential future"
+    },
+    {
+      "id": "f10",
+      "day": 4,
+      "type": "relational",
+      "text": "discussed university finances with his brother"
+    },
+    {
+      "id": "f11",
+      "day": 4,
+      "type": "quantitative",
+      "text": "budgeted £300 for application fees and travel costs"
+    },
+    {
+      "id": "f12",
+      "day": 4,
+      "type": "emotional",
+      "text": "felt anxious about the financial implications of university"
+    },
+    {
+      "id": "f13",
+      "day": 5,
+      "type": "named_entity",
+      "text": "met with the head of the history department, Mr. Johnson"
+    },
+    {
+      "id": "f14",
+      "day": 5,
+      "type": "relational",
+      "text": "received advice on university applications from Mr. Johnson"
+    },
+    {
+      "id": "f15",
+      "day": 5,
+      "type": "emotional",
+      "text": "felt reassured by Mr. Johnson's support"
+    },
+    {
+      "id": "f16",
+      "day": 6,
+      "type": "quantitative",
+      "text": "reviewed 5 different universities with his daughter"
+    },
+    {
+      "id": "f17",
+      "day": 6,
+      "type": "emotional",
+      "text": "felt a mix of excitement and apprehension about the future"
+    },
+    {
+      "id": "f18",
+      "day": 6,
+      "type": "relational",
+      "text": "bonded with his daughter over shared interests in history"
+    },
+    {
+      "id": "f19",
+      "day": 7,
+      "type": "named_entity",
+      "text": "attended a university open day at Liverpool Hope University"
+    },
+    {
+      "id": "f20",
+      "day": 7,
+      "type": "quantitative",
+      "text": "spent 4 hours at the open day"
+    },
+    {
+      "id": "f21",
+      "day": 7,
+      "type": "emotional",
+      "text": "felt hopeful about the opportunities available for his daughter"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "id": "f01",
+        "day": 1,
+        "type": "named_entity",
+        "text": "attended a parents' evening at Manchester Academy"
+      },
+      {
+        "id": "f02",
+        "day": 1,
+        "type": "emotional",
+        "text": "felt proud of his daughter's academic achievements"
+      },
+      {
+        "id": "f03",
+        "day": 1,
+        "type": "relational",
+        "text": "had a long chat with his daughter about her university choices"
+      }
+    ],
+    "2": [
+      {
+        "id": "f04",
+        "day": 2,
+        "type": "quantitative",
+        "text": "spent 3 hours helping his daughter with her personal statement"
+      },
+      {
+        "id": "f05",
+        "day": 2,
+        "type": "emotional",
+        "text": "felt overwhelmed by the university application process"
+      },
+      {
+        "id": "f06",
+        "day": 2,
+        "type": "relational",
+        "text": "joined a support group for parents of university applicants"
+      }
+    ],
+    "3": [
+      {
+        "id": "f07",
+        "day": 3,
+        "type": "named_entity",
+        "text": "visited the University of Manchester campus"
+      },
+      {
+        "id": "f08",
+        "day": 3,
+        "type": "quantitative",
+        "text": "spent 45 minutes walking around the campus"
+      },
+      {
+        "id": "f09",
+        "day": 3,
+        "type": "emotional",
+        "text": "felt excited about his daughter's potential future"
+      }
+    ],
+    "4": [
+      {
+        "id": "f10",
+        "day": 4,
+        "type": "relational",
+        "text": "discussed university finances with his brother"
+      },
+      {
+        "id": "f11",
+        "day": 4,
+        "type": "quantitative",
+        "text": "budgeted £300 for application fees and travel costs"
+      },
+      {
+        "id": "f12",
+        "day": 4,
+        "type": "emotional",
+        "text": "felt anxious about the financial implications of university"
+      }
+    ],
+    "5": [
+      {
+        "id": "f13",
+        "day": 5,
+        "type": "named_entity",
+        "text": "met with the head of the history department, Mr. Johnson"
+      },
+      {
+        "id": "f14",
+        "day": 5,
+        "type": "relational",
+        "text": "received advice on university applications from Mr. Johnson"
+      },
+      {
+        "id": "f15",
+        "day": 5,
+        "type": "emotional",
+        "text": "felt reassured by Mr. Johnson's support"
+      }
+    ],
+    "6": [
+      {
+        "id": "f16",
+        "day": 6,
+        "type": "quantitative",
+        "text": "reviewed 5 different universities with his daughter"
+      },
+      {
+        "id": "f17",
+        "day": 6,
+        "type": "emotional",
+        "text": "felt a mix of excitement and apprehension about the future"
+      },
+      {
+        "id": "f18",
+        "day": 6,
+        "type": "relational",
+        "text": "bonded with his daughter over shared interests in history"
+      }
+    ],
+    "7": [
+      {
+        "id": "f19",
+        "day": 7,
+        "type": "named_entity",
+        "text": "attended a university open day at Liverpool Hope University"
+      },
+      {
+        "id": "f20",
+        "day": 7,
+        "type": "quantitative",
+        "text": "spent 4 hours at the open day"
+      },
+      {
+        "id": "f21",
+        "day": 7,
+        "type": "emotional",
+        "text": "felt hopeful about the opportunities available for his daughter"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Snap: So, tell me about your day. I heard you had a parents' evening at Manchester Academy?\n\nStar: Yeah, that’s right! I attended the parents' evening at Manchester Academy. It was quite an event, you know? \n\nSnap: How did that go? Were there any surprises?\n\nStar: Not really surprises, but I felt really proud of my daughter's academic achievements. She's been working so hard, and it was nice to see how well she's doing in her classes.\n\nSnap: That's great to hear! What subjects is she excelling in?\n\nStar: Mostly history, of course, but she's also doing well in English and the sciences. They all praised her effort, which made me feel even prouder.\n\nSnap: Sounds like she's got a bright future ahead. Did you get a chance to discuss her plans after school?\n\nStar: Absolutely! After the evening, we had a long chat about her university choices. It's such a big decision for her.\n\nSnap: I can imagine! What are her top picks so far?\n\nStar: She's looking at a couple of universities that have strong history programs. We talked about what she wants to study and where she sees herself in the future.\n\nSnap: That must be an exciting time for both of you! How are you feeling about her choices?\n\nStar: Honestly, I’m just really proud of her and supportive. It’s a big step, and I want her to choose what feels right for her.",
+    "2": "Snap: So, how's the university application process going for you and your daughter? \n\nStar: It's been quite a ride, to be honest. I spent about three hours today helping her with her personal statement. It's really tough, and I must admit, I'm feeling a bit overwhelmed by the whole thing. \n\nSnap: Yeah, I can imagine! What part of the process feels the most overwhelming for you?\n\nStar: Well, it's just the sheer amount of information and the pressure to make everything perfect. I want her to have the best chance possible, but it’s a lot to handle. \n\nSnap: I hear you. Have you found any ways to cope with that stress?\n\nStar: Actually, I joined a support group for parents of university applicants recently. It’s been helpful to connect with other parents who are going through the same thing. We share tips and just vent a bit. \n\nSnap: That sounds like a great idea! How has the support group been for you so far?\n\nStar: It’s been really nice. Everyone is very understanding, and it feels good to know I’m not alone in this. Plus, we exchange advice on helping our kids with everything from personal statements to interviews.\n\nSnap: Speaking of personal statements, what are some of the challenges you've faced while helping your daughter with hers?\n\nStar: Oh, there are so many! She wants it to stand out, but it’s hard to figure out what to include. I think we did make some progress today after those three hours, but it’s still a work in progress. \n\nSnap: It sounds like you’re really dedicated to supporting her. Do you think the group will help you both in the long run?\n\nStar: I really hope so. I think having that community can make a big difference, especially when I’m feeling overwhelmed by all the decisions we have to make. It’s nice to know there are others out there dealing with the same challenges.",
+    "3": "Snap: So, how's the university application process going for your daughter?\n\nStar: It's really picking up speed! Just today, we visited the University of Manchester campus.\n\nSnap: Oh nice! How was that experience for you both?\n\nStar: It was great! We spent about 45 minutes walking around the campus, exploring different areas and checking out the facilities.\n\nSnap: That sounds like a good chunk of time to really get a feel for the place. What did you think of the campus?\n\nStar: Honestly, I felt excited about my daughter's potential future there. The atmosphere was vibrant, and I could really see her thriving in that environment.\n\nSnap: That's fantastic to hear! Did she have any particular highlights or things she liked about the campus?\n\nStar: Yes, she loved the library and the student union area. Seeing her so engaged made me even more hopeful about her future, you know?\n\nSnap: I can imagine! It must be a big step for both of you. Are there any other universities she’s considering?\n\nStar: Yes, she’s looking at a couple of other places, but visiting the University of Manchester really made an impression on us today.\n\nSnap: It's great that you're supporting her through this process. Any plans for more campus visits?\n\nStar: Definitely! We want to visit a few more places to make sure she finds the right fit, just like we did today.",
+    "4": "Snap: So, how’s everything going with your daughter’s university applications? \n\nStar: Oh, it’s been quite a ride, to be honest. Just yesterday, I had a long chat with my brother about university finances. It’s a big topic right now. \n\nSnap: That sounds like a serious conversation. What did you two discuss specifically? \n\nStar: We really focused on how to manage the costs. I’ve budgeted around £300 for application fees and travel costs, but even that feels a bit tight. \n\nSnap: I can imagine. It’s such a huge financial commitment. How are you feeling about it all? \n\nStar: Honestly, I’ve been feeling quite anxious about the financial implications of university. It's a lot to think about, especially when you want the best for your kid. \n\nSnap: Absolutely. It must be tough trying to balance supporting her dreams while also managing your own finances. \n\nStar: Exactly. My brother was really helpful, though. He’s been through the process with his kids, so he offered some good advice on how to navigate it. \n\nSnap: That’s great to hear. Do you think you’ll be able to stick to that budget you set? \n\nStar: I hope so. It’ll definitely take some careful planning, especially with those application fees and travel costs coming up soon.",
+    "5": "Snap: So, how's your week been so far? Anything exciting happen?\n\nStar: Oh, it's been pretty busy, to be honest. I met with the head of the history department, Mr. Johnson, earlier this week.\n\nSnap: Mr. Johnson, huh? What was the meeting about?\n\nStar: We discussed a few things regarding my daughter's university applications. He really took the time to give me some advice on what she should focus on to make her applications stand out.\n\nSnap: That's great! How did that conversation go? Did you find his advice helpful?\n\nStar: Absolutely. I felt reassured by Mr. Johnson's support. It’s always nice to have someone experienced guiding you through these things, especially since it's such an important time for my daughter.\n\nSnap: I can imagine! What specific advice did he offer?\n\nStar: He suggested highlighting her extracurricular activities and how they relate to her interest in history, which I hadn't thought about much before. \n\nSnap: That’s smart! Did you leave the meeting feeling more confident about the whole process?\n\nStar: For sure. Mr. Johnson really knows his stuff, and just having his backing made a big difference. It’s nice to know we’re not navigating this alone.\n\nSnap: Sounds like a solid meeting! Are there any other steps you're planning to take with her applications?\n\nStar: Well, now that I have some guidance from Mr. Johnson, I think we’ll review her personal statement next and see what we can improve.",
+    "6": "Snap: So, how's the university application process going with your daughter? \n\nStar: It's been quite a whirlwind, to be honest. We reviewed 5 different universities together, which was both exhausting and exciting.\n\nSnap: Five! That's quite a number. How did you choose which ones to look at?\n\nStar: Well, we focused on schools with strong history programs since that's something we both love. It really helped us bond over our shared interests in history during the visits.\n\nSnap: That sounds like a great way to connect. How did you feel during those visits?\n\nStar: I felt a mix of excitement and apprehension about the future. I mean, this is such a big step for her, and I want to make sure she finds the right fit.\n\nSnap: I can imagine! Did any university particularly stand out during your reviews?\n\nStar: Each one had its unique charm, but I think we were both drawn to one that had an incredible history faculty. It felt right, you know? \n\nSnap: It sounds like a meaningful experience for both of you. What was your daughter's reaction to the universities?\n\nStar: She was excited, especially about the history programs, but I could sense some of that apprehension in her too. It’s a big decision for her, after all.\n\nSnap: Definitely. Have you talked about what she’s looking for in a university?\n\nStar: Yes, we've discussed it a lot. She wants a strong academic environment but also a place where she can continue to explore her interests, particularly in history. It's been a great bonding experience for us.",
+    "7": "Snap: So, I heard you attended a university open day recently. How did that go?  \nStar: Yeah, I went to Liverpool Hope University for their open day. It was quite an experience!  \n\nSnap: Oh, nice! How long were you there?  \nStar: I spent about 4 hours at the open day. It felt like a solid amount of time to really get a feel for the place.  \n\nSnap: That’s a good chunk of time. What stood out to you during your visit?  \nStar: Well, I felt really hopeful about the opportunities available for my daughter. They have some fantastic programs that I think she would thrive in.  \n\nSnap: That’s great to hear! Were there any specific programs that caught your attention?  \nStar: Yes, they have a really strong history program, which is perfect since I’m a history teacher myself. I think she would enjoy that.  \n\nSnap: Sounds like a good fit! How do you think she felt about it?  \nStar: She seemed excited when I talked to her about it afterward. I think seeing the campus in person helped her envision her future there.  \n\nSnap: Do you think this visit changed her perspective on universities?  \nStar: Absolutely. After spending those 4 hours at Liverpool Hope, I think she’s more open to the idea of going there.  \n\nSnap: That’s promising! Are there any other open days you’re planning to attend?  \nStar: We’re considering a few others, but Liverpool Hope University really made a strong impression on both of us."
+  }
+}
