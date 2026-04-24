@@ -56,6 +56,11 @@ MODEL_REGISTRY = {
         "api_key_env": "OPENAI_API_KEY",
         "model_id": "gpt-4o-mini",
     },
+    "openai-4.1-mini": {
+        "base_url": "https://api.openai.com/v1",
+        "api_key_env": "OPENAI_API_KEY",
+        "model_id": "gpt-4.1-mini",
+    },
 }
 
 # Cache clients so we don't reconnect on every call

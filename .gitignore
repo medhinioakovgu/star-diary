@@ -71,3 +71,8 @@ mobile/.expo/
 mobile/dist/
 mobile/web-build/
 mobile/*.tgz
+
+# Audit backups from fix_neutral_truncation*.py — kept locally, not committed
+research/data/results/**/*.truncated_backup.json
+research/upgrade_a_run.log
+research/*_run.log
