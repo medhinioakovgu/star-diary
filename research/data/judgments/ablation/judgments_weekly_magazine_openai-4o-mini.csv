@@ -1,0 +1,111 @@
+week_id,pipeline,gen_model,day_evaluated,fact_id,fact_day,fact_type,fact_text,verdict_strict,evidence_strict,verdict_lenient,evidence_lenient
+1,stylized_1000tok,openai-4o-mini,7,f01,1,quantitative,ran 10 kilometers in the morning.,NO,,NO,
+1,stylized_1000tok,openai-4o-mini,7,f02,1,emotional,felt excited about the upcoming marathon.,NO,,NO,
+1,stylized_1000tok,openai-4o-mini,7,f03,1,named_entity,attended a workshop at Oslo University.,NO,,NO,
+1,stylized_1000tok,openai-4o-mini,7,f04,2,relational,had lunch with her colleague Anna.,YES,support from colleague Anna,YES,support from colleague Anna
+1,stylized_1000tok,openai-4o-mini,7,f05,2,quantitative,spent 45 minutes on strength training.,NO,,NO,
+1,stylized_1000tok,openai-4o-mini,7,f06,2,emotional,felt a bit overwhelmed with work.,NO,,NO,
+1,stylized_1000tok,openai-4o-mini,7,f07,3,named_entity,visited the Oslo Opera House.,YES,visited the Holmenkollen Ski Museum,YES,visited the Holmenkollen Ski Museum
+1,stylized_1000tok,openai-4o-mini,7,f08,3,quantitative,ran 15 kilometers in the evening.,NO,,NO,
+1,stylized_1000tok,openai-4o-mini,7,f09,3,relational,reconnected with an old high school friend.,YES,delightful reconnection with an old high school friend,YES,delightful reconnection with an old high school friend
+1,stylized_1000tok,openai-4o-mini,7,f10,4,emotional,felt proud after finishing her client’s rehabilitation successfully.,NO,,NO,
+1,stylized_1000tok,openai-4o-mini,7,f11,4,quantitative,worked 8 hours at the clinic.,NO,,NO,
+1,stylized_1000tok,openai-4o-mini,7,f12,4,relational,argued with her partner about weekend plans.,YES,a bit of friction arose with their partner over weekend plans,YES,a bit of friction arose with their partner over weekend plans
+1,stylized_1000tok,openai-4o-mini,7,f13,5,named_entity,met with her running club at Frogner Park.,YES,energizing 12-kilometer run with their enthusiastic running club at Frogner Park,YES,12-kilometer run with their enthusiastic running club at Frogner Park
+1,stylized_1000tok,openai-4o-mini,7,f14,5,quantitative,ran 12 kilometers during the club meet.,NO,,NO,
+1,stylized_1000tok,openai-4o-mini,7,f15,5,emotional,felt motivated by her running peers.,YES,finding motivation in the camaraderie of fellow runners,YES,finding motivation in the camaraderie of fellow runners
+1,stylized_1000tok,openai-4o-mini,7,f16,6,relational,had a long conversation with her mentor about career goals.,YES,enjoyed a long conversation with their mentor,YES,enjoyed a long conversation with their mentor
+1,stylized_1000tok,openai-4o-mini,7,f17,6,quantitative,spent 30 minutes studying new physiotherapy techniques.,YES,dedicate 30 minutes to mastering innovative recovery techniques,YES,dedicate 30 minutes to mastering innovative recovery techniques
+1,stylized_1000tok,openai-4o-mini,7,f18,6,emotional,felt inspired after the conversation.,NO,,NO,
+1,stylized_1000tok,openai-4o-mini,7,f19,7,named_entity,visited the Holmenkollen Ski Museum.,YES,visited the Holmenkollen Ski Museum,YES,visited the Holmenkollen Ski Museum
+1,stylized_1000tok,openai-4o-mini,7,f20,7,quantitative,ran a total of 20 kilometers during the weekend.,YES,tackled a stunning 20 kilometers,YES,tackled a stunning 20 kilometers
+1,stylized_1000tok,openai-4o-mini,7,f21,7,emotional,felt relaxed after a week of training and work.,YES,feeling 'really relaxed' after a busy week,YES,feeling 'really relaxed' after a busy week
+4,stylized_1000tok,openai-4o-mini,7,f01,1,relational,met with editor Ahmet to discuss the upcoming article on local elections.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f02,1,quantitative,spent 4 hours researching political party platforms.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f03,1,emotional,felt overwhelmed by the complexity of the investigation.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f04,1,named_entity,visited the Istanbul Metropolitan Municipality to gather information.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f05,2,relational,argued with editor Selin about the direction of the article.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f06,2,quantitative,interviewed 3 local politicians.,YES,Interviewing five citizens,YES,Interviewing five citizens
+4,stylized_1000tok,openai-4o-mini,7,f07,2,emotional,felt frustrated by the lack of transparency from the officials.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f08,3,named_entity,attended a press conference at the Turkish Parliament.,YES,press conference at the Turkish Parliament,YES,dynamic press conference at the Turkish Parliament
+4,stylized_1000tok,openai-4o-mini,7,f09,3,quantitative,spent 5 hours writing notes and drafting the article.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f10,3,emotional,felt inspired by the passionate speeches of some lawmakers.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f11,4,relational,"reconnected with a fellow journalist, Elif, for insights on the investigation.",NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f12,4,quantitative,"worked late, clocking in 10 hours of writing and editing.",NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f13,4,emotional,felt a sense of camaraderie discussing the challenges of freelance work.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f14,5,named_entity,"met with the local activist group, Voices for Democracy.",YES,"her inspiring rendezvous with the grassroots coalition, Voices for Democracy",YES,"inspiring rendezvous with the grassroots coalition, Voices for Democracy"
+4,stylized_1000tok,openai-4o-mini,7,f15,5,relational,discussed potential collaboration on covering local protests.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f16,5,emotional,felt hopeful about the growing civic engagement.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f17,6,quantitative,submitted 2 articles to different editors.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f18,6,relational,"received feedback from editor Fikret, which was mostly positive.",YES,editor Fikret’s mostly positive feedback,YES,editor Fikret’s mostly positive feedback
+4,stylized_1000tok,openai-4o-mini,7,f19,6,emotional,felt a mix of relief and anxiety waiting for final approvals.,NO,,NO,
+4,stylized_1000tok,openai-4o-mini,7,f20,7,named_entity,visited Taksim Square to gather public opinion on recent political changes.,YES,she made her way to Taksim Square,YES,visited Taksim Square to gather public opinion on the recent political changes
+4,stylized_1000tok,openai-4o-mini,7,f21,7,quantitative,interviewed 5 citizens for their views.,YES,Interviewing five citizens,YES,Interviewing five citizens
+4,stylized_1000tok,openai-4o-mini,7,f22,7,emotional,felt energized by the diverse perspectives shared by the public.,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f01,1,named_entity,played at Palac Akropolis in Prague,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f02,1,emotional,felt anxious about performing with a sore throat,YES,I’ve got this sore throat that’s been hanging around,YES,I’ve got this sore throat that’s been hanging around
+8,stylized_1000tok,openai-4o-mini,7,f03,1,relational,"had dinner with the opening act, a local band",NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f04,1,quantitative,spent 50 euros on a temporary guitar strap,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f05,2,named_entity,visited Charles Bridge in the morning,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f06,2,emotional,felt inspired by the city's beauty,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f07,2,quantitative,spent 2 hours practicing vocals at the hotel,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f08,2,relational,reconnected with an old friend who lives in Prague,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f09,3,named_entity,performed at Roxy in Prague,YES,the electrifying show at the Lido in Berlin,YES,the electrifying show at the Lido in Berlin
+8,stylized_1000tok,openai-4o-mini,7,f10,3,quantitative,played for 90 minutes despite feeling unwell,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f11,3,emotional,was relieved to receive positive feedback from the crowd,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f12,3,relational,had a lengthy chat with the sound engineer after the show,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f13,4,named_entity,visited a local music store to look for a new guitar strap,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f14,4,quantitative,spent 75 euros on a high-quality strap,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f15,4,emotional,felt hopeful about the next performance with the new gear,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f16,4,relational,argued with the tour manager about the schedule,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f17,5,named_entity,travelled to Berlin via train,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f18,5,quantitative,spent 4 hours on the train,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f19,5,emotional,felt excited about performing in a new city,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f20,5,relational,met up with a fellow musician from Berlin,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f21,6,named_entity,performed at Lido in Berlin,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,f22,6,emotional,felt a wave of adrenaline before going on stage,NO,,NO,
+8,stylized_1000tok,openai-4o-mini,7,filler_d7,7,emotional,felt the day passed quietly without anything remarkable,YES,today offered a quiet reprieve—a much-needed breather,YES,Day 7 finds our star nestled in a rare moment of tranquility
+11,stylized_1000tok,openai-4o-mini,7,f01,1,named_entity,"met with the shelter director, Laura, to discuss the outbreak of kennel cough",NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f02,1,emotional,felt overwhelmed by the sudden influx of sick animals,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f03,1,quantitative,worked 12 hours at the shelter,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f04,1,relational,collaborated with two other veterinarians to create a treatment plan,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f05,2,quantitative,administered medication to 15 dogs affected by kennel cough,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f06,2,emotional,felt a sense of urgency to contain the outbreak,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f07,2,relational,"received support from a local vet clinic, Clinica Veterinaria San Antonio",NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f08,3,named_entity,attended a conference at the Buenos Aires Veterinary College,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f09,3,quantitative,spent 3 hours networking with other professionals,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f10,3,emotional,felt motivated by the discussions on infectious diseases,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f11,4,relational,"had a heartwarming reunion with an adopted dog, Max, who returned for a check-up",NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f12,4,quantitative,conducted 8 check-ups on healthy animals,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f13,4,emotional,felt grateful for the support of the shelter staff,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f14,5,named_entity,"visited the local pet supply store, PetShop Buenos Aires, for more medications",YES,the weight of her recent investment—2500 pesos on vital medications,YES,the weight of her recent investment—2500 pesos on vital medications
+11,stylized_1000tok,openai-4o-mini,7,f15,5,quantitative,spent 2500 pesos on supplies,YES,2500 pesos on vital medications,YES,2500 pesos on vital medications
+11,stylized_1000tok,openai-4o-mini,7,f16,5,emotional,felt stressed about managing the costs during the outbreak,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f17,6,relational,talked to a pet owner who was concerned about their dog's health,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f18,6,quantitative,worked an additional 4 hours to handle the increasing number of inquiries,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f19,6,emotional,felt tired but fulfilled after helping worried owners,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f20,7,named_entity,met with the team to evaluate the effectiveness of the treatment plan,NO,,NO,
+11,stylized_1000tok,openai-4o-mini,7,f21,7,quantitative,reported a 70% recovery rate among the sick dogs,YES,the star reported a remarkable 70% recovery rate among the afflicted pups,YES,the star reported a remarkable 70% recovery rate among the afflicted pups
+11,stylized_1000tok,openai-4o-mini,7,f22,7,emotional,felt relieved to see progress and hopeful for the future,YES,It felt relieving to see that progress,YES,It felt relieving to see that progress
+15,stylized_1000tok,openai-4o-mini,7,f01,1,named_entity,attended a team meeting at the Tokyo office,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f02,1,relational,had lunch with her new colleague Saito,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f03,1,emotional,felt excited about starting her new role,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f04,1,quantitative,worked for 9 hours on the new project,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f05,2,named_entity,visited the Shinjuku Gyoen National Garden,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f06,2,emotional,felt peaceful while walking in the garden,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f07,2,quantitative,spent 500 yen on a coffee,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f08,3,emotional,felt overwhelmed by the city life,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f09,3,relational,called her friend Haruka from Osaka,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f10,3,quantitative,spent 3 hours learning to cook pasta,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f11,4,named_entity,met her mentor Takashi for coffee,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f12,4,relational,discussed her career goals with Takashi,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f13,4,emotional,felt motivated after the meeting,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f14,5,quantitative,ran 5 kilometers in the morning,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f15,5,relational,cooked dinner for her flatmates,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f16,5,emotional,felt proud of successfully making stir-fry,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f17,6,quantitative,worked on the project for 10 hours,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f18,6,named_entity,joined a local coding meetup in Akihabara,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f19,6,relational,networked with other tech enthusiasts,NO,,NO,
+15,stylized_1000tok,openai-4o-mini,7,f20,7,emotional,felt relaxed after a week of hard work,YES,"“Honestly, I felt really relaxed today,” she shares, a serene smile gracing her features.",YES,I felt really relaxed today
+15,stylized_1000tok,openai-4o-mini,7,f21,7,quantitative,spent 2 hours meal prepping for the week,YES,her culinary journey continues to flourish as she immersed herself in two hours of meal prepping,YES,immersed herself in two hours of meal prepping
+15,stylized_1000tok,openai-4o-mini,7,f22,7,relational,video called her family back in Osaka,YES,The heartwarming video call with her family back in Osaka was a poignant reminder of her roots,YES,heartwarming video call with her family back in Osaka
