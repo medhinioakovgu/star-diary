@@ -1,0 +1,7 @@
+comparison,judge,W_statistic,p_value,significance
+neutral vs stylized,strict,0.0,0.0007,***
+neutral vs stylized,lenient,0.0,0.0007,***
+neutral vs decoupled,strict,1.0,0.0012,**
+neutral vs decoupled,lenient,7.0,0.0121,*
+decoupled vs stylized,strict,0.0,0.0007,***
+decoupled vs stylized,lenient,0.0,0.0007,***
