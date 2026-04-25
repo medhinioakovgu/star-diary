@@ -1,0 +1,7 @@
+pipeline,judge,n_weeks,mean,ci_lower,ci_upper
+neutral,strict,15,0.7262,0.6384,0.8040
+neutral,lenient,15,0.8476,0.7479,0.9237
+stylized,strict,15,0.2082,0.1657,0.2666
+stylized,lenient,15,0.2812,0.2185,0.3497
+decoupled,strict,15,0.9324,0.8933,0.9664
+decoupled,lenient,15,0.9633,0.9258,0.9933
