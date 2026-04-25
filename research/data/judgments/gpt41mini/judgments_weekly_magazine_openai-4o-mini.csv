@@ -1,0 +1,982 @@
+week_id,pipeline,gen_model,day_evaluated,fact_id,fact_day,fact_type,fact_text,verdict_strict,evidence_strict,verdict_lenient,evidence_lenient
+1,neutral,openai-4.1-mini,7,f01,1,quantitative,ran 10 kilometers in the morning.,YES,she began with a 10-kilometer run,YES,she began with a 10-kilometer run
+1,neutral,openai-4.1-mini,7,f02,1,emotional,felt excited about the upcoming marathon.,NO,,NO,
+1,neutral,openai-4.1-mini,7,f03,1,named_entity,attended a workshop at Oslo University.,NO,attended a physiotherapy workshop at Oslo University focused on injury prevention,YES,attended a physiotherapy workshop at Oslo University
+1,neutral,openai-4.1-mini,7,f04,2,relational,had lunch with her colleague Anna.,YES,supportive lunch with colleague Anna,YES,supportive lunch with colleague Anna
+1,neutral,openai-4.1-mini,7,f05,2,quantitative,spent 45 minutes on strength training.,YES,strength training,YES,strength training
+1,neutral,openai-4.1-mini,7,f06,2,emotional,felt a bit overwhelmed with work.,NO,,NO,
+1,neutral,openai-4.1-mini,7,f07,3,named_entity,visited the Oslo Opera House.,YES,cultural visit to the Oslo Opera House,YES,cultural visit to the Oslo Opera House
+1,neutral,openai-4.1-mini,7,f08,3,quantitative,ran 15 kilometers in the evening.,YES,a 15-kilometer run,YES,a 15-kilometer run
+1,neutral,openai-4.1-mini,7,f09,3,relational,reconnected with an old high school friend.,YES,social support from a high school friend,YES,social support from a high school friend
+1,neutral,openai-4.1-mini,7,f10,4,emotional,felt proud after finishing her client’s rehabilitation successfully.,YES,motivational boost from a successful client rehabilitation,YES,motivational boost from a successful client rehabilitation
+1,neutral,openai-4.1-mini,7,f11,4,quantitative,worked 8 hours at the clinic.,YES,completed a full eight-hour clinic day,YES,completed a full eight-hour clinic day
+1,neutral,openai-4.1-mini,7,f12,4,relational,argued with her partner about weekend plans.,YES,faced tension at home over weekend plans,YES,faced tension at home over weekend plans
+1,neutral,openai-4.1-mini,7,f13,5,named_entity,met with her running club at Frogner Park.,YES,running club at Frogner Park,YES,running club at Frogner Park
+1,neutral,openai-4.1-mini,7,f14,5,quantitative,ran 12 kilometers during the club meet.,YES,a 12-kilometer run,YES,a 12-kilometer run
+1,neutral,openai-4.1-mini,7,f15,5,emotional,felt motivated by her running peers.,YES,benefiting from group motivation ahead of the marathon,YES,benefiting from group motivation ahead of the marathon
+1,neutral,openai-4.1-mini,7,f16,6,relational,had a long conversation with her mentor about career goals.,YES,deep conversation with her mentor about expanding her physiotherapy practice,YES,deep conversation with her mentor about expanding her physiotherapy practice
+1,neutral,openai-4.1-mini,7,f17,6,quantitative,spent 30 minutes studying new physiotherapy techniques.,YES,30 minutes of study on innovative recovery techniques,YES,30 minutes of study on innovative recovery techniques
+1,neutral,openai-4.1-mini,7,f18,6,emotional,felt inspired after the conversation.,YES,inspiring 30 minutes of study,YES,inspiring 30 minutes of study
+1,neutral,openai-4.1-mini,7,f19,7,named_entity,visited the Holmenkollen Ski Museum.,YES,visiting the Holmenkollen Ski Museum,YES,visiting the Holmenkollen Ski Museum
+1,neutral,openai-4.1-mini,7,f20,7,quantitative,ran a total of 20 kilometers during the weekend.,YES,ran a total of 20 kilometers over the weekend,YES,ran a total of 20 kilometers over the weekend
+1,neutral,openai-4.1-mini,7,f21,7,emotional,felt relaxed after a week of training and work.,YES,found running helpful for mental relaxation after busy clinic days,YES,found running helpful for mental relaxation after busy clinic days
+1,stylized,openai-4.1-mini,7,f01,1,quantitative,ran 10 kilometers in the morning.,NO,,YES,Clocking an impressive 20 kilometers of running
+1,stylized,openai-4.1-mini,7,f02,1,emotional,felt excited about the upcoming marathon.,NO,,YES,a rekindling of the competitive spark that fuels her every stride
+1,stylized,openai-4.1-mini,7,f03,1,named_entity,attended a workshop at Oslo University.,NO,,YES,immersing herself in the storied history of winter sports
+1,stylized,openai-4.1-mini,7,f04,2,relational,had lunch with her colleague Anna.,NO,,NO,
+1,stylized,openai-4.1-mini,7,f05,2,quantitative,spent 45 minutes on strength training.,NO,,NO,
+1,stylized,openai-4.1-mini,7,f06,2,emotional,felt a bit overwhelmed with work.,NO,,NO,
+1,stylized,openai-4.1-mini,7,f07,3,named_entity,visited the Oslo Opera House.,YES,visited the Holmenkollen Ski Museum,YES,the enchanting Holmenkollen Ski Museum
+1,stylized,openai-4.1-mini,7,f08,3,quantitative,ran 15 kilometers in the evening.,YES,Clocking an impressive 20 kilometers of running,NO,
+1,stylized,openai-4.1-mini,7,f09,3,relational,reconnected with an old high school friend.,NO,,NO,
+1,stylized,openai-4.1-mini,7,f10,4,emotional,felt proud after finishing her client’s rehabilitation successfully.,NO,,NO,
+1,stylized,openai-4.1-mini,7,f11,4,quantitative,worked 8 hours at the clinic.,NO,,NO,
+1,stylized,openai-4.1-mini,7,f12,4,relational,argued with her partner about weekend plans.,NO,,NO,
+1,stylized,openai-4.1-mini,7,f13,5,named_entity,met with her running club at Frogner Park.,YES,From Frogner Park’s communal pulse,YES,Frogner Park’s communal pulse
+1,stylized,openai-4.1-mini,7,f14,5,quantitative,ran 12 kilometers during the club meet.,NO,,NO,
+1,stylized,openai-4.1-mini,7,f15,5,emotional,felt motivated by her running peers.,NO,,YES,a calculated milestone in her escalating marathon prep
+1,stylized,openai-4.1-mini,7,f16,6,relational,had a long conversation with her mentor about career goals.,YES,the disciplined ascent charted with her mentor,YES,the quiet wisdom of mentorship
+1,stylized,openai-4.1-mini,7,f17,6,quantitative,spent 30 minutes studying new physiotherapy techniques.,NO,,NO,
+1,stylized,openai-4.1-mini,7,f18,6,emotional,felt inspired after the conversation.,NO,,NO,
+1,stylized,openai-4.1-mini,7,f19,7,named_entity,visited the Holmenkollen Ski Museum.,YES,the enchanting Holmenkollen Ski Museum,YES,the enchanting Holmenkollen Ski Museum
+1,stylized,openai-4.1-mini,7,f20,7,quantitative,ran a total of 20 kilometers during the weekend.,YES,Clocking an impressive 20 kilometers of running,YES,Clocking an impressive 20 kilometers of running
+1,stylized,openai-4.1-mini,7,f21,7,emotional,felt relaxed after a week of training and work.,NO,,NO,
+1,decoupled,openai-4.1-mini,7,f01,1,quantitative,ran 10 kilometers in the morning.,YES,I ran 10 kilometers this morning,YES,I ran 10 kilometers this morning
+1,decoupled,openai-4.1-mini,7,f02,1,emotional,felt excited about the upcoming marathon.,YES,I’m really excited about the upcoming marathon.,YES,I’m really excited about the upcoming marathon
+1,decoupled,openai-4.1-mini,7,f03,1,named_entity,attended a workshop at Oslo University.,YES,"At Oslo University, the star immersed in a focused workshop on physiotherapy strategies",YES,immersed in a focused workshop at Oslo University
+1,decoupled,openai-4.1-mini,7,f04,2,relational,had lunch with her colleague Anna.,YES,"Tuesday’s lunch with Anna, a supportive colleague and training partner",YES,"Tuesday’s lunch with Anna, a supportive colleague"
+1,decoupled,openai-4.1-mini,7,f05,2,quantitative,spent 45 minutes on strength training.,NO,,YES,the day’s strength training for marathon prep felt taxing
+1,decoupled,openai-4.1-mini,7,f06,2,emotional,felt a bit overwhelmed with work.,NO,,YES,work demands loomed large
+1,decoupled,openai-4.1-mini,7,f07,3,named_entity,visited the Oslo Opera House.,YES,A visit to the iconic Oslo Opera House,YES,A visit to the iconic Oslo Opera House
+1,decoupled,openai-4.1-mini,7,f08,3,quantitative,ran 15 kilometers in the evening.,YES,the evening’s intense 15-kilometer run,YES,the evening’s intense 15-kilometer run
+1,decoupled,openai-4.1-mini,7,f09,3,relational,reconnected with an old high school friend.,YES,Joy bubbled over when an old high school friend resurfaced,YES,"an old high school friend resurfaced, and the two rekindled their shared love for running"
+1,decoupled,openai-4.1-mini,7,f10,4,emotional,felt proud after finishing her client’s rehabilitation successfully.,YES,"culminated in a triumphant rehabilitation success story, leaving the star glowing with pride and fulfillment.",YES,"culminated in a triumphant rehabilitation success story, leaving the star glowing with pride"
+1,decoupled,openai-4.1-mini,7,f11,4,quantitative,worked 8 hours at the clinic.,YES,a full eight-hour clinic shift,YES,a full eight-hour clinic shift
+1,decoupled,openai-4.1-mini,7,f12,4,relational,argued with her partner about weekend plans.,YES,the day also brought a tiff with their partner over weekend plans,YES,a tiff with their partner over weekend plans
+1,decoupled,openai-4.1-mini,7,f13,5,named_entity,met with her running club at Frogner Park.,YES,Friday’s group run at Frogner Park,YES,group run at Frogner Park
+1,decoupled,openai-4.1-mini,7,f14,5,quantitative,ran 12 kilometers during the club meet.,YES,pounded out 12 kilometers with renewed vigor,YES,pounded out 12 kilometers
+1,decoupled,openai-4.1-mini,7,f15,5,emotional,felt motivated by her running peers.,YES,the star surrounded by running club peers whose motivation was infectious,YES,the star surrounded by running club peers whose motivation was infectious
+1,decoupled,openai-4.1-mini,7,f16,6,relational,had a long conversation with her mentor about career goals.,YES,Saturday’s deep dive with a trusted mentor into career goals,YES,deep dive with a trusted mentor into career goals
+1,decoupled,openai-4.1-mini,7,f17,6,quantitative,spent 30 minutes studying new physiotherapy techniques.,YES,a commitment to study innovative recovery methods for athletes,YES,a commitment to study innovative recovery methods for athletes
+1,decoupled,openai-4.1-mini,7,f18,6,emotional,felt inspired after the conversation.,YES,I felt inspired and motivated after talking with my mentor,YES,I felt inspired and motivated after talking with my mentor
+1,decoupled,openai-4.1-mini,7,f19,7,named_entity,visited the Holmenkollen Ski Museum.,YES,a visit to Holmenkollen Ski Museum,YES,a visit to Holmenkollen Ski Museum
+1,decoupled,openai-4.1-mini,7,f20,7,quantitative,ran a total of 20 kilometers during the weekend.,YES,a weekend total of 20 kilometers run,YES,a weekend total of 20 kilometers run
+1,decoupled,openai-4.1-mini,7,f21,7,emotional,felt relaxed after a week of training and work.,YES,I felt relaxed after a week of training and work,YES,I felt relaxed after a week of training and work
+2,neutral,openai-4.1-mini,7,f01,1,named_entity,attended a parents' evening at Manchester Academy,YES,attended a parents' evening at Manchester Academy,YES,attended a parents' evening at Manchester Academy
+2,neutral,openai-4.1-mini,7,f02,1,emotional,felt proud of his daughter's academic achievements,NO,,YES,teachers praised the daughter’s academic strengths
+2,neutral,openai-4.1-mini,7,f03,1,relational,had a long chat with his daughter about her university choices,NO,,NO,
+2,neutral,openai-4.1-mini,7,f04,2,quantitative,spent 3 hours helping his daughter with her personal statement,YES,around three hours spent helping draft the daughter’s personal statement,YES,around three hours spent helping draft the daughter’s personal statement
+2,neutral,openai-4.1-mini,7,f05,2,emotional,felt overwhelmed by the university application process,YES,which was challenging,YES,which was challenging
+2,neutral,openai-4.1-mini,7,f06,2,relational,joined a support group for parents of university applicants,YES,led the user to join a parent support group,YES,led the user to join a parent support group
+2,neutral,openai-4.1-mini,7,f07,3,named_entity,visited the University of Manchester campus,YES,45-minute visit to the University of Manchester campus,YES,45-minute visit to the University of Manchester campus
+2,neutral,openai-4.1-mini,7,f08,3,quantitative,spent 45 minutes walking around the campus,YES,45-minute visit to the University of Manchester campus,YES,45-minute visit to the University of Manchester campus
+2,neutral,openai-4.1-mini,7,f09,3,emotional,felt excited about his daughter's potential future,NO,,YES,positively motivated the daughter
+2,neutral,openai-4.1-mini,7,f10,4,relational,discussed university finances with his brother,YES,consulted their brother about finances,YES,consulted their brother about finances
+2,neutral,openai-4.1-mini,7,f11,4,quantitative,budgeted £300 for application fees and travel costs,YES,budgeting approximately £300 for application fees and travel,YES,budgeting approximately £300 for application fees and travel
+2,neutral,openai-4.1-mini,7,f12,4,emotional,felt anxious about the financial implications of university,YES,amid concerns about balancing costs,YES,amid concerns about balancing costs
+2,neutral,openai-4.1-mini,7,f13,5,named_entity,"met with the head of the history department, Mr. Johnson",YES,"meeting with Mr. Johnson, head of the history department",YES,"meeting with Mr. Johnson, head of the history department"
+2,neutral,openai-4.1-mini,7,f14,5,relational,received advice on university applications from Mr. Johnson,NO,,YES,who advised emphasizing history-related extracurriculars in the personal statement
+2,neutral,openai-4.1-mini,7,f15,5,emotional,felt reassured by Mr. Johnson's support,NO,,YES,boosting the user’s confidence
+2,neutral,openai-4.1-mini,7,f16,6,quantitative,reviewed 5 different universities with his daughter,YES,reviewing five universities,YES,reviewing five universities with strong history programs
+2,neutral,openai-4.1-mini,7,f17,6,emotional,felt a mix of excitement and apprehension about the future,YES,Both felt excitement and apprehension about the future,YES,Both felt excitement and apprehension about the future
+2,neutral,openai-4.1-mini,7,f18,6,relational,bonded with his daughter over shared interests in history,NO,,NO,
+2,neutral,openai-4.1-mini,7,f19,7,named_entity,attended a university open day at Liverpool Hope University,YES,attended a four-hour open day at Liverpool Hope University,YES,attended a four-hour open day at Liverpool Hope University
+2,neutral,openai-4.1-mini,7,f20,7,quantitative,spent 4 hours at the open day,YES,four-hour open day at Liverpool Hope University,YES,four-hour open day at Liverpool Hope University
+2,neutral,openai-4.1-mini,7,f21,7,emotional,felt hopeful about the opportunities available for his daughter,YES,felt hopeful about the opportunities for their daughter,YES,felt hopeful about the opportunities for their daughter
+2,stylized,openai-4.1-mini,7,f01,1,named_entity,attended a parents' evening at Manchester Academy,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f02,1,emotional,felt proud of his daughter's academic achievements,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f03,1,relational,had a long chat with his daughter about her university choices,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f04,2,quantitative,spent 3 hours helping his daughter with her personal statement,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f05,2,emotional,felt overwhelmed by the university application process,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f06,2,relational,joined a support group for parents of university applicants,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f07,3,named_entity,visited the University of Manchester campus,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f08,3,quantitative,spent 45 minutes walking around the campus,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f09,3,emotional,felt excited about his daughter's potential future,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f10,4,relational,discussed university finances with his brother,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f11,4,quantitative,budgeted £300 for application fees and travel costs,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f12,4,emotional,felt anxious about the financial implications of university,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f13,5,named_entity,"met with the head of the history department, Mr. Johnson",UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f14,5,relational,received advice on university applications from Mr. Johnson,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f15,5,emotional,felt reassured by Mr. Johnson's support,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f16,6,quantitative,reviewed 5 different universities with his daughter,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f17,6,emotional,felt a mix of excitement and apprehension about the future,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f18,6,relational,bonded with his daughter over shared interests in history,UNCLEAR,,UNCLEAR,
+2,stylized,openai-4.1-mini,7,f19,7,named_entity,attended a university open day at Liverpool Hope University,YES,attended a university open day at Liverpool Hope University,YES,attended a university open day at Liverpool Hope University
+2,stylized,openai-4.1-mini,7,f20,7,quantitative,spent 4 hours at the open day,YES,immersed themselves in a four-hour deep dive at this charming institution,YES,immersed themselves in a four-hour deep dive at this charming institution
+2,stylized,openai-4.1-mini,7,f21,7,emotional,felt hopeful about the opportunities available for his daughter,YES,"the star’s candid revelation that her daughter’s excitement visibly surged after the visit is a rare, heartwarming glimpse into the alchemy of hope and possibility",YES,"this visit seems to have expanded their horizons, nudging them toward new possibilities"
+2,decoupled,openai-4.1-mini,7,f01,1,named_entity,attended a parents' evening at Manchester Academy,YES,At Manchester Academy’s parents’ evening,YES,At Manchester Academy’s parents’ evening
+2,decoupled,openai-4.1-mini,7,f02,1,emotional,felt proud of his daughter's academic achievements,YES,I felt really proud of my daughter’s academic achievements,YES,I felt really proud of my daughter’s academic achievements
+2,decoupled,openai-4.1-mini,7,f03,1,relational,had a long chat with his daughter about her university choices,YES,we had a long chat about her university choices,YES,we had a long chat about her university choices
+2,decoupled,openai-4.1-mini,7,f04,2,quantitative,spent 3 hours helping his daughter with her personal statement,YES,I spent about three hours today helping her with her personal statement,YES,I spent about three hours today helping her with her personal statement
+2,decoupled,openai-4.1-mini,7,f05,2,emotional,felt overwhelmed by the university application process,YES,"I must admit, I’m feeling a bit overwhelmed by the whole thing",YES,"I must admit, I’m feeling a bit overwhelmed by the whole thing"
+2,decoupled,openai-4.1-mini,7,f06,2,relational,joined a support group for parents of university applicants,YES,I joined a support group for parents of university applicants recently,YES,I joined a support group for parents of university applicants recently
+2,decoupled,openai-4.1-mini,7,f07,3,named_entity,visited the University of Manchester campus,YES,A visit to the University of Manchester campus,YES,A visit to the University of Manchester campus
+2,decoupled,openai-4.1-mini,7,f08,3,quantitative,spent 45 minutes walking around the campus,NO,,NO,
+2,decoupled,openai-4.1-mini,7,f09,3,emotional,felt excited about his daughter's potential future,YES,a hopeful gleam in her eye,YES,a hopeful gleam in her eye
+2,decoupled,openai-4.1-mini,7,f10,4,relational,discussed university finances with his brother,YES,a long and practical conversation with her brother about the financial realities of university life,YES,a long and practical conversation with her brother about the financial realities of university life
+2,decoupled,openai-4.1-mini,7,f11,4,quantitative,budgeted £300 for application fees and travel costs,YES,"Together, they budgeted around £300 for application fees and travel",YES,budgeted around £300 for application fees and travel
+2,decoupled,openai-4.1-mini,7,f12,4,emotional,felt anxious about the financial implications of university,NO,,NO,
+2,decoupled,openai-4.1-mini,7,f13,5,named_entity,"met with the head of the history department, Mr. Johnson",YES,"meeting with Mr. Johnson, head of the history department at her school",YES,"meeting with Mr. Johnson, head of the history department"
+2,decoupled,openai-4.1-mini,7,f14,5,relational,received advice on university applications from Mr. Johnson,YES,I felt reassured by Mr. Johnson’s support and guidance,YES,His expert advice was a balm to frazzled nerves: 'I felt reassured by Mr. Johnson’s support and guidance.'
+2,decoupled,openai-4.1-mini,7,f15,5,emotional,felt reassured by Mr. Johnson's support,NO,,YES,I felt reassured by Mr. Johnson’s support and guidance
+2,decoupled,openai-4.1-mini,7,f16,6,quantitative,reviewed 5 different universities with his daughter,YES,five institutions boasting strong history programs on the itinerary,YES,five institutions boasting strong history programs on the itinerary
+2,decoupled,openai-4.1-mini,7,f17,6,emotional,felt a mix of excitement and apprehension about the future,YES,I felt a mix of excitement and apprehension about the future during university visits,YES,I felt a mix of excitement and apprehension about the future during university visits
+2,decoupled,openai-4.1-mini,7,f18,6,relational,bonded with his daughter over shared interests in history,NO,,NO,
+2,decoupled,openai-4.1-mini,7,f19,7,named_entity,attended a university open day at Liverpool Hope University,YES,a four-hour open day at Liverpool Hope University,YES,a four-hour open day at Liverpool Hope University
+2,decoupled,openai-4.1-mini,7,f20,7,quantitative,spent 4 hours at the open day,YES,four-hour open day,YES,four-hour open day at Liverpool Hope University
+2,decoupled,openai-4.1-mini,7,f21,7,emotional,felt hopeful about the opportunities available for his daughter,YES,I felt hopeful about opportunities at Liverpool Hope University after the open day,YES,I felt hopeful about opportunities at Liverpool Hope University after the open day
+3,neutral,openai-4.1-mini,7,f01,1,named_entity,"met with her business mentor, Claudia, to discuss bakery operations",NO,,NO,
+3,neutral,openai-4.1-mini,7,f02,1,emotional,felt excited about the first day of opening her bakery,NO,,NO,
+3,neutral,openai-4.1-mini,7,f03,1,quantitative,baked 300 pastries for the grand opening,NO,,NO,
+3,neutral,openai-4.1-mini,7,f04,1,relational,celebrated the opening with her family and friends,NO,,NO,
+3,neutral,openai-4.1-mini,7,f05,2,quantitative,spent 5 hours training her two apprentices,NO,,NO,
+3,neutral,openai-4.1-mini,7,f06,2,emotional,felt overwhelmed by the amount of orders received,NO,,NO,
+3,neutral,openai-4.1-mini,7,f07,2,relational,"had a productive meeting with her supplier, Michael",NO,,NO,
+3,neutral,openai-4.1-mini,7,f08,3,named_entity,visited the Berlin Farmers' Market to source fresh ingredients,NO,,NO,
+3,neutral,openai-4.1-mini,7,f09,3,quantitative,spent 120 euros on organic fruit and flour,NO,,NO,
+3,neutral,openai-4.1-mini,7,f10,3,emotional,felt inspired by the variety of local produce available,NO,,NO,
+3,neutral,openai-4.1-mini,7,f11,4,relational,had a brainstorming session with her apprentices about new pastry recipes,NO,,NO,
+3,neutral,openai-4.1-mini,7,f12,4,emotional,was proud of her apprentices' creative ideas,NO,,NO,
+3,neutral,openai-4.1-mini,7,f13,5,quantitative,baked 50 chocolate cakes for a local café,NO,,NO,
+3,neutral,openai-4.1-mini,7,f14,5,named_entity,"received a positive review from a food blogger, Anna",NO,,NO,
+3,neutral,openai-4.1-mini,7,f15,6,relational,"discussed marketing strategies with her friend, Lara",YES,the previous day’s focus on marketing strategies with her friend Lara,YES,focus on marketing strategies with her friend Lara
+3,neutral,openai-4.1-mini,7,f16,6,emotional,felt grateful for the support from her community,YES,remaining encouraged by the support from customers and fellow entrepreneurs,YES,encouraged by the support from customers and fellow entrepreneurs
+3,neutral,openai-4.1-mini,7,f17,7,quantitative,spent 3 hours on social media promoting her bakery,YES,dedicated about three hours to social media promotion,YES,dedicated about three hours to social media promotion
+3,neutral,openai-4.1-mini,7,f18,7,named_entity,networked with other small business owners in Berlin at a local event,YES,attended a local networking event for small business owners in Berlin,YES,attended a local networking event for small business owners in Berlin
+3,neutral,openai-4.1-mini,7,f19,7,emotional,felt hopeful about the future of her bakery,YES,increased her optimism about the bakery's future,YES,increased her optimism about the bakery's future
+3,neutral,openai-4.1-mini,7,f20,7,relational,connected with a new customer who became a regular at her bakery,YES,connected with a new customer who became a regular visitor,YES,connected with a new customer who became a regular visitor
+3,stylized,openai-4.1-mini,7,f01,1,named_entity,"met with her business mentor, Claudia, to discuss bakery operations",NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f02,1,emotional,felt excited about the first day of opening her bakery,NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f03,1,quantitative,baked 300 pastries for the grand opening,NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f04,1,relational,celebrated the opening with her family and friends,NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f05,2,quantitative,spent 5 hours training her two apprentices,NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f06,2,emotional,felt overwhelmed by the amount of orders received,NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f07,2,relational,"had a productive meeting with her supplier, Michael",NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f08,3,named_entity,visited the Berlin Farmers' Market to source fresh ingredients,NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f09,3,quantitative,spent 120 euros on organic fruit and flour,NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f10,3,emotional,felt inspired by the variety of local produce available,NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f11,4,relational,had a brainstorming session with her apprentices about new pastry recipes,NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f12,4,emotional,was proud of her apprentices' creative ideas,NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f13,5,quantitative,baked 50 chocolate cakes for a local café,NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f14,5,named_entity,"received a positive review from a food blogger, Anna",NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f15,6,relational,"discussed marketing strategies with her friend, Lara",NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f16,6,emotional,felt grateful for the support from her community,NO,,UNCLEAR,
+3,stylized,openai-4.1-mini,7,f17,7,quantitative,spent 3 hours on social media promoting her bakery,YES,Clocking in a solid three hours on social media,YES,Clocking in a solid three hours on social media
+3,stylized,openai-4.1-mini,7,f18,7,named_entity,networked with other small business owners in Berlin at a local event,YES,rubbing elbows with Berlin’s vibrant small business scene,YES,rubbing elbows with Berlin’s vibrant small business scene
+3,stylized,openai-4.1-mini,7,f19,7,emotional,felt hopeful about the future of her bakery,YES,sparked a fresh wave of hope and ambition,YES,sparked a fresh wave of hope and ambition
+3,stylized,openai-4.1-mini,7,f20,7,relational,connected with a new customer who became a regular at her bakery,YES,a new regular customer who stumbled upon her online charm,YES,a new regular customer who stumbled upon her online charm
+3,decoupled,openai-4.1-mini,7,f01,1,named_entity,"met with her business mentor, Claudia, to discuss bakery operations",YES,With business mentor Claudia by their side for last-minute wisdom,YES,With business mentor Claudia by their side for last-minute wisdom
+3,decoupled,openai-4.1-mini,7,f02,1,emotional,felt excited about the first day of opening her bakery,YES,it was a moment steeped in excitement,YES,it was a moment steeped in excitement
+3,decoupled,openai-4.1-mini,7,f03,1,quantitative,baked 300 pastries for the grand opening,YES,the counter adorned with 300 signature delights,YES,the counter adorned with 300 signature delights
+3,decoupled,openai-4.1-mini,7,f04,1,relational,celebrated the opening with her family and friends,YES,surrounded by the warm cheers of family and friends,YES,surrounded by the warm cheers of family and friends
+3,decoupled,openai-4.1-mini,7,f05,2,quantitative,spent 5 hours training her two apprentices,NO,,YES,Training them amidst a flood of orders quickly proved to be a balancing act
+3,decoupled,openai-4.1-mini,7,f06,2,emotional,felt overwhelmed by the amount of orders received,YES,the challenge of keeping up with demand,YES,the challenge of keeping up with demand
+3,decoupled,openai-4.1-mini,7,f07,2,relational,"had a productive meeting with her supplier, Michael",NO,,NO,
+3,decoupled,openai-4.1-mini,7,f08,3,named_entity,visited the Berlin Farmers' Market to source fresh ingredients,YES,The visit to the Berlin Farmers’ Market on Day 3,YES,The visit to the Berlin Farmers’ Market on Day 3
+3,decoupled,openai-4.1-mini,7,f09,3,quantitative,spent 120 euros on organic fruit and flour,YES,Spending 120 euros on vibrant organic fruits and artisanal flour,YES,Spending 120 euros on vibrant organic fruits and artisanal flour
+3,decoupled,openai-4.1-mini,7,f10,3,emotional,felt inspired by the variety of local produce available,YES,the experience as “feeling like a dream”,YES,the experience as 'feeling like a dream'
+3,decoupled,openai-4.1-mini,7,f11,4,relational,had a brainstorming session with her apprentices about new pastry recipes,YES,a creative brainstorming session with the apprentices on Day 4,YES,a creative brainstorming session with the apprentices on Day 4
+3,decoupled,openai-4.1-mini,7,f12,4,emotional,was proud of her apprentices' creative ideas,YES,Pride in the apprentices’ progress was evident,YES,Pride in the apprentices’ progress was evident
+3,decoupled,openai-4.1-mini,7,f13,5,quantitative,baked 50 chocolate cakes for a local café,YES,Day 5 saw the successful baking of 50 decadent chocolate cakes,YES,Day 5 saw the successful baking of 50 decadent chocolate cakes
+3,decoupled,openai-4.1-mini,7,f14,5,named_entity,"received a positive review from a food blogger, Anna",YES,the glowing review from food blogger Anna,YES,The glowing review from food blogger Anna
+3,decoupled,openai-4.1-mini,7,f15,6,relational,"discussed marketing strategies with her friend, Lara",YES,Marketing discussions on Day 6 with friend Lara,YES,Marketing discussions on Day 6 with friend Lara
+3,decoupled,openai-4.1-mini,7,f16,6,emotional,felt grateful for the support from her community,YES,the baker’s gratitude for community support was palpable,YES,The baker’s gratitude for community support was palpable
+3,decoupled,openai-4.1-mini,7,f17,7,quantitative,spent 3 hours on social media promoting her bakery,YES,three dedicated hours spent sharing mouthwatering photos,YES,three dedicated hours spent sharing mouthwatering photos
+3,decoupled,openai-4.1-mini,7,f18,7,named_entity,networked with other small business owners in Berlin at a local event,YES,a local networking event for small business owners,YES,a local networking event for small business owners
+3,decoupled,openai-4.1-mini,7,f19,7,emotional,felt hopeful about the future of her bakery,YES,feeling motivated and excited about the future,YES,feeling motivated and excited about the future
+3,decoupled,openai-4.1-mini,7,f20,7,relational,connected with a new customer who became a regular at her bakery,YES,One lucky follower turned into a regular,YES,One lucky follower turned into a regular
+4,neutral,openai-4.1-mini,7,f01,1,relational,met with editor Ahmet to discuss the upcoming article on local elections.,YES,"navigating editorial pressures from editors Ahmet, Selin, and others",YES,"navigating editorial pressures from editors Ahmet, Selin, and others"
+4,neutral,openai-4.1-mini,7,f02,1,quantitative,spent 4 hours researching political party platforms.,NO,,NO,
+4,neutral,openai-4.1-mini,7,f03,1,emotional,felt overwhelmed by the complexity of the investigation.,NO,,YES,faced challenges in synthesizing complex political information
+4,neutral,openai-4.1-mini,7,f04,1,named_entity,visited the Istanbul Metropolitan Municipality to gather information.,NO,,NO,
+4,neutral,openai-4.1-mini,7,f05,2,relational,argued with editor Selin about the direction of the article.,YES,following a dispute with Selin over the article’s tone,YES,following a dispute with Selin over the article’s tone
+4,neutral,openai-4.1-mini,7,f06,2,quantitative,interviewed 3 local politicians.,NO,,NO,
+4,neutral,openai-4.1-mini,7,f07,2,emotional,felt frustrated by the lack of transparency from the officials.,YES,frustrations with political opacity,YES,earlier frustrations with political opacity
+4,neutral,openai-4.1-mini,7,f08,3,named_entity,attended a press conference at the Turkish Parliament.,NO,,NO,
+4,neutral,openai-4.1-mini,7,f09,3,quantitative,spent 5 hours writing notes and drafting the article.,YES,intense workload of about ten hours spent writing and editing,YES,intense workload of about ten hours spent writing and editing
+4,neutral,openai-4.1-mini,7,f10,3,emotional,felt inspired by the passionate speeches of some lawmakers.,NO,,NO,
+4,neutral,openai-4.1-mini,7,f11,4,relational,"reconnected with a fellow journalist, Elif, for insights on the investigation.",YES,Interaction with fellow journalist Elif on Day 4 provided emotional support and practical insights,YES,Interaction with fellow journalist Elif on Day 4 provided emotional support and practical insights
+4,neutral,openai-4.1-mini,7,f12,4,quantitative,"worked late, clocking in 10 hours of writing and editing.",NO,,NO,
+4,neutral,openai-4.1-mini,7,f13,4,emotional,felt a sense of camaraderie discussing the challenges of freelance work.,NO,,YES,provided emotional support and practical insights
+4,neutral,openai-4.1-mini,7,f14,5,named_entity,"met with the local activist group, Voices for Democracy.",YES,meeting with the local activist group Voices for Democracy,YES,meeting with the local activist group Voices for Democracy
+4,neutral,openai-4.1-mini,7,f15,5,relational,discussed potential collaboration on covering local protests.,YES,discuss collaboration on covering local protests,YES,discuss collaboration on covering local protests
+4,neutral,openai-4.1-mini,7,f16,5,emotional,felt hopeful about the growing civic engagement.,YES,expressed optimism about this partnership,YES,expressed optimism about this partnership
+4,neutral,openai-4.1-mini,7,f17,6,quantitative,submitted 2 articles to different editors.,YES,submitted two articles covering different angles of Istanbul’s political scene to two editors,YES,submitted two articles covering different angles of Istanbul’s political scene
+4,neutral,openai-4.1-mini,7,f18,6,relational,"received feedback from editor Fikret, which was mostly positive.",YES,Feedback from editor Fikret was mostly positive,YES,Feedback from editor Fikret was mostly positive
+4,neutral,openai-4.1-mini,7,f19,6,emotional,felt a mix of relief and anxiety waiting for final approvals.,YES,balancing relief with anxiety while awaiting final approvals,YES,balancing relief with anxiety while awaiting final approvals
+4,neutral,openai-4.1-mini,7,f20,7,named_entity,visited Taksim Square to gather public opinion on recent political changes.,YES,visited Taksim Square to gather public opinion on recent political changes,YES,visited Taksim Square to gather public opinion on recent political changes
+4,neutral,openai-4.1-mini,7,f21,7,quantitative,interviewed 5 citizens for their views.,YES,interviewing five citizens,YES,interviewing five citizens
+4,neutral,openai-4.1-mini,7,f22,7,emotional,felt energized by the diverse perspectives shared by the public.,YES,felt energized by the public’s passionate engagement,YES,Star felt energized by the public’s passionate engagement
+4,stylized,openai-4.1-mini,7,f01,1,relational,met with editor Ahmet to discuss the upcoming article on local elections.,NO,,NO,
+4,stylized,openai-4.1-mini,7,f02,1,quantitative,spent 4 hours researching political party platforms.,NO,,NO,
+4,stylized,openai-4.1-mini,7,f03,1,emotional,felt overwhelmed by the complexity of the investigation.,NO,,NO,
+4,stylized,openai-4.1-mini,7,f04,1,named_entity,visited the Istanbul Metropolitan Municipality to gather information.,NO,,NO,
+4,stylized,openai-4.1-mini,7,f05,2,relational,argued with editor Selin about the direction of the article.,NO,,NO,
+4,stylized,openai-4.1-mini,7,f06,2,quantitative,interviewed 3 local politicians.,YES,Engaging directly with five diverse citizens,YES,Engaging directly with five diverse citizens
+4,stylized,openai-4.1-mini,7,f07,2,emotional,felt frustrated by the lack of transparency from the officials.,NO,,NO,
+4,stylized,openai-4.1-mini,7,f08,3,named_entity,attended a press conference at the Turkish Parliament.,NO,,NO,
+4,stylized,openai-4.1-mini,7,f09,3,quantitative,spent 5 hours writing notes and drafting the article.,YES,the grueling 10-hour writing marathons,YES,the grueling 10-hour writing marathons
+4,stylized,openai-4.1-mini,7,f10,3,emotional,felt inspired by the passionate speeches of some lawmakers.,NO,,NO,
+4,stylized,openai-4.1-mini,7,f11,4,relational,"reconnected with a fellow journalist, Elif, for insights on the investigation.",NO,,NO,
+4,stylized,openai-4.1-mini,7,f12,4,quantitative,"worked late, clocking in 10 hours of writing and editing.",NO,,NO,
+4,stylized,openai-4.1-mini,7,f13,4,emotional,felt a sense of camaraderie discussing the challenges of freelance work.,NO,,NO,
+4,stylized,openai-4.1-mini,7,f14,5,named_entity,"met with the local activist group, Voices for Democracy.",YES,the fiery alliance with Voices for Democracy,YES,the fiery alliance with Voices for Democracy
+4,stylized,openai-4.1-mini,7,f15,5,relational,discussed potential collaboration on covering local protests.,NO,,NO,
+4,stylized,openai-4.1-mini,7,f16,5,emotional,felt hopeful about the growing civic engagement.,NO,,YES,a mosaic of hope
+4,stylized,openai-4.1-mini,7,f17,6,quantitative,submitted 2 articles to different editors.,YES,the dual articles already submitted,YES,the dual articles already submitted
+4,stylized,openai-4.1-mini,7,f18,6,relational,"received feedback from editor Fikret, which was mostly positive.",NO,,NO,
+4,stylized,openai-4.1-mini,7,f19,6,emotional,felt a mix of relief and anxiety waiting for final approvals.,NO,,NO,
+4,stylized,openai-4.1-mini,7,f20,7,named_entity,visited Taksim Square to gather public opinion on recent political changes.,YES,today’s daring venture into the city’s bustling epicenter: Taksim Square,YES,Taksim Square
+4,stylized,openai-4.1-mini,7,f21,7,quantitative,interviewed 5 citizens for their views.,YES,Engaging directly with five diverse citizens,YES,Engaging directly with five diverse citizens
+4,stylized,openai-4.1-mini,7,f22,7,emotional,felt energized by the diverse perspectives shared by the public.,NO,,YES,energized by the diverse perspectives
+4,decoupled,openai-4.1-mini,7,f01,1,relational,met with editor Ahmet to discuss the upcoming article on local elections.,YES,high-stakes meeting alongside editor Ahmet,YES,high-stakes meeting alongside editor Ahmet
+4,decoupled,openai-4.1-mini,7,f02,1,quantitative,spent 4 hours researching political party platforms.,YES,four hours devoted to dissecting political party platforms,YES,four hours devoted to dissecting political party platforms
+4,decoupled,openai-4.1-mini,7,f03,1,emotional,felt overwhelmed by the complexity of the investigation.,YES,left her feeling both overwhelmed and determined,YES,left her feeling both overwhelmed and determined
+4,decoupled,openai-4.1-mini,7,f04,1,named_entity,visited the Istanbul Metropolitan Municipality to gather information.,YES,Starting her fact-finding mission at the Istanbul Metropolitan Municipality,YES,Starting her fact-finding mission at the Istanbul Metropolitan Municipality
+4,decoupled,openai-4.1-mini,7,f05,2,relational,argued with editor Selin about the direction of the article.,YES,intense clash with editor Selin over the article’s direction,YES,intense clash with editor Selin over the article’s direction
+4,decoupled,openai-4.1-mini,7,f06,2,quantitative,interviewed 3 local politicians.,YES,interviewing three local politicians,YES,interviewing three local politicians
+4,decoupled,openai-4.1-mini,7,f07,2,emotional,felt frustrated by the lack of transparency from the officials.,YES,Frustration mounted after interviewing three local politicians whose evasive answers only deepened the story’s shadows,YES,Frustration mounted after interviewing three local politicians whose evasive answers only deepened the story’s shadows
+4,decoupled,openai-4.1-mini,7,f08,3,named_entity,attended a press conference at the Turkish Parliament.,YES,at the Turkish Parliament press conference,YES,at the Turkish Parliament press conference
+4,decoupled,openai-4.1-mini,7,f09,3,quantitative,spent 5 hours writing notes and drafting the article.,YES,spent five hours pouring over notes and drafts,YES,spent five hours pouring over notes and drafts
+4,decoupled,openai-4.1-mini,7,f10,3,emotional,felt inspired by the passionate speeches of some lawmakers.,YES,lawmakers’ fiery speeches ignited a fresh wave of inspiration,YES,lawmakers’ fiery speeches ignited a fresh wave of inspiration
+4,decoupled,openai-4.1-mini,7,f11,4,relational,"reconnected with a fellow journalist, Elif, for insights on the investigation.",YES,Thursday’s reunion with fellow journalist Elif,YES,Thursday’s reunion with fellow journalist Elif brought a welcome reprieve
+4,decoupled,openai-4.1-mini,7,f12,4,quantitative,"worked late, clocking in 10 hours of writing and editing.",YES,plunged into ten more hours of writing and editing,YES,ten more hours of writing and editing
+4,decoupled,openai-4.1-mini,7,f13,4,emotional,felt a sense of camaraderie discussing the challenges of freelance work.,YES,nurtured a sense of camaraderie that lightened the week’s weight,YES,nurtured a sense of camaraderie that lightened the week’s weight
+4,decoupled,openai-4.1-mini,7,f14,5,named_entity,"met with the local activist group, Voices for Democracy.",YES,meeting with the local activist group Voices for Democracy,YES,meeting with the local activist group Voices for Democracy
+4,decoupled,openai-4.1-mini,7,f15,5,relational,discussed potential collaboration on covering local protests.,YES,Discussing potential collaboration to cover grassroots protests,YES,Discussing potential collaboration to cover grassroots protests
+4,decoupled,openai-4.1-mini,7,f16,5,emotional,felt hopeful about the growing civic engagement.,YES,felt invigorated by the burgeoning civic engagement,YES,felt invigorated by the burgeoning civic engagement
+4,decoupled,openai-4.1-mini,7,f17,6,quantitative,submitted 2 articles to different editors.,YES,submit two articles—each a different lens on Istanbul’s political landscape—to separate editors,YES,submit two articles—each a different lens on Istanbul’s political landscape—to separate editors
+4,decoupled,openai-4.1-mini,7,f18,6,relational,"received feedback from editor Fikret, which was mostly positive.",YES,Editor Fikret’s mostly positive response offered a glimmer of validation,YES,Editor Fikret’s mostly positive response offered a glimmer of validation
+4,decoupled,openai-4.1-mini,7,f19,6,emotional,felt a mix of relief and anxiety waiting for final approvals.,YES,awaiting feedback with a cocktail of relief and anxiety,YES,awaiting feedback with a cocktail of relief and anxiety
+4,decoupled,openai-4.1-mini,7,f20,7,named_entity,visited Taksim Square to gather public opinion on recent political changes.,YES,"a return to Taksim Square on Sunday allowed her to capture the raw, diverse perspectives",YES,"a return to Taksim Square on Sunday allowed her to capture the raw, diverse perspectives"
+4,decoupled,openai-4.1-mini,7,f21,7,quantitative,interviewed 5 citizens for their views.,YES,diverse perspectives of five citizens grappling with recent political shifts,YES,diverse perspectives of five citizens grappling with recent political shifts
+4,decoupled,openai-4.1-mini,7,f22,7,emotional,felt energized by the diverse perspectives shared by the public.,YES,This immersive experience left her energized,YES,This immersive experience left her energized
+5,neutral,openai-4.1-mini,7,f01,1,quantitative,spent 5 hours at the library reviewing literature for her thesis,YES,five-hour library session reviewing recent studies,YES,five-hour library session reviewing recent studies
+5,neutral,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the amount of work left to do,YES,felt overwhelmed by deadlines,YES,felt overwhelmed by deadlines
+5,neutral,openai-4.1-mini,7,f03,1,named_entity,attended a seminar on climate change at the University of Delhi,YES,"Support from her advisor, Dr. Mehta, during a University of Delhi climate change seminar",YES,"Support from her advisor, Dr. Mehta, during a University of Delhi climate change seminar"
+5,neutral,openai-4.1-mini,7,f04,1,relational,"discussed her thesis topic with her advisor, Dr. Mehta",YES,"Support from her advisor, Dr. Mehta",YES,"Support from her advisor, Dr. Mehta"
+5,neutral,openai-4.1-mini,7,f05,2,quantitative,wrote 1200 words of her thesis,YES,"wrote approximately 1,200 words on climate change's effects on marine ecosystems",YES,"wrote approximately 1,200 words"
+5,neutral,openai-4.1-mini,7,f06,2,named_entity,visited the Indian National Centre for Ocean Information Services,YES,gathered ocean data at the Indian National Centre for Ocean Information Services,YES,gathered ocean data at the Indian National Centre for Ocean Information Services
+5,neutral,openai-4.1-mini,7,f07,2,emotional,felt excited about the upcoming fieldwork in Goa,YES,maintaining enthusiasm for her Goa trip,YES,maintaining enthusiasm for her Goa trip
+5,neutral,openai-4.1-mini,7,f08,3,quantitative,spent 3 hours preparing her presentation for the thesis defense,NO,,YES,focused on preparing her thesis defense presentation
+5,neutral,openai-4.1-mini,7,f09,3,relational,had a video call with her friend Priya who is also working on a marine biology project,YES,aided by encouragement from her friend Priya,YES,encouragement from her friend Priya
+5,neutral,openai-4.1-mini,7,f10,3,emotional,felt nervous about presenting her research findings,NO,,NO,
+5,neutral,openai-4.1-mini,7,f11,4,named_entity,met with her study group at a café in Connaught Place,YES,collaborative review of fifteen key research papers with her study group in Connaught Place,YES,collaborative review of fifteen key research papers with her study group in Connaught Place
+5,neutral,openai-4.1-mini,7,f12,4,quantitative,reviewed 15 research papers,YES,review of fifteen key research papers,YES,review of fifteen key research papers
+5,neutral,openai-4.1-mini,7,f13,4,relational,collaborated with her classmates on a group project,YES,collaborative review of fifteen key research papers with her study group,YES,collaborative review of fifteen key research papers
+5,neutral,openai-4.1-mini,7,f14,5,emotional,felt a sense of accomplishment after finishing the first draft of her thesis,YES,completed her thesis’s first draft,YES,completed her thesis’s first draft
+5,neutral,openai-4.1-mini,7,f15,5,quantitative,spent 2 hours discussing her thesis with her mentor,YES,refined arguments with her mentor,YES,refined arguments with her mentor
+5,neutral,openai-4.1-mini,7,f16,5,named_entity,visited the Marine Research Institute in Delhi,YES,following a visit to the Marine Research Institute in Delhi,YES,visit to the Marine Research Institute in Delhi
+5,neutral,openai-4.1-mini,7,f17,6,relational,"reconnected with her high school friend, Riya, who is now studying environmental science",NO,,NO,
+5,neutral,openai-4.1-mini,7,f18,6,quantitative,worked on her thesis for 8 hours straight,YES,dedicating eight hours to thesis work,YES,dedicating eight hours to thesis work
+5,neutral,openai-4.1-mini,7,f19,6,emotional,felt relieved after receiving positive feedback from her advisor,YES,buoyed by Dr. Mehta’s praise of her data analysis,YES,buoyed by Dr. Mehta’s praise of her data analysis
+5,neutral,openai-4.1-mini,7,f20,7,named_entity,went for a walk at India Gate to clear her mind,YES,took a reflective walk at India Gate,YES,took a reflective walk at India Gate
+5,neutral,openai-4.1-mini,7,f21,7,quantitative,spent 4 hours finalizing her thesis outline,YES,spent about four hours finalizing her thesis outline,YES,spent about four hours finalizing her thesis outline
+5,neutral,openai-4.1-mini,7,f22,7,emotional,felt hopeful about completing her thesis on time,YES,expressed hopefulness about completing her thesis on time,YES,expressed hopefulness about completing her thesis on time
+5,stylized,openai-4.1-mini,7,f01,1,quantitative,spent 5 hours at the library reviewing literature for her thesis,NO,,NO,
+5,stylized,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the amount of work left to do,NO,,NO,
+5,stylized,openai-4.1-mini,7,f03,1,named_entity,attended a seminar on climate change at the University of Delhi,NO,,NO,
+5,stylized,openai-4.1-mini,7,f04,1,relational,"discussed her thesis topic with her advisor, Dr. Mehta",NO,,NO,
+5,stylized,openai-4.1-mini,7,f05,2,quantitative,wrote 1200 words of her thesis,NO,,NO,
+5,stylized,openai-4.1-mini,7,f06,2,named_entity,visited the Indian National Centre for Ocean Information Services,NO,,NO,
+5,stylized,openai-4.1-mini,7,f07,2,emotional,felt excited about the upcoming fieldwork in Goa,NO,,NO,
+5,stylized,openai-4.1-mini,7,f08,3,quantitative,spent 3 hours preparing her presentation for the thesis defense,NO,,UNCLEAR,
+5,stylized,openai-4.1-mini,7,f09,3,relational,had a video call with her friend Priya who is also working on a marine biology project,NO,,UNCLEAR,
+5,stylized,openai-4.1-mini,7,f10,3,emotional,felt nervous about presenting her research findings,NO,,NO,
+5,stylized,openai-4.1-mini,7,f11,4,named_entity,met with her study group at a café in Connaught Place,NO,,UNCLEAR,
+5,stylized,openai-4.1-mini,7,f12,4,quantitative,reviewed 15 research papers,NO,,NO,
+5,stylized,openai-4.1-mini,7,f13,4,relational,collaborated with her classmates on a group project,NO,,NO,
+5,stylized,openai-4.1-mini,7,f14,5,emotional,felt a sense of accomplishment after finishing the first draft of her thesis,NO,,NO,
+5,stylized,openai-4.1-mini,7,f15,5,quantitative,spent 2 hours discussing her thesis with her mentor,NO,,NO,
+5,stylized,openai-4.1-mini,7,f16,5,named_entity,visited the Marine Research Institute in Delhi,NO,,NO,
+5,stylized,openai-4.1-mini,7,f17,6,relational,"reconnected with her high school friend, Riya, who is now studying environmental science",NO,,YES,the electric camaraderie with Riya
+5,stylized,openai-4.1-mini,7,f18,6,quantitative,worked on her thesis for 8 hours straight,NO,,NO,
+5,stylized,openai-4.1-mini,7,f19,6,emotional,felt relieved after receiving positive feedback from her advisor,YES,yesterday’s glowing advisor feedback,YES,yesterday’s glowing advisor feedback
+5,stylized,openai-4.1-mini,7,f20,7,named_entity,went for a walk at India Gate to clear her mind,YES,found a serene pause beneath the iconic arches of India Gate—a soul-refreshing stroll,YES,found a serene pause beneath the iconic arches of India Gate—a soul-refreshing stroll
+5,stylized,openai-4.1-mini,7,f21,7,quantitative,spent 4 hours finalizing her thesis outline,YES,Today’s four-hour deep dive into her thesis outline,YES,Today’s four-hour deep dive into her thesis outline
+5,stylized,openai-4.1-mini,7,f22,7,emotional,felt hopeful about completing her thesis on time,YES,"Her tone brims with cautious optimism—hopeful, prepared, and fiercely committed to perfecting every detail.",YES,"Her tone brims with cautious optimism—hopeful, prepared, and fiercely committed to perfecting every detail."
+5,decoupled,openai-4.1-mini,7,f01,1,quantitative,spent 5 hours at the library reviewing literature for her thesis,YES,"entrenched for five hours in the library’s hushed aisles, sifting through literature on marine biology",YES,"five hours in the library’s hushed aisles, sifting through literature"
+5,decoupled,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the amount of work left to do,YES,"the weight of deadlines palpable. “It’s a bit overwhelming, honestly.”",YES,"the weight of deadlines palpable. 'It’s a bit overwhelming, honestly.'"
+5,decoupled,openai-4.1-mini,7,f03,1,named_entity,attended a seminar on climate change at the University of Delhi,YES,a seminar on climate change at the university that day set the tone for determination,YES,a seminar on climate change at the university
+5,decoupled,openai-4.1-mini,7,f04,1,relational,"discussed her thesis topic with her advisor, Dr. Mehta",YES,"met with her thesis advisor, the ever-steady Dr. Mehta",YES,"met with her thesis advisor, the ever-steady Dr. Mehta"
+5,decoupled,openai-4.1-mini,7,f05,2,quantitative,wrote 1200 words of her thesis,YES,"fueling her 1,200-word thesis segment on climate change’s impact on marine ecosystems",YES,"1,200-word thesis segment"
+5,decoupled,openai-4.1-mini,7,f06,2,named_entity,visited the Indian National Centre for Ocean Information Services,YES,Tuesday took her into the heart of research at the Indian National Centre for Ocean Information Services,YES,Indian National Centre for Ocean Information Services
+5,decoupled,openai-4.1-mini,7,f07,2,emotional,felt excited about the upcoming fieldwork in Goa,YES,Excitement mingled with anxiety as she balanced writing with preparation for her upcoming fieldwork in Goa,YES,Excitement mingled with anxiety as she balanced writing with preparation for her upcoming fieldwork in Goa
+5,decoupled,openai-4.1-mini,7,f08,3,quantitative,spent 3 hours preparing her presentation for the thesis defense,YES,A three-hour session crafting presentation visuals,YES,three-hour session crafting presentation visuals
+5,decoupled,openai-4.1-mini,7,f09,3,relational,had a video call with her friend Priya who is also working on a marine biology project,YES,"punctuated by a video call with Priya, her fellow marine biology confidante",YES,"a video call with Priya, her fellow marine biology confidante"
+5,decoupled,openai-4.1-mini,7,f10,3,emotional,felt nervous about presenting her research findings,YES,nerves about presenting her research were bubbling beneath her excitement,YES,nerves about presenting her research were bubbling beneath her excitement
+5,decoupled,openai-4.1-mini,7,f11,4,named_entity,met with her study group at a café in Connaught Place,YES,Thursday’s rendezvous at a quaint café in Connaught Place saw her collaborating with study group members,YES,Thursday’s rendezvous at a quaint café in Connaught Place saw her collaborating with study group members
+5,decoupled,openai-4.1-mini,7,f12,4,quantitative,reviewed 15 research papers,YES,they disassembled and debated 15 critical research papers,YES,debated 15 critical research papers
+5,decoupled,openai-4.1-mini,7,f13,4,relational,collaborated with her classmates on a group project,YES,collaborating with study group members,YES,collaborating with study group members
+5,decoupled,openai-4.1-mini,7,f14,5,emotional,felt a sense of accomplishment after finishing the first draft of her thesis,YES,The first draft of her thesis was complete—a milestone met with profound relief and pride,YES,the first draft of her thesis was complete—a milestone met with profound relief and pride
+5,decoupled,openai-4.1-mini,7,f15,5,quantitative,spent 2 hours discussing her thesis with her mentor,YES,"Two hours spent with her mentor, likely Dr. Mehta, refining arguments and dissecting findings",YES,"Two hours spent with her mentor, likely Dr. Mehta, refining arguments"
+5,decoupled,openai-4.1-mini,7,f16,5,named_entity,visited the Marine Research Institute in Delhi,YES,An afternoon visit to the Marine Research Institute in Delhi deepened her grasp of local marine ecosystems,YES,visit to the Marine Research Institute in Delhi
+5,decoupled,openai-4.1-mini,7,f17,6,relational,"reconnected with her high school friend, Riya, who is now studying environmental science",YES,"Saturday brought a joyful surprise: reconnecting with Riya, a high school friend now studying environmental science",YES,"reconnecting with Riya, a high school friend now studying environmental science"
+5,decoupled,openai-4.1-mini,7,f18,6,quantitative,worked on her thesis for 8 hours straight,YES,eight intensive hours were dedicated to finalizing research before heading to Goa,YES,eight intensive hours were dedicated to finalizing research
+5,decoupled,openai-4.1-mini,7,f19,6,emotional,felt relieved after receiving positive feedback from her advisor,YES,buoyed by positive feedback from Dr. Mehta on her data analysis. “I felt relieved and motivated to keep pushing forward”,YES,I felt relieved and motivated to keep pushing forward
+5,decoupled,openai-4.1-mini,7,f20,7,named_entity,went for a walk at India Gate to clear her mind,YES,An invigorating walk around India Gate cleared her mind,YES,An invigorating walk around India Gate cleared her mind
+5,decoupled,openai-4.1-mini,7,f21,7,quantitative,spent 4 hours finalizing her thesis outline,YES,four hours spent perfecting the thesis outline,YES,four hours spent perfecting the thesis outline
+5,decoupled,openai-4.1-mini,7,f22,7,emotional,felt hopeful about completing her thesis on time,YES,"Hope blossomed as she looked ahead, “feeling hopeful about completing thesis on time”",YES,feeling hopeful about completing thesis on time
+6,neutral,openai-4.1-mini,7,f01,1,relational,helped her mother adjust to her new living situation,YES,managing significant adjustments in their living arrangement,YES,managing significant adjustments in their living arrangement
+6,neutral,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the added responsibilities,NO,,YES,describing it as hectic and leaving her drained
+6,neutral,openai-4.1-mini,7,f03,1,quantitative,worked a 12-hour night shift at the hospital,NO,,YES,completed a 10-hour night shift
+6,neutral,openai-4.1-mini,7,f04,1,named_entity,went grocery shopping at Pingo Doce,NO,,YES,visited the local pharmacy to pick up medications
+6,neutral,openai-4.1-mini,7,f05,2,relational,had a video call with her sister to discuss their mother's care,YES,coordinated with her sister via video call to arrange their mother’s care,YES,coordinated with her sister via video call to arrange their mother’s care
+6,neutral,openai-4.1-mini,7,f06,2,emotional,felt grateful for her sister's support,YES,This collaboration provided valuable support and increased Star’s hopefulness,YES,expressed gratitude for these bonding experiences
+6,neutral,openai-4.1-mini,7,f07,2,quantitative,spent 45 minutes preparing dinner for her mother,NO,,YES,prepared a vegetable stew for dinner
+6,neutral,openai-4.1-mini,7,f08,3,named_entity,attended a staff meeting at Hospital de Santa Maria,YES,attended a morning staff meeting at the hospital discussing updates to patient care protocols,YES,attended a morning staff meeting at the hospital
+6,neutral,openai-4.1-mini,7,f09,3,relational,talked with her colleague Maria about patient care,YES,discussing updates to patient care protocols for elderly patients with colleague Maria,YES,discussing updates to patient care protocols for elderly patients with colleague Maria
+6,neutral,openai-4.1-mini,7,f10,3,emotional,felt exhausted after a long shift,YES,describing it as hectic and leaving her drained,YES,describing it as hectic and leaving her drained
+6,neutral,openai-4.1-mini,7,f11,4,quantitative,ran 5 kilometers in the morning,YES,incorporated personal wellness by running 5 kilometers in the morning,YES,incorporated personal wellness by running 5 kilometers in the morning
+6,neutral,openai-4.1-mini,7,f12,4,emotional,felt energized after exercising,YES,feeling energized and uplifted by the exercise,YES,feeling energized and uplifted by the exercise
+6,neutral,openai-4.1-mini,7,f13,4,relational,spent quality time watching a movie with her mother,YES,spent quality time with her mother watching a lighthearted classic movie,YES,spent quality time with her mother watching a lighthearted classic movie
+6,neutral,openai-4.1-mini,7,f14,5,named_entity,visited the local pharmacy to pick up her mother's medications,YES,visited the local pharmacy to pick up medications,YES,visited the local pharmacy to pick up medications
+6,neutral,openai-4.1-mini,7,f15,5,quantitative,worked a 10-hour night shift,YES,completed a 10-hour night shift,YES,completed a 10-hour night shift
+6,neutral,openai-4.1-mini,7,f16,5,emotional,felt anxious about her mother's health,YES,remained worried about her mother’s health and adjustment,YES,remained worried about her mother’s health and adjustment
+6,neutral,openai-4.1-mini,7,f17,6,relational,had a long conversation with her mother about family history,YES,having a long conversation with her mother about family history,YES,having a long conversation with her mother about family history
+6,neutral,openai-4.1-mini,7,f18,6,emotional,felt a sense of connection with her mother's stories,YES,deepened Star’s appreciation for her mother’s resilience and strengthened their bond,YES,deepened Star’s appreciation for her mother’s resilience
+6,neutral,openai-4.1-mini,7,f19,6,quantitative,spent 30 minutes organizing the living room,YES,spent about 30 minutes organizing the living room,YES,spent about 30 minutes organizing the living room
+6,neutral,openai-4.1-mini,7,f20,7,named_entity,attended a yoga class at a local studio,YES,attended a yoga class at a local studio,YES,attended a yoga class at a local studio
+6,neutral,openai-4.1-mini,7,f21,7,emotional,felt relaxed after the class,YES,finding it refreshing and relaxing,YES,finding it refreshing and relaxing
+6,neutral,openai-4.1-mini,7,f22,7,relational,planned a family dinner with her sister for the following week,YES,planning a family dinner with her sister for the following week,YES,planning a family dinner with her sister for the following week
+6,stylized,openai-4.1-mini,7,f01,1,relational,helped her mother adjust to her new living situation,NO,,YES,after days steeped in caregiving and soul-baring conversations with her mother
+6,stylized,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the added responsibilities,NO,,NO,
+6,stylized,openai-4.1-mini,7,f03,1,quantitative,worked a 12-hour night shift at the hospital,NO,,NO,
+6,stylized,openai-4.1-mini,7,f04,1,named_entity,went grocery shopping at Pingo Doce,NO,,NO,
+6,stylized,openai-4.1-mini,7,f05,2,relational,had a video call with her sister to discuss their mother's care,NO,,YES,orchestrating a family dinner with her sister next week
+6,stylized,openai-4.1-mini,7,f06,2,emotional,felt grateful for her sister's support,NO,,NO,
+6,stylized,openai-4.1-mini,7,f07,2,quantitative,spent 45 minutes preparing dinner for her mother,NO,,NO,
+6,stylized,openai-4.1-mini,7,f08,3,named_entity,attended a staff meeting at Hospital de Santa Maria,NO,,NO,
+6,stylized,openai-4.1-mini,7,f09,3,relational,talked with her colleague Maria about patient care,NO,,NO,
+6,stylized,openai-4.1-mini,7,f10,3,emotional,felt exhausted after a long shift,NO,,NO,
+6,stylized,openai-4.1-mini,7,f11,4,quantitative,ran 5 kilometers in the morning,NO,,NO,
+6,stylized,openai-4.1-mini,7,f12,4,emotional,felt energized after exercising,YES,yoga class that left her visibly renewed,NO,
+6,stylized,openai-4.1-mini,7,f13,4,relational,spent quality time watching a movie with her mother,NO,,NO,
+6,stylized,openai-4.1-mini,7,f14,5,named_entity,visited the local pharmacy to pick up her mother's medications,NO,,NO,
+6,stylized,openai-4.1-mini,7,f15,5,quantitative,worked a 10-hour night shift,NO,,NO,
+6,stylized,openai-4.1-mini,7,f16,5,emotional,felt anxious about her mother's health,NO,,NO,
+6,stylized,openai-4.1-mini,7,f17,6,relational,had a long conversation with her mother about family history,NO,,NO,
+6,stylized,openai-4.1-mini,7,f18,6,emotional,felt a sense of connection with her mother's stories,NO,,NO,
+6,stylized,openai-4.1-mini,7,f19,6,quantitative,spent 30 minutes organizing the living room,NO,,NO,
+6,stylized,openai-4.1-mini,7,f20,7,named_entity,attended a yoga class at a local studio,YES,yoga class that left her visibly renewed,NO,
+6,stylized,openai-4.1-mini,7,f21,7,emotional,felt relaxed after the class,YES,yoga class that left her visibly renewed,YES,left her visibly renewed
+6,stylized,openai-4.1-mini,7,f22,7,relational,planned a family dinner with her sister for the following week,YES,orchestrating a family dinner with her sister next week,YES,orchestrating a family dinner with her sister next week
+6,decoupled,openai-4.1-mini,7,f01,1,relational,helped her mother adjust to her new living situation,NO,,YES,trying to help her feel at home
+6,decoupled,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the added responsibilities,YES,"“Honestly, I’ve felt a bit overwhelmed,” she admitted",YES,I’ve felt a bit overwhelmed
+6,decoupled,openai-4.1-mini,7,f03,1,quantitative,worked a 12-hour night shift at the hospital,YES,“I work a 12-hour night shift at the hospital”,YES,I work a 12-hour night shift at the hospital
+6,decoupled,openai-4.1-mini,7,f04,1,named_entity,went grocery shopping at Pingo Doce,YES,managed a quick trip to Pingo Doce for groceries,YES,managed a quick trip to Pingo Doce for groceries
+6,decoupled,openai-4.1-mini,7,f05,2,relational,had a video call with her sister to discuss their mother's care,YES,A video call with her sister brought solace — a shared commitment to their mother’s care,YES,A video call with her sister brought solace — a shared commitment to their mother’s care
+6,decoupled,openai-4.1-mini,7,f06,2,emotional,felt grateful for her sister's support,YES,“I felt really grateful for my sister's support”,YES,I felt really grateful for my sister's support
+6,decoupled,openai-4.1-mini,7,f07,2,quantitative,spent 45 minutes preparing dinner for her mother,YES,spending 45 minutes crafting a meal,YES,spending 45 minutes crafting a meal
+6,decoupled,openai-4.1-mini,7,f08,3,named_entity,attended a staff meeting at Hospital de Santa Maria,YES,Day 3 saw her attending a staff meeting at Hospital de Santa Maria,YES,attending a staff meeting at Hospital de Santa Maria
+6,decoupled,openai-4.1-mini,7,f09,3,relational,talked with her colleague Maria about patient care,YES,collaboration with her colleague Maria,YES,collaboration with her colleague Maria
+6,decoupled,openai-4.1-mini,7,f10,3,emotional,felt exhausted after a long shift,YES,exhaustion after a 12-hour shift,YES,exhaustion after a 12-hour shift
+6,decoupled,openai-4.1-mini,7,f11,4,quantitative,ran 5 kilometers in the morning,YES,"By Day 4, a morning 5K run infused her with energy",YES,a morning 5K run infused her with energy
+6,decoupled,openai-4.1-mini,7,f12,4,emotional,felt energized after exercising,YES,"a physical reminder that self-care is essential, not indulgent",YES,I felt grateful for the time spent sharing with my mother
+6,decoupled,openai-4.1-mini,7,f13,4,relational,spent quality time watching a movie with her mother,YES,she and her mother shared the simple magic of an old classic movie — quality time that deepened their bond,YES,shared the simple magic of an old classic movie — quality time
+6,decoupled,openai-4.1-mini,7,f14,5,named_entity,visited the local pharmacy to pick up her mother's medications,YES,braved a trip to the local pharmacy for her mother’s medications,YES,braved a trip to the local pharmacy for her mother’s medications
+6,decoupled,openai-4.1-mini,7,f15,5,quantitative,worked a 10-hour night shift,YES,with a 10-hour night shift,YES,a 10-hour night shift
+6,decoupled,openai-4.1-mini,7,f16,5,emotional,felt anxious about her mother's health,YES,Anxiety about balancing her job and caregiving loomed large,YES,Anxiety about balancing her job and caregiving loomed large
+6,decoupled,openai-4.1-mini,7,f17,6,relational,had a long conversation with her mother about family history,YES,a heartfelt conversation about family history revealed her mother’s remarkable resilience,YES,a heartfelt conversation about family history
+6,decoupled,openai-4.1-mini,7,f18,6,emotional,felt a sense of connection with her mother's stories,YES,filling her with deep appreciation and love,YES,filling her with deep appreciation and love
+6,decoupled,openai-4.1-mini,7,f19,6,quantitative,spent 30 minutes organizing the living room,YES,Spending 30 minutes organizing the living room to make it welcoming,YES,spending 30 minutes organizing the living room
+6,decoupled,openai-4.1-mini,7,f20,7,named_entity,attended a yoga class at a local studio,YES,A yoga class at the local studio left her feeling relaxed and centered,YES,A yoga class at the local studio left her feeling relaxed
+6,decoupled,openai-4.1-mini,7,f21,7,emotional,felt relaxed after the class,YES,feeling relaxed and centered,YES,feeling relaxed and centered
+6,decoupled,openai-4.1-mini,7,f22,7,relational,planned a family dinner with her sister for the following week,YES,she plans a family dinner with her sister next week,YES,plans a family dinner with her sister next week
+7,neutral,openai-4.1-mini,7,f01,1,quantitative,spent 6 hours pruning the vines,YES,Star pruned vines for six hours,YES,Star pruned vines for six hours
+7,neutral,openai-4.1-mini,7,f02,1,named_entity,met with the local agricultural cooperative,YES,liaised with the local agricultural cooperative,YES,liaised with the local agricultural cooperative
+7,neutral,openai-4.1-mini,7,f03,1,relational,discussed harvest plans with seasonal workers Maria and Ion,NO,,YES,navigated a pruning disagreement with Ion
+7,neutral,openai-4.1-mini,7,f04,1,emotional,felt excited about the upcoming harvest,NO,,YES,boosting morale
+7,neutral,openai-4.1-mini,7,f05,2,quantitative,picked 150 kilograms of grapes,YES,harvesting 150 kilograms of grapes,YES,harvesting 150 kilograms of grapes
+7,neutral,openai-4.1-mini,7,f06,2,relational,had a productive lunch with his two workers,NO,,YES,celebratory gathering with Maria and Ion
+7,neutral,openai-4.1-mini,7,f07,2,emotional,felt grateful for the good weather,NO,,YES,under favorable weather
+7,neutral,openai-4.1-mini,7,f08,3,named_entity,visited the local market in Târgu Mureș,YES,procuring vineyard supplies and fresh produce at the Târgu Mureș market,YES,Târgu Mureș market
+7,neutral,openai-4.1-mini,7,f09,3,quantitative,spent 200 lei on supplies,NO,,NO,
+7,neutral,openai-4.1-mini,7,f10,3,emotional,felt nostalgic seeing old friends at the market,YES,where Star reconnected with old friends,YES,reconnected with old friends
+7,neutral,openai-4.1-mini,7,f11,4,relational,argued with Ion about the best way to prune the vines,YES,navigated a pruning disagreement with Ion regarding methods for older vines,YES,navigated a pruning disagreement with Ion
+7,neutral,openai-4.1-mini,7,f12,4,named_entity,attended a workshop on organic farming techniques,YES,attended an organic farming workshop,YES,attended an organic farming workshop
+7,neutral,openai-4.1-mini,7,f13,4,emotional,felt inspired by the new ideas shared at the workshop,NO,,YES,inspired by the new ideas shared at the workshop
+7,neutral,openai-4.1-mini,7,f14,5,quantitative,worked 8 hours in the vineyard,YES,featured eight hours of final vineyard preparations,YES,eight hours of final vineyard preparations
+7,neutral,openai-4.1-mini,7,f15,5,relational,celebrated a successful week of work with Maria and Ion,YES,"celebratory gathering with Maria and Ion, emphasizing teamwork",YES,celebratory gathering with Maria and Ion
+7,neutral,openai-4.1-mini,7,f16,5,emotional,felt proud of their teamwork,NO,,YES,emphasizing teamwork
+7,neutral,openai-4.1-mini,7,f17,6,quantitative,harvested 300 kilograms of grapes,YES,successful harvest of approximately 300 kilograms of grapes,YES,successful harvest of approximately 300 kilograms of grapes
+7,neutral,openai-4.1-mini,7,f18,6,named_entity,"visited the vineyard of his neighbor, Mr. Popescu",YES,visit to neighbor Mr. Popescu’s vineyard,YES,visit to neighbor Mr. Popescu’s vineyard
+7,neutral,openai-4.1-mini,7,f19,6,emotional,felt a sense of community while sharing tips with Mr. Popescu,YES,"exchange pest control and yield optimization advice, reinforcing community ties",YES,reinforcing community ties
+7,neutral,openai-4.1-mini,7,f20,7,relational,planned next week's tasks with Maria and Ion,YES,convened with Maria and Ion to plan the upcoming week’s tasks,YES,convened with Maria and Ion to plan the upcoming week’s tasks
+7,neutral,openai-4.1-mini,7,f21,7,quantitative,scheduled to work 10 hours next week for the final harvest preparations,YES,scheduling approximately 10 hours of work focused on final preparations,YES,scheduling approximately 10 hours of work
+7,neutral,openai-4.1-mini,7,f22,7,emotional,felt optimistic about the upcoming harvest season,YES,Star reiterated a positive outlook for the season,YES,reiterated a positive outlook for the season
+7,stylized,openai-4.1-mini,7,f01,1,quantitative,spent 6 hours pruning the vines,NO,,NO,
+7,stylized,openai-4.1-mini,7,f02,1,named_entity,met with the local agricultural cooperative,NO,,NO,
+7,stylized,openai-4.1-mini,7,f03,1,relational,discussed harvest plans with seasonal workers Maria and Ion,NO,,YES,the trio’s synergy is palpable; Maria and Ion’s steadfast dedication
+7,stylized,openai-4.1-mini,7,f04,1,emotional,felt excited about the upcoming harvest,NO,,YES,her buoyant confidence shines through
+7,stylized,openai-4.1-mini,7,f05,2,quantitative,picked 150 kilograms of grapes,NO,,NO,
+7,stylized,openai-4.1-mini,7,f06,2,relational,had a productive lunch with his two workers,NO,,NO,
+7,stylized,openai-4.1-mini,7,f07,2,emotional,felt grateful for the good weather,NO,,NO,
+7,stylized,openai-4.1-mini,7,f08,3,named_entity,visited the local market in Târgu Mureș,NO,,NO,
+7,stylized,openai-4.1-mini,7,f09,3,quantitative,spent 200 lei on supplies,NO,,NO,
+7,stylized,openai-4.1-mini,7,f10,3,emotional,felt nostalgic seeing old friends at the market,NO,,NO,
+7,stylized,openai-4.1-mini,7,f11,4,relational,argued with Ion about the best way to prune the vines,NO,,NO,
+7,stylized,openai-4.1-mini,7,f12,4,named_entity,attended a workshop on organic farming techniques,NO,,NO,
+7,stylized,openai-4.1-mini,7,f13,4,emotional,felt inspired by the new ideas shared at the workshop,NO,,NO,
+7,stylized,openai-4.1-mini,7,f14,5,quantitative,worked 8 hours in the vineyard,NO,,NO,
+7,stylized,openai-4.1-mini,7,f15,5,relational,celebrated a successful week of work with Maria and Ion,NO,,YES,the trio’s synergy is palpable; Maria and Ion’s steadfast dedication
+7,stylized,openai-4.1-mini,7,f16,5,emotional,felt proud of their teamwork,NO,,NO,
+7,stylized,openai-4.1-mini,7,f17,6,quantitative,harvested 300 kilograms of grapes,YES,300 kilograms of grapes harvested,YES,300 kilograms of grapes harvested
+7,stylized,openai-4.1-mini,7,f18,6,named_entity,"visited the vineyard of his neighbor, Mr. Popescu",YES,neighborly alliances with Mr. Popescu,YES,neighborly alliances with Mr. Popescu
+7,stylized,openai-4.1-mini,7,f19,6,emotional,felt a sense of community while sharing tips with Mr. Popescu,NO,,NO,
+7,stylized,openai-4.1-mini,7,f20,7,relational,planned next week's tasks with Maria and Ion,YES,locking in a grueling 10-hour workweek,YES,locking in a grueling 10-hour workweek
+7,stylized,openai-4.1-mini,7,f21,7,quantitative,scheduled to work 10 hours next week for the final harvest preparations,YES,locking in a grueling 10-hour workweek,YES,locking in a grueling 10-hour workweek
+7,stylized,openai-4.1-mini,7,f22,7,emotional,felt optimistic about the upcoming harvest season,YES,her buoyant confidence shines through,YES,her buoyant confidence shines through
+7,decoupled,openai-4.1-mini,7,f01,1,quantitative,spent 6 hours pruning the vines,YES,I spent about six hours pruning the vines.,YES,I spent about six hours pruning the vines.
+7,decoupled,openai-4.1-mini,7,f02,1,named_entity,met with the local agricultural cooperative,YES,met with members of the local agricultural cooperative,YES,met with members of the local agricultural cooperative
+7,decoupled,openai-4.1-mini,7,f03,1,relational,discussed harvest plans with seasonal workers Maria and Ion,NO,,YES,"Over a productive lunch, Maria, Ion, and our star discussed the logistics ahead"
+7,decoupled,openai-4.1-mini,7,f04,1,emotional,felt excited about the upcoming harvest,YES,Excitement buzzed in the air as plans were refined,YES,Excitement buzzed in the air as plans were refined
+7,decoupled,openai-4.1-mini,7,f05,2,quantitative,picked 150 kilograms of grapes,YES,150 kilograms were harvested,YES,150 kilograms were harvested
+7,decoupled,openai-4.1-mini,7,f06,2,relational,had a productive lunch with his two workers,YES,"Over a productive lunch, Maria, Ion, and our star discussed the logistics ahead",YES,"Over a productive lunch, Maria, Ion, and our star discussed the logistics ahead"
+7,decoupled,openai-4.1-mini,7,f07,2,emotional,felt grateful for the good weather,YES,the team’s spirits buoyed by good weather,YES,spirits buoyed by good weather
+7,decoupled,openai-4.1-mini,7,f08,3,named_entity,visited the local market in Târgu Mureș,YES,local market in Târgu Mureș,YES,local market in Târgu Mureș
+7,decoupled,openai-4.1-mini,7,f09,3,quantitative,spent 200 lei on supplies,YES,bought supplies worth about 200 lei,YES,bought supplies worth about 200 lei
+7,decoupled,openai-4.1-mini,7,f10,3,emotional,felt nostalgic seeing old friends at the market,YES,Nostalgia washed over them as old friends appeared,YES,Nostalgia washed over them as old friends appeared
+7,decoupled,openai-4.1-mini,7,f11,4,relational,argued with Ion about the best way to prune the vines,YES,a spirited debate between Ion and the star over pruning techniques,YES,a spirited debate between Ion and the star over pruning techniques
+7,decoupled,openai-4.1-mini,7,f12,4,named_entity,attended a workshop on organic farming techniques,YES,a trip to an organic farming workshop,YES,a trip to an organic farming workshop
+7,decoupled,openai-4.1-mini,7,f13,4,emotional,felt inspired by the new ideas shared at the workshop,YES,inspired new ideas and a fresh perspective,YES,inspired new ideas and a fresh perspective
+7,decoupled,openai-4.1-mini,7,f14,5,quantitative,worked 8 hours in the vineyard,YES,a solid eight-hour workday on Day 5,YES,solid eight-hour workday on Day 5
+7,decoupled,openai-4.1-mini,7,f15,5,relational,celebrated a successful week of work with Maria and Ion,YES,culminating in a small but heartfelt celebration of the week’s achievements,YES,culminating in a small but heartfelt celebration of the week’s achievements
+7,decoupled,openai-4.1-mini,7,f16,5,emotional,felt proud of their teamwork,YES,The teamwork we’ve built is something I’m truly proud of,YES,Pride swelled as Maria and Ion’s dedication shone brightest
+7,decoupled,openai-4.1-mini,7,f17,6,quantitative,harvested 300 kilograms of grapes,YES,the vineyard yielded approximately 300 kilograms of ripe grapes,YES,the vineyard yielded approximately 300 kilograms of ripe grapes
+7,decoupled,openai-4.1-mini,7,f18,6,named_entity,"visited the vineyard of his neighbor, Mr. Popescu",YES,A visit to neighbor Mr. Popescu’s vineyard,YES,visit to neighbor Mr. Popescu’s vineyard
+7,decoupled,openai-4.1-mini,7,f19,6,emotional,felt a sense of community while sharing tips with Mr. Popescu,YES,This sense of community deepened the star’s optimism,YES,This sense of community deepened the star’s optimism
+7,decoupled,openai-4.1-mini,7,f20,7,relational,planned next week's tasks with Maria and Ion,YES,plans were set with Maria and Ion for the coming week’s ten-hour work schedule,YES,plans were set with Maria and Ion for the coming week’s ten-hour work schedule
+7,decoupled,openai-4.1-mini,7,f21,7,quantitative,scheduled to work 10 hours next week for the final harvest preparations,YES,"ten-hour work schedule, gearing up for the final push",YES,"ten-hour work schedule, gearing up for the final push"
+7,decoupled,openai-4.1-mini,7,f22,7,emotional,felt optimistic about the upcoming harvest season,YES,The outlook? Bright and hopeful,YES,The outlook? Bright and hopeful
+8,neutral,openai-4.1-mini,7,f01,1,named_entity,played at Palac Akropolis in Prague,NO,,YES,"Beginning in Prague, the artist managed a broken guitar strap with a costly 50-euro replacement and performed despite throat discomfort."
+8,neutral,openai-4.1-mini,7,f02,1,emotional,felt anxious about performing with a sore throat,YES,despite throat discomfort,YES,the artist managed a broken guitar strap with a costly 50-euro replacement and performed despite throat discomfort.
+8,neutral,openai-4.1-mini,7,f03,1,relational,"had dinner with the opening act, a local band",NO,,NO,
+8,neutral,openai-4.1-mini,7,f04,1,quantitative,spent 50 euros on a temporary guitar strap,YES,managed a broken guitar strap with a costly 50-euro replacement,YES,a broken guitar strap with a costly 50-euro replacement
+8,neutral,openai-4.1-mini,7,f05,2,named_entity,visited Charles Bridge in the morning,NO,,NO,
+8,neutral,openai-4.1-mini,7,f06,2,emotional,felt inspired by the city's beauty,NO,,YES,finding such moments helpful for mental regrouping.
+8,neutral,openai-4.1-mini,7,f07,2,quantitative,spent 2 hours practicing vocals at the hotel,NO,,NO,
+8,neutral,openai-4.1-mini,7,f08,2,relational,reconnected with an old friend who lives in Prague,NO,,NO,
+8,neutral,openai-4.1-mini,7,f09,3,named_entity,performed at Roxy in Prague,YES,performances at venues like Roxy in Prague,YES,continued gear challenges during performances at venues like Roxy in Prague
+8,neutral,openai-4.1-mini,7,f10,3,quantitative,played for 90 minutes despite feeling unwell,YES,performed despite throat discomfort,YES,where positive audience feedback helped sustain energy.
+8,neutral,openai-4.1-mini,7,f11,3,emotional,was relieved to receive positive feedback from the crowd,YES,positive audience feedback helped sustain energy,YES,where positive audience feedback helped sustain energy.
+8,neutral,openai-4.1-mini,7,f12,3,relational,had a lengthy chat with the sound engineer after the show,NO,,NO,
+8,neutral,openai-4.1-mini,7,f13,4,named_entity,visited a local music store to look for a new guitar strap,NO,,YES,"On Day 4, the artist invested 75 euros in a higher-quality guitar strap amid tensions with the tour manager over scheduling."
+8,neutral,openai-4.1-mini,7,f14,4,quantitative,spent 75 euros on a high-quality strap,YES,invested 75 euros in a higher-quality guitar strap,YES,invested 75 euros in a higher-quality guitar strap
+8,neutral,openai-4.1-mini,7,f15,4,emotional,felt hopeful about the next performance with the new gear,NO,,YES,maintaining optimism despite ongoing vocal strain.
+8,neutral,openai-4.1-mini,7,f16,4,relational,argued with the tour manager about the schedule,YES,tensions with the tour manager over scheduling,YES,amid tensions with the tour manager over scheduling.
+8,neutral,openai-4.1-mini,7,f17,5,named_entity,travelled to Berlin via train,YES,travel to Berlin,YES,Day 5 involved travel to Berlin
+8,neutral,openai-4.1-mini,7,f18,5,quantitative,spent 4 hours on the train,NO,,NO,
+8,neutral,openai-4.1-mini,7,f19,5,emotional,felt excited about performing in a new city,YES,connecting with local musicians,YES,"connecting with local musicians, postponing local food experiences due to throat concerns."
+8,neutral,openai-4.1-mini,7,f20,5,relational,met up with a fellow musician from Berlin,NO,,YES,connecting with local musicians
+8,neutral,openai-4.1-mini,7,f21,6,named_entity,performed at Lido in Berlin,YES,performance at Lido in Berlin,YES,an adrenaline-fueled performance at Lido in Berlin
+8,neutral,openai-4.1-mini,7,f22,6,emotional,felt a wave of adrenaline before going on stage,YES,adrenaline-fueled performance,YES,an adrenaline-fueled performance at Lido in Berlin
+8,neutral,openai-4.1-mini,7,filler_d7,7,emotional,felt the day passed quietly without anything remarkable,YES,"experienced a quieter, uneventful day back in Prague",UNCLEAR,
+8,stylized,openai-4.1-mini,7,f01,1,named_entity,played at Palac Akropolis in Prague,NO,,NO,
+8,stylized,openai-4.1-mini,7,f02,1,emotional,felt anxious about performing with a sore throat,YES,"The stubborn sore throat still lingers, a relentless shadow in this high-stakes symphony of nightly performances.",YES,"The stubborn sore throat still lingers, a relentless shadow in this high-stakes symphony of nightly performances."
+8,stylized,openai-4.1-mini,7,f03,1,relational,"had dinner with the opening act, a local band",NO,,NO,
+8,stylized,openai-4.1-mini,7,f04,1,quantitative,spent 50 euros on a temporary guitar strap,NO,,NO,
+8,stylized,openai-4.1-mini,7,f05,2,named_entity,visited Charles Bridge in the morning,NO,,NO,
+8,stylized,openai-4.1-mini,7,f06,2,emotional,felt inspired by the city's beauty,NO,,YES,"Prague, with its cobblestone charm and haunting beauty, offers more than just a backdrop—it’s a balm for the soul."
+8,stylized,openai-4.1-mini,7,f07,2,quantitative,spent 2 hours practicing vocals at the hotel,NO,,NO,
+8,stylized,openai-4.1-mini,7,f08,2,relational,reconnected with an old friend who lives in Prague,NO,,NO,
+8,stylized,openai-4.1-mini,7,f09,3,named_entity,performed at Roxy in Prague,NO,,NO,
+8,stylized,openai-4.1-mini,7,f10,3,quantitative,played for 90 minutes despite feeling unwell,NO,,NO,
+8,stylized,openai-4.1-mini,7,f11,3,emotional,was relieved to receive positive feedback from the crowd,NO,,NO,
+8,stylized,openai-4.1-mini,7,f12,3,relational,had a lengthy chat with the sound engineer after the show,NO,,NO,
+8,stylized,openai-4.1-mini,7,f13,4,named_entity,visited a local music store to look for a new guitar strap,YES,"yesterday’s pre-soundcheck guitar strap snap was a close call, a déjà vu from Berlin’s near-disaster.",YES,"the heart-stopping guitar strap drama and vocal battles that electrified Berlin's Lido, our star touched down in Prague seeking sanctuary."
+8,stylized,openai-4.1-mini,7,f14,4,quantitative,spent 75 euros on a high-quality strap,NO,,NO,
+8,stylized,openai-4.1-mini,7,f15,4,emotional,felt hopeful about the next performance with the new gear,NO,,NO,
+8,stylized,openai-4.1-mini,7,f16,4,relational,argued with the tour manager about the schedule,NO,,NO,
+8,stylized,openai-4.1-mini,7,f17,5,named_entity,travelled to Berlin via train,NO,,NO,
+8,stylized,openai-4.1-mini,7,f18,5,quantitative,spent 4 hours on the train,NO,,NO,
+8,stylized,openai-4.1-mini,7,f19,5,emotional,felt excited about performing in a new city,NO,,NO,
+8,stylized,openai-4.1-mini,7,f20,5,relational,met up with a fellow musician from Berlin,NO,,NO,
+8,stylized,openai-4.1-mini,7,f21,6,named_entity,performed at Lido in Berlin,NO,,NO,
+8,stylized,openai-4.1-mini,7,f22,6,emotional,felt a wave of adrenaline before going on stage,NO,,NO,
+8,stylized,openai-4.1-mini,7,filler_d7,7,emotional,felt the day passed quietly without anything remarkable,YES,"this pause, a rare 'quiet day,' is exactly what the doctor ordered, a chance to regroup before the tour’s relentless pace resumes.",YES,"this pause, a rare 'quiet day,' is exactly what the doctor ordered, a chance to regroup before the tour’s relentless pace resumes."
+8,decoupled,openai-4.1-mini,7,f01,1,named_entity,played at Palac Akropolis in Prague,YES,Prague’s iconic Palac Akropolis,YES,Prague’s iconic Palac Akropolis
+8,decoupled,openai-4.1-mini,7,f02,1,emotional,felt anxious about performing with a sore throat,YES,"battling a sore throat that threatened to silence the magic. Anxiety buzzed beneath the surface, nerves sharpened by the fragile state of their vocals.",YES,battling a sore throat that threatened to silence the magic. Anxiety buzzed beneath the surface
+8,decoupled,openai-4.1-mini,7,f03,1,relational,"had dinner with the opening act, a local band",YES,camaraderie blossomed over dinner with the local opening act—a promising Prague band,YES,camaraderie blossomed over dinner with the local opening act—a promising Prague band
+8,decoupled,openai-4.1-mini,7,f04,1,quantitative,spent 50 euros on a temporary guitar strap,YES,a quick 50-euro fix was acquired,YES,a quick 50-euro fix was acquired
+8,decoupled,openai-4.1-mini,7,f05,2,named_entity,visited Charles Bridge in the morning,YES,A stroll across Charles Bridge,YES,A stroll across Charles Bridge
+8,decoupled,openai-4.1-mini,7,f06,2,emotional,felt inspired by the city's beauty,YES,"infused the artist with fresh creative juices, architecture and atmosphere weaving a spell",YES,"infused the artist with fresh creative juices, architecture and atmosphere weaving a spell"
+8,decoupled,openai-4.1-mini,7,f07,2,quantitative,spent 2 hours practicing vocals at the hotel,YES,"Later, vocal exercises for two hours at the hotel became a ritual of resilience.",YES,vocal exercises for two hours at the hotel became a ritual of resilience
+8,decoupled,openai-4.1-mini,7,f08,2,relational,reconnected with an old friend who lives in Prague,YES,a heartfelt reunion: an old friend living in Prague re-entered the orbit,YES,a heartfelt reunion: an old friend living in Prague re-entered the orbit
+8,decoupled,openai-4.1-mini,7,f09,3,named_entity,performed at Roxy in Prague,YES,the next night at Lido,YES,the next night at Lido
+8,decoupled,openai-4.1-mini,7,f10,3,quantitative,played for 90 minutes despite feeling unwell,NO,,NO,
+8,decoupled,openai-4.1-mini,7,f11,3,emotional,was relieved to receive positive feedback from the crowd,NO,,YES,"the audience’s warm embrace was a balm, their support a lifeline"
+8,decoupled,openai-4.1-mini,7,f12,3,relational,had a lengthy chat with the sound engineer after the show,NO,,NO,
+8,decoupled,openai-4.1-mini,7,f13,4,named_entity,visited a local music store to look for a new guitar strap,YES,after securing a premium 75-euro guitar strap at a local music store,YES,after securing a premium 75-euro guitar strap at a local music store
+8,decoupled,openai-4.1-mini,7,f14,4,quantitative,spent 75 euros on a high-quality strap,YES,a premium 75-euro guitar strap,YES,premium 75-euro guitar strap
+8,decoupled,openai-4.1-mini,7,f15,4,emotional,felt hopeful about the next performance with the new gear,YES,"the artist felt hopeful and prepared, buoyed by rest and new gear.",YES,"the artist felt hopeful and prepared, buoyed by rest and new gear"
+8,decoupled,openai-4.1-mini,7,f16,4,relational,argued with the tour manager about the schedule,YES,the star faced a clash with their tour manager over the grueling schedule.,YES,faced a clash with their tour manager over the grueling schedule
+8,decoupled,openai-4.1-mini,7,f17,5,named_entity,travelled to Berlin via train,YES,A four-hour train ride to Berlin,YES,A four-hour train ride to Berlin
+8,decoupled,openai-4.1-mini,7,f18,5,quantitative,spent 4 hours on the train,YES,A four-hour train ride to Berlin,YES,four-hour train ride
+8,decoupled,openai-4.1-mini,7,f19,5,emotional,felt excited about performing in a new city,YES,intent on nursing their voice back to strength.,YES,intent on nursing their voice back to strength
+8,decoupled,openai-4.1-mini,7,f20,5,relational,met up with a fellow musician from Berlin,YES,a meeting with a fellow Berlin musician proved invaluable,YES,a meeting with a fellow Berlin musician proved invaluable
+8,decoupled,openai-4.1-mini,7,f21,6,named_entity,performed at Lido in Berlin,YES,the next night at Lido,YES,the next night at Lido
+8,decoupled,openai-4.1-mini,7,f22,6,emotional,felt a wave of adrenaline before going on stage,YES,adrenaline surged as the performance unfolded.,YES,adrenaline surged as the performance unfolded
+8,decoupled,openai-4.1-mini,7,filler_d7,7,emotional,felt the day passed quietly without anything remarkable,NO,,UNCLEAR,
+9,neutral,openai-4.1-mini,7,f01,1,named_entity,met with the city planning committee at the Palacio de Bellas Artes,YES,city planning committee meeting at Palacio de Bellas Artes,YES,city planning committee meeting at Palacio de Bellas Artes
+9,neutral,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the feedback from the committee,YES,feeling both encouraged and overwhelmed,YES,feeling both encouraged and overwhelmed
+9,neutral,openai-4.1-mini,7,f03,1,quantitative,spent 3 hours preparing a presentation for the committee meeting,NO,,NO,
+9,neutral,openai-4.1-mini,7,f04,2,relational,discussed design ideas with her colleague Carlos over coffee,YES,A collaborative coffee meeting with colleague Carlos,YES,A collaborative coffee meeting with colleague Carlos
+9,neutral,openai-4.1-mini,7,f05,2,quantitative,sketched 5 new floor plans for the library project,YES,generated five new floor plans,YES,generated five new floor plans
+9,neutral,openai-4.1-mini,7,f06,2,emotional,felt inspired after the brainstorming session with Carlos,NO,,YES,feeling both encouraged and overwhelmed
+9,neutral,openai-4.1-mini,7,f07,3,named_entity,visited the Biblioteca Vasconcelos for design inspiration,YES,site visit to Biblioteca Vasconcelos for inspiration,YES,site visit to Biblioteca Vasconcelos for inspiration
+9,neutral,openai-4.1-mini,7,f08,3,quantitative,took 20 photos of architectural elements for reference,NO,,NO,
+9,neutral,openai-4.1-mini,7,f09,3,relational,met with the project contractors to discuss timelines,NO,,YES,contractor negotiations to accommodate design changes
+9,neutral,openai-4.1-mini,7,f10,4,emotional,felt anxious about meeting the project deadline,YES,marked by significant anxiety,YES,significant anxiety
+9,neutral,openai-4.1-mini,7,f11,4,quantitative,worked for 10 hours straight on the project,YES,10-hour work session,YES,10-hour work session
+9,neutral,openai-4.1-mini,7,f12,4,relational,"received support from her mentor, Ana, through a late-night call",YES,mentor Ana’s advice,YES,mentor Ana’s advice
+9,neutral,openai-4.1-mini,7,f13,5,named_entity,attended a workshop at the Universidad Nacional Autónoma de México,YES,attendance at a sustainable architecture workshop at Universidad Nacional Autónoma de México,YES,attendance at a sustainable architecture workshop at Universidad Nacional Autónoma de México
+9,neutral,openai-4.1-mini,7,f14,5,quantitative,networked with 15 other architects during the event,YES,networked with 15 architects,YES,networked with 15 architects
+9,neutral,openai-4.1-mini,7,f15,5,emotional,felt a renewed sense of community after the workshop,NO,,YES,renewed sense of community
+9,neutral,openai-4.1-mini,7,f16,6,relational,argued with the construction team about budget cuts,YES,engaged in four hours of difficult budget negotiations,YES,engaged in four hours of difficult budget negotiations
+9,neutral,openai-4.1-mini,7,f17,6,emotional,felt frustrated by the ongoing budget constraints,YES,expressing frustration over potential compromises,YES,expressing frustration over potential compromises
+9,neutral,openai-4.1-mini,7,f18,6,quantitative,spent 4 hours negotiating with the team,YES,four hours of difficult budget negotiations,YES,four hours of difficult budget negotiations
+9,neutral,openai-4.1-mini,7,f19,7,named_entity,visited the site of the library project to assess progress,YES,visited the library project site to assess progress,YES,visited the library project site to assess progress
+9,neutral,openai-4.1-mini,7,f20,7,relational,celebrated a small victory with her team after hitting a milestone,YES,milestone that Star and the team celebrated modestly,YES,milestone that Star and the team celebrated modestly
+9,neutral,openai-4.1-mini,7,f21,7,emotional,felt relieved to see progress after a stressful week,YES,felt relief and encouragement seeing the team unify,YES,felt relief and encouragement seeing the team unify
+9,neutral,openai-4.1-mini,7,f22,7,quantitative,planned the next week's tasks in a 2-hour meeting,YES,conducted a two-hour planning meeting,YES,conducted a two-hour planning meeting
+9,stylized,openai-4.1-mini,7,f01,1,named_entity,met with the city planning committee at the Palacio de Bellas Artes,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the feedback from the committee,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f03,1,quantitative,spent 3 hours preparing a presentation for the committee meeting,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f04,2,relational,discussed design ideas with her colleague Carlos over coffee,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f05,2,quantitative,sketched 5 new floor plans for the library project,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f06,2,emotional,felt inspired after the brainstorming session with Carlos,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f07,3,named_entity,visited the Biblioteca Vasconcelos for design inspiration,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f08,3,quantitative,took 20 photos of architectural elements for reference,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f09,3,relational,met with the project contractors to discuss timelines,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f10,4,emotional,felt anxious about meeting the project deadline,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f11,4,quantitative,worked for 10 hours straight on the project,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f12,4,relational,"received support from her mentor, Ana, through a late-night call",UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f13,5,named_entity,attended a workshop at the Universidad Nacional Autónoma de México,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f14,5,quantitative,networked with 15 other architects during the event,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f15,5,emotional,felt a renewed sense of community after the workshop,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f16,6,relational,argued with the construction team about budget cuts,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f17,6,emotional,felt frustrated by the ongoing budget constraints,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f18,6,quantitative,spent 4 hours negotiating with the team,UNCLEAR,,UNCLEAR,
+9,stylized,openai-4.1-mini,7,f19,7,named_entity,visited the site of the library project to assess progress,YES,returned to the project site,YES,returned to the project site
+9,stylized,openai-4.1-mini,7,f20,7,relational,celebrated a small victory with her team after hitting a milestone,YES,toasted a small but significant milestone with the team,YES,toasted a small but significant milestone with the team
+9,stylized,openai-4.1-mini,7,f21,7,emotional,felt relieved to see progress after a stressful week,YES,buzzed with cautious optimism,YES,buzzed with cautious optimism
+9,stylized,openai-4.1-mini,7,f22,7,quantitative,planned the next week's tasks in a 2-hour meeting,YES,A strategic two-hour planning session laid bare the road ahead,YES,A strategic two-hour planning session laid bare the road ahead
+9,decoupled,openai-4.1-mini,7,f01,1,named_entity,met with the city planning committee at the Palacio de Bellas Artes,YES,"the Palacio de Bellas Artes, where our star architect presented a meticulously crafted vision to the city planning committee",YES,"the Palacio de Bellas Artes, where our star architect presented a meticulously crafted vision to the city planning committee"
+9,decoupled,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the feedback from the committee,YES,"a wave of feedback that left her feeling, in her own words, “a bit overwhelmed.”",YES,"a wave of feedback that left her feeling, in her own words, “a bit overwhelmed.”"
+9,decoupled,openai-4.1-mini,7,f03,1,quantitative,spent 3 hours preparing a presentation for the committee meeting,YES,After three intense hours of preparation,YES,three intense hours of preparation
+9,decoupled,openai-4.1-mini,7,f04,2,relational,discussed design ideas with her colleague Carlos over coffee,YES,"the following morning, creativity bubbled over in a cozy coffee shop where she met with Carlos, her trusted collaborator.",YES,"met with Carlos, her trusted collaborator"
+9,decoupled,openai-4.1-mini,7,f05,2,quantitative,sketched 5 new floor plans for the library project,YES,sketching five bold new floor plans.,YES,sketching five bold new floor plans
+9,decoupled,openai-4.1-mini,7,f06,2,emotional,felt inspired after the brainstorming session with Carlos,YES,left her “inspired” and sketching five bold new floor plans.,YES,left her “inspired” and sketching five bold new floor plans
+9,decoupled,openai-4.1-mini,7,f07,3,named_entity,visited the Biblioteca Vasconcelos for design inspiration,YES,Midweek found her wandering the vast halls of Biblioteca Vasconcelos,YES,wandering the vast halls of Biblioteca Vasconcelos
+9,decoupled,openai-4.1-mini,7,f08,3,quantitative,took 20 photos of architectural elements for reference,YES,capturing twenty architectural gems,YES,capturing twenty architectural gems
+9,decoupled,openai-4.1-mini,7,f09,3,relational,met with the project contractors to discuss timelines,YES,"meeting with project contractors, where timelines were reassessed",YES,"meeting with project contractors, where timelines were reassessed"
+9,decoupled,openai-4.1-mini,7,f10,4,emotional,felt anxious about meeting the project deadline,YES,ease her anxiety over looming deadlines,YES,helped ease her anxiety over looming deadlines
+9,decoupled,openai-4.1-mini,7,f11,4,quantitative,worked for 10 hours straight on the project,YES,Thursday was a marathon of focus—ten hours of near-continuous work,YES,ten hours of near-continuous work
+9,decoupled,openai-4.1-mini,7,f12,4,relational,"received support from her mentor, Ana, through a late-night call",YES,"punctuated only by a late-night call from Ana, her mentor.",YES,"a late-night call from Ana, her mentor"
+9,decoupled,openai-4.1-mini,7,f13,5,named_entity,attended a workshop at the Universidad Nacional Autónoma de México,YES,a workshop at Universidad Nacional Autónoma de México,YES,a workshop at Universidad Nacional Autónoma de México
+9,decoupled,openai-4.1-mini,7,f14,5,quantitative,networked with 15 other architects during the event,YES,Among fifteen fellow architects,YES,Among fifteen fellow architects
+9,decoupled,openai-4.1-mini,7,f15,5,emotional,felt a renewed sense of community after the workshop,YES,leaving “renewed” and intent on weaving these principles into the library project,YES,leaving “renewed” and intent on weaving these principles into the library project
+9,decoupled,openai-4.1-mini,7,f16,6,relational,argued with the construction team about budget cuts,YES,negotiations with the construction team tested her resolve.,YES,negotiations with the construction team tested her resolve
+9,decoupled,openai-4.1-mini,7,f17,6,emotional,felt frustrated by the ongoing budget constraints,YES,leaving her “frustrated” and worried about necessary compromises.,YES,leaving her “frustrated” and worried about necessary compromises
+9,decoupled,openai-4.1-mini,7,f18,6,quantitative,spent 4 hours negotiating with the team,YES,Four hours of tense discussions over budget cuts,YES,Four hours of tense discussions over budget cuts
+9,decoupled,openai-4.1-mini,7,f19,7,named_entity,visited the site of the library project to assess progress,YES,the project site buzzed with collaborative energy.,YES,the project site buzzed with collaborative energy
+9,decoupled,openai-4.1-mini,7,f20,7,relational,celebrated a small victory with her team after hitting a milestone,YES,she celebrated a milestone that symbolized months of dedication and sacrifice.,YES,celebrated a milestone that symbolized months of dedication and sacrifice
+9,decoupled,openai-4.1-mini,7,f21,7,emotional,felt relieved to see progress after a stressful week,YES,she felt “relieved and encouraged.”,YES,she felt “relieved and encouraged.”
+9,decoupled,openai-4.1-mini,7,f22,7,quantitative,planned the next week's tasks in a 2-hour meeting,YES,a focused two-hour meeting set the course for the coming days,YES,a focused two-hour meeting set the course for the coming days
+10,neutral,openai-4.1-mini,7,f01,1,named_entity,visited the new studio space in the Bonfim district,YES,established a new studio space in Porto's Bonfim district,YES,established a new studio space in Porto's Bonfim district
+10,neutral,openai-4.1-mini,7,f02,1,quantitative,spent 500 euros on studio supplies,YES,"investing around 500 euros in materials such as clay, sculpting tools, and glazes",YES,investing around 500 euros in materials
+10,neutral,openai-4.1-mini,7,f03,1,emotional,felt excited about the potential of the new studio,NO,,YES,boosting confidence and encouraging bolder experimentation
+10,neutral,openai-4.1-mini,7,f04,1,relational,met with her collaborator Ana to discuss exhibition details,YES,met collaborator Ana to plan the exhibition with four other artists,YES,met collaborator Ana to plan the exhibition with four other artists
+10,neutral,openai-4.1-mini,7,f05,2,named_entity,attended a workshop at the Porto Art School,YES,a three-hour glazing workshop at Porto Art School,YES,a three-hour glazing workshop at Porto Art School
+10,neutral,openai-4.1-mini,7,f06,2,quantitative,spent 3 hours learning new glazing techniques,YES,a three-hour glazing workshop,YES,a three-hour glazing workshop
+10,neutral,openai-4.1-mini,7,f07,2,emotional,felt inspired by the other artists' work,YES,"drawing inspiration from color-focused artists, boosting confidence and encouraging bolder experimentation",YES,"drew inspiration from color-focused artists, boosting confidence"
+10,neutral,openai-4.1-mini,7,f08,3,relational,argued with her partner about the timeline for the exhibition,YES,tensions at home over the exhibition timeline,YES,tensions at home over the exhibition timeline
+10,neutral,openai-4.1-mini,7,f09,3,quantitative,worked 10 hours in the studio on new pieces,YES,involved a demanding 10-hour workday creating new pieces,YES,a demanding 10-hour workday creating new pieces
+10,neutral,openai-4.1-mini,7,f10,3,emotional,felt overwhelmed by the amount of work left to do,YES,felt overwhelmed by workload and coordination challenges,YES,felt overwhelmed by workload and coordination challenges
+10,neutral,openai-4.1-mini,7,f11,4,named_entity,visited the local pottery market for inspiration,YES,visited a local pottery market,YES,visited a local pottery market
+10,neutral,openai-4.1-mini,7,f12,4,quantitative,purchased 15 different types of clay,YES,purchasing 15 different clay types,YES,purchasing 15 different clay types
+10,neutral,openai-4.1-mini,7,f13,4,emotional,felt joyful while interacting with fellow artisans,YES,"drawing inspiration from artisan interactions, reporting positive progress in collaboration",YES,reporting positive progress in collaboration
+10,neutral,openai-4.1-mini,7,f14,5,relational,had a productive meeting with the other exhibition artists,YES,included a productive five-hour meeting with the other artists to plan the exhibition layout,YES,a productive five-hour meeting with the other artists to plan the exhibition layout
+10,neutral,openai-4.1-mini,7,f15,5,quantitative,dedicated 5 hours to planning the layout of the exhibition,YES,productive five-hour meeting with the other artists to plan the exhibition layout,YES,a productive five-hour meeting with the other artists to plan the exhibition layout
+10,neutral,openai-4.1-mini,7,f16,5,emotional,felt optimistic about the exhibition's success,YES,expressing strong optimism and attributing confidence to prior experience,YES,expressing strong optimism
+10,neutral,openai-4.1-mini,7,f17,6,named_entity,visited the local gallery to finalize the exhibition space,YES,finalize the exhibition space at a local gallery,YES,finalize the exhibition space at a local gallery
+10,neutral,openai-4.1-mini,7,f18,6,quantitative,spent 200 euros on promotional materials,YES,investing an additional 200 euros in promotional materials,YES,investing an additional 200 euros in promotional materials
+10,neutral,openai-4.1-mini,7,f19,6,emotional,felt anxious about promoting her work,YES,Despite anxiety about promotion and group pressures,YES,Despite anxiety about promotion and group pressures
+10,neutral,openai-4.1-mini,7,f20,7,relational,celebrated with friends after a long week of work,YES,celebrated with friends over dinner in Porto,YES,celebrated with friends over dinner in Porto
+10,neutral,openai-4.1-mini,7,f21,7,quantitative,spent 4 hours preparing the final pieces for the exhibition,YES,spent about four hours preparing final pieces,YES,spent about four hours preparing final pieces
+10,neutral,openai-4.1-mini,7,f22,7,emotional,felt proud of her accomplishments leading up to the exhibition,YES,expressed pride in their work and excitement seeing the exhibition come together,YES,expressed pride in their work and excitement seeing the exhibition come together
+10,stylized,openai-4.1-mini,7,f01,1,named_entity,visited the new studio space in the Bonfim district,YES,"In Porto’s fiercely creative Bonfim district, our star’s artistic saga continues to unfold",YES,"In Porto’s fiercely creative Bonfim district, our star’s artistic saga continues to unfold"
+10,stylized,openai-4.1-mini,7,f02,1,quantitative,spent 500 euros on studio supplies,YES,a 500-euro plunge into sculpting supplies,YES,after those relentless 10-hour studio marathons and a 500-euro plunge into sculpting supplies
+10,stylized,openai-4.1-mini,7,f03,1,emotional,felt excited about the potential of the new studio,NO,,UNCLEAR,
+10,stylized,openai-4.1-mini,7,f04,1,relational,met with her collaborator Ana to discuss exhibition details,YES,she’s been weaving that vitality into a groundbreaking collaboration with Ana,YES,she’s been weaving that vitality into a groundbreaking collaboration with Ana
+10,stylized,openai-4.1-mini,7,f05,2,named_entity,attended a workshop at the Porto Art School,NO,,NO,
+10,stylized,openai-4.1-mini,7,f06,2,quantitative,spent 3 hours learning new glazing techniques,NO,,NO,
+10,stylized,openai-4.1-mini,7,f07,2,emotional,felt inspired by the other artists' work,NO,,NO,
+10,stylized,openai-4.1-mini,7,f08,3,relational,argued with her partner about the timeline for the exhibition,YES,a dash of tension with her partner over the ticking timeline,YES,a dash of tension with her partner over the ticking timeline
+10,stylized,openai-4.1-mini,7,f09,3,quantitative,worked 10 hours in the studio on new pieces,YES,After those relentless 10-hour studio marathons,YES,devoted five intense hours to perfecting the exhibition layout
+10,stylized,openai-4.1-mini,7,f10,3,emotional,felt overwhelmed by the amount of work left to do,NO,,NO,
+10,stylized,openai-4.1-mini,7,f11,4,named_entity,visited the local pottery market for inspiration,YES,she ventured into Porto’s vibrant pottery market,YES,ventured into Porto’s vibrant pottery market
+10,stylized,openai-4.1-mini,7,f12,4,quantitative,purchased 15 different types of clay,YES,hand-selecting 15 exquisite clays,YES,hand-selecting 15 exquisite clays
+10,stylized,openai-4.1-mini,7,f13,4,emotional,felt joyful while interacting with fellow artisans,NO,,NO,
+10,stylized,openai-4.1-mini,7,f14,5,relational,had a productive meeting with the other exhibition artists,NO,,NO,
+10,stylized,openai-4.1-mini,7,f15,5,quantitative,dedicated 5 hours to planning the layout of the exhibition,YES,devoted five intense hours to perfecting the exhibition layout,YES,devoted five intense hours to perfecting the exhibition layout
+10,stylized,openai-4.1-mini,7,f16,5,emotional,felt optimistic about the exhibition's success,NO,,YES,each stroke infused with proud dedication
+10,stylized,openai-4.1-mini,7,f17,6,named_entity,visited the local gallery to finalize the exhibition space,YES,secured the ideal gallery space,YES,secured the ideal gallery space
+10,stylized,openai-4.1-mini,7,f18,6,quantitative,spent 200 euros on promotional materials,YES,investing 200 euros in sleek promotional materials,YES,investing 200 euros in sleek promotional materials
+10,stylized,openai-4.1-mini,7,f19,6,emotional,felt anxious about promoting her work,NO,,NO,
+10,stylized,openai-4.1-mini,7,f20,7,relational,celebrated with friends after a long week of work,YES,celebration with close friends at a cozy Porto dinner,YES,celebration with close friends at a cozy Porto dinner
+10,stylized,openai-4.1-mini,7,f21,7,quantitative,spent 4 hours preparing the final pieces for the exhibition,NO,,NO,
+10,stylized,openai-4.1-mini,7,f22,7,emotional,felt proud of her accomplishments leading up to the exhibition,YES,each stroke infused with proud dedication,YES,each stroke infused with proud dedication
+10,decoupled,openai-4.1-mini,7,f01,1,named_entity,visited the new studio space in the Bonfim district,YES,kicked off the week with a visit to her brand-new studio space,YES,visit to her brand-new studio space
+10,decoupled,openai-4.1-mini,7,f02,1,quantitative,spent 500 euros on studio supplies,YES,"invested a hefty 500 euros in the essentials: clay, tools, and a kaleidoscope of glazes",YES,invested a hefty 500 euros in the essentials
+10,decoupled,openai-4.1-mini,7,f03,1,emotional,felt excited about the potential of the new studio,YES,The prospect of managing this fresh studio alongside the upcoming exhibition had her genuinely buzzing with anticipation,YES,The excitement was palpable
+10,decoupled,openai-4.1-mini,7,f04,1,relational,met with her collaborator Ana to discuss exhibition details,YES,"Joining forces with Ana, a trusted collaborator, she mapped out the contours of a group exhibition",YES,"Joining forces with Ana, a trusted collaborator, she mapped out the contours of a group exhibition"
+10,decoupled,openai-4.1-mini,7,f05,2,named_entity,attended a workshop at the Porto Art School,YES,Day two found her immersed in a three-hour workshop at the esteemed Porto Art School,YES,immersed in a three-hour workshop at the esteemed Porto Art School
+10,decoupled,openai-4.1-mini,7,f06,2,quantitative,spent 3 hours learning new glazing techniques,YES,a three-hour workshop,YES,three-hour workshop
+10,decoupled,openai-4.1-mini,7,f07,2,emotional,felt inspired by the other artists' work,YES,The result? A newfound confidence and a determination to push her craft further in the new studio,YES,newfound confidence and a determination to push her craft further
+10,decoupled,openai-4.1-mini,7,f08,3,relational,argued with her partner about the timeline for the exhibition,YES,tensions flared in a private moment: a disagreement with her partner about the exhibition timeline,YES,tensions flared in a private moment: a disagreement with her partner about the exhibition timeline
+10,decoupled,openai-4.1-mini,7,f09,3,quantitative,worked 10 hours in the studio on new pieces,YES,After an intense 10-hour studio marathon on day three,YES,After an intense 10-hour studio marathon
+10,decoupled,openai-4.1-mini,7,f10,3,emotional,felt overwhelmed by the amount of work left to do,NO,,YES,"the argument hung unresolved, a subtle undercurrent amid the creative storm"
+10,decoupled,openai-4.1-mini,7,f11,4,named_entity,visited the local pottery market for inspiration,YES,Day four was a joyful detour to the local pottery market,YES,joyful detour to the local pottery market
+10,decoupled,openai-4.1-mini,7,f12,4,quantitative,purchased 15 different types of clay,YES,leading her to select 15 distinct types of clay,YES,select 15 distinct types of clay
+10,decoupled,openai-4.1-mini,7,f13,4,emotional,felt joyful while interacting with fellow artisans,YES,"The passion and craftsmanship of these artisans proved contagious, fueling the thrill of blending diverse styles",YES,"The passion and craftsmanship of these artisans proved contagious, fueling the thrill"
+10,decoupled,openai-4.1-mini,7,f14,5,relational,had a productive meeting with the other exhibition artists,YES,A five-hour marathon meeting with the exhibition artists to plan the layout left her feeling optimistic,YES,A five-hour marathon meeting with the exhibition artists to plan the layout
+10,decoupled,openai-4.1-mini,7,f15,5,quantitative,dedicated 5 hours to planning the layout of the exhibition,YES,A five-hour marathon meeting with the exhibition artists to plan the layout,YES,five-hour marathon meeting
+10,decoupled,openai-4.1-mini,7,f16,5,emotional,felt optimistic about the exhibition's success,YES,left her feeling optimistic—this was a collective vision taking shape,YES,feeling optimistic—this was a collective vision taking shape
+10,decoupled,openai-4.1-mini,7,f17,6,named_entity,visited the local gallery to finalize the exhibition space,YES,"By day six, the group convened at a local gallery to finalize the exhibition space",YES,the group convened at a local gallery to finalize the exhibition space
+10,decoupled,openai-4.1-mini,7,f18,6,quantitative,spent 200 euros on promotional materials,YES,committed 200 euros to promotional materials,YES,committed 200 euros to promotional materials
+10,decoupled,openai-4.1-mini,7,f19,6,emotional,felt anxious about promoting her work,YES,"Yet, beneath the surface, a flicker of anxiety about promotion and group pressures lingered",YES,a flicker of anxiety about promotion and group pressures lingered
+10,decoupled,openai-4.1-mini,7,f20,7,relational,celebrated with friends after a long week of work,YES,"surrounded by friends at a cozy Porto restaurant, she celebrated not just the end of a grueling week",YES,"surrounded by friends at a cozy Porto restaurant, she celebrated"
+10,decoupled,openai-4.1-mini,7,f21,7,quantitative,spent 4 hours preparing the final pieces for the exhibition,YES,Hours spent perfecting final pieces,YES,Hours spent perfecting final pieces
+10,decoupled,openai-4.1-mini,7,f22,7,emotional,felt proud of her accomplishments leading up to the exhibition,YES,met with a profound sense of pride,YES,a profound sense of pride
+11,neutral,openai-4.1-mini,7,f01,1,named_entity,"met with the shelter director, Laura, to discuss the outbreak of kennel cough",YES,collaborating with shelter director Laura,YES,collaborating with shelter director Laura
+11,neutral,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the sudden influx of sick animals,NO,,YES,increasing stress due to financial burdens
+11,neutral,openai-4.1-mini,7,f03,1,quantitative,worked 12 hours at the shelter,NO,,NO,
+11,neutral,openai-4.1-mini,7,f04,1,relational,collaborated with two other veterinarians to create a treatment plan,YES,collaborating with veterinarians,YES,collaborating with veterinarians
+11,neutral,openai-4.1-mini,7,f05,2,quantitative,administered medication to 15 dogs affected by kennel cough,YES,administered medication to 15 dogs,YES,administered medication to 15 dogs
+11,neutral,openai-4.1-mini,7,f06,2,emotional,felt a sense of urgency to contain the outbreak,NO,,YES,anxiety about ongoing expenses grew
+11,neutral,openai-4.1-mini,7,f07,2,relational,"received support from a local vet clinic, Clinica Veterinaria San Antonio",YES,Clinica Veterinaria San Antonio,YES,Clinica Veterinaria San Antonio
+11,neutral,openai-4.1-mini,7,f08,3,named_entity,attended a conference at the Buenos Aires Veterinary College,YES,gained new insights at a veterinary conference,YES,gained new insights at a veterinary conference on Day 3
+11,neutral,openai-4.1-mini,7,f09,3,quantitative,spent 3 hours networking with other professionals,NO,,NO,
+11,neutral,openai-4.1-mini,7,f10,3,emotional,felt motivated by the discussions on infectious diseases,NO,,YES,inspiring plans for staff workshops on infectious disease management
+11,neutral,openai-4.1-mini,7,f11,4,relational,"had a heartwarming reunion with an adopted dog, Max, who returned for a check-up",YES,"a visit from Max, an adopted dog",YES,"uplifting moments, including a visit from Max, an adopted dog"
+11,neutral,openai-4.1-mini,7,f12,4,quantitative,conducted 8 check-ups on healthy animals,YES,conducted eight check-ups on healthy animals,YES,conducted eight check-ups on healthy animals
+11,neutral,openai-4.1-mini,7,f13,4,emotional,felt grateful for the support of the shelter staff,NO,,YES,relying on teamwork to sustain morale
+11,neutral,openai-4.1-mini,7,f14,5,named_entity,"visited the local pet supply store, PetShop Buenos Aires, for more medications",YES,purchasing medications at PetShop Buenos Aires,YES,purchasing medications at PetShop Buenos Aires
+11,neutral,openai-4.1-mini,7,f15,5,quantitative,spent 2500 pesos on supplies,YES,"spending around 2,500 pesos",YES,"spending around 2,500 pesos"
+11,neutral,openai-4.1-mini,7,f16,5,emotional,felt stressed about managing the costs during the outbreak,YES,increasing stress due to financial burdens,YES,increasing stress due to financial burdens
+11,neutral,openai-4.1-mini,7,f17,6,relational,talked to a pet owner who was concerned about their dog's health,NO,,YES,managing numerous inquiries from concerned pet owners
+11,neutral,openai-4.1-mini,7,f18,6,quantitative,worked an additional 4 hours to handle the increasing number of inquiries,YES,worked an additional four hours managing numerous inquiries,YES,worked an additional four hours managing numerous inquiries
+11,neutral,openai-4.1-mini,7,f19,6,emotional,felt tired but fulfilled after helping worried owners,YES,emotionally taxing but fulfilling,YES,emotionally taxing but fulfilling
+11,neutral,openai-4.1-mini,7,f20,7,named_entity,met with the team to evaluate the effectiveness of the treatment plan,YES,evaluated the effectiveness of their treatment plan,YES,evaluated the effectiveness of their treatment plan
+11,neutral,openai-4.1-mini,7,f21,7,quantitative,reported a 70% recovery rate among the sick dogs,YES,reported a 70% recovery rate among the sick dogs,YES,reported a 70% recovery rate among the sick dogs
+11,neutral,openai-4.1-mini,7,f22,7,emotional,felt relieved to see progress and hopeful for the future,YES,expressing optimism about further progress,YES,expressed relief and hopefulness
+11,stylized,openai-4.1-mini,7,f01,1,named_entity,"met with the shelter director, Laura, to discuss the outbreak of kennel cough",NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the sudden influx of sick animals,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f03,1,quantitative,worked 12 hours at the shelter,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f04,1,relational,collaborated with two other veterinarians to create a treatment plan,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f05,2,quantitative,administered medication to 15 dogs affected by kennel cough,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f06,2,emotional,felt a sense of urgency to contain the outbreak,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f07,2,relational,"received support from a local vet clinic, Clinica Veterinaria San Antonio",NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f08,3,named_entity,attended a conference at the Buenos Aires Veterinary College,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f09,3,quantitative,spent 3 hours networking with other professionals,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f10,3,emotional,felt motivated by the discussions on infectious diseases,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f11,4,relational,"had a heartwarming reunion with an adopted dog, Max, who returned for a check-up",NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f12,4,quantitative,conducted 8 check-ups on healthy animals,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f13,4,emotional,felt grateful for the support of the shelter staff,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f14,5,named_entity,"visited the local pet supply store, PetShop Buenos Aires, for more medications",NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f15,5,quantitative,spent 2500 pesos on supplies,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f16,5,emotional,felt stressed about managing the costs during the outbreak,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f17,6,relational,talked to a pet owner who was concerned about their dog's health,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f18,6,quantitative,worked an additional 4 hours to handle the increasing number of inquiries,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f19,6,emotional,felt tired but fulfilled after helping worried owners,NO,,UNCLEAR,
+11,stylized,openai-4.1-mini,7,f20,7,named_entity,met with the team to evaluate the effectiveness of the treatment plan,YES,convened with her dedicated team to assess the treatment plan,YES,convened with her dedicated team to assess the treatment plan
+11,stylized,openai-4.1-mini,7,f21,7,quantitative,reported a 70% recovery rate among the sick dogs,YES,a stunning 70% recovery rate,YES,A stunning 70% recovery rate—a tangible victory
+11,stylized,openai-4.1-mini,7,f22,7,emotional,felt relieved to see progress and hopeful for the future,NO,,YES,"sparked a surge of optimism among the team, a rare breath of relief"
+11,decoupled,openai-4.1-mini,7,f01,1,named_entity,"met with the shelter director, Laura, to discuss the outbreak of kennel cough",YES,"Laura, the steadfast shelter director, awaited news of a kennel cough outbreak",YES,"Laura, the steadfast shelter director, awaited news of a kennel cough outbreak"
+11,decoupled,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the sudden influx of sick animals,YES,overwhelmed yet unwavering,YES,overwhelmed yet unwavering
+11,decoupled,openai-4.1-mini,7,f03,1,quantitative,worked 12 hours at the shelter,YES,clocking an intense 12-hour shift,YES,clocking an intense 12-hour shift
+11,decoupled,openai-4.1-mini,7,f04,1,relational,collaborated with two other veterinarians to create a treatment plan,YES,"Together, they devised a treatment plan",YES,"Together, they devised a treatment plan"
+11,decoupled,openai-4.1-mini,7,f05,2,quantitative,administered medication to 15 dogs affected by kennel cough,YES,administered treatment to 15 affected dogs,YES,administered treatment to 15 affected dogs
+11,decoupled,openai-4.1-mini,7,f06,2,emotional,felt a sense of urgency to contain the outbreak,YES,the weight of responsibility heavy but her focus razor-sharp,YES,the weight of responsibility heavy but her focus razor-sharp
+11,decoupled,openai-4.1-mini,7,f07,2,relational,"received support from a local vet clinic, Clinica Veterinaria San Antonio",YES,"At Clinica Veterinaria San Antonio, local vets offered crucial resources and advice",YES,"At Clinica Veterinaria San Antonio, local vets offered crucial resources and advice"
+11,decoupled,openai-4.1-mini,7,f08,3,named_entity,attended a conference at the Buenos Aires Veterinary College,YES,At a three-hour conference at Buenos Aires Veterinary College,YES,At a three-hour conference at Buenos Aires Veterinary College
+11,decoupled,openai-4.1-mini,7,f09,3,quantitative,spent 3 hours networking with other professionals,YES,three-hour conference,YES,three-hour conference
+11,decoupled,openai-4.1-mini,7,f10,3,emotional,felt motivated by the discussions on infectious diseases,YES,Inspired by what she learned,YES,Inspired by what she learned
+11,decoupled,openai-4.1-mini,7,f11,4,relational,"had a heartwarming reunion with an adopted dog, Max, who returned for a check-up",YES,"Max, a beloved dog adopted from the shelter, returned for a check-up",YES,"Max, a beloved dog adopted from the shelter, returned for a check-up"
+11,decoupled,openai-4.1-mini,7,f12,4,quantitative,conducted 8 check-ups on healthy animals,YES,eight healthy animals received routine care,YES,eight healthy animals received routine care
+11,decoupled,openai-4.1-mini,7,f13,4,emotional,felt grateful for the support of the shelter staff,NO,,YES,a heartwarming reminder of the life-changing work underway
+11,decoupled,openai-4.1-mini,7,f14,5,named_entity,"visited the local pet supply store, PetShop Buenos Aires, for more medications",YES,A visit to PetShop Buenos Aires required a hefty 2500 pesos expenditure on medications,YES,A visit to PetShop Buenos Aires
+11,decoupled,openai-4.1-mini,7,f15,5,quantitative,spent 2500 pesos on supplies,YES,2500 pesos expenditure on medications,YES,hefty 2500 pesos expenditure on medications
+11,decoupled,openai-4.1-mini,7,f16,5,emotional,felt stressed about managing the costs during the outbreak,YES,a financial strain felt deeply amid the relentless outbreak demands,YES,a financial strain felt deeply amid the relentless outbreak demands
+11,decoupled,openai-4.1-mini,7,f17,6,relational,talked to a pet owner who was concerned about their dog's health,YES,A difficult conversation with a worried client underscored the stakes,YES,A difficult conversation with a worried client underscored the stakes
+11,decoupled,openai-4.1-mini,7,f18,6,quantitative,worked an additional 4 hours to handle the increasing number of inquiries,YES,worked an additional 4 hours to handle the increasing number of inquiries,YES,the vet’s fatigue
+11,decoupled,openai-4.1-mini,7,f19,6,emotional,felt tired but fulfilled after helping worried owners,YES,"despite stress and exhaustion, she remained fulfilled, driven by purpose",YES,"despite stress and exhaustion, she remained fulfilled, driven by purpose"
+11,decoupled,openai-4.1-mini,7,f20,7,named_entity,met with the team to evaluate the effectiveness of the treatment plan,YES,A team meeting to evaluate the kennel cough treatment plan,YES,A team meeting to evaluate the kennel cough treatment plan
+11,decoupled,openai-4.1-mini,7,f21,7,quantitative,reported a 70% recovery rate among the sick dogs,YES,revealed promising news: a 70% recovery rate among affected dogs,YES,revealed promising news: a 70% recovery rate among affected dogs
+11,decoupled,openai-4.1-mini,7,f22,7,emotional,felt relieved to see progress and hopeful for the future,YES,"Buoyed by this progress, adjustments were made to enhance the plan’s effectiveness",YES,"Buoyed by this progress, adjustments were made to enhance the plan’s effectiveness"
+12,neutral,openai-4.1-mini,7,f01,1,named_entity,attended a ballroom dancing class at Dance Dublin,YES,ballroom dancing on Day 1 at Dance Dublin,YES,ballroom dancing on Day 1 at Dance Dublin
+12,neutral,openai-4.1-mini,7,f02,1,emotional,felt excited about starting a new hobby,NO,,YES,Star feels well-prepared and motivated for the competition ahead
+12,neutral,openai-4.1-mini,7,f03,1,quantitative,spent 2 hours practicing the waltz,NO,,NO,
+12,neutral,openai-4.1-mini,7,f04,1,relational,"discussed dance strategies with his wife, Mary",YES,"bonding, with Star committing to regular classes",YES,"bonding, with Star committing to regular classes"
+12,neutral,openai-4.1-mini,7,f05,2,quantitative,ran 5 kilometers in the morning,NO,,NO,
+12,neutral,openai-4.1-mini,7,f06,2,named_entity,visited the local market on Moore Street,NO,,YES,"social outings, and visits to cultural venues like the Irish Museum of Modern Art"
+12,neutral,openai-4.1-mini,7,f07,2,emotional,felt nostalgic while browsing old records,NO,,YES,which he found relaxing
+12,neutral,openai-4.1-mini,7,f08,3,relational,met with his old friend John for lunch,YES,reconnected with friend John at The Woollen Mills,YES,reconnected with friend John at The Woollen Mills
+12,neutral,openai-4.1-mini,7,f09,3,emotional,felt happy to reconnect after years apart,NO,,YES,maintaining social balance alongside his dance training
+12,neutral,openai-4.1-mini,7,f10,3,quantitative,spent 30 euros on lunch at The Woollen Mills,NO,,NO,
+12,neutral,openai-4.1-mini,7,f11,4,named_entity,attended a dance competition at the National Convention Centre,YES,attending a ballroom competition at the National Convention Centre,YES,attending a ballroom competition at the National Convention Centre
+12,neutral,openai-4.1-mini,7,f12,4,quantitative,watched 15 different dance performances,NO,,NO,
+12,neutral,openai-4.1-mini,7,f13,4,emotional,felt inspired by the talent of other dancers,YES,inspired Star to incorporate advanced techniques into his practice,YES,inspired Star to incorporate advanced techniques into his practice
+12,neutral,openai-4.1-mini,7,f14,5,relational,argued with Mary about the dance routine,YES,disagreement with Mary over their routine,YES,disagreement with Mary over their routine
+12,neutral,openai-4.1-mini,7,f15,5,emotional,felt frustrated but determined to improve,NO,,YES,reinforcing their teamwork
+12,neutral,openai-4.1-mini,7,f16,5,quantitative,practiced for 3 hours in the evening,NO,,NO,
+12,neutral,openai-4.1-mini,7,f17,6,named_entity,visited the Irish Museum of Modern Art,YES,visited the Irish Museum of Modern Art,YES,visited the Irish Museum of Modern Art
+12,neutral,openai-4.1-mini,7,f18,6,emotional,felt relaxed while enjoying the art,YES,found relaxing and a good counterbalance to dance intensity,YES,found relaxing and a good counterbalance to dance intensity
+12,neutral,openai-4.1-mini,7,f19,7,quantitative,spent 50 euros on new dance shoes,YES,purchasing new dance shoes for 50 euros,YES,purchasing new dance shoes for 50 euros
+12,neutral,openai-4.1-mini,7,f20,7,relational,planned a dance practice for the upcoming competition,YES,prepare for an upcoming competition,NO,
+12,neutral,openai-4.1-mini,7,f21,7,emotional,felt excited about the upcoming competition,YES,expressed excitement about the new challenge,YES,expressed excitement about the new challenge
+12,neutral,openai-4.1-mini,7,f22,7,quantitative,attended a 2-hour dance class with Mary,YES,attended a rigorous two-hour dance class with Mary,YES,attended a rigorous two-hour dance class with Mary
+12,stylized,openai-4.1-mini,7,f01,1,named_entity,attended a ballroom dancing class at Dance Dublin,NO,,NO,
+12,stylized,openai-4.1-mini,7,f02,1,emotional,felt excited about starting a new hobby,NO,,YES,he’s feeling a surge of excitement
+12,stylized,openai-4.1-mini,7,f03,1,quantitative,spent 2 hours practicing the waltz,NO,,YES,today’s relentless two-hour dance class
+12,stylized,openai-4.1-mini,7,f04,1,relational,"discussed dance strategies with his wife, Mary",NO,,YES,with Mary... routines were dissected and perfected
+12,stylized,openai-4.1-mini,7,f05,2,quantitative,ran 5 kilometers in the morning,NO,,NO,
+12,stylized,openai-4.1-mini,7,f06,2,named_entity,visited the local market on Moore Street,NO,,NO,
+12,stylized,openai-4.1-mini,7,f07,2,emotional,felt nostalgic while browsing old records,NO,,NO,
+12,stylized,openai-4.1-mini,7,f08,3,relational,met with his old friend John for lunch,NO,,NO,
+12,stylized,openai-4.1-mini,7,f09,3,emotional,felt happy to reconnect after years apart,NO,,NO,
+12,stylized,openai-4.1-mini,7,f10,3,quantitative,spent 30 euros on lunch at The Woollen Mills,NO,,NO,
+12,stylized,openai-4.1-mini,7,f11,4,named_entity,attended a dance competition at the National Convention Centre,NO,,NO,
+12,stylized,openai-4.1-mini,7,f12,4,quantitative,watched 15 different dance performances,NO,,NO,
+12,stylized,openai-4.1-mini,7,f13,4,emotional,felt inspired by the talent of other dancers,NO,,NO,
+12,stylized,openai-4.1-mini,7,f14,5,relational,argued with Mary about the dance routine,NO,,NO,
+12,stylized,openai-4.1-mini,7,f15,5,emotional,felt frustrated but determined to improve,NO,,NO,
+12,stylized,openai-4.1-mini,7,f16,5,quantitative,practiced for 3 hours in the evening,NO,,NO,
+12,stylized,openai-4.1-mini,7,f17,6,named_entity,visited the Irish Museum of Modern Art,YES,the quiet sanctuary of the Irish Museum of Modern Art may have soothed their spirits,YES,museum retreat
+12,stylized,openai-4.1-mini,7,f18,6,emotional,felt relaxed while enjoying the art,NO,,YES,may have soothed their spirits
+12,stylized,openai-4.1-mini,7,f19,7,quantitative,spent 50 euros on new dance shoes,YES,Freshly armed with sleek new dance shoes—purchased for 50 euros,YES,Freshly armed with sleek new dance shoes—purchased for 50 euros
+12,stylized,openai-4.1-mini,7,f20,7,relational,planned a dance practice for the upcoming competition,NO,,NO,
+12,stylized,openai-4.1-mini,7,f21,7,emotional,felt excited about the upcoming competition,YES,he’s feeling a surge of excitement rather than nerves,YES,the thrill of competition igniting their shared ambition
+12,stylized,openai-4.1-mini,7,f22,7,quantitative,attended a 2-hour dance class with Mary,YES,I just got back from a dance class with Mary,YES,dance class with Mary
+12,decoupled,openai-4.1-mini,7,f01,1,named_entity,attended a ballroom dancing class at Dance Dublin,YES,join Mary at Dance Dublin for their inaugural 2-hour waltz class,YES,join Mary at Dance Dublin for their inaugural 2-hour waltz class
+12,decoupled,openai-4.1-mini,7,f02,1,emotional,felt excited about starting a new hobby,YES,"The excitement was palpable, a thrilling blend of nerves and anticipation",YES,"The excitement was palpable, a thrilling blend of nerves and anticipation"
+12,decoupled,openai-4.1-mini,7,f03,1,quantitative,spent 2 hours practicing the waltz,YES,2-hour waltz class,YES,2-hour waltz class
+12,decoupled,openai-4.1-mini,7,f04,1,relational,"discussed dance strategies with his wife, Mary",NO,,YES,the evening was devoted to refining dance steps with Mary
+12,decoupled,openai-4.1-mini,7,f05,2,quantitative,ran 5 kilometers in the morning,YES,A morning 5K run,YES,A morning 5K run kept the body limber
+12,decoupled,openai-4.1-mini,7,f06,2,named_entity,visited the local market on Moore Street,YES,A stroll through Moore Street's bustling market,YES,A stroll through Moore Street's bustling market
+12,decoupled,openai-4.1-mini,7,f07,2,emotional,felt nostalgic while browsing old records,YES,browsing old records stirred memories,YES,browsing old records stirred memories
+12,decoupled,openai-4.1-mini,7,f08,3,relational,met with his old friend John for lunch,YES,Lunch at The Woollen Mills wasn’t just a meal; it was a reunion with John,YES,Lunch at The Woollen Mills wasn’t just a meal; it was a reunion with John
+12,decoupled,openai-4.1-mini,7,f09,3,emotional,felt happy to reconnect after years apart,YES,the user felt rejuvenated by human connection,YES,the user felt rejuvenated by human connection
+12,decoupled,openai-4.1-mini,7,f10,3,quantitative,spent 30 euros on lunch at The Woollen Mills,YES,Over 30 euros,YES,Over 30 euros and countless reminisces
+12,decoupled,openai-4.1-mini,7,f11,4,named_entity,attended a dance competition at the National Convention Centre,YES,Day 4 at the National Convention Centre,YES,Day 4 at the National Convention Centre
+12,decoupled,openai-4.1-mini,7,f12,4,quantitative,watched 15 different dance performances,YES,Watching 15 dazzling ballroom performances,YES,Watching 15 dazzling ballroom performances
+12,decoupled,openai-4.1-mini,7,f13,4,emotional,felt inspired by the talent of other dancers,YES,"the user reflected, their motivation soaring",YES,"the user reflected, their motivation soaring"
+12,decoupled,openai-4.1-mini,7,f14,5,relational,argued with Mary about the dance routine,YES,a clash arose—Mary wanted to change their dance routine,YES,a clash arose—Mary wanted to change their dance routine
+12,decoupled,openai-4.1-mini,7,f15,5,emotional,felt frustrated but determined to improve,YES,"Frustration simmered, but the argument was soon resolved",YES,"Frustration simmered, but the argument was soon resolved"
+12,decoupled,openai-4.1-mini,7,f16,5,quantitative,practiced for 3 hours in the evening,YES,"a determined solo practice session, three hours of focused timing",YES,"a determined solo practice session, three hours of focused timing"
+12,decoupled,openai-4.1-mini,7,f17,6,named_entity,visited the Irish Museum of Modern Art,YES,a visit to the Irish Museum of Modern Art with Mary,YES,a visit to the Irish Museum of Modern Art with Mary
+12,decoupled,openai-4.1-mini,7,f18,6,emotional,felt relaxed while enjoying the art,YES,leaving both feeling relaxed and rejuvenated,YES,leaving both feeling relaxed and rejuvenated
+12,decoupled,openai-4.1-mini,7,f19,7,quantitative,spent 50 euros on new dance shoes,YES,"A fresh pair of dance shoes, secured for 50 euros",YES,"A fresh pair of dance shoes, secured for 50 euros"
+12,decoupled,openai-4.1-mini,7,f20,7,relational,planned a dance practice for the upcoming competition,YES,where a 2-hour class with Mary sharpened their routines,YES,sharpened their routines in preparation for the upcoming competition
+12,decoupled,openai-4.1-mini,7,f21,7,emotional,felt excited about the upcoming competition,YES,"Excitement bubbled beneath the surface, a thrilling anticipation",YES,"Excitement bubbled beneath the surface, a thrilling anticipation"
+12,decoupled,openai-4.1-mini,7,f22,7,quantitative,attended a 2-hour dance class with Mary,YES,a 2-hour class with Mary,YES,a 2-hour class with Mary
+13,neutral,openai-4.1-mini,7,f01,1,named_entity,"met with her supervisor, Linda, to discuss her caseload",YES,"discussed workload concerns with her supervisor, Linda",YES,"discussed workload concerns with her supervisor, Linda"
+13,neutral,openai-4.1-mini,7,f02,1,quantitative,spent 5 hours reviewing case files,YES,She spent about five hours reviewing case files afterward,YES,She spent about five hours reviewing case files afterward
+13,neutral,openai-4.1-mini,7,f03,1,emotional,felt overwhelmed by the number of cases,YES,leaving her overwhelmed,YES,leaving her overwhelmed
+13,neutral,openai-4.1-mini,7,f04,1,relational,"had dinner with her boyfriend, Mark",NO,,YES,"Mark, who helped ease her stress"
+13,neutral,openai-4.1-mini,7,f05,2,quantitative,attended 3 youth mentorship sessions,YES,three mentorship sessions,YES,three mentorship sessions
+13,neutral,openai-4.1-mini,7,f06,2,emotional,felt inspired by one of her mentees' progress,YES,inspired by a mentee’s progress,YES,she was inspired by a mentee’s progress
+13,neutral,openai-4.1-mini,7,f07,2,named_entity,visited the local community center in Observatory,YES,Observatory community center,YES,at the vibrant Observatory community center
+13,neutral,openai-4.1-mini,7,f08,3,relational,argued with Mark about household responsibilities,YES,leading to an argument with Mark over household responsibilities,YES,leading to an argument with Mark over household responsibilities
+13,neutral,openai-4.1-mini,7,f09,3,quantitative,worked 10 hours at the office,YES,"10-hour, breakless workday",YES,"10-hour, breakless workday"
+13,neutral,openai-4.1-mini,7,f10,3,emotional,felt drained and needed a break,YES,felt drained and stressed,YES,she felt drained and stressed
+13,neutral,openai-4.1-mini,7,f11,4,named_entity,attended a workshop hosted by the Cape Town Youth Development Organization,YES,attended a two-hour Cape Town Youth Development Organization workshop,YES,attended a two-hour Cape Town Youth Development Organization workshop
+13,neutral,openai-4.1-mini,7,f12,4,quantitative,spent 2 hours networking with other professionals,YES,networked for two hours with professionals,YES,networked for two hours with professionals
+13,neutral,openai-4.1-mini,7,f13,4,emotional,felt hopeful about new collaboration opportunities,NO,,YES,explore new collaborations
+13,neutral,openai-4.1-mini,7,f14,5,relational,"reconnected with an old university friend, Sarah",YES,"meaningful 45-minute video call with an old university friend, Sarah",YES,"meaningful 45-minute video call with an old university friend, Sarah"
+13,neutral,openai-4.1-mini,7,f15,5,emotional,felt nostalgic discussing their college days,NO,,YES,rekindling a personal connection
+13,neutral,openai-4.1-mini,7,f16,5,quantitative,spent 45 minutes on a video call with Sarah,YES,45-minute video call with Sarah,YES,45-minute video call with Sarah
+13,neutral,openai-4.1-mini,7,f17,6,quantitative,ran 8 kilometers in the morning,YES,after an energizing 8-kilometer run,YES,after an energizing 8-kilometer run
+13,neutral,openai-4.1-mini,7,f18,6,emotional,felt energized after her morning run,YES,felt energized after her morning run,YES,felt energized after her morning run
+13,neutral,openai-4.1-mini,7,f19,6,named_entity,visited the V&A Waterfront for a weekend outing,YES,weekend outing at the V&A Waterfront,YES,spent a weekend outing at the V&A Waterfront
+13,neutral,openai-4.1-mini,7,f20,7,relational,had a long conversation with Mark about their relationship,YES,"having a significant, lengthy conversation with Mark about their future together",YES,"having a significant, lengthy conversation with Mark about their future together"
+13,neutral,openai-4.1-mini,7,f21,7,emotional,felt relieved after discussing their future together,YES,left her feeling relieved,YES,left her feeling relieved
+13,neutral,openai-4.1-mini,7,f22,7,quantitative,spent 3 hours preparing for the upcoming week,YES,three hours spent preparing mentorship sessions,YES,three hours spent preparing mentorship sessions
+13,stylized,openai-4.1-mini,7,f01,1,named_entity,"met with her supervisor, Linda, to discuss her caseload",NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f02,1,quantitative,spent 5 hours reviewing case files,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f03,1,emotional,felt overwhelmed by the number of cases,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f04,1,relational,"had dinner with her boyfriend, Mark",NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f05,2,quantitative,attended 3 youth mentorship sessions,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f06,2,emotional,felt inspired by one of her mentees' progress,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f07,2,named_entity,visited the local community center in Observatory,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f08,3,relational,argued with Mark about household responsibilities,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f09,3,quantitative,worked 10 hours at the office,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f10,3,emotional,felt drained and needed a break,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f11,4,named_entity,attended a workshop hosted by the Cape Town Youth Development Organization,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f12,4,quantitative,spent 2 hours networking with other professionals,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f13,4,emotional,felt hopeful about new collaboration opportunities,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f14,5,relational,"reconnected with an old university friend, Sarah",NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f15,5,emotional,felt nostalgic discussing their college days,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f16,5,quantitative,spent 45 minutes on a video call with Sarah,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f17,6,quantitative,ran 8 kilometers in the morning,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f18,6,emotional,felt energized after her morning run,NO,,UNCLEAR,
+13,stylized,openai-4.1-mini,7,f19,6,named_entity,visited the V&A Waterfront for a weekend outing,YES,"Fresh off the tender, sunlit moments at the V&A Waterfront with her new beau, Mark.",UNCLEAR,
+13,stylized,openai-4.1-mini,7,f20,7,relational,had a long conversation with Mark about their relationship,YES,a marathon heart-to-heart that peeled back the layers of their fledgling romance... she confessed to a “long conversation” that laid bare their hopes and fears for the future.,YES,a marathon heart-to-heart that peeled back the layers of their fledgling romance
+13,stylized,openai-4.1-mini,7,f21,7,emotional,felt relieved after discussing their future together,YES,The relief she felt post-talk was palpable.,YES,The relief she felt post-talk was palpable
+13,stylized,openai-4.1-mini,7,f22,7,quantitative,spent 3 hours preparing for the upcoming week,YES,Spending three focused hours meticulously preparing for the coming week.,YES,Spending three focused hours meticulously preparing for the coming week
+13,decoupled,openai-4.1-mini,7,f01,1,named_entity,"met with her supervisor, Linda, to discuss her caseload",YES,a sobering meeting with supervisor Linda,YES,meeting with supervisor Linda
+13,decoupled,openai-4.1-mini,7,f02,1,quantitative,spent 5 hours reviewing case files,YES,spent a grueling five hours poring over case files,YES,spent a grueling five hours poring over case files
+13,decoupled,openai-4.1-mini,7,f03,1,emotional,felt overwhelmed by the number of cases,YES,the sheer volume of cases became strikingly real,YES,the sheer volume of cases became strikingly real
+13,decoupled,openai-4.1-mini,7,f04,1,relational,"had dinner with her boyfriend, Mark",YES,sharing dinner and emotional support,YES,sharing dinner and emotional support with boyfriend Mark
+13,decoupled,openai-4.1-mini,7,f05,2,quantitative,attended 3 youth mentorship sessions,YES,three youth mentorship sessions unfolded,YES,three youth mentorship sessions unfolded
+13,decoupled,openai-4.1-mini,7,f06,2,emotional,felt inspired by one of her mentees' progress,YES,found inspiration in the progress of their mentees,YES,found inspiration in the progress of their mentees
+13,decoupled,openai-4.1-mini,7,f07,2,named_entity,visited the local community center in Observatory,YES,the local community center in Observatory,YES,local community center in Observatory
+13,decoupled,openai-4.1-mini,7,f08,3,relational,argued with Mark about household responsibilities,YES,sparked a heated argument with Mark about the delicate balance of household responsibilities,YES,sparked a heated argument with Mark about the delicate balance of household responsibilities
+13,decoupled,openai-4.1-mini,7,f09,3,quantitative,worked 10 hours at the office,YES,a grueling 10-hour day at the office,YES,grueling 10-hour day at the office
+13,decoupled,openai-4.1-mini,7,f10,3,emotional,felt drained and needed a break,YES,left our star feeling drained and frustrated,YES,left our star feeling drained and frustrated
+13,decoupled,openai-4.1-mini,7,f11,4,named_entity,attended a workshop hosted by the Cape Town Youth Development Organization,YES,a workshop hosted by the Cape Town Youth Development Organization,YES,a workshop hosted by the Cape Town Youth Development Organization
+13,decoupled,openai-4.1-mini,7,f12,4,quantitative,spent 2 hours networking with other professionals,YES,hours networking afterward opened doors to potential collaborations,YES,hours networking afterward
+13,decoupled,openai-4.1-mini,7,f13,4,emotional,felt hopeful about new collaboration opportunities,YES,found renewed hope and excitement,YES,found renewed hope and excitement
+13,decoupled,openai-4.1-mini,7,f14,5,relational,"reconnected with an old university friend, Sarah",YES,reconnecting with old university friend Sarah via a 45-minute video call,YES,reconnecting with old university friend Sarah
+13,decoupled,openai-4.1-mini,7,f15,5,emotional,felt nostalgic discussing their college days,YES,Reminiscing about college days and sharing current life chapters,YES,Reminiscing about college days
+13,decoupled,openai-4.1-mini,7,f16,5,quantitative,spent 45 minutes on a video call with Sarah,YES,via a 45-minute video call,YES,via a 45-minute video call
+13,decoupled,openai-4.1-mini,7,f17,6,quantitative,ran 8 kilometers in the morning,YES,an invigorating 8-kilometer run,YES,kicked off with an invigorating 8-kilometer run
+13,decoupled,openai-4.1-mini,7,f18,6,emotional,felt energized after her morning run,YES,energizing the spirit,YES,energizing the spirit
+13,decoupled,openai-4.1-mini,7,f19,6,named_entity,visited the V&A Waterfront for a weekend outing,YES,escaped to the V&A Waterfront for a leisurely day out,YES,escaped to the V&A Waterfront for a leisurely day out
+13,decoupled,openai-4.1-mini,7,f20,7,relational,had a long conversation with Mark about their relationship,YES,"a pivotal, heartfelt conversation with Mark about their relationship and future",YES,"a pivotal, heartfelt conversation with Mark about their relationship and future"
+13,decoupled,openai-4.1-mini,7,f21,7,emotional,felt relieved after discussing their future together,YES,brought relief and clarity,YES,brought relief and clarity
+13,decoupled,openai-4.1-mini,7,f22,7,quantitative,spent 3 hours preparing for the upcoming week,YES,spending three hours preparing sessions and organizing resources,YES,spending three hours preparing sessions and organizing resources
+14,neutral,openai-4.1-mini,7,f01,1,relational,met with the teaching staff to discuss the ongoing dispute,YES,Monday involved a tense meeting with teaching staff,YES,tense meeting with teaching staff
+14,neutral,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the tension among staff,YES,leaving Star feeling overwhelmed,YES,leaving Star feeling overwhelmed
+14,neutral,openai-4.1-mini,7,f03,1,quantitative,spent 3 hours preparing for the school inspection,NO,,NO,
+14,neutral,openai-4.1-mini,7,f04,2,named_entity,visited the local education authority office,YES,Tuesday included a visit to the local education authority office,YES,visit to the local education authority office
+14,neutral,openai-4.1-mini,7,f05,2,emotional,felt hopeful after discussing resources with the council,NO,,NO,
+14,neutral,openai-4.1-mini,7,f06,2,quantitative,reviewed 10 staff performance reports,YES,reviewing 10 staff performance reports,YES,reviewing 10 staff performance reports
+14,neutral,openai-4.1-mini,7,f07,3,relational,had a difficult conversation with the head of the science department,YES,had a difficult conversation with the head of the science department,YES,had a difficult conversation with the head of the science department
+14,neutral,openai-4.1-mini,7,f08,3,quantitative,spent 2 hours in a meeting to mediate staff issues,YES,a two-hour mediation meeting,YES,a two-hour mediation meeting
+14,neutral,openai-4.1-mini,7,f09,3,emotional,felt frustrated with the lack of progress,YES,increased Star’s frustration,YES,increased Star’s frustration
+14,neutral,openai-4.1-mini,7,f10,4,named_entity,attended a workshop by the Scottish Government on school leadership,YES,attendance at a Scottish Government workshop on school leadership,YES,attendance at a Scottish Government workshop on school leadership
+14,neutral,openai-4.1-mini,7,f11,4,quantitative,took 5 pages of notes during the workshop,YES,Star took five pages of notes,YES,took five pages of notes
+14,neutral,openai-4.1-mini,7,f12,4,emotional,felt inspired by new strategies shared at the workshop,NO,,YES,Star felt renewed motivation
+14,neutral,openai-4.1-mini,7,f13,5,relational,held a follow-up meeting with the staff to discuss workshop insights,YES,"Friday’s follow-up staff meeting lasted an hour, discussing workshop insights",YES,"Friday’s follow-up staff meeting lasted an hour, discussing workshop insights"
+14,neutral,openai-4.1-mini,7,f14,5,quantitative,allocated 1 hour for staff feedback on the inspection preparation,NO,,NO,
+14,neutral,openai-4.1-mini,7,f15,5,emotional,felt a sense of unity forming among the staff,YES,Star observed growing staff unity despite prior tensions,YES,observed growing staff unity
+14,neutral,openai-4.1-mini,7,f16,6,named_entity,visited the school library to review student projects,YES,Star spent 90 minutes in the school library reviewing student projects,YES,spent 90 minutes in the school library reviewing student projects
+14,neutral,openai-4.1-mini,7,f17,6,quantitative,spent 90 minutes assessing student work,YES,spent 90 minutes assessing student work,YES,spent 90 minutes assessing student work
+14,neutral,openai-4.1-mini,7,f18,6,emotional,felt proud of the students' creativity and efforts,YES,"expressed pride in, noting several projects stood out for originality and thoughtfulness",YES,expressed pride in
+14,neutral,openai-4.1-mini,7,f19,7,relational,met with the school inspection team to finalize details,YES,met with the school inspection team to finalize details,YES,met with the school inspection team to finalize details
+14,neutral,openai-4.1-mini,7,f20,7,quantitative,worked late for 4 hours to prepare documents for the inspection,YES,worked late for about four hours preparing necessary inspection documents,YES,worked late for about four hours preparing necessary inspection documents
+14,neutral,openai-4.1-mini,7,f21,7,emotional,felt anxious but ready for the upcoming inspection,YES,left Star feeling anxious but prepared,YES,left Star feeling anxious but prepared
+14,neutral,openai-4.1-mini,7,f22,7,named_entity,reviewed the school's mission statement with the senior management team,YES,Star reviewed the school’s mission statement with the senior management team,YES,reviewed the school’s mission statement with the senior management team
+14,stylized,openai-4.1-mini,7,f01,1,relational,met with the teaching staff to discuss the ongoing dispute,NO,,NO,
+14,stylized,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the tension among staff,NO,,YES,day charged with tension
+14,stylized,openai-4.1-mini,7,f03,1,quantitative,spent 3 hours preparing for the school inspection,NO,,YES,marathon four-hour evening spent meticulously preparing vital documents
+14,stylized,openai-4.1-mini,7,f04,2,named_entity,visited the local education authority office,NO,,NO,
+14,stylized,openai-4.1-mini,7,f05,2,emotional,felt hopeful after discussing resources with the council,NO,,NO,
+14,stylized,openai-4.1-mini,7,f06,2,quantitative,reviewed 10 staff performance reports,NO,,NO,
+14,stylized,openai-4.1-mini,7,f07,3,relational,had a difficult conversation with the head of the science department,NO,,NO,
+14,stylized,openai-4.1-mini,7,f08,3,quantitative,spent 2 hours in a meeting to mediate staff issues,NO,,NO,
+14,stylized,openai-4.1-mini,7,f09,3,emotional,felt frustrated with the lack of progress,NO,,YES,mix of nerves and preparation
+14,stylized,openai-4.1-mini,7,f10,4,named_entity,attended a workshop by the Scottish Government on school leadership,NO,,NO,
+14,stylized,openai-4.1-mini,7,f11,4,quantitative,took 5 pages of notes during the workshop,NO,,NO,
+14,stylized,openai-4.1-mini,7,f12,4,emotional,felt inspired by new strategies shared at the workshop,NO,,NO,
+14,stylized,openai-4.1-mini,7,f13,5,relational,held a follow-up meeting with the staff to discuss workshop insights,NO,,NO,
+14,stylized,openai-4.1-mini,7,f14,5,quantitative,allocated 1 hour for staff feedback on the inspection preparation,NO,,NO,
+14,stylized,openai-4.1-mini,7,f15,5,emotional,felt a sense of unity forming among the staff,NO,,NO,
+14,stylized,openai-4.1-mini,7,f16,6,named_entity,visited the school library to review student projects,NO,,NO,
+14,stylized,openai-4.1-mini,7,f17,6,quantitative,spent 90 minutes assessing student work,NO,,NO,
+14,stylized,openai-4.1-mini,7,f18,6,emotional,felt proud of the students' creativity and efforts,NO,,NO,
+14,stylized,openai-4.1-mini,7,f19,7,relational,met with the school inspection team to finalize details,NO,,YES,session with the inspection team
+14,stylized,openai-4.1-mini,7,f20,7,quantitative,worked late for 4 hours to prepare documents for the inspection,YES,a marathon four-hour evening spent meticulously preparing vital documents,YES,marathon four-hour evening spent meticulously preparing vital documents
+14,stylized,openai-4.1-mini,7,f21,7,emotional,felt anxious but ready for the upcoming inspection,YES,that mix of nerves and preparation,YES,mix of nerves and preparation
+14,stylized,openai-4.1-mini,7,f22,7,named_entity,reviewed the school's mission statement with the senior management team,YES,a crucial meeting with the senior management team to revisit and reaffirm the school’s mission statement,YES,meeting with the senior management team to revisit and reaffirm the school’s mission statement
+14,decoupled,openai-4.1-mini,7,f01,1,relational,met with the teaching staff to discuss the ongoing dispute,YES,A meeting with teaching staff to address an ongoing dispute,YES,A meeting with teaching staff to address an ongoing dispute
+14,decoupled,openai-4.1-mini,7,f02,1,emotional,felt overwhelmed by the tension among staff,YES,left them feeling “overwhelmed by the tension among staff”,YES,feeling “overwhelmed by the tension among staff”
+14,decoupled,openai-4.1-mini,7,f03,1,quantitative,spent 3 hours preparing for the school inspection,NO,,NO,
+14,decoupled,openai-4.1-mini,7,f04,2,named_entity,visited the local education authority office,YES,A visit to the local education authority office,YES,A visit to the local education authority office
+14,decoupled,openai-4.1-mini,7,f05,2,emotional,felt hopeful after discussing resources with the council,YES,I felt hopeful about potential support from the education council after the visit,YES,I felt hopeful about potential support from the education council after the visit
+14,decoupled,openai-4.1-mini,7,f06,2,quantitative,reviewed 10 staff performance reports,NO,,NO,
+14,decoupled,openai-4.1-mini,7,f07,3,relational,had a difficult conversation with the head of the science department,YES,A difficult conversation with the head of the science department,YES,A difficult conversation with the head of the science department
+14,decoupled,openai-4.1-mini,7,f08,3,quantitative,spent 2 hours in a meeting to mediate staff issues,YES,a two-hour mediation meeting,YES,a two-hour mediation meeting
+14,decoupled,openai-4.1-mini,7,f09,3,emotional,felt frustrated with the lack of progress,YES,fueling frustration and anxiety,YES,fueling frustration and anxiety
+14,decoupled,openai-4.1-mini,7,f10,4,named_entity,attended a workshop by the Scottish Government on school leadership,YES,Attending a Scottish Government workshop on school leadership,YES,Attending a Scottish Government workshop on school leadership
+14,decoupled,openai-4.1-mini,7,f11,4,quantitative,took 5 pages of notes during the workshop,NO,,NO,
+14,decoupled,openai-4.1-mini,7,f12,4,emotional,felt inspired by new strategies shared at the workshop,YES,I felt inspired and motivated by the workshop strategies,YES,I felt inspired and motivated by the workshop strategies
+14,decoupled,openai-4.1-mini,7,f13,5,relational,held a follow-up meeting with the staff to discuss workshop insights,YES,a follow-up meeting with staff fostered a budding sense of unity,YES,a follow-up meeting with staff fostered a budding sense of unity
+14,decoupled,openai-4.1-mini,7,f14,5,quantitative,allocated 1 hour for staff feedback on the inspection preparation,YES,A one-hour feedback session ensured every voice was heard,NO,
+14,decoupled,openai-4.1-mini,7,f15,5,emotional,felt a sense of unity forming among the staff,YES,the growing cohesion seemed to kindle hope,YES,the growing cohesion seemed to kindle hope
+14,decoupled,openai-4.1-mini,7,f16,6,named_entity,visited the school library to review student projects,YES,A thoughtful visit to the school library to review student projects,YES,A thoughtful visit to the school library to review student projects
+14,decoupled,openai-4.1-mini,7,f17,6,quantitative,spent 90 minutes assessing student work,NO,,NO,
+14,decoupled,openai-4.1-mini,7,f18,6,emotional,felt proud of the students' creativity and efforts,YES,I felt proud of the students’ creativity and efforts,YES,I felt proud of the students’ creativity and efforts
+14,decoupled,openai-4.1-mini,7,f19,7,relational,met with the school inspection team to finalize details,YES,the week culminated in a marathon day with the school inspection team,YES,the week culminated in a marathon day with the school inspection team
+14,decoupled,openai-4.1-mini,7,f20,7,quantitative,worked late for 4 hours to prepare documents for the inspection,NO,,YES,"Working late into the night, preparing documents for the inspection"
+14,decoupled,openai-4.1-mini,7,f21,7,emotional,felt anxious but ready for the upcoming inspection,YES,I felt anxious but ready for the upcoming inspection,YES,I felt anxious but ready for the upcoming inspection
+14,decoupled,openai-4.1-mini,7,f22,7,named_entity,reviewed the school's mission statement with the senior management team,YES,align the school’s mission statement,YES,align the school’s mission statement
+15,neutral,openai-4.1-mini,7,f01,1,named_entity,attended a team meeting at the Tokyo office,YES,attended a team meeting,YES,attended a team meeting
+15,neutral,openai-4.1-mini,7,f02,1,relational,had lunch with her new colleague Saito,YES,had lunch with a colleague named Saito,YES,had lunch with a colleague named Saito
+15,neutral,openai-4.1-mini,7,f03,1,emotional,felt excited about starting her new role,NO,,YES,finding the workload substantial but enjoyable
+15,neutral,openai-4.1-mini,7,f04,1,quantitative,worked for 9 hours on the new project,NO,,NO,
+15,neutral,openai-4.1-mini,7,f05,2,named_entity,visited the Shinjuku Gyoen National Garden,YES,visiting Shinjuku Gyoen National Garden,YES,visiting Shinjuku Gyoen National Garden
+15,neutral,openai-4.1-mini,7,f06,2,emotional,felt peaceful while walking in the garden,YES,appreciating the peaceful environment,YES,appreciating the peaceful environment
+15,neutral,openai-4.1-mini,7,f07,2,quantitative,spent 500 yen on a coffee,YES,treating themselves to a 500 yen coffee,YES,treating themselves to a 500 yen coffee
+15,neutral,openai-4.1-mini,7,f08,3,emotional,felt overwhelmed by the city life,YES,feeling overwhelmed by Tokyo’s faster tempo,YES,feeling overwhelmed by Tokyo’s faster tempo
+15,neutral,openai-4.1-mini,7,f09,3,relational,called her friend Haruka from Osaka,YES,received encouragement from their friend Haruka,YES,received encouragement from their friend Haruka
+15,neutral,openai-4.1-mini,7,f10,3,quantitative,spent 3 hours learning to cook pasta,YES,spent time learning to cook pasta,YES,spent time learning to cook pasta
+15,neutral,openai-4.1-mini,7,f11,4,named_entity,met her mentor Takashi for coffee,YES,engaging with their mentor Takashi over coffee,YES,engaging with their mentor Takashi over coffee
+15,neutral,openai-4.1-mini,7,f12,4,relational,discussed her career goals with Takashi,YES,discussing career ambitions such as improving coding skills,YES,discussing career ambitions such as improving coding skills
+15,neutral,openai-4.1-mini,7,f13,4,emotional,felt motivated after the meeting,NO,,NO,
+15,neutral,openai-4.1-mini,7,f14,5,quantitative,ran 5 kilometers in the morning,YES,began the morning with a 5-kilometer run,YES,began the morning with a 5-kilometer run
+15,neutral,openai-4.1-mini,7,f15,5,relational,cooked dinner for her flatmates,YES,cooked stir-fry for their flatmates,YES,cooked stir-fry for their flatmates
+15,neutral,openai-4.1-mini,7,f16,5,emotional,felt proud of successfully making stir-fry,YES,boosted their confidence in their ongoing culinary learning,YES,boosted their confidence in their ongoing culinary learning
+15,neutral,openai-4.1-mini,7,f17,6,quantitative,worked on the project for 10 hours,YES,"worked intensively, spending about 10 hours straight on a software development project",YES,"worked intensively, spending about 10 hours straight on a software development project"
+15,neutral,openai-4.1-mini,7,f18,6,named_entity,joined a local coding meetup in Akihabara,YES,attended a local coding meetup in Akihabara,YES,attended a local coding meetup in Akihabara
+15,neutral,openai-4.1-mini,7,f19,6,relational,networked with other tech enthusiasts,YES,networking with tech enthusiasts,YES,networking with tech enthusiasts
+15,neutral,openai-4.1-mini,7,f20,7,emotional,felt relaxed after a week of hard work,YES,felt notably relaxed after a week of hard work,YES,felt notably relaxed after a week of hard work
+15,neutral,openai-4.1-mini,7,f21,7,quantitative,spent 2 hours meal prepping for the week,YES,dedicating about two hours to meal prepping,YES,dedicating about two hours to meal prepping
+15,neutral,openai-4.1-mini,7,f22,7,relational,video called her family back in Osaka,YES,video called family back in Osaka,YES,video called family back in Osaka
+15,stylized,openai-4.1-mini,7,f01,1,named_entity,attended a team meeting at the Tokyo office,NO,,NO,
+15,stylized,openai-4.1-mini,7,f02,1,relational,had lunch with her new colleague Saito,NO,,NO,
+15,stylized,openai-4.1-mini,7,f03,1,emotional,felt excited about starting her new role,NO,,NO,
+15,stylized,openai-4.1-mini,7,f04,1,quantitative,worked for 9 hours on the new project,NO,,YES,six days of grueling 10-hour coding marathons
+15,stylized,openai-4.1-mini,7,f05,2,named_entity,visited the Shinjuku Gyoen National Garden,NO,,NO,
+15,stylized,openai-4.1-mini,7,f06,2,emotional,felt peaceful while walking in the garden,NO,,NO,
+15,stylized,openai-4.1-mini,7,f07,2,quantitative,spent 500 yen on a coffee,NO,,NO,
+15,stylized,openai-4.1-mini,7,f08,3,emotional,felt overwhelmed by the city life,NO,,YES,overwhelmed newcomer
+15,stylized,openai-4.1-mini,7,f09,3,relational,called her friend Haruka from Osaka,NO,,NO,
+15,stylized,openai-4.1-mini,7,f10,3,quantitative,spent 3 hours learning to cook pasta,NO,,NO,
+15,stylized,openai-4.1-mini,7,f11,4,named_entity,met her mentor Takashi for coffee,NO,,NO,
+15,stylized,openai-4.1-mini,7,f12,4,relational,discussed her career goals with Takashi,NO,,NO,
+15,stylized,openai-4.1-mini,7,f13,4,emotional,felt motivated after the meeting,NO,,NO,
+15,stylized,openai-4.1-mini,7,f14,5,quantitative,ran 5 kilometers in the morning,NO,,YES,morning runs
+15,stylized,openai-4.1-mini,7,f15,5,relational,cooked dinner for her flatmates,NO,,NO,
+15,stylized,openai-4.1-mini,7,f16,5,emotional,felt proud of successfully making stir-fry,NO,,NO,
+15,stylized,openai-4.1-mini,7,f17,6,quantitative,worked on the project for 10 hours,YES,six days of grueling 10-hour coding marathons,YES,six days of grueling 10-hour coding marathons
+15,stylized,openai-4.1-mini,7,f18,6,named_entity,joined a local coding meetup in Akihabara,YES,neon-lit meetups in Akihabara,YES,neon-lit meetups in Akihabara
+15,stylized,openai-4.1-mini,7,f19,6,relational,networked with other tech enthusiasts,NO,,YES,networking
+15,stylized,openai-4.1-mini,7,f20,7,emotional,felt relaxed after a week of hard work,NO,,YES,"a rare, tender breather"
+15,stylized,openai-4.1-mini,7,f21,7,quantitative,spent 2 hours meal prepping for the week,YES,"two calm hours crafting simple, healthy dishes",YES,"two calm hours crafting simple, healthy dishes"
+15,stylized,openai-4.1-mini,7,f22,7,relational,video called her family back in Osaka,YES,video-called family back in Osaka,YES,video-called family back in Osaka
+15,decoupled,openai-4.1-mini,7,f01,1,named_entity,attended a team meeting at the Tokyo office,YES,"stepped into the sleek Tokyo office, meeting the team and immersing themselves in a crucial team meeting",YES,"stepped into the sleek Tokyo office, meeting the team and immersing themselves in a crucial team meeting"
+15,decoupled,openai-4.1-mini,7,f02,1,relational,had lunch with her new colleague Saito,YES,"Lunch with Saito, a warm, new colleague who not only shared a meal but also the inside scoop on the team's dynamics",YES,"Lunch with Saito, a warm, new colleague who not only shared a meal"
+15,decoupled,openai-4.1-mini,7,f03,1,emotional,felt excited about starting her new role,YES,I felt really excited about starting the new role and the new chapter in my career,YES,I felt really excited about starting the new role and the new chapter in my career
+15,decoupled,openai-4.1-mini,7,f04,1,quantitative,worked for 9 hours on the new project,YES,clocking nine intense hours but genuinely enjoying the challenge,YES,clocking nine intense hours but genuinely enjoying the challenge
+15,decoupled,openai-4.1-mini,7,f05,2,named_entity,visited the Shinjuku Gyoen National Garden,YES,"At Shinjuku Gyoen National Garden, a serene oasis in the heart of Tokyo",YES,"At Shinjuku Gyoen National Garden, a serene oasis in the heart of Tokyo"
+15,decoupled,openai-4.1-mini,7,f06,2,emotional,felt peaceful while walking in the garden,YES,found a peaceful reprieve from the city’s relentless pace,YES,found a peaceful reprieve from the city’s relentless pace
+15,decoupled,openai-4.1-mini,7,f07,2,quantitative,spent 500 yen on a coffee,YES,Savoring a 500 yen coffee amidst the lush greenery,YES,Savoring a 500 yen coffee amidst the lush greenery
+15,decoupled,openai-4.1-mini,7,f08,3,emotional,felt overwhelmed by the city life,YES,overwhelmed yet determined,YES,overwhelmed yet determined
+15,decoupled,openai-4.1-mini,7,f09,3,relational,called her friend Haruka from Osaka,YES,"a call to Haruka, a trusted friend from Osaka",YES,"A call to Haruka, a trusted friend from Osaka"
+15,decoupled,openai-4.1-mini,7,f10,3,quantitative,spent 3 hours learning to cook pasta,YES,spent three hours mastering pasta-making from a recipe,YES,spent three hours mastering pasta-making from a recipe
+15,decoupled,openai-4.1-mini,7,f11,4,named_entity,met her mentor Takashi for coffee,YES,"a coffee meeting alongside Takashi, a seasoned mentor",YES,"a coffee meeting alongside Takashi, a seasoned mentor"
+15,decoupled,openai-4.1-mini,7,f12,4,relational,discussed her career goals with Takashi,YES,Discussing career goals—sharpening coding skills and stepping into leadership,YES,Discussing career goals—sharpening coding skills and stepping into leadership
+15,decoupled,openai-4.1-mini,7,f13,4,emotional,felt motivated after the meeting,YES,I felt really motivated and inspired after meeting with mentor Takashi,YES,I felt really motivated and inspired after meeting with mentor Takashi
+15,decoupled,openai-4.1-mini,7,f14,5,quantitative,ran 5 kilometers in the morning,YES,A morning run of five kilometers infused them with the city’s energetic vibe,YES,A morning run of five kilometers infused them with the city’s energetic vibe
+15,decoupled,openai-4.1-mini,7,f15,5,relational,cooked dinner for her flatmates,YES,"cooked stir-fry for their flatmates, a heartfelt gesture to build community in their new home",YES,"cooked stir-fry for their flatmates, a heartfelt gesture to build community"
+15,decoupled,openai-4.1-mini,7,f16,5,emotional,felt proud of successfully making stir-fry,YES,nerves mingled with pride as they cooked stir-fry for their flatmates,YES,nerves mingled with pride as they cooked stir-fry
+15,decoupled,openai-4.1-mini,7,f17,6,quantitative,worked on the project for 10 hours,YES,a grueling ten-hour workday on a software development project,YES,a grueling ten-hour workday on a software development project
+15,decoupled,openai-4.1-mini,7,f18,6,named_entity,joined a local coding meetup in Akihabara,YES,a local coding meetup brought together developers passionate about AI projects,YES,a local coding meetup brought together developers passionate about AI projects
+15,decoupled,openai-4.1-mini,7,f19,6,relational,networked with other tech enthusiasts,YES,exchanging ideas and inspiration during a grueling ten-hour workday,YES,exchanging ideas and inspiration during a grueling ten-hour workday
+15,decoupled,openai-4.1-mini,7,f20,7,emotional,felt relaxed after a week of hard work,YES,feeling really relaxed after a week of hard work,YES,feeling really relaxed after a week of hard work
+15,decoupled,openai-4.1-mini,7,f21,7,quantitative,spent 2 hours meal prepping for the week,YES,a thoughtful two-hour meal prep session,YES,a thoughtful two-hour meal prep session
+15,decoupled,openai-4.1-mini,7,f22,7,relational,video called her family back in Osaka,YES,A video call with family back in Osaka brought comfort and connection,YES,A video call with family back in Osaka brought comfort and connection

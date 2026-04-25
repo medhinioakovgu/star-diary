@@ -145,6 +145,9 @@ def main():
                              "'all_daily' = judge every daily summary (7x more calls).")
     parser.add_argument("--pipelines", nargs="+",
                         default=["neutral", "stylized", "decoupled"])
+    parser.add_argument("--gen_model", default=None,
+                        help="Only judge this generation model directory. "
+                             "If omitted, judges all model dirs (original behaviour).")
     args = parser.parse_args()
 
     results_root = pathlib.Path(__file__).parent / args.results_dir
@@ -178,7 +181,9 @@ def main():
         for model_dir in week_dir.iterdir():
             if not model_dir.is_dir():
                 continue
-            gen_model = model_dir.name
+            gen_model = model_dir.name      
+            if args.gen_model and gen_model != args.gen_model: 
+                continue
             for pipeline_name in args.pipelines:
                 result_path = model_dir / f"{pipeline_name}.json"
                 if not result_path.exists():
