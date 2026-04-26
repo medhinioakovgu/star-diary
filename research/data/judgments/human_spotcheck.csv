@@ -16,3 +16,20 @@ Medhini,2026-04-22T14:02:02.417454,11,decoupled,openai-4o-mini,f14,5,named_entit
 Medhini,2026-04-22T14:02:04.265711,12,decoupled,openai-4o-mini,f07,2,emotional,felt nostalgic while browsing old records,NO,YES,YES
 Medhini,2026-04-22T14:02:04.895825,12,decoupled,openai-4o-mini,f02,1,emotional,felt excited about starting a new hobby,YES,YES,YES
 Medhini,2026-04-22T14:02:05.645922,15,decoupled,openai-4o-mini,f09,3,relational,called her friend Haruka from Osaka,NO,YES,YES
+Ritwika,2026-04-26T20:07:06.568234,1,decoupled,openai-4o-mini,f12,4,relational,argued with her partner about weekend plans.,YES,YES,YES
+Ritwika,2026-04-26T20:07:27.671306,1,decoupled,openai-4o-mini,f20,7,quantitative,ran a total of 20 kilometers during the weekend.,YES,YES,YES
+Ritwika,2026-04-26T20:08:01.770427,2,decoupled,openai-4o-mini,f13,5,named_entity,"met with the head of the history department, Mr. Johnson",YES,YES,YES
+Ritwika,2026-04-26T20:13:10.147434,3,decoupled,openai-4o-mini,f05,2,quantitative,spent 5 hours training her two apprentices,NO,YES,YES
+Ritwika,2026-04-26T20:13:53.174686,4,decoupled,openai-4o-mini,f16,5,emotional,felt hopeful about the growing civic engagement.,YES,YES,YES
+Ritwika,2026-04-26T20:14:36.535860,7,decoupled,openai-4o-mini,f19,6,emotional,felt a sense of community while sharing tips with Mr. Popescu,YES,YES,YES
+Ritwika,2026-04-26T20:15:24.892929,7,decoupled,openai-4o-mini,f04,1,emotional,felt excited about the upcoming harvest,YES,NO,YES
+Ritwika,2026-04-26T20:16:32.458975,7,decoupled,openai-4o-mini,f07,2,emotional,felt grateful for the good weather,NO,NO,NO
+Ritwika,2026-04-26T20:17:34.994856,8,decoupled,openai-4o-mini,f08,2,relational,reconnected with an old friend who lives in Prague,YES,YES,YES
+Ritwika,2026-04-26T20:17:51.384005,8,decoupled,openai-4o-mini,f17,5,named_entity,travelled to Berlin via train,YES,YES,YES
+Ritwika,2026-04-26T20:18:57.427865,9,decoupled,openai-4o-mini,f10,4,emotional,felt anxious about meeting the project deadline,NO,NO,NO
+Ritwika,2026-04-26T20:19:36.244085,10,decoupled,openai-4o-mini,f18,6,quantitative,spent 200 euros on promotional materials,NO,YES,NO
+Ritwika,2026-04-26T20:20:14.218998,11,decoupled,openai-4o-mini,f09,3,quantitative,spent 3 hours networking with other professionals,YES,YES,YES
+Ritwika,2026-04-26T20:20:25.913059,11,decoupled,openai-4o-mini,f22,7,emotional,felt relieved to see progress and hopeful for the future,YES,YES,YES
+Ritwika,2026-04-26T20:20:48.575581,11,decoupled,openai-4o-mini,f01,1,named_entity,"met with the shelter director, Laura, to discuss the outbreak of kennel cough",YES,YES,YES
+Ritwika,2026-04-26T20:21:10.496499,12,neutral,openai-4o-mini,f01,1,named_entity,attended a ballroom dancing class at Dance Dublin,YES,YES,YES
+Ritwika,2026-04-26T20:21:39.118384,13,decoupled,openai-4o-mini,f02,1,quantitative,spent 5 hours reviewing case files,NO,NO,NO
