@@ -1,7 +1,7 @@
-gen_model,pipeline,n,preservation_strict,preservation_lenient
-gpt-4o-mini,neutral,327,0.9633,0.9725
-gpt-4o-mini,stylized,327,0.2416,0.2630
-gpt-4o-mini,decoupled,327,0.8287,0.8563
-gpt-4.1-mini,neutral,327,0.7278,0.8502
-gpt-4.1-mini,stylized,327,0.2080,0.2813
-gpt-4.1-mini,decoupled,327,0.9327,0.9633
+gen_model,pipeline,n,preservation_strict,preservation_lenient,ci_lo_strict,ci_hi_strict,ci_lo_lenient,ci_hi_lenient
+gpt-4o-mini,neutral,327,0.9633,0.9725,0.9333,0.9877,0.9423,0.9968
+gpt-4o-mini,stylized,327,0.2416,0.2630,0.1964,0.3033,0.1978,0.3504
+gpt-4o-mini,decoupled,327,0.8287,0.8563,0.7842,0.8733,0.8178,0.8938
+gpt-4.1-mini,neutral,327,0.7278,0.8502,0.6384,0.8040,0.7479,0.9237
+gpt-4.1-mini,stylized,327,0.2080,0.2813,0.1657,0.2666,0.2185,0.3497
+gpt-4.1-mini,decoupled,327,0.9327,0.9633,0.8933,0.9664,0.9258,0.9933
