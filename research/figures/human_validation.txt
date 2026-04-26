@@ -1,0 +1,38 @@
+Human validation of LLM-as-judge (three-reviewer spot-check)
+==============================================================
+
+Items rated by all three reviewers: 17
+Reviewers: Medhini, Ritwika, Akshat
+
+Human consensus (2-of-3 majority) vs strict LLM judge:
+  Agreement:     82.4%
+  Cohen's kappa: 0.549
+
+Human consensus (2-of-3 majority) vs lenient LLM judge:
+  Agreement:     94.1%
+  Cohen's kappa: 0.850
+
+Inter-rater agreement (pairwise Cohen's kappa among humans):
+  Medhini vs Ritwika: 94.1% agreement, kappa=0.850
+  Medhini vs Akshat: 94.1% agreement, kappa=0.850
+  Ritwika vs Akshat: 100.0% agreement, kappa=1.000
+
+Items where human consensus disagrees with strict judge (3):
+  ('3', 'decoupled', 'f05'): human_consensus=NO, llm_strict=YES, individual_votes={'Medhini': 'NO', 'Ritwika': 'NO', 'Akshat': 'NO'}
+  ('7', 'decoupled', 'f04'): human_consensus=YES, llm_strict=NO, individual_votes={'Medhini': 'YES', 'Ritwika': 'YES', 'Akshat': 'YES'}
+  ('10', 'decoupled', 'f18'): human_consensus=NO, llm_strict=YES, individual_votes={'Medhini': 'NO', 'Ritwika': 'NO', 'Akshat': 'NO'}
+
+Items where human consensus disagrees with lenient judge (1):
+  ('3', 'decoupled', 'f05'): human_consensus=NO, llm_lenient=YES, individual_votes={'Medhini': 'NO', 'Ritwika': 'NO', 'Akshat': 'NO'}
+
+---
+Interpretation guide:
+  kappa < 0.20  = slight agreement
+  kappa 0.20-0.40 = fair
+  kappa 0.40-0.60 = moderate
+  kappa 0.60-0.80 = substantial
+  kappa 0.80-1.00 = near-perfect
+
+Note: the strict judge requires verbatim/close paraphrase; humans tend
+to judge more leniently, so lower strict kappa is expected and normal.
+The lenient kappa is the primary validation metric to cite in the paper.
