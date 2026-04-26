@@ -1,0 +1,7 @@
+gen_model,pipeline,n,preservation_strict,preservation_lenient
+gpt-4o-mini,neutral,327,0.9633,0.9725
+gpt-4o-mini,stylized,327,0.2416,0.2630
+gpt-4o-mini,decoupled,327,0.8287,0.8563
+gpt-4.1-mini,neutral,327,0.7278,0.8502
+gpt-4.1-mini,stylized,327,0.2080,0.2813
+gpt-4.1-mini,decoupled,327,0.9327,0.9633
