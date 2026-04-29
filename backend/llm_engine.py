@@ -1,9 +1,6 @@
 """
 llm_engine.py – LLM abstraction layer for the Star-Interview Diary backend.
 
-Currently powered by the Groq API (llama-3.3-70b-versatile).
-TODO: Replace or augment with a local PyTorch / HuggingFace model once
-      fine-tuning in research/train_lora.py is complete.
 """
 
 import os
