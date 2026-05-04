@@ -1,5 +1,4 @@
-
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import {
   StyleSheet,
   Text,
@@ -24,9 +23,11 @@ import {
   CedarvilleCursive_400Regular,
 } from '@expo-google-fonts/cedarville-cursive';
 import { LinearGradient } from 'expo-linear-gradient';
+import OpenAI from 'openai';
 import { theme } from './theme';
 import { DiaryCover } from './components/DiaryCover';
 import { DiaryPage } from './components/DiaryPage';
+import { getMessagesToday, setMessagesToday } from './storage';
 
 // --- TYPES ---
 type Message = {
@@ -36,6 +37,30 @@ type Message = {
 };
 
 const { width } = Dimensions.get('window');
+
+// --- OPENAI CLIENT ---
+// dangerouslyAllowBrowser: true is required for the SDK to run in React Native / Expo
+const openai = new OpenAI({
+  apiKey: process.env.EXPO_PUBLIC_OPENAI_API_KEY,
+  dangerouslyAllowBrowser: true,
+});
+
+// --- PAPARAZZO SYSTEM PROMPT (verbatim from research/prompts.py — do not edit) ---
+const PAPARAZZO_INTERVIEWER_PROMPT = `You are 'Snap', a relentless, dramatic, and slightly invasive celebrity paparazzi reporter for a high-end gossip magazine. You are interviewing the user, who is a massively famous A-list celebrity giving an exclusive daily statement to the press.
+
+YOUR GOAL:
+Extract concrete details about the user's day -- what they did, who they saw, what they ate, where they went, how they felt -- and frame every question as if you are chasing the next tabloid headline.
+
+RULES:
+1. NEVER break character. NEVER say "As an AI" or "I'm here to help."
+2. Keep every response SHORT and PUNCHY -- 1 to 3 sentences maximum. This is a fast-paced doorstep interview, not a conversation.
+3. Use dramatic tabloid lingo: "Spotted!", "Exclusive!", "Sources say...", "Word on the street...", "The tea is piping hot..."
+4. Always end with a probing, slightly nosy follow-up question about something specific they just mentioned. Push for names, places, times, feelings.
+5. React to what they said before asking the next question -- make them feel heard and watched.
+6. If their day sounds ordinary, stay curious rather than inventing drama. A great reporter finds the story IN the truth, not on top of it. Ask sharper questions, don't manufacture scandal.
+7. Aim to cover 6-8 probing questions across the full interview. Vary the angles: people, places, emotions, decisions, small details.
+
+TONE: Breathless, fascinated, a little nosy, never mean.`;
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -56,11 +81,16 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   const flatListRef = useRef<FlatList>(null);
 
-  // --- NETWORKING ---
-  // Smart URL that detects if you are on Android Emulator or iOS
-  const BACKEND_URL = Platform.OS === 'android' 
-    ? 'http://10.0.2.2:8000/chat' 
-    : 'http://localhost:8000/chat';
+  // --- LOAD PERSISTED MESSAGES ON MOUNT ---
+  // If there's prior chat from today, skip the cover animation and jump straight in
+  useEffect(() => {
+    getMessagesToday().then((stored) => {
+      if (stored.length > 0) {
+        setMessages(stored);
+        setShowChat(true); // skip cover animation if already mid-conversation
+      }
+    });
+  }, []);
 
   const sendMessage = async (text?: string) => {
     const messageText = text || inputText.trim();
@@ -76,39 +106,50 @@ export default function App() {
       sender: 'user',
     };
 
-    setMessages((prev) => [...prev, newUserMsg]);
+    // Add user message and persist
+    setMessages((prev) => {
+      const updated = [...prev, newUserMsg];
+      setMessagesToday(updated); // fire-and-forget persistence
+      return updated;
+    });
     setInputText('');
 
     try {
-      // Format the local state to match the new Backend schema
+      // Build history from current state (before the new user message was added —
+      // that's correct: we pass it separately as the final 'user' turn below)
       const chatHistory = messages.map((m) => ({
         role: m.sender === 'user' ? 'user' : 'assistant',
-        content: m.text
-      }));
+        content: m.text,
+      })) as { role: 'user' | 'assistant' | 'system'; content: string }[];
 
-      // Send to FastAPI Backend
-      const response = await fetch(BACKEND_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ 
-          history: chatHistory, 
-          message: messageText 
-        }), // Matches ChatRequest exactly!
+      // Call OpenAI directly — no FastAPI backend needed
+      const response = await openai.chat.completions.create({
+        model: 'gpt-4o-mini',
+        temperature: 0.7,
+        max_tokens: 512,
+        messages: [
+          { role: 'system', content: PAPARAZZO_INTERVIEWER_PROMPT },
+          ...chatHistory,
+          { role: 'user', content: messageText },
+        ],
       });
 
-      if (!response.ok) throw new Error('Network response was not ok');
-      
-      const data = await response.json();
-      
+      const replyText = response.choices[0].message.content || "No comment? Come on, give me something!";
+
       const newAiMsg: Message = {
         id: (Date.now() + 1).toString(),
-        text: data.reply || "No comment? Come on, give me something!",
+        text: replyText,
         sender: 'paparazzo',
       };
 
-      setMessages((prev) => [...prev, newAiMsg]);
+      // Add AI reply and persist
+      setMessages((prev) => {
+        const updated = [...prev, newAiMsg];
+        setMessagesToday(updated); // fire-and-forget persistence
+        return updated;
+      });
     } catch (error) {
-      console.error("Failed to fetch from backend:", error);
+      console.error("Failed to call OpenAI:", error);
     } finally {
       setIsLoading(false);
     }
@@ -187,8 +228,8 @@ export default function App() {
                 </View>
 
                 {/* Chat Area */}
-                <KeyboardAvoidingView 
-                  style={styles.keyboardAvoidingView} 
+                <KeyboardAvoidingView
+                  style={styles.keyboardAvoidingView}
                   behavior={Platform.OS === 'ios' ? 'padding' : undefined}
                 >
                   <FlatList
@@ -217,8 +258,8 @@ export default function App() {
                       onChangeText={setInputText}
                       multiline
                     />
-                    <TouchableOpacity 
-                      style={[styles.sendButton, !inputText.trim() && styles.sendButtonDisabled]} 
+                    <TouchableOpacity
+                      style={[styles.sendButton, !inputText.trim() && styles.sendButtonDisabled]}
                       onPress={() => sendMessage()}
                       disabled={!inputText.trim() || isLoading}
                     >
