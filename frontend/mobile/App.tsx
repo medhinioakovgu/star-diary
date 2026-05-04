@@ -12,6 +12,7 @@ import {
   Dimensions,
   Animated,
   Easing,
+  Keyboard,
 } from 'react-native';
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
@@ -230,7 +231,8 @@ export default function App() {
                 {/* Chat Area */}
                 <KeyboardAvoidingView
                   style={styles.keyboardAvoidingView}
-                  behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+                  behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+                  keyboardVerticalOffset={Platform.OS === 'ios' ? 90 : 0}
                 >
                   <FlatList
                     ref={flatListRef}
@@ -239,6 +241,8 @@ export default function App() {
                     renderItem={renderMessage}
                     contentContainerStyle={styles.flatListContent}
                     onContentSizeChange={() => flatListRef.current?.scrollToEnd({ animated: true })}
+                    keyboardShouldPersistTaps="handled"
+                    onScrollBeginDrag={Keyboard.dismiss}
                   />
 
                   {isLoading && (

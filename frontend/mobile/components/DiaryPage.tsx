@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, TextInput, StyleSheet, TouchableOpacity, Keyboard, TouchableWithoutFeedback } from 'react-native';
 import { theme } from '../theme';
 
 interface DiaryPageProps {
@@ -24,6 +24,7 @@ export const DiaryPage: React.FC<DiaryPageProps> = ({ question, onSubmit }) => {
   };
 
   return (
+    <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.date}>{dateString}</Text>
@@ -41,7 +42,6 @@ export const DiaryPage: React.FC<DiaryPageProps> = ({ question, onSubmit }) => {
           value={inputText}
           onChangeText={setInputText}
           multiline
-          autoFocus
           onSubmitEditing={handleSubmit}
         />
       </View>
@@ -52,6 +52,7 @@ export const DiaryPage: React.FC<DiaryPageProps> = ({ question, onSubmit }) => {
         </TouchableOpacity>
       )}
     </View>
+    </TouchableWithoutFeedback>
   );
 };
 
