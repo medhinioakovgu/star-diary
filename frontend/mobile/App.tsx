@@ -38,8 +38,19 @@ import {
   setLastSessionDate,
   todayIso,
   dayNumberFor,
-  clearAll
+  clearAll,
+  // Dossier / magazine storage (decoupled pipeline outputs)
+  getDossier,
+  setDossier,
+  getDossierDaysCompleted,
+  markDossierDayCompleted,
+  getMagazine,
+  setMagazine,
+  listJournaledDates,
 } from './storage';
+import { updateDossier, renderMagazine } from './pipeline';
+import { messagesToTranscript } from './types';
+import type { DayNumber } from './types';
 
 // --- TYPES ---
 type Message = {
@@ -133,9 +144,20 @@ function DayCompletePanel({
   );
 }
 
-// --- COUNTDOWN PANEL ---
-function CountdownPanel() {
-  const [tick, setTick] = useState(0);
+// --- SESSION-ENDED PANEL ---
+// Shows a countdown to the next interview. When at least one day's dossier
+// update has been applied, also shows a "Generate this week's magazine" button
+// that renders a preview from all data collected so far (Days 1–N, up to 7).
+function SessionEndedPanel({
+  canGenerate,
+  isMagazineLoading,
+  onGenerateMagazine,
+}: {
+  canGenerate: boolean;
+  isMagazineLoading: boolean;
+  onGenerateMagazine: () => void;
+}) {
+  const [_tick, setTick] = useState(0);
 
   useEffect(() => {
     // Re-render every minute to refresh the countdown
@@ -146,7 +168,7 @@ function CountdownPanel() {
   const msUntilMidnight = (() => {
     const now = new Date();
     const midnight = new Date(now);
-    midnight.setHours(24, 0, 0, 0); // start of next day
+    midnight.setHours(24, 0, 0, 0);
     return midnight.getTime() - now.getTime();
   })();
 
@@ -166,12 +188,83 @@ function CountdownPanel() {
   }
 
   return (
-    <View style={styles.sessionEndedContainer}>
-      <Text style={styles.sessionEndedText}>That's today's exclusive! ✨</Text>
-      <Text style={styles.sessionEndedSubtext}>{countdownText}</Text>
+    <View style={sessionEndedStyles.container}>
+      <Text style={sessionEndedStyles.headline}>That's today's exclusive! ✨</Text>
+      <Text style={sessionEndedStyles.subtext}>{countdownText}</Text>
+      {canGenerate && (
+        <TouchableOpacity
+          style={[
+            sessionEndedStyles.magazineButton,
+            isMagazineLoading && sessionEndedStyles.magazineButtonLoading,
+          ]}
+          onPress={onGenerateMagazine}
+          disabled={isMagazineLoading}
+          activeOpacity={0.8}
+        >
+          {isMagazineLoading ? (
+            <>
+              <ActivityIndicator size="small" color={theme.colors.deepBlack} />
+              <Text style={sessionEndedStyles.magazineButtonText}>
+                Writing your magazine…
+              </Text>
+            </>
+          ) : (
+            <>
+              <Text style={sessionEndedStyles.magazineButtonIcon}>📰</Text>
+              <Text style={sessionEndedStyles.magazineButtonText}>
+                Generate this week's magazine
+              </Text>
+            </>
+          )}
+        </TouchableOpacity>
+      )}
     </View>
   );
 }
+
+const sessionEndedStyles = StyleSheet.create({
+  container: {
+    padding: 24,
+    backgroundColor: theme.colors.deepBlack,
+    borderTopWidth: 1,
+    borderTopColor: theme.colors.spineGold,
+    alignItems: 'center',
+  },
+  headline: {
+    color: theme.colors.spineGold,
+    fontSize: 18,
+    fontFamily: 'PlayfairDisplay-Regular',
+    fontWeight: 'bold',
+    marginBottom: 4,
+  },
+  subtext: {
+    color: '#999',
+    fontSize: 14,
+    fontStyle: 'italic',
+    marginBottom: 16,
+  },
+  magazineButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: theme.colors.spineGold,
+    paddingVertical: 12,
+    paddingHorizontal: 24,
+    borderRadius: 8,
+    gap: 8,
+  },
+  magazineButtonLoading: {
+    opacity: 0.7,
+  },
+  magazineButtonIcon: {
+    fontSize: 18,
+  },
+  magazineButtonText: {
+    color: theme.colors.deepBlack,
+    fontFamily: 'PlayfairDisplay-Regular',
+    fontWeight: 'bold',
+    fontSize: 15,
+  },
+});
 
 // --- DATE BAR (sticky, below main header) ---
 function DateBar({
@@ -215,6 +308,144 @@ function LinedPaperBackground() {
   return <View style={styles.paperLinesContainer} pointerEvents="none">{lines}</View>;
 }
 
+// --- MAGAZINE SCREEN ---
+// Full-screen overlay that renders the weekly magazine text.
+// Intentionally basic — Ritwika will style this properly.
+function MagazineScreen({
+  text,
+  onClose,
+}: {
+  text: string;
+  onClose: () => void;
+}) {
+  return (
+    <View style={magazineStyles.overlay}>
+      {/* Header */}
+      <View style={magazineStyles.header}>
+        <Text style={magazineStyles.headerTitle}>📰 Weekly Magazine</Text>
+        <TouchableOpacity onPress={onClose} style={magazineStyles.closeButton} activeOpacity={0.7}>
+          <Ionicons name="close" size={22} color={theme.colors.spineGold} />
+        </TouchableOpacity>
+      </View>
+
+      {/* Magazine body */}
+      <FlatList
+        data={[{ key: 'body', text }]}
+        keyExtractor={(item) => item.key}
+        renderItem={({ item }) => (
+          <Text style={magazineStyles.body}>{item.text}</Text>
+        )}
+        contentContainerStyle={magazineStyles.scrollContent}
+      />
+    </View>
+  );
+}
+
+const magazineStyles = StyleSheet.create({
+  overlay: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: theme.colors.cloudDancer,
+    zIndex: 100,
+  },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 15,
+    paddingHorizontal: 16,
+    backgroundColor: theme.colors.deepBlack,
+    borderBottomWidth: 1,
+    borderBottomColor: theme.colors.spineGold,
+  },
+  headerTitle: {
+    fontFamily: 'PlayfairDisplay-Regular',
+    fontSize: 20,
+    color: theme.colors.spineGold,
+    fontWeight: 'bold',
+  },
+  closeButton: {
+    width: 36,
+    height: 36,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  scrollContent: {
+    padding: 20,
+    paddingBottom: 40,
+  },
+  body: {
+    fontFamily: 'PlayfairDisplay-Regular',
+    fontSize: 16,
+    lineHeight: 26,
+    color: theme.colors.deepBlack,
+  },
+});
+
+// =========================================================================
+// RECONCILE DOSSIER (mount-time replay of failed updates)
+// =========================================================================
+// Lives outside the component on purpose: doesn't read component state, so
+// no stale-closure surprises, and easy to unit-test in isolation. For each
+// completed-but-unapplied day in the current week, replay updateDossier()
+// so a flaky-network failure on Day N doesn't permanently leave that day's
+// facts out of the dossier.
+async function reconcileDossier(weekStartIso: string) {
+  try {
+    const completedDays = await getDossierDaysCompleted(weekStartIso);
+    const journaledDates = await listJournaledDates();
+
+    // Walk dates in order so the replay applies in chronological order.
+    let replayedDossier: string | null = null;
+    for (const dateIso of journaledDates) {
+      const dayNum = dayNumberFor(dateIso, weekStartIso);
+      if (dayNum < 1 || dayNum > 7) continue;          // outside this week
+      if (completedDays.includes(dayNum)) continue;    // already applied
+
+      const dayMessages = await getMessagesForDate(dateIso);
+      // Only reconcile fully completed days — 9 paparazzo replies =
+      // 8 questions + 1 closing remark = a finished session.
+      const replies = dayMessages.filter(
+        (m) => m.sender === 'paparazzo' && m.id !== '1'
+      ).length;
+      if (replies < 9) continue;
+
+      console.log(`[reconcile] Replaying dossier update for Day ${dayNum}…`);
+      const transcript = messagesToTranscript(dayMessages);
+      const prevDossier = await getDossier(weekStartIso);
+      const newDossier = await updateDossier(
+        prevDossier,
+        transcript,
+        dayNum as DayNumber
+      );
+      await setDossier(weekStartIso, newDossier);
+      await markDossierDayCompleted(weekStartIso, dayNum);
+      replayedDossier = newDossier;
+      console.log(`[reconcile] Day ${dayNum} reconciled.`);
+
+      // If this catch-up just completed Day 7, also generate the magazine.
+      if (dayNum === 7) {
+        const existingMag = await getMagazine(weekStartIso);
+        if (!existingMag) {
+          console.log(`[reconcile] Day 7 caught up — rendering magazine…`);
+          const mag = await renderMagazine(newDossier);
+          await setMagazine(weekStartIso, mag);
+          console.log(`[reconcile] Magazine saved (${mag.length} chars).`);
+        }
+      }
+    }
+
+    // Suppress unused-variable warning while keeping the value around for
+    // possible future use (e.g. surfacing a "we caught up" UI hint).
+    void replayedDossier;
+  } catch (err) {
+    console.error('[reconcile] Failed:', err);
+  }
+}
+
 export default function App() {
   const [fontsLoaded] = useFonts({
     'PlayfairDisplay-Regular': PlayfairDisplay_400Regular,
@@ -243,6 +474,12 @@ export default function App() {
 
   const [showDayComplete, setShowDayComplete] = useState(false);
   const flatListRef = useRef<FlatList>(null);
+
+  // Magazine state
+  const [magazinePreview, setMagazinePreview] = useState<string | null>(null); // on-demand render, held in state only
+  const [showMagazine, setShowMagazine] = useState(false);
+  const [isMagazineLoading, setIsMagazineLoading] = useState(false);
+  const [canGenerateMagazine, setCanGenerateMagazine] = useState(false); // true once ≥1 dossier day is complete
 
   // --- LOAD PERSISTED MESSAGES ON MOUNT ---
   // If there's prior chat from today, skip the cover animation and jump straight in
@@ -279,6 +516,16 @@ export default function App() {
       setQuestionCount(replies);
       setShowChat(true);
     }
+
+    // Audit: replay any dossier updates that didn't land previously
+    // (e.g. mid-update network failure, app force-closed). Safe on every
+    // launch because each replay is guarded by the days-completed flag.
+    await reconcileDossier(weekStart);
+
+    // Show the generate button if at least one day's dossier update has been applied.
+    // Read after reconcile so any caught-up days are counted.
+    const completedDays = await getDossierDaysCompleted(weekStart);
+    if (completedDays.length > 0) setCanGenerateMagazine(true);
   })();
 }, []);
 
@@ -384,6 +631,15 @@ export default function App() {
       if (nextReplyNum === 9) {
         finalReplyText = stripTrailingQuestion(replyText);
         setShowDayComplete(true);
+
+        // Decoupled pipeline trigger: update the running dossier with today's
+        // full transcript. We pass the assembled message array explicitly to
+        // avoid a stale-closure read of `messages` inside the async handler.
+        // Fire-and-forget — the celebration shows immediately and the network
+        // call runs in the background. Failures are logged and recovered on
+        // the next launch via reconcileDossier().
+        const finalMessages = [...messages, newUserMsg, newAiMsg];
+        void runDailyDossierUpdate(finalMessages);
       }
     } catch (error) {
       console.error("Failed to call OpenAI:", error);
@@ -406,6 +662,10 @@ export default function App() {
   setIsOpen(false);
   setActiveDate(todayIso());
   setWeekStartDateState(todayIso());
+  setMagazinePreview(null);
+  setShowMagazine(false);
+  setIsMagazineLoading(false);
+  setCanGenerateMagazine(false);
 
   // Reset the cover animation state — without this, the diary stays "open" visually
   coverAnim.setValue(0);
@@ -425,6 +685,112 @@ const handleRefreshPress = () => {
     ]
   );
 };
+
+  // =========================================================================
+  // DECOUPLED PIPELINE TRIGGERS (paper-validated architecture)
+  // The paper compared three pipelines (neutral / stylized / decoupled) and
+  // decoupled won — 85.6% fact preservation vs 26.5% for stylized recursion,
+  // and a flat day-of-origin curve. The product implements only decoupled.
+  // The persona is applied exactly once per week, on the magazine render.
+  // =========================================================================
+
+  /**
+   * Run the decoupled state update for today's session. Fires once when the
+   * day's interview completes (reply 9 / closing remark). If today is Day 7,
+   * automatically chains into the magazine render.
+   *
+   * Never throws — failures are logged and recovered on next app launch via
+   * reconcileDossier(). The chat transcript is the ground truth; the dossier
+   * is derived state.
+   */
+  const runDailyDossierUpdate = async (todayMessages: Message[]) => {
+    try {
+      const dayNum = dayNumberFor(activeDate, weekStartDate);
+      // Bound check: the decoupled pipeline is defined for Days 1-7 only.
+      if (dayNum < 1 || dayNum > 7) {
+        console.warn(`[dossier] Day ${dayNum} is outside the 1-7 window, skipping.`);
+        return;
+      }
+
+      // Guard against double-application (e.g. user closes app mid-update,
+      // relaunches, completes the same day again).
+      const completedDays = await getDossierDaysCompleted(weekStartDate);
+      if (completedDays.includes(dayNum)) {
+        console.log(`[dossier] Day ${dayNum} already applied, skipping.`);
+        return;
+      }
+
+      const transcript = messagesToTranscript(todayMessages);
+      const previousDossier = await getDossier(weekStartDate);
+
+      console.log(`[dossier] Running update for Day ${dayNum}…`);
+      const newDossier = await updateDossier(
+        previousDossier,
+        transcript,
+        dayNum as DayNumber
+      );
+
+      await setDossier(weekStartDate, newDossier);
+      await markDossierDayCompleted(weekStartDate, dayNum);
+      setCanGenerateMagazine(true); // at least one day is now complete — show the button
+      console.log(`[dossier] Day ${dayNum} update saved (${newDossier.length} chars).`);
+
+      // If this was Day 7, chain into magazine generation immediately so the
+      // magazine is ready to display the moment the user opens it.
+      if (dayNum === 7) {
+        void runMagazineRender(newDossier);
+      }
+    } catch (err) {
+      console.error(
+        `[dossier] Update failed for Day ${dayNumberFor(activeDate, weekStartDate)}:`,
+        err
+      );
+      // Silent failure — reconcileDossier() on next launch will retry.
+    }
+  };
+
+  /**
+   * Render the final week magazine. Called automatically on Day 7 dossier
+   * completion. The result is persisted; the magazine viewing UI just reads
+   * from storage via getMagazine(weekStartDate).
+   */
+  const runMagazineRender = async (finalDossier: string) => {
+    try {
+      console.log(`[magazine] Rendering weekly magazine…`);
+      const magazine = await renderMagazine(finalDossier);
+      await setMagazine(weekStartDate, magazine);
+      console.log(`[magazine] Saved (${magazine.length} chars).`);
+    } catch (err) {
+      console.error(`[magazine] Render failed:`, err);
+    }
+  };
+
+  /**
+   * On-demand magazine preview. Reads the accumulated dossier from storage
+   * (which already contains all days completed so far, up to 7) and renders
+   * a magazine from it. Result is held in state only — not written to storage.
+   * Available after any day's session, not just Day 7.
+   */
+  const handleGenerateMagazine = async () => {
+    if (isMagazineLoading) return;
+    try {
+      setIsMagazineLoading(true);
+      const currentDossier = await getDossier(weekStartDate);
+      if (!currentDossier) {
+        console.warn('[magazine] No dossier found — dossier update may still be in progress.');
+        return;
+      }
+      console.log('[magazine] Generating preview from current dossier…');
+      const preview = await renderMagazine(currentDossier);
+      setMagazinePreview(preview);
+      setShowMagazine(true);
+      console.log(`[magazine] Preview ready (${preview.length} chars).`);
+    } catch (err) {
+      console.error('[magazine] Preview generation failed:', err);
+    } finally {
+      setIsMagazineLoading(false);
+    }
+  };
 
   const handleBeginJournal = () => {
     setIsOpen(true);
@@ -544,7 +910,11 @@ const handleRefreshPress = () => {
                         onDismiss={() => setShowDayComplete(false)}
                       />
                     ) : (
-                      <CountdownPanel />
+                      <SessionEndedPanel
+                        canGenerate={canGenerateMagazine}
+                        isMagazineLoading={isMagazineLoading}
+                        onGenerateMagazine={handleGenerateMagazine}
+                      />
                     )
                   ) : (
                     <View style={styles.inputContainer}>
@@ -566,6 +936,14 @@ const handleRefreshPress = () => {
                     </View>
                   )}
                 </KeyboardAvoidingView>
+
+                {/* Magazine overlay — rendered above the chat when open */}
+                {showMagazine && magazinePreview && (
+                  <MagazineScreen
+                    text={magazinePreview}
+                    onClose={() => setShowMagazine(false)}
+                  />
+                )}
               </>
             ) : (
               <DiaryPage
@@ -589,25 +967,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'transparent', // Let gradient show through
-  },
-    sessionEndedContainer: {
-    padding: 24,
-    backgroundColor: theme.colors.deepBlack,
-    borderTopWidth: 1,
-    borderTopColor: theme.colors.spineGold,
-    alignItems: 'center',
-  },
-  sessionEndedText: {
-    color: theme.colors.spineGold,
-    fontSize: 18,
-    fontFamily: 'PlayfairDisplay-Regular',
-    fontWeight: 'bold',
-    marginBottom: 4,
-  },
-  sessionEndedSubtext: {
-    color: '#999',
-    fontSize: 14,
-    fontStyle: 'italic',
   },
   animatedView: {
     position: 'absolute',

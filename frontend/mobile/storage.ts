@@ -97,3 +97,55 @@ export async function clearAll(): Promise<void> {
     await AsyncStorage.multiRemove(toRemove);
   }
 }
+
+// =========================================================================
+// DOSSIER & MAGAZINE STORAGE (decoupled pipeline outputs)
+// All keys live under 'diary:' so clearAll() picks them up automatically.
+// Scoped by weekStartIso so a new week can't clobber a previous one.
+// =========================================================================
+
+const KEY_DOSSIER_PREFIX = 'diary:dossier:';                       // followed by weekStartIso
+const KEY_MAGAZINE_PREFIX = 'diary:magazine:';                     // followed by weekStartIso
+const KEY_DOSSIER_DAYS_PREFIX = 'diary:dossier_days_completed:';   // followed by weekStartIso
+
+/**
+ * Get the running dossier for the active week. Returns "" on Day 1 / before
+ * any update has been applied — the decoupled pipeline expects this empty
+ * starting state.
+ */
+export async function getDossier(weekStartIso: string): Promise<string> {
+  const v = await AsyncStorage.getItem(KEY_DOSSIER_PREFIX + weekStartIso);
+  return v ?? '';
+}
+
+export async function setDossier(weekStartIso: string, dossier: string): Promise<void> {
+  await AsyncStorage.setItem(KEY_DOSSIER_PREFIX + weekStartIso, dossier);
+}
+
+/**
+ * Track which days within a week have had their dossier update applied.
+ * This protects against double-applying the same day's transcript if the
+ * user closes and reopens the app after a day completes but before the
+ * dossier update finishes (e.g. on flaky networks).
+ */
+export async function getDossierDaysCompleted(weekStartIso: string): Promise<number[]> {
+  const v = await AsyncStorage.getItem(KEY_DOSSIER_DAYS_PREFIX + weekStartIso);
+  return v ? JSON.parse(v) : [];
+}
+
+export async function markDossierDayCompleted(weekStartIso: string, day: number): Promise<void> {
+  const existing = await getDossierDaysCompleted(weekStartIso);
+  if (!existing.includes(day)) {
+    existing.push(day);
+    existing.sort();
+    await AsyncStorage.setItem(KEY_DOSSIER_DAYS_PREFIX + weekStartIso, JSON.stringify(existing));
+  }
+}
+
+export async function getMagazine(weekStartIso: string): Promise<string | null> {
+  return AsyncStorage.getItem(KEY_MAGAZINE_PREFIX + weekStartIso);
+}
+
+export async function setMagazine(weekStartIso: string, magazine: string): Promise<void> {
+  await AsyncStorage.setItem(KEY_MAGAZINE_PREFIX + weekStartIso, magazine);
+}
