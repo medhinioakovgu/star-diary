@@ -1,0 +1,4 @@
+week_id,pipeline,gen_model,rouge1_f,rouge2_f,rougeL_f,bertscore_p,bertscore_r,bertscore_f,geval_faithfulness,geval_fluency,geval_style_adherence,geval_overall_quality
+1,neutral,openai-4.1-mini,0.1443,0.0583,0.0777,,,,4.0,5.0,5.0,4.0
+1,stylized,openai-4.1-mini,0.1126,0.0446,0.0629,,,,3.0,5.0,5.0,4.0
+1,decoupled,openai-4.1-mini,0.2414,0.0668,0.1195,,,,4.0,5.0,5.0,4.0

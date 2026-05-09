@@ -1,0 +1,355 @@
+{
+  "week_id": 1,
+  "persona": "A multi-speaker political interview series covering the Greenland sovereignty crisis from January 2025 through January 2026. The recurring speakers are Donald Trump (US President), Mute Egede (Prime Minister of Greenland through April 2025), Mette Frederiksen (Prime Minister of Denmark), and Jens-Frederik Nielsen (Prime Minister of Greenland from April 2025). Each interview captures one speaker's public statements on a key day of the crisis.",
+  "facts": [
+    {
+      "day": 1,
+      "type": "quantitative",
+      "text": "Trump stated the US subsidizes Canada by 200 billion dollars a year.",
+      "id": "f01"
+    },
+    {
+      "day": 1,
+      "type": "relational",
+      "text": "Trump expressed willingness to work with Pierre Poilievre if he becomes Canadian leader.",
+      "id": "f02"
+    },
+    {
+      "day": 1,
+      "type": "named_entity",
+      "text": "Trump referenced Canada, Greenland, Panama Canal, and China in strategic context.",
+      "id": "f03"
+    },
+    {
+      "day": 1,
+      "type": "quantitative",
+      "text": "Trump claimed China rips off the US for a trillion dollars a year.",
+      "id": "f04"
+    },
+    {
+      "day": 2,
+      "type": "relational",
+      "text": "rejected assurance against military or economic coercion for Panama and Greenland",
+      "id": "f05"
+    },
+    {
+      "day": 2,
+      "type": "named_entity",
+      "text": "named China as operator abusing the Panama Canal",
+      "id": "f06"
+    },
+    {
+      "day": 2,
+      "type": "quantitative",
+      "text": "cited approximately 45,000 as Greenland's population",
+      "id": "f07"
+    },
+    {
+      "day": 2,
+      "type": "relational",
+      "text": "threatened to tariff Denmark if Greenland voted to join the US",
+      "id": "f08"
+    },
+    {
+      "day": 3,
+      "type": "named_entity",
+      "text": "named Mike Waltz as part of the US delegation to Greenland",
+      "id": "f09"
+    },
+    {
+      "day": 3,
+      "type": "relational",
+      "text": "rejected US acquisition pressure as a demonstration of power over Greenland",
+      "id": "f10"
+    },
+    {
+      "day": 3,
+      "type": "emotional",
+      "text": "expressed that US pressure violates Greenlandic sovereignty and identity",
+      "id": "f11"
+    },
+    {
+      "day": 3,
+      "type": "relational",
+      "text": "called for international community and allies to intervene beyond hesitant support",
+      "id": "f12"
+    },
+    {
+      "day": 4,
+      "type": "relational",
+      "text": "Acknowledged a conflict over Greenland involving Denmark and the United States.",
+      "id": "f13"
+    },
+    {
+      "day": 4,
+      "type": "emotional",
+      "text": "Described the current situation as a decisive moment with high stakes.",
+      "id": "f14"
+    },
+    {
+      "day": 4,
+      "type": "named_entity",
+      "text": "Referenced Denmark's commitment to international law and peoples' right to self-determination.",
+      "id": "f15"
+    },
+    {
+      "day": 4,
+      "type": "relational",
+      "text": "Noted Denmark's readiness to defend its values, including in the Arctic region.",
+      "id": "f16"
+    },
+    {
+      "day": 5,
+      "type": "relational",
+      "text": "urged the United States to stop threats against a historically close ally and Greenland.",
+      "id": "f17"
+    },
+    {
+      "day": 5,
+      "type": "named_entity",
+      "text": "stated the Kingdom of Denmark and Greenland are part of NATO with security guarantees.",
+      "id": "f18"
+    },
+    {
+      "day": 5,
+      "type": "named_entity",
+      "text": "confirmed a defense agreement grants the United States wide access to Greenland.",
+      "id": "f19"
+    },
+    {
+      "day": 6,
+      "type": "relational",
+      "text": "stated there is a conflict over Greenland between Denmark and the United States",
+      "id": "f20"
+    },
+    {
+      "day": 6,
+      "type": "emotional",
+      "text": "expressed firm resolve that Denmark is ready to defend its values wherever necessary, including the Arctic",
+      "id": "f21"
+    },
+    {
+      "day": 6,
+      "type": "relational",
+      "text": "affirmed belief in international law and peoples' right to self-determination",
+      "id": "f22"
+    },
+    {
+      "day": 6,
+      "type": "emotional",
+      "text": "described the current situation as a decisive moment with stakes beyond Greenland's immediate future",
+      "id": "f23"
+    },
+    {
+      "day": 7,
+      "type": "relational",
+      "text": "Nielsen stated Greenland chooses Denmark, NATO, and the EU over the United States.",
+      "id": "f24"
+    },
+    {
+      "day": 7,
+      "type": "emotional",
+      "text": "Nielsen expressed Greenland's firm rejection of US ownership or governance.",
+      "id": "f25"
+    },
+    {
+      "day": 7,
+      "type": "named_entity",
+      "text": "Nielsen referenced NATO as a source of support for Greenland.",
+      "id": "f26"
+    },
+    {
+      "day": 7,
+      "type": "relational",
+      "text": "Frederiksen described US pressure on Denmark as completely unacceptable.",
+      "id": "f27"
+    }
+  ],
+  "facts_by_day": {
+    "1": [
+      {
+        "day": 1,
+        "type": "quantitative",
+        "text": "Trump stated the US subsidizes Canada by 200 billion dollars a year.",
+        "id": "f01"
+      },
+      {
+        "day": 1,
+        "type": "relational",
+        "text": "Trump expressed willingness to work with Pierre Poilievre if he becomes Canadian leader.",
+        "id": "f02"
+      },
+      {
+        "day": 1,
+        "type": "named_entity",
+        "text": "Trump referenced Canada, Greenland, Panama Canal, and China in strategic context.",
+        "id": "f03"
+      },
+      {
+        "day": 1,
+        "type": "quantitative",
+        "text": "Trump claimed China rips off the US for a trillion dollars a year.",
+        "id": "f04"
+      }
+    ],
+    "2": [
+      {
+        "day": 2,
+        "type": "relational",
+        "text": "rejected assurance against military or economic coercion for Panama and Greenland",
+        "id": "f05"
+      },
+      {
+        "day": 2,
+        "type": "named_entity",
+        "text": "named China as operator abusing the Panama Canal",
+        "id": "f06"
+      },
+      {
+        "day": 2,
+        "type": "quantitative",
+        "text": "cited approximately 45,000 as Greenland's population",
+        "id": "f07"
+      },
+      {
+        "day": 2,
+        "type": "relational",
+        "text": "threatened to tariff Denmark if Greenland voted to join the US",
+        "id": "f08"
+      }
+    ],
+    "3": [
+      {
+        "day": 3,
+        "type": "named_entity",
+        "text": "named Mike Waltz as part of the US delegation to Greenland",
+        "id": "f09"
+      },
+      {
+        "day": 3,
+        "type": "relational",
+        "text": "rejected US acquisition pressure as a demonstration of power over Greenland",
+        "id": "f10"
+      },
+      {
+        "day": 3,
+        "type": "emotional",
+        "text": "expressed that US pressure violates Greenlandic sovereignty and identity",
+        "id": "f11"
+      },
+      {
+        "day": 3,
+        "type": "relational",
+        "text": "called for international community and allies to intervene beyond hesitant support",
+        "id": "f12"
+      }
+    ],
+    "4": [
+      {
+        "day": 4,
+        "type": "relational",
+        "text": "Acknowledged a conflict over Greenland involving Denmark and the United States.",
+        "id": "f13"
+      },
+      {
+        "day": 4,
+        "type": "emotional",
+        "text": "Described the current situation as a decisive moment with high stakes.",
+        "id": "f14"
+      },
+      {
+        "day": 4,
+        "type": "named_entity",
+        "text": "Referenced Denmark's commitment to international law and peoples' right to self-determination.",
+        "id": "f15"
+      },
+      {
+        "day": 4,
+        "type": "relational",
+        "text": "Noted Denmark's readiness to defend its values, including in the Arctic region.",
+        "id": "f16"
+      }
+    ],
+    "5": [
+      {
+        "day": 5,
+        "type": "relational",
+        "text": "urged the United States to stop threats against a historically close ally and Greenland.",
+        "id": "f17"
+      },
+      {
+        "day": 5,
+        "type": "named_entity",
+        "text": "stated the Kingdom of Denmark and Greenland are part of NATO with security guarantees.",
+        "id": "f18"
+      },
+      {
+        "day": 5,
+        "type": "named_entity",
+        "text": "confirmed a defense agreement grants the United States wide access to Greenland.",
+        "id": "f19"
+      }
+    ],
+    "6": [
+      {
+        "day": 6,
+        "type": "relational",
+        "text": "stated there is a conflict over Greenland between Denmark and the United States",
+        "id": "f20"
+      },
+      {
+        "day": 6,
+        "type": "emotional",
+        "text": "expressed firm resolve that Denmark is ready to defend its values wherever necessary, including the Arctic",
+        "id": "f21"
+      },
+      {
+        "day": 6,
+        "type": "relational",
+        "text": "affirmed belief in international law and peoples' right to self-determination",
+        "id": "f22"
+      },
+      {
+        "day": 6,
+        "type": "emotional",
+        "text": "described the current situation as a decisive moment with stakes beyond Greenland's immediate future",
+        "id": "f23"
+      }
+    ],
+    "7": [
+      {
+        "day": 7,
+        "type": "relational",
+        "text": "Nielsen stated Greenland chooses Denmark, NATO, and the EU over the United States.",
+        "id": "f24"
+      },
+      {
+        "day": 7,
+        "type": "emotional",
+        "text": "Nielsen expressed Greenland's firm rejection of US ownership or governance.",
+        "id": "f25"
+      },
+      {
+        "day": 7,
+        "type": "named_entity",
+        "text": "Nielsen referenced NATO as a source of support for Greenland.",
+        "id": "f26"
+      },
+      {
+        "day": 7,
+        "type": "relational",
+        "text": "Frederiksen described US pressure on Denmark as completely unacceptable.",
+        "id": "f27"
+      }
+    ]
+  },
+  "transcripts": {
+    "1": "Interviewer: Mr. President, you've talked about Greenland and Canada and the Panama Canal in recent weeks. People at first smiled when you mentioned the concept. Tell us about your thinking on Canada specifically.\n\nTrump: We have a situation with Canada that's very interesting. People at first smiled when I mentioned the concept. We lose 200 billion dollars a year. We subsidize Canada by 200 billion dollars a year. Why are we doing that? There's no reason. We don't need their cars. We can make the cars here. In fact, it would be much better if we made the cars here. We should be making the cars here. We shouldn't be having cars made in Canada. You know, we're the United States. We're not Canada. We have all the lumber in the world.\n\nInterviewer: So you don't see Canada as essential to American supply chains?\n\nTrump: All we have to do is free it up a little bit. And we have more lumber than they do. We have everything. We have all of the gas and oil and everything you need in terms of energy. We have more than they do. We have everything. We don't need anything from Canada. Why are we subsidizing them to 200 billion dollars. It's actually much more than that.\n\nInterviewer: I think you got their attention. Trudeau might resign today. Are you looking forward to working with Pierre Poilievre, the new guy?\n\nTrump: I am. I am, if that's what happens. Certainly, it will be very good. Our views would be more aligned, certainly.\n\nInterviewer: Mr. President, on the territorial questions you've raised, including Greenland and the Panama Canal, what's the underlying strategic case?\n\nTrump: We're being respected again all over the world. We have unbelievable people wanting to serve. You know, we're going to expand our country. And it'll be more. We have oil and gas. And whether you manufacture widgets or gadgets, or whatever you happen to be doing, some countries have to work very hard to do that. We do, too, and we will, but we have oil and gas at a level that nobody else has. And we're going to take advantage of it.\n\nInterviewer: And on China and the broader competitive picture?\n\nTrump: China is ripping off the United States for a trillion dollars a year. With a T. We're no longer in the billions. We're in the trillions. And you know, when they build all these ships, that money comes from the United States, believe it or not. China's building, from what I'm hearing, every four days, they're knocking out a ship. And we're sitting back watching. And we've suffered tremendously.\n\nInterviewer: Last question, Mr. President. Where does this leave you heading into Inauguration Day?\n\nTrump: Got to get things done. We don't get them done, I see it just came over that Biden has banned all oil and gas drilling across 625 million acres of U.S. coastal territory. It's ridiculous. I'll unban it immediately. I will unban it. I have the right to unban it immediately. We're going to be great again.",
+    "2": "Interviewer: Mr. President, I wanted to touch on the world on fire that you mentioned, but let's start if we could with your references to Greenland and the Panama Canal and so forth. Can you assure the world that, as you try to get control of these areas, you are not going to use military or economic coercion?\n\nTrump: No.\n\nInterviewer: And can you tell us a little bit about what your plan is? Are you going to negotiate a new treaty? Are you going to ask the Canadians to hold a vote? What is the strategy?\n\nTrump: I can't assure you -- you're talking about Panama and Greenland. No, I can't assure you on either of those two. But I can say this, we need them for economic security. The Panama Canal was built for our military. I'm not going to commit to that. Now it might be that you'll have to do something. Look, the Panama Canal is vital to our country. It's being operated by China -- China. And we gave the Panama Canal to Panama; we didn't give it to China. And they've abused it. They've abused that gift.\n\nInterviewer: On Greenland specifically -- have you directed your staff to take any specific actions to draw up plans? And can you elaborate again that you didn't rule out military coercion?\n\nTrump: Well, we need Greenland for national security purposes. I've been told that for a long time, long before I even ran. I mean people have been talking about it for a long time. You have approximately 45,000 people there. People really don't even know if Denmark has any legal right to it, but if they do, they should give it up because we need it for national security. That's for the free world. I'm talking about protecting the free world. You look at -- you don't even need binoculars, you look outside, you have China ships all over the place. You have Russian ships all over the place. We're not letting that happen. We're not letting it happen. And if Denmark wants to get to a conclusion -- but nobody knows if they even have any right title or interest. The people are going to probably vote for independence or to come into the United States. But if they did -- if they did do that, then I would tariff Denmark at a very high level.\n\nInterviewer: Have you asked your staff to draw up plans for acquisition?\n\nTrump: No, we're not at that stage, but we have people -- I haven't even entered office yet.\n\nInterviewer: If we were to work under the assumption that you're serious about making Canada the 51st state of the United States, the leader of the Conservative Party in Canada said, under no circumstances will I ever be the 51st state.\n\nTrump: Maybe he won't win, but maybe he will. I don't care. Listen, I don't care what he says.\n\nInterviewer: But sir, real fast, you said you were considering military force to acquire Panama and Greenland. Are you also considering military force to annex and acquire Canada?\n\nTrump: No -- economic force because Canada and the United States, that would really be something. You get rid of that artificially drawn line and you take a look at what that looks like, and it would also be much better for national security. Don't forget, we basically protect Canada. But here's the problem with Canada -- so many friends up there. I love the Canadian people, they're great. But we're spending hundreds of billions a year to protect it.\n\nInterviewer: What gives the US the right to threaten these allies?\n\nTrump: No right, nope, no, right. Here's what we have, we have a right not to help them with their financial difficulties because we owe 36 trillion too. We're going to start knocking it out pretty fast, but we're going to be able to do it because of energy and other things. But no, no, no right, no, no, no right, but why are we supporting a country 200 billion plus a year? Our military is at their disposal, all of these other things. They should be a state.",
+    "3": "Interviewer: Prime Minister, the United States is sending a high-level delegation to Greenland this week, including Usha Vance, Energy Secretary Chris Wright, and National Security Adviser Mike Waltz. What is your reaction?\n\nEgede: The very aggressive American pressure against Greenlandic society is now so serious that the level cannot be raised any higher. The only purpose is to show a show of power to us, and the signal is not to be misunderstood.\n\nInterviewer: How does this fit into the broader pattern you have seen from Washington since President Trump took office?\n\nEgede: Until recently, we could safely rely on the Americans, who were our allies and friends, and with whom we liked to work closely. But that time is over, we have to admit that, because the new American leadership is completely and utterly indifferent to what we have stood together on so far, because now it is only a matter of them taking over our country over our heads.\n\nInterviewer: You took particular issue with Mike Waltz being part of the delegation. Why him specifically?\n\nEgede: What is the national security adviser doing in Greenland? The only purpose is to demonstrate power over us. His mere presence in Greenland will no doubt fuel American belief in Trump's mission -- and the pressure will increase.\n\nInterviewer: Have diplomatic channels with the Trump administration produced any progress at all?\n\nEgede: We have tried all diplomatic and democratic options, but it all bounces off Donald Trump and his administration in their mission to come to own and control Greenland. We must therefore face the seriousness of the situation and recognize that every single minute counts for the Americans' dream of annexing our country not to become a reality.\n\nInterviewer: How would you characterize the impact of this campaign on Greenland itself?\n\nEgede: The continuous pressure from the United States is violating us as a people and our sovereignty. Nothing has come through with the Trump administration. On the contrary, they are increasing the pressure with each passing day, and now the international community, at least those we consider friends and allies, must step in instead of small hesitant declarations of support.\n\nInterviewer: What are you asking of Greenland's allies right now?\n\nEgede: We must face the seriousness of the situation. The international community, at least those we consider friends and allies, must step in instead of small hesitant declarations of support.",
+    "4": "Interviewer: Prime Minister Frederiksen, you have spoken about the situation surrounding Greenland in unusually stark terms today. How do you frame this moment?\n\nFrederiksen: This is a decisive moment.\n\nInterviewer: Decisive in what sense?\n\nFrederiksen: There is a conflict over Greenland.\n\nInterviewer: Denmark has been the United States' close ally for decades. Has that relationship been put under strain by President Trump's renewed claims?\n\nFrederiksen: This is a decisive moment, with stakes that go beyond the immediate issue of Greenland's future.\n\nInterviewer: You have also posted on Facebook today emphasizing values and law. What did you write?\n\nFrederiksen: Denmark is ready to defend our values -- wherever it is necessary -- also in the Arctic. We believe in international law and in peoples' right to self-determination.\n\nInterviewer: What is your message to other European partners watching this unfold?\n\nFrederiksen: Denmark is ready to defend our values -- wherever it is necessary -- also in the Arctic.\n\nInterviewer: Sweden and Germany have backed Denmark's position. Does that solidarity matter at this stage?\n\nFrederiksen: We believe in international law and in peoples' right to self-determination.\n\nInterviewer: Heading into the Washington meetings on raw materials, what do you want the United States to understand?\n\nFrederiksen: This is a decisive moment. There is a conflict over Greenland.",
+    "5": "Interviewer: Prime Minister Frederiksen, you have issued a statement today following the United States' weekend operation against Venezuelan leader Nicolas Maduro and President Trump's renewed comments on Greenland. What is your message to Washington?\n\nFrederiksen: I would therefore strongly urge the United States to stop the threats against a historically close ally and against another country and another people who have said very clearly that they are not for sale.\n\nInterviewer: How do you view Greenland's position in the existing alliance framework?\n\nFrederiksen: The Kingdom of Denmark -- and thus Greenland -- is part of NATO and is therefore covered by the alliance's security guarantee.\n\nInterviewer: There is already a defense relationship between Denmark and the United States. Could you remind us what that arrangement currently provides?\n\nFrederiksen: We already have a defense agreement between the Kingdom and the United States today, which gives the United States wide access to Greenland.\n\nInterviewer: President Trump told The Atlantic 'we do need Greenland, absolutely.' How does Denmark interpret that?\n\nFrederiksen: I would therefore strongly urge the United States to stop the threats against a historically close ally and against another country and another people who have said very clearly that they are not for sale.\n\nInterviewer: Some observers have linked the Maduro operation to speculation about other US territorial ambitions. Does that concern you?\n\nFrederiksen: The Kingdom of Denmark -- and thus Greenland -- is part of NATO and is therefore covered by the alliance's security guarantee.\n\nInterviewer: What is the principal point you want allied capitals to take from your statement today?\n\nFrederiksen: I would therefore strongly urge the United States to stop the threats against a historically close ally and against another country and another people who have said very clearly that they are not for sale.\n\nInterviewer: And the legal foundation for Denmark's position?\n\nFrederiksen: We already have a defense agreement between the Kingdom and the United States today, which gives the United States wide access to Greenland.",
+    "6": "Interviewer: Prime Minister, in today's debate with other Danish political leaders you have used the phrase 'decisive moment' again. What do you mean by that now?\n\nFrederiksen: This is a decisive moment, with stakes that go beyond the immediate issue of Greenland's future.\n\nInterviewer: How do you characterize the current state of affairs between Denmark and the United States over Greenland?\n\nFrederiksen: There is a conflict over Greenland.\n\nInterviewer: You posted on Facebook ahead of meetings in Washington. What did you choose to emphasize?\n\nFrederiksen: Denmark is ready to defend our values -- wherever it is necessary -- also in the Arctic.\n\nInterviewer: And on the principles guiding Denmark's response?\n\nFrederiksen: We believe in international law and in peoples' right to self-determination.\n\nInterviewer: Sweden's Prime Minister Ulf Kristersson has condemned what he called Washington's threatening rhetoric. How important is that European backing right now?\n\nFrederiksen: This is a decisive moment.\n\nInterviewer: Going into the Washington meetings on raw materials, what is the case Denmark intends to make?\n\nFrederiksen: There is a conflict over Greenland. This is a decisive moment, with stakes that go beyond the immediate issue of Greenland's future.\n\nInterviewer: Final question -- what message do you want Greenlanders to hear from Copenhagen tonight?\n\nFrederiksen: Denmark is ready to defend our values -- wherever it is necessary -- also in the Arctic. We believe in international law and in peoples' right to self-determination.",
+    "7": "Interviewer: Prime Minister Nielsen, you are standing here in Copenhagen with Prime Minister Frederiksen on the eve of high-level talks in Washington. What is Greenland's position heading into this moment?\n\nNielsen: We are now facing a geopolitical crisis, and if we have to choose between the United States and Denmark here and now, we choose Denmark. We choose NATO. We choose the Kingdom of Denmark. We choose the EU.\n\nInterviewer: That is a striking declaration. How clear do you want this message to be to Washington?\n\nNielsen: One thing must be clear to everyone. Greenland does not want to be owned by the United States. Greenland does not want to be governed by the United States. Greenland does not want to be part of the United States.\n\nInterviewer: President Trump said over the weekend that the United States would acquire Greenland 'one way or another.' How are you reading that escalation?\n\nNielsen: Greenland has huge faith in the NATO alliance and that NATO supports us in this situation.\n\nInterviewer: Prime Minister Frederiksen, you described what is happening as 'completely unacceptable pressure from our closest ally.' Why use such direct language now?\n\nFrederiksen: It is not easy to stand up to the United States. But there are many indications that the most challenging part is ahead of us.\n\nInterviewer: What is your assessment of the relationship at this point?\n\nFrederiksen: Denmark is facing completely unacceptable pressure from our closest ally.\n\nInterviewer: Prime Minister Nielsen, on Wednesday your foreign minister Vivian Motzfeldt and Denmark's Lars Lokke Rasmussen meet Vice President Vance and Secretary Rubio at the White House. What do you want to come out of that meeting?\n\nNielsen: We are now facing a geopolitical crisis, and if we have to choose between the United States and Denmark here and now, we choose Denmark. We choose NATO.\n\nInterviewer: Final question to you, Prime Minister Frederiksen. What is the most important point you want allied capitals to absorb from today?\n\nFrederiksen: It is not easy to stand up to the United States. But there are many indications that the most challenging part is ahead of us."
+  }
+}

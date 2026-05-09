@@ -1,0 +1,4 @@
+pipeline,n_judgments,preservation_strict,preservation_lenient
+decoupled,27,0.667,0.667
+neutral,27,0.556,0.593
+stylized,27,0.259,0.333
