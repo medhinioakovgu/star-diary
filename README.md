@@ -47,10 +47,6 @@ What you'll find inside:
 - **`research/figures/`** and **`research/figures_gpt41mini/`** — Paper-ready PNGs and statistical CSVs.
 - **`research/stats_analysis.py`**, **`research/analyze.py`**, **`research/metrics_auto.py`** — Statistical analysis, decay-curve figure generator, aggregate metrics (ROUGE/BERTScore/G-Eval).
 
-### 📦 For the deprecated FastAPI backend — `backend/`
-
-`backend/` contains a legacy FastAPI proxy from an earlier iteration of the product, when the mobile app called a server instead of OpenAI directly. **It is not used by the current product.** Star Diary moved to a frontend-only architecture (the mobile app calls OpenAI directly with `dangerouslyAllowBrowser: true`) to simplify deployment and demos. The backend folder is retained for historical reference and is not maintained.
-
 ### 📝 For raw logs — `logs/`
 
 `logs/llm_calls.jsonl` — A per-call audit log capturing every LLM API call during research runs: model identifier, prompt hash (SHA-256), temperature, max-tokens, latency, token usage. Used for reproducibility verification.
